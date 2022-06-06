@@ -13,10 +13,18 @@ import logging
 import pathlib
 from datetime import datetime
 
-current_path = pathlib.Path(__file__).parent.resolve()
+# current_path = pathlib.Path(__file__).parent.resolve()
 
-logging.basicConfig(filename=f"{current_path}//log//{datetime.now().year}-{datetime.now().month}-{datetime.now().day}.log",
-                    encoding='utf-8', level=logging.DEBUG)
+# logging.basicConfig(filename=f"{current_path}//log//{datetime.now().year}-{datetime.now().month}-{datetime.now().day}.log",
+#                     encoding='utf-8', level=logging.DEBUG)
+
+logging.basicConfig(level=logging.INFO,
+                    format="%(asctime)s [%(levelname)s] %(message)s",
+                    handlers=[
+                        logging.FileHandler("debug.log"),
+                        logging.StreamHandler()
+                    ]
+                    )
 
 DAAD_JSON = "https://www2.daad.de/deutschland/studienangebote/international-programmes/api/solr/en/search.json"
 
