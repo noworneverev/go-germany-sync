@@ -267,6 +267,9 @@ async def update_row(conn, id, column, source, target):
         statement = f"UPDATE course SET {column} = \'{target}\', updated_at = $1 WHERE id = {id}"
         logging.info(statement)
         await conn.execute(statement, datetime.now())
+    else:
+        logging.info(
+            f"No need to update column: {column} from course id: {id}. [Source is {source}, and target is {target}]")
 
 
 async def sync_course_delete(daad_data, env: Environment):
