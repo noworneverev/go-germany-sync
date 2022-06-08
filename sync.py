@@ -261,13 +261,13 @@ async def sync_course_update(daad_data, env: Environment):
 
 
 async def update_row(conn, id, column, source, target):
-    if source != target and source and target:
+    if source != target and source != None and target != None:
         if "\'" in target:
             target = target.replace("\'", "\'\'")
         statement = f"UPDATE course SET {column} = \'{target}\', updated_at = $1 WHERE id = {id}"
         logging.info(statement)
         await conn.execute(statement, datetime.now())
-    else:
+    elif source != target:
         logging.info(
             f"No need to update column: {column} from course id: {id}. [Source is {source}, and target is {target}]")
 
@@ -336,7 +336,9 @@ load_dotenv()
 env = Environment(os.getenv("USER"), os.getenv("PASSWORD"),
                   os.getenv("DATABASE"), os.getenv("HOST"))
 
-loop = asyncio.get_event_loop()
+# loop = asyncio.get_event_loop()
+loop = asyncio.new_event_loop()
+asyncio.set_event_loop(loop)
 
 # sync university
 loop.run_until_complete(sync_university(data, env))
