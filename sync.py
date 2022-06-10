@@ -262,7 +262,7 @@ async def sync_course_update(daad_data, env: Environment):
 
 async def update_row(conn, id, column, source, target):
     if source != target and source != None and target != None:
-        if "\'" in target:
+        if "\'" in str(target):
             target = target.replace("\'", "\'\'")
         statement = f"UPDATE course SET {column} = \'{target}\', updated_at = $1 WHERE id = {id}"
         logging.info(statement)
