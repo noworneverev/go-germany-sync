@@ -12,20 +12,17 @@ from logging.handlers import TimedRotatingFileHandler
 import logging
 import pathlib
 from datetime import datetime
+# import ssl
 
-# current_path = pathlib.Path(__file__).parent.resolve()
-
-# logging.basicConfig(filename=f"{current_path}//log//{datetime.now().year}-{datetime.now().month}-{datetime.now().day}.log",
-#                     encoding='utf-8', level=logging.DEBUG)
 
 logging.basicConfig(level=logging.INFO,
                     format="%(asctime)s [%(levelname)s] %(message)s",
                     handlers=[
-                        logging.FileHandler("debug.log"),
+                        logging.FileHandler("status.log"),
                         logging.StreamHandler()
                     ]
                     )
-
+# ssl._create_default_https_context = ssl._create_unverified_context
 DAAD_JSON = "https://www2.daad.de/deutschland/studienangebote/international-programmes/api/solr/en/search.json"
 
 
@@ -121,7 +118,7 @@ async def sync_course_create(daad_data, env: Environment):
                 new_courses.append((c["id"], c["courseName"], c["academy"], c["courseNameShort"], c["courseType"],
                                     c["beginning"], c["programmeDuration"], c["tuitionFees"], c["isElearning"],
                                     c["applicationDeadline"], c["isCompleteOnlinePossible"], c["subject"], c["link"], c["languages"]))
-
+                
         # insert new courses into db
         if new_courses:
             insert_course_rows = []
@@ -140,12 +137,18 @@ async def sync_course_create(daad_data, env: Environment):
                 row = (id, find_university_id, course_type, course_name, course_name_short, '', '', tuition_fees, beginning, subject, link,
                        is_elearning, application_deadline, is_complete_online_possible, programme_duration, True, datetime.now(), None)
                 insert_course_rows.append(row)
-
-                for l in languages:
-                    language_id = get_language_id(l)
+                
+                # languages could be null(from DAAD source)
+                if languages:
+                    for l in languages:
+                        language_id = get_language_id(l)
+                        max_course_language_id += 1
+                        insert_language_rows.append(
+                            (max_course_language_id, id, language_id))
+                else:
+                    # set null language to German(language_id == 2) by default
                     max_course_language_id += 1
-                    insert_language_rows.append(
-                        (max_course_language_id, id, language_id))
+                    insert_language_rows.append((max_course_language_id, id, 2))
 
             statement = """INSERT INTO course 
                       (id, university_id, course_type, name_en, name_en_short, name_ch, name_ch_short, 
@@ -314,7 +317,7 @@ async def sync_course_delete(daad_data, env: Environment):
                         is_any_deleted = True
                     else:
                         logging.info(
-                            f"Course id = {id} is not in DAAD now, but there's a article related to it. DO NOT DELETE.")
+                            f"Course id = {id} is not in DAAD now, but there're articles related to it. DO NOT DELETE.")
 
         if not is_any_deleted:
             logging.info('No course deleted')
@@ -333,8 +336,13 @@ data = load_json(DAAD_JSON)
 
 # set env
 load_dotenv()
-env = Environment(os.getenv("USER"), os.getenv("PASSWORD"),
-                  os.getenv("DATABASE"), os.getenv("HOST"))
+DATABASE = os.environ["DATABASE"]
+HOST = os.environ["HOST"]
+PASSWORD = os.environ["PASSWORD"]
+USER = os.environ["USER"]
+env = Environment(USER, PASSWORD, DATABASE, HOST)
+# env = Environment(os.getenv("USER"), os.getenv("PASSWORD"),
+#                   os.getenv("DATABASE"), os.getenv("HOST"))
 
 # loop = asyncio.get_event_loop()
 loop = asyncio.new_event_loop()
