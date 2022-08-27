@@ -23,7 +23,10 @@ jobs:
 
       - name: execute py script # run sync.py
         env:
-          SOME_SECRET: ${{ secrets.SOME_SECRET }}
+          DATABASE: ${{ secrets.DATABASE }}
+          HOST: ${{ secrets.HOST }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+          USER: ${{ secrets.USER }}
         run: python sync.py
 
       - name: commit files
