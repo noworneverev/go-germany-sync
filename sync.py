@@ -14,15 +14,11 @@ import pathlib
 from datetime import datetime
 # import ssl
 
-# current_path = pathlib.Path(__file__).parent.resolve()
-
-# logging.basicConfig(filename=f"{current_path}//log//{datetime.now().year}-{datetime.now().month}-{datetime.now().day}.log",
-#                     encoding='utf-8', level=logging.DEBUG)
 
 logging.basicConfig(level=logging.INFO,
                     format="%(asctime)s [%(levelname)s] %(message)s",
                     handlers=[
-                        logging.FileHandler("debug.log"),
+                        logging.FileHandler("status.log"),
                         logging.StreamHandler()
                     ]
                     )
@@ -340,8 +336,13 @@ data = load_json(DAAD_JSON)
 
 # set env
 load_dotenv()
-env = Environment(os.getenv("USER"), os.getenv("PASSWORD"),
-                  os.getenv("DATABASE"), os.getenv("HOST"))
+DATABASE = os.environ["DATABASE"]
+HOST = os.environ["HOST"]
+PASSWORD = os.environ["PASSWORD"]
+USER = os.environ["USER"]
+env = Environment(USER, PASSWORD, DATABASE, HOST)
+# env = Environment(os.getenv("USER"), os.getenv("PASSWORD"),
+#                   os.getenv("DATABASE"), os.getenv("HOST"))
 
 # loop = asyncio.get_event_loop()
 loop = asyncio.new_event_loop()
