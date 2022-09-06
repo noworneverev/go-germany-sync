@@ -1930,3 +1930,205 @@
 2022-09-05 18:28:03,276 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-09-05 18:28:03,323 [INFO] No course deleted
 2022-09-05 18:28:03,479 [INFO] =========End deleting course  =========
+2022-09-06 18:27:09,977 [INFO] =========Start syncing university=========
+2022-09-06 18:27:10,776 [INFO] No new university
+2022-09-06 18:27:10,932 [INFO] =========End syncing university  =========
+2022-09-06 18:27:12,109 [INFO] =========Start creating new course=========
+2022-09-06 18:27:14,527 [INFO] New courses created:
+2022-09-06 18:27:14,527 [INFO] [(45, 23, 1, 'Power Engineering and Renewable Energies (BSc)', 'Power Engineering and Renewable Energies (BSc)', '', '', '1.500,00', 'Winter semester', 'Electrical Engineering', '/deutschland/studienangebote/international-programmes/en/detail/45/', False, '<p>Non-EU applicants: 15 May for the following winter semester<br />\nEU applicants: 15 July for the following winter semester</p>', False, '7 semesters', True, datetime.datetime(2022, 9, 6, 18, 27, 14, 205841), None)]
+2022-09-06 18:27:14,848 [INFO] New courses_languages created:
+2022-09-06 18:27:14,848 [INFO] [(2974, 45, 1)]
+2022-09-06 18:27:15,008 [INFO] =========End creating new course  =========
+2022-09-06 18:27:16,196 [INFO] =========Start updating new course=========
+2022-09-06 18:27:17,831 [INFO] No need to update column: tuition_fees from course id: 4669. [Source is , and target is None]
+2022-09-06 18:27:17,835 [INFO] No need to update column: tuition_fees from course id: 4896. [Source is , and target is None]
+2022-09-06 18:27:17,835 [INFO] No need to update column: beginning from course id: 4896. [Source is , and target is None]
+2022-09-06 18:27:17,835 [INFO] No need to update column: application_deadline from course id: 4896. [Source is , and target is None]
+2022-09-06 18:27:17,836 [INFO] No need to update column: programme_duration from course id: 4896. [Source is , and target is None]
+2022-09-06 18:27:17,836 [INFO] No need to update column: tuition_fees from course id: 5161. [Source is , and target is None]
+2022-09-06 18:27:17,836 [INFO] No need to update column: beginning from course id: 5161. [Source is , and target is None]
+2022-09-06 18:27:17,837 [INFO] No need to update column: application_deadline from course id: 5161. [Source is , and target is None]
+2022-09-06 18:27:17,837 [INFO] No need to update column: programme_duration from course id: 5161. [Source is , and target is None]
+2022-09-06 18:27:17,838 [INFO] No need to update column: tuition_fees from course id: 7069. [Source is , and target is None]
+2022-09-06 18:27:17,838 [INFO] No need to update column: beginning from course id: 7069. [Source is , and target is None]
+2022-09-06 18:27:17,838 [INFO] No need to update column: application_deadline from course id: 7069. [Source is , and target is None]
+2022-09-06 18:27:17,838 [INFO] No need to update column: programme_duration from course id: 7069. [Source is , and target is None]
+2022-09-06 18:27:17,842 [INFO] No need to update column: tuition_fees from course id: 7615. [Source is , and target is None]
+2022-09-06 18:27:17,842 [INFO] No need to update column: beginning from course id: 7615. [Source is , and target is None]
+2022-09-06 18:27:17,842 [INFO] No need to update column: application_deadline from course id: 7615. [Source is , and target is None]
+2022-09-06 18:27:17,842 [INFO] No need to update column: programme_duration from course id: 7615. [Source is , and target is None]
+2022-09-06 18:27:17,843 [INFO] No need to update column: tuition_fees from course id: 5446. [Source is , and target is None]
+2022-09-06 18:27:17,843 [INFO] No need to update column: beginning from course id: 5446. [Source is , and target is None]
+2022-09-06 18:27:17,843 [INFO] No need to update column: application_deadline from course id: 5446. [Source is , and target is None]
+2022-09-06 18:27:17,844 [INFO] No need to update column: programme_duration from course id: 5446. [Source is , and target is None]
+2022-09-06 18:27:17,849 [INFO] No need to update column: tuition_fees from course id: 5350. [Source is , and target is None]
+2022-09-06 18:27:17,850 [INFO] No need to update column: beginning from course id: 5350. [Source is , and target is None]
+2022-09-06 18:27:17,850 [INFO] No need to update column: application_deadline from course id: 5350. [Source is , and target is None]
+2022-09-06 18:27:17,850 [INFO] No need to update column: programme_duration from course id: 5350. [Source is , and target is None]
+2022-09-06 18:27:17,856 [INFO] No need to update column: tuition_fees from course id: 5338. [Source is , and target is None]
+2022-09-06 18:27:17,856 [INFO] No need to update column: beginning from course id: 5338. [Source is , and target is None]
+2022-09-06 18:27:17,857 [INFO] No need to update column: application_deadline from course id: 5338. [Source is , and target is None]
+2022-09-06 18:27:17,857 [INFO] No need to update column: programme_duration from course id: 5338. [Source is , and target is None]
+2022-09-06 18:27:17,858 [INFO] No need to update column: beginning from course id: 5166. [Source is , and target is None]
+2022-09-06 18:27:17,858 [INFO] No need to update column: application_deadline from course id: 5166. [Source is , and target is None]
+2022-09-06 18:27:17,858 [INFO] No need to update column: programme_duration from course id: 5166. [Source is , and target is None]
+2022-09-06 18:27:17,860 [INFO] No need to update column: tuition_fees from course id: 7108. [Source is 21.750,00, and target is None]
+2022-09-06 18:27:17,863 [INFO] No need to update column: tuition_fees from course id: 7789. [Source is , and target is None]
+2022-09-06 18:27:17,863 [INFO] No need to update column: beginning from course id: 7789. [Source is , and target is None]
+2022-09-06 18:27:17,864 [INFO] No need to update column: application_deadline from course id: 7789. [Source is , and target is None]
+2022-09-06 18:27:17,864 [INFO] No need to update column: programme_duration from course id: 7789. [Source is , and target is None]
+2022-09-06 18:27:17,865 [INFO] No need to update column: tuition_fees from course id: 7797. [Source is , and target is None]
+2022-09-06 18:27:17,865 [INFO] No need to update column: beginning from course id: 7797. [Source is , and target is None]
+2022-09-06 18:27:17,865 [INFO] No need to update column: application_deadline from course id: 7797. [Source is , and target is None]
+2022-09-06 18:27:17,865 [INFO] No need to update column: programme_duration from course id: 7797. [Source is , and target is None]
+2022-09-06 18:27:17,866 [INFO] No need to update column: tuition_fees from course id: 4900. [Source is , and target is None]
+2022-09-06 18:27:17,866 [INFO] No need to update column: beginning from course id: 4900. [Source is , and target is None]
+2022-09-06 18:27:17,866 [INFO] No need to update column: application_deadline from course id: 4900. [Source is , and target is None]
+2022-09-06 18:27:17,866 [INFO] No need to update column: programme_duration from course id: 4900. [Source is , and target is None]
+2022-09-06 18:27:17,871 [INFO] No need to update column: beginning from course id: 7707. [Source is , and target is None]
+2022-09-06 18:27:17,871 [INFO] No need to update column: application_deadline from course id: 7707. [Source is , and target is None]
+2022-09-06 18:27:17,871 [INFO] No need to update column: programme_duration from course id: 7707. [Source is , and target is None]
+2022-09-06 18:27:17,872 [INFO] No need to update column: beginning from course id: 5329. [Source is , and target is None]
+2022-09-06 18:27:17,872 [INFO] No need to update column: application_deadline from course id: 5329. [Source is , and target is None]
+2022-09-06 18:27:17,873 [INFO] No need to update column: programme_duration from course id: 5329. [Source is , and target is None]
+2022-09-06 18:27:17,874 [INFO] No need to update column: beginning from course id: 5483. [Source is Winter semester, and target is None]
+2022-09-06 18:27:17,874 [INFO] No need to update column: programme_duration from course id: 5483. [Source is , and target is None]
+2022-09-06 18:27:17,876 [INFO] No need to update column: beginning from course id: 5249. [Source is , and target is None]
+2022-09-06 18:27:17,876 [INFO] No need to update column: application_deadline from course id: 5249. [Source is , and target is None]
+2022-09-06 18:27:17,876 [INFO] No need to update column: programme_duration from course id: 5249. [Source is , and target is None]
+2022-09-06 18:27:17,877 [INFO] No need to update column: tuition_fees from course id: 7791. [Source is , and target is None]
+2022-09-06 18:27:17,877 [INFO] No need to update column: beginning from course id: 7791. [Source is , and target is None]
+2022-09-06 18:27:17,877 [INFO] No need to update column: application_deadline from course id: 7791. [Source is , and target is None]
+2022-09-06 18:27:17,877 [INFO] No need to update column: programme_duration from course id: 7791. [Source is , and target is None]
+2022-09-06 18:27:17,879 [INFO] No need to update column: tuition_fees from course id: 3812. [Source is , and target is None]
+2022-09-06 18:27:17,880 [INFO] No need to update column: tuition_fees from course id: 6566. [Source is 8.900,00, and target is None]
+2022-09-06 18:27:17,882 [INFO] No need to update column: tuition_fees from course id: 6559. [Source is , and target is None]
+2022-09-06 18:27:17,882 [INFO] No need to update column: beginning from course id: 6559. [Source is , and target is None]
+2022-09-06 18:27:17,882 [INFO] No need to update column: application_deadline from course id: 6559. [Source is , and target is None]
+2022-09-06 18:27:17,882 [INFO] No need to update column: programme_duration from course id: 6559. [Source is , and target is None]
+2022-09-06 18:27:17,883 [INFO] No need to update column: tuition_fees from course id: 4939. [Source is , and target is None]
+2022-09-06 18:27:17,883 [INFO] No need to update column: beginning from course id: 4939. [Source is , and target is None]
+2022-09-06 18:27:17,883 [INFO] No need to update column: application_deadline from course id: 4939. [Source is , and target is None]
+2022-09-06 18:27:17,884 [INFO] No need to update column: programme_duration from course id: 4939. [Source is , and target is None]
+2022-09-06 18:27:17,886 [INFO] No need to update column: tuition_fees from course id: 4918. [Source is , and target is None]
+2022-09-06 18:27:17,886 [INFO] No need to update column: beginning from course id: 4918. [Source is , and target is None]
+2022-09-06 18:27:17,886 [INFO] No need to update column: application_deadline from course id: 4918. [Source is , and target is None]
+2022-09-06 18:27:17,886 [INFO] No need to update column: programme_duration from course id: 4918. [Source is , and target is None]
+2022-09-06 18:27:17,890 [INFO] No need to update column: application_deadline from course id: 7676. [Source is , and target is None]
+2022-09-06 18:27:17,898 [INFO] No need to update column: tuition_fees from course id: 4627. [Source is , and target is None]
+2022-09-06 18:27:17,898 [INFO] No need to update column: tuition_fees from course id: 4530. [Source is , and target is None]
+2022-09-06 18:27:17,899 [INFO] No need to update column: tuition_fees from course id: 4625. [Source is , and target is None]
+2022-09-06 18:27:17,899 [INFO] No need to update column: tuition_fees from course id: 4626. [Source is , and target is None]
+2022-09-06 18:27:17,899 [INFO] No need to update column: tuition_fees from course id: 5416. [Source is , and target is None]
+2022-09-06 18:27:17,900 [INFO] No need to update column: tuition_fees from course id: 6901. [Source is , and target is None]
+2022-09-06 18:27:17,900 [INFO] No need to update column: beginning from course id: 6901. [Source is , and target is None]
+2022-09-06 18:27:17,900 [INFO] No need to update column: application_deadline from course id: 6901. [Source is , and target is None]
+2022-09-06 18:27:17,900 [INFO] No need to update column: programme_duration from course id: 6901. [Source is , and target is None]
+2022-09-06 18:27:17,901 [INFO] No need to update column: tuition_fees from course id: 5036. [Source is , and target is None]
+2022-09-06 18:27:17,901 [INFO] No need to update column: beginning from course id: 5036. [Source is , and target is None]
+2022-09-06 18:27:17,901 [INFO] No need to update column: application_deadline from course id: 5036. [Source is , and target is None]
+2022-09-06 18:27:17,901 [INFO] No need to update column: programme_duration from course id: 5036. [Source is , and target is None]
+2022-09-06 18:27:17,902 [INFO] No need to update column: tuition_fees from course id: 5491. [Source is , and target is None]
+2022-09-06 18:27:17,902 [INFO] No need to update column: beginning from course id: 5491. [Source is , and target is None]
+2022-09-06 18:27:17,902 [INFO] No need to update column: application_deadline from course id: 5491. [Source is , and target is None]
+2022-09-06 18:27:17,902 [INFO] No need to update column: programme_duration from course id: 5491. [Source is , and target is None]
+2022-09-06 18:27:17,902 [INFO] No need to update column: tuition_fees from course id: 7620. [Source is , and target is None]
+2022-09-06 18:27:17,902 [INFO] No need to update column: beginning from course id: 7620. [Source is , and target is None]
+2022-09-06 18:27:17,902 [INFO] No need to update column: application_deadline from course id: 7620. [Source is , and target is None]
+2022-09-06 18:27:17,902 [INFO] No need to update column: programme_duration from course id: 7620. [Source is , and target is None]
+2022-09-06 18:27:17,902 [INFO] No need to update column: tuition_fees from course id: 5492. [Source is , and target is None]
+2022-09-06 18:27:17,903 [INFO] No need to update column: beginning from course id: 5492. [Source is , and target is None]
+2022-09-06 18:27:17,903 [INFO] No need to update column: application_deadline from course id: 5492. [Source is , and target is None]
+2022-09-06 18:27:17,903 [INFO] No need to update column: programme_duration from course id: 5492. [Source is , and target is None]
+2022-09-06 18:27:17,903 [INFO] No need to update column: tuition_fees from course id: 7621. [Source is , and target is None]
+2022-09-06 18:27:17,903 [INFO] No need to update column: beginning from course id: 7621. [Source is , and target is None]
+2022-09-06 18:27:17,903 [INFO] No need to update column: application_deadline from course id: 7621. [Source is , and target is None]
+2022-09-06 18:27:17,903 [INFO] No need to update column: programme_duration from course id: 7621. [Source is , and target is None]
+2022-09-06 18:27:17,903 [INFO] No need to update column: tuition_fees from course id: 7622. [Source is , and target is None]
+2022-09-06 18:27:17,903 [INFO] No need to update column: beginning from course id: 7622. [Source is , and target is None]
+2022-09-06 18:27:17,903 [INFO] No need to update column: application_deadline from course id: 7622. [Source is , and target is None]
+2022-09-06 18:27:17,903 [INFO] No need to update column: programme_duration from course id: 7622. [Source is , and target is None]
+2022-09-06 18:27:17,905 [INFO] No need to update column: tuition_fees from course id: 5481. [Source is , and target is None]
+2022-09-06 18:27:17,905 [INFO] No need to update column: beginning from course id: 5481. [Source is , and target is None]
+2022-09-06 18:27:17,905 [INFO] No need to update column: application_deadline from course id: 5481. [Source is , and target is None]
+2022-09-06 18:27:17,905 [INFO] No need to update column: programme_duration from course id: 5481. [Source is , and target is None]
+2022-09-06 18:27:17,908 [INFO] No need to update column: application_deadline from course id: 4426. [Source is , and target is None]
+2022-09-06 18:27:17,910 [INFO] No need to update column: tuition_fees from course id: 5005. [Source is , and target is None]
+2022-09-06 18:27:17,910 [INFO] No need to update column: beginning from course id: 5005. [Source is , and target is None]
+2022-09-06 18:27:17,910 [INFO] No need to update column: application_deadline from course id: 5005. [Source is , and target is None]
+2022-09-06 18:27:17,910 [INFO] No need to update column: programme_duration from course id: 5005. [Source is , and target is None]
+2022-09-06 18:27:17,914 [INFO] No need to update column: beginning from course id: 5258. [Source is , and target is None]
+2022-09-06 18:27:17,914 [INFO] No need to update column: application_deadline from course id: 5258. [Source is , and target is None]
+2022-09-06 18:27:17,914 [INFO] No need to update column: programme_duration from course id: 5258. [Source is , and target is None]
+2022-09-06 18:27:17,921 [INFO] No need to update column: tuition_fees from course id: 3770. [Source is , and target is None]
+2022-09-06 18:27:17,921 [INFO] No need to update column: tuition_fees from course id: 7700. [Source is , and target is None]
+2022-09-06 18:27:17,923 [INFO] No need to update column: tuition_fees from course id: 3884. [Source is none, and target is None]
+2022-09-06 18:27:17,944 [INFO] No need to update column: tuition_fees from course id: 3709. [Source is , and target is None]
+2022-09-06 18:27:17,951 [INFO] No need to update column: application_deadline from course id: 7858. [Source is , and target is None]
+2022-09-06 18:27:17,953 [INFO] No need to update column: tuition_fees from course id: 6226. [Source is , and target is None]
+2022-09-06 18:27:17,953 [INFO] No need to update column: tuition_fees from course id: 4662. [Source is , and target is None]
+2022-09-06 18:27:17,954 [INFO] No need to update column: tuition_fees from course id: 3589. [Source is , and target is None]
+2022-09-06 18:27:17,954 [INFO] No need to update column: tuition_fees from course id: 4344. [Source is , and target is None]
+2022-09-06 18:27:17,955 [INFO] No need to update column: tuition_fees from course id: 6230. [Source is , and target is None]
+2022-09-06 18:27:17,955 [INFO] No need to update column: tuition_fees from course id: 6231. [Source is , and target is None]
+2022-09-06 18:27:17,976 [INFO] No need to update column: application_deadline from course id: 6382. [Source is , and target is None]
+2022-09-06 18:27:17,977 [INFO] No need to update column: application_deadline from course id: 7649. [Source is , and target is None]
+2022-09-06 18:27:17,983 [INFO] No need to update column: tuition_fees from course id: 5154. [Source is , and target is None]
+2022-09-06 18:27:17,983 [INFO] No need to update column: beginning from course id: 5154. [Source is , and target is None]
+2022-09-06 18:27:17,983 [INFO] No need to update column: application_deadline from course id: 5154. [Source is , and target is None]
+2022-09-06 18:27:17,983 [INFO] No need to update column: programme_duration from course id: 5154. [Source is , and target is None]
+2022-09-06 18:27:17,996 [INFO] No need to update column: tuition_fees from course id: 5149. [Source is , and target is None]
+2022-09-06 18:27:17,996 [INFO] No need to update column: beginning from course id: 5149. [Source is , and target is None]
+2022-09-06 18:27:17,996 [INFO] No need to update column: application_deadline from course id: 5149. [Source is , and target is None]
+2022-09-06 18:27:17,997 [INFO] No need to update column: programme_duration from course id: 5149. [Source is , and target is None]
+2022-09-06 18:27:17,997 [INFO] No need to update column: tuition_fees from course id: 5150. [Source is , and target is None]
+2022-09-06 18:27:17,997 [INFO] No need to update column: beginning from course id: 5150. [Source is , and target is None]
+2022-09-06 18:27:17,997 [INFO] No need to update column: application_deadline from course id: 5150. [Source is , and target is None]
+2022-09-06 18:27:17,997 [INFO] No need to update column: programme_duration from course id: 5150. [Source is , and target is None]
+2022-09-06 18:27:17,997 [INFO] No need to update column: tuition_fees from course id: 7706. [Source is , and target is None]
+2022-09-06 18:27:17,997 [INFO] No need to update column: beginning from course id: 7706. [Source is , and target is None]
+2022-09-06 18:27:17,997 [INFO] No need to update column: application_deadline from course id: 7706. [Source is , and target is None]
+2022-09-06 18:27:17,997 [INFO] No need to update column: programme_duration from course id: 7706. [Source is , and target is None]
+2022-09-06 18:27:17,997 [INFO] No need to update column: tuition_fees from course id: 5023. [Source is , and target is None]
+2022-09-06 18:27:17,997 [INFO] No need to update column: beginning from course id: 5023. [Source is , and target is None]
+2022-09-06 18:27:17,997 [INFO] No need to update column: application_deadline from course id: 5023. [Source is , and target is None]
+2022-09-06 18:27:17,997 [INFO] No need to update column: programme_duration from course id: 5023. [Source is , and target is None]
+2022-09-06 18:27:18,004 [INFO] No need to update column: tuition_fees from course id: 4944. [Source is , and target is None]
+2022-09-06 18:27:18,004 [INFO] No need to update column: beginning from course id: 4944. [Source is , and target is None]
+2022-09-06 18:27:18,005 [INFO] No need to update column: application_deadline from course id: 4944. [Source is , and target is None]
+2022-09-06 18:27:18,005 [INFO] No need to update column: programme_duration from course id: 4944. [Source is , and target is None]
+2022-09-06 18:27:18,009 [INFO] No need to update column: tuition_fees from course id: 5137. [Source is , and target is None]
+2022-09-06 18:27:18,009 [INFO] No need to update column: beginning from course id: 5137. [Source is , and target is None]
+2022-09-06 18:27:18,009 [INFO] No need to update column: application_deadline from course id: 5137. [Source is , and target is None]
+2022-09-06 18:27:18,009 [INFO] No need to update column: programme_duration from course id: 5137. [Source is , and target is None]
+2022-09-06 18:27:18,010 [INFO] UPDATE course SET beginning = 'Winter semester', updated_at = $1 WHERE id = 4384
+2022-09-06 18:27:18,333 [INFO] UPDATE course SET application_deadline = '<p>EU applicants:</p>
+
+<ul>
+	<li>15 July for the following winter semester</li>
+</ul>
+
+<p>Non-EU applicants:</p>
+
+<ul>
+	<li>15 June for the following winter semester</li>
+</ul>', updated_at = $1 WHERE id = 4384
+2022-09-06 18:27:18,817 [INFO] =========End updating new course  =========
+2022-09-06 18:27:20,010 [INFO] =========Start deleting course=========
+2022-09-06 18:27:21,904 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-06 18:27:22,233 [INFO] Course id = 7930 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-06 18:27:22,546 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-06 18:27:22,872 [INFO] Course id = 4604 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-06 18:27:23,189 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-06 18:27:23,513 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-06 18:27:23,837 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-06 18:27:24,153 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-06 18:27:24,467 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-06 18:27:24,786 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-06 18:27:25,100 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-06 18:27:25,412 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-06 18:27:25,735 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-06 18:27:26,095 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-06 18:27:26,408 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-06 18:27:26,456 [INFO] No course deleted
+2022-09-06 18:27:26,614 [INFO] =========End deleting course  =========
