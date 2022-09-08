@@ -118,7 +118,7 @@ async def sync_course_create(daad_data, env: Environment):
                 new_courses.append((c["id"], c["courseName"], c["academy"], c["courseNameShort"], c["courseType"],
                                     c["beginning"], c["programmeDuration"], c["tuitionFees"], c["isElearning"],
                                     c["applicationDeadline"], c["isCompleteOnlinePossible"], c["subject"], c["link"], c["languages"]))
-                
+
         # insert new courses into db
         if new_courses:
             insert_course_rows = []
@@ -137,7 +137,7 @@ async def sync_course_create(daad_data, env: Environment):
                 row = (id, find_university_id, course_type, course_name, course_name_short, '', '', tuition_fees, beginning, subject, link,
                        is_elearning, application_deadline, is_complete_online_possible, programme_duration, True, datetime.now(), None)
                 insert_course_rows.append(row)
-                
+
                 # languages could be null(from DAAD source)
                 if languages:
                     for l in languages:
@@ -148,7 +148,8 @@ async def sync_course_create(daad_data, env: Environment):
                 else:
                     # set null language to German(language_id == 2) by default
                     max_course_language_id += 1
-                    insert_language_rows.append((max_course_language_id, id, 2))
+                    insert_language_rows.append(
+                        (max_course_language_id, id, 2))
 
             statement = """INSERT INTO course 
                       (id, university_id, course_type, name_en, name_en_short, name_ch, name_ch_short, 
@@ -209,12 +210,12 @@ async def sync_course_update(daad_data, env: Environment):
         FROM course as c
         LEFT JOIN university as u on c.university_id = u.id
         """)
-        # uni_rows = await conn.fetch('SELECT id, name_en FROM university')
+        uni_rows = await conn.fetch('SELECT id, name_en FROM university')
         course_language_rows = await conn.fetch('SELECT id, course_id, language_id FROM courses_languages')
 
         # data from db
         course_dicts = [dict(row) for row in course_rows]
-        # university_dicts = [dict(row) for row in uni_rows]
+        university_dicts = [dict(row) for row in uni_rows]
         course_language_dicts = [dict(row) for row in course_language_rows]
 
         updated_course = []
@@ -236,9 +237,15 @@ async def sync_course_update(daad_data, env: Environment):
                                 (find_course["programme_duration"] and c["programmeDuration"]
                                 and find_course["programme_duration"] != c["programmeDuration"])
                                 ):
-                # find_university = next((item for item in university_dicts if item["name_en"] == c["academy"]), None)
+
                 # update columns
                 id = find_course["id"]
+                if find_course["university_name"] != c["academy"]:
+                    find_university = next(
+                        (item for item in university_dicts if str(item["name_en"]).lower() == str(c["academy"]).lower()), None)
+                    if find_university:
+                        await update_row(conn, id, "university_id", find_course["university_id"], find_university["id"])
+
                 await update_row(conn, id, "name_en", find_course["name_en"], c["courseName"])
                 await update_row(conn, id, "name_en_short", find_course["name_en_short"], c["courseNameShort"])
                 await update_row(conn, id, "course_type", find_course["course_type"], c["courseType"])
