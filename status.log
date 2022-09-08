@@ -2320,3 +2320,543 @@
 2022-09-07 18:28:10,409 [INFO] DELETE FROM courses_languages WHERE course_id = 45
 2022-09-07 18:28:10,571 [INFO] DELETE FROM  course WHERE id = 45
 2022-09-07 18:28:10,732 [INFO] =========End deleting course  =========
+2022-09-08 15:27:27,357 [INFO] =========Start syncing university=========
+2022-09-08 15:27:27,710 [INFO] No new university
+2022-09-08 15:27:27,763 [INFO] =========End syncing university  =========
+2022-09-08 15:27:28,225 [INFO] =========Start creating new course=========
+2022-09-08 15:27:31,065 [INFO] No new course
+2022-09-08 15:27:31,119 [INFO] =========End creating new course  =========
+2022-09-08 15:27:31,593 [INFO] =========Start updating new course=========
+2022-09-08 15:27:33,914 [INFO] UPDATE course SET university_id = '166', updated_at = $1 WHERE id = 5551
+2022-09-08 15:27:34,046 [INFO] UPDATE course SET university_id = '235', updated_at = $1 WHERE id = 7752
+2022-09-08 15:27:34,154 [INFO] UPDATE course SET university_id = '107', updated_at = $1 WHERE id = 4108
+2022-09-08 15:27:34,258 [INFO] UPDATE course SET university_id = '108', updated_at = $1 WHERE id = 3764
+2022-09-08 15:27:34,374 [INFO] UPDATE course SET university_id = '109', updated_at = $1 WHERE id = 6565
+2022-09-08 15:27:34,488 [INFO] UPDATE course SET university_id = '110', updated_at = $1 WHERE id = 3780
+2022-09-08 15:27:34,593 [INFO] UPDATE course SET university_id = '111', updated_at = $1 WHERE id = 7623
+2022-09-08 15:27:34,705 [INFO] UPDATE course SET university_id = '112', updated_at = $1 WHERE id = 4593
+2022-09-08 15:27:34,810 [INFO] UPDATE course SET university_id = '113', updated_at = $1 WHERE id = 3685
+2022-09-08 15:27:34,915 [INFO] UPDATE course SET university_id = '114', updated_at = $1 WHERE id = 4669
+2022-09-08 15:27:35,018 [INFO] No need to update column: tuition_fees from course id: 4669. [Source is , and target is None]
+2022-09-08 15:27:35,020 [INFO] UPDATE course SET university_id = '115', updated_at = $1 WHERE id = 4238
+2022-09-08 15:27:35,124 [INFO] UPDATE course SET university_id = '112', updated_at = $1 WHERE id = 7618
+2022-09-08 15:27:35,232 [INFO] UPDATE course SET university_id = '117', updated_at = $1 WHERE id = 7839
+2022-09-08 15:27:35,340 [INFO] UPDATE course SET university_id = '119', updated_at = $1 WHERE id = 7945
+2022-09-08 15:27:35,444 [INFO] UPDATE course SET university_id = '120', updated_at = $1 WHERE id = 7733
+2022-09-08 15:27:35,550 [INFO] UPDATE course SET university_id = '121', updated_at = $1 WHERE id = 7758
+2022-09-08 15:27:35,654 [INFO] UPDATE course SET university_id = '122', updated_at = $1 WHERE id = 5561
+2022-09-08 15:27:35,760 [INFO] UPDATE course SET university_id = '113', updated_at = $1 WHERE id = 7660
+2022-09-08 15:27:35,876 [INFO] UPDATE course SET university_id = '108', updated_at = $1 WHERE id = 4429
+2022-09-08 15:27:35,994 [INFO] UPDATE course SET university_id = '115', updated_at = $1 WHERE id = 4896
+2022-09-08 15:27:36,100 [INFO] No need to update column: tuition_fees from course id: 4896. [Source is , and target is None]
+2022-09-08 15:27:36,104 [INFO] No need to update column: beginning from course id: 4896. [Source is , and target is None]
+2022-09-08 15:27:36,123 [INFO] No need to update column: application_deadline from course id: 4896. [Source is , and target is None]
+2022-09-08 15:27:36,126 [INFO] No need to update column: programme_duration from course id: 4896. [Source is , and target is None]
+2022-09-08 15:27:36,193 [INFO] UPDATE course SET university_id = '123', updated_at = $1 WHERE id = 4383
+2022-09-08 15:27:36,323 [INFO] UPDATE course SET university_id = '124', updated_at = $1 WHERE id = 5161
+2022-09-08 15:27:36,484 [INFO] No need to update column: tuition_fees from course id: 5161. [Source is , and target is None]
+2022-09-08 15:27:36,486 [INFO] No need to update column: beginning from course id: 5161. [Source is , and target is None]
+2022-09-08 15:27:36,488 [INFO] No need to update column: application_deadline from course id: 5161. [Source is , and target is None]
+2022-09-08 15:27:36,488 [INFO] No need to update column: programme_duration from course id: 5161. [Source is , and target is None]
+2022-09-08 15:27:36,489 [INFO] UPDATE course SET university_id = '119', updated_at = $1 WHERE id = 7944
+2022-09-08 15:27:36,596 [INFO] UPDATE course SET university_id = '125', updated_at = $1 WHERE id = 7069
+2022-09-08 15:27:36,714 [INFO] No need to update column: tuition_fees from course id: 7069. [Source is , and target is None]
+2022-09-08 15:27:36,719 [INFO] No need to update column: beginning from course id: 7069. [Source is , and target is None]
+2022-09-08 15:27:36,720 [INFO] No need to update column: application_deadline from course id: 7069. [Source is , and target is None]
+2022-09-08 15:27:36,720 [INFO] No need to update column: programme_duration from course id: 7069. [Source is , and target is None]
+2022-09-08 15:27:36,721 [INFO] UPDATE course SET university_id = '108', updated_at = $1 WHERE id = 4427
+2022-09-08 15:27:36,847 [INFO] UPDATE course SET university_id = '128', updated_at = $1 WHERE id = 6315
+2022-09-08 15:27:36,978 [INFO] UPDATE course SET university_id = '128', updated_at = $1 WHERE id = 7059
+2022-09-08 15:27:37,089 [INFO] UPDATE course SET university_id = '128', updated_at = $1 WHERE id = 6336
+2022-09-08 15:27:37,208 [INFO] UPDATE course SET university_id = '129', updated_at = $1 WHERE id = 7615
+2022-09-08 15:27:37,322 [INFO] No need to update column: tuition_fees from course id: 7615. [Source is , and target is None]
+2022-09-08 15:27:37,325 [INFO] No need to update column: beginning from course id: 7615. [Source is , and target is None]
+2022-09-08 15:27:37,328 [INFO] No need to update column: application_deadline from course id: 7615. [Source is , and target is None]
+2022-09-08 15:27:37,331 [INFO] No need to update column: programme_duration from course id: 7615. [Source is , and target is None]
+2022-09-08 15:27:37,333 [INFO] UPDATE course SET university_id = '108', updated_at = $1 WHERE id = 5446
+2022-09-08 15:27:37,451 [INFO] No need to update column: tuition_fees from course id: 5446. [Source is , and target is None]
+2022-09-08 15:27:37,458 [INFO] No need to update column: beginning from course id: 5446. [Source is , and target is None]
+2022-09-08 15:27:37,459 [INFO] No need to update column: application_deadline from course id: 5446. [Source is , and target is None]
+2022-09-08 15:27:37,459 [INFO] No need to update column: programme_duration from course id: 5446. [Source is , and target is None]
+2022-09-08 15:27:37,461 [INFO] UPDATE course SET university_id = '130', updated_at = $1 WHERE id = 3879
+2022-09-08 15:27:37,584 [INFO] UPDATE course SET university_id = '131', updated_at = $1 WHERE id = 4395
+2022-09-08 15:27:37,710 [INFO] UPDATE course SET university_id = '108', updated_at = $1 WHERE id = 6915
+2022-09-08 15:27:37,821 [INFO] UPDATE course SET university_id = '132', updated_at = $1 WHERE id = 4055
+2022-09-08 15:27:37,942 [INFO] UPDATE course SET university_id = '132', updated_at = $1 WHERE id = 4024
+2022-09-08 15:27:38,059 [INFO] UPDATE course SET university_id = '133', updated_at = $1 WHERE id = 4587
+2022-09-08 15:27:38,175 [INFO] UPDATE course SET university_id = '131', updated_at = $1 WHERE id = 3759
+2022-09-08 15:27:38,340 [INFO] UPDATE course SET university_id = '134', updated_at = $1 WHERE id = 4140
+2022-09-08 15:27:38,466 [INFO] UPDATE course SET university_id = '112', updated_at = $1 WHERE id = 4594
+2022-09-08 15:27:38,589 [INFO] UPDATE course SET university_id = '135', updated_at = $1 WHERE id = 4201
+2022-09-08 15:27:38,713 [INFO] UPDATE course SET university_id = '135', updated_at = $1 WHERE id = 3993
+2022-09-08 15:27:38,913 [INFO] UPDATE course SET university_id = '108', updated_at = $1 WHERE id = 6091
+2022-09-08 15:27:39,032 [INFO] UPDATE course SET university_id = '136', updated_at = $1 WHERE id = 7695
+2022-09-08 15:27:39,183 [INFO] UPDATE course SET university_id = '135', updated_at = $1 WHERE id = 4854
+2022-09-08 15:27:39,320 [INFO] UPDATE course SET university_id = '137', updated_at = $1 WHERE id = 4876
+2022-09-08 15:27:39,449 [INFO] UPDATE course SET university_id = '110', updated_at = $1 WHERE id = 7927
+2022-09-08 15:27:39,567 [INFO] UPDATE course SET university_id = '117', updated_at = $1 WHERE id = 4399
+2022-09-08 15:27:39,689 [INFO] UPDATE course SET university_id = '107', updated_at = $1 WHERE id = 3748
+2022-09-08 15:27:39,820 [INFO] UPDATE course SET university_id = '115', updated_at = $1 WHERE id = 5350
+2022-09-08 15:27:39,934 [INFO] No need to update column: tuition_fees from course id: 5350. [Source is , and target is None]
+2022-09-08 15:27:39,934 [INFO] No need to update column: beginning from course id: 5350. [Source is , and target is None]
+2022-09-08 15:27:39,935 [INFO] No need to update column: application_deadline from course id: 5350. [Source is , and target is None]
+2022-09-08 15:27:39,935 [INFO] No need to update column: programme_duration from course id: 5350. [Source is , and target is None]
+2022-09-08 15:27:39,938 [INFO] UPDATE course SET university_id = '107', updated_at = $1 WHERE id = 3809
+2022-09-08 15:27:40,043 [INFO] UPDATE course SET university_id = '136', updated_at = $1 WHERE id = 4105
+2022-09-08 15:27:40,149 [INFO] UPDATE course SET university_id = '138', updated_at = $1 WHERE id = 4589
+2022-09-08 15:27:40,263 [INFO] UPDATE course SET university_id = '139', updated_at = $1 WHERE id = 3910
+2022-09-08 15:27:40,421 [INFO] UPDATE course SET university_id = '131', updated_at = $1 WHERE id = 4091
+2022-09-08 15:27:40,562 [INFO] UPDATE course SET university_id = '140', updated_at = $1 WHERE id = 3996
+2022-09-08 15:27:40,677 [INFO] UPDATE course SET university_id = '108', updated_at = $1 WHERE id = 4188
+2022-09-08 15:27:40,789 [INFO] UPDATE course SET university_id = '108', updated_at = $1 WHERE id = 3986
+2022-09-08 15:27:40,898 [INFO] UPDATE course SET university_id = '115', updated_at = $1 WHERE id = 3679
+2022-09-08 15:27:41,007 [INFO] UPDATE course SET university_id = '127', updated_at = $1 WHERE id = 4123
+2022-09-08 15:27:41,133 [INFO] UPDATE course SET university_id = '141', updated_at = $1 WHERE id = 4135
+2022-09-08 15:27:41,255 [INFO] UPDATE course SET university_id = '108', updated_at = $1 WHERE id = 3594
+2022-09-08 15:27:41,366 [INFO] UPDATE course SET university_id = '142', updated_at = $1 WHERE id = 4583
+2022-09-08 15:27:41,480 [INFO] UPDATE course SET university_id = '143', updated_at = $1 WHERE id = 5338
+2022-09-08 15:27:41,643 [INFO] No need to update column: tuition_fees from course id: 5338. [Source is , and target is None]
+2022-09-08 15:27:41,643 [INFO] No need to update column: beginning from course id: 5338. [Source is , and target is None]
+2022-09-08 15:27:41,644 [INFO] No need to update column: application_deadline from course id: 5338. [Source is , and target is None]
+2022-09-08 15:27:41,644 [INFO] No need to update column: programme_duration from course id: 5338. [Source is , and target is None]
+2022-09-08 15:27:41,645 [INFO] UPDATE course SET university_id = '120', updated_at = $1 WHERE id = 7749
+2022-09-08 15:27:41,760 [INFO] UPDATE course SET university_id = '236', updated_at = $1 WHERE id = 3724
+2022-09-08 15:27:41,880 [INFO] UPDATE course SET university_id = '236', updated_at = $1 WHERE id = 5427
+2022-09-08 15:27:41,995 [INFO] UPDATE course SET university_id = '108', updated_at = $1 WHERE id = 5166
+2022-09-08 15:27:42,117 [INFO] No need to update column: beginning from course id: 5166. [Source is , and target is None]
+2022-09-08 15:27:42,138 [INFO] No need to update column: application_deadline from course id: 5166. [Source is , and target is None]
+2022-09-08 15:27:42,139 [INFO] No need to update column: programme_duration from course id: 5166. [Source is , and target is None]
+2022-09-08 15:27:42,141 [INFO] UPDATE course SET university_id = '144', updated_at = $1 WHERE id = 4508
+2022-09-08 15:27:42,271 [INFO] UPDATE course SET university_id = '144', updated_at = $1 WHERE id = 4624
+2022-09-08 15:27:42,395 [INFO] UPDATE course SET university_id = '141', updated_at = $1 WHERE id = 7108
+2022-09-08 15:27:42,503 [INFO] No need to update column: tuition_fees from course id: 7108. [Source is 21.750,00, and target is None]
+2022-09-08 15:27:42,504 [INFO] UPDATE course SET university_id = '145', updated_at = $1 WHERE id = 3651
+2022-09-08 15:27:42,611 [INFO] UPDATE course SET university_id = '145', updated_at = $1 WHERE id = 3653
+2022-09-08 15:27:42,727 [INFO] UPDATE course SET university_id = '132', updated_at = $1 WHERE id = 4650
+2022-09-08 15:27:42,849 [INFO] UPDATE course SET university_id = '146', updated_at = $1 WHERE id = 4750
+2022-09-08 15:27:42,975 [INFO] UPDATE course SET university_id = '132', updated_at = $1 WHERE id = 4002
+2022-09-08 15:27:43,110 [INFO] UPDATE course SET university_id = '132', updated_at = $1 WHERE id = 4370
+2022-09-08 15:27:43,227 [INFO] UPDATE course SET university_id = '122', updated_at = $1 WHERE id = 7125
+2022-09-08 15:27:43,351 [INFO] UPDATE course SET university_id = '147', updated_at = $1 WHERE id = 7789
+2022-09-08 15:27:43,454 [INFO] No need to update column: tuition_fees from course id: 7789. [Source is , and target is None]
+2022-09-08 15:27:43,454 [INFO] No need to update column: beginning from course id: 7789. [Source is , and target is None]
+2022-09-08 15:27:43,455 [INFO] No need to update column: application_deadline from course id: 7789. [Source is , and target is None]
+2022-09-08 15:27:43,455 [INFO] No need to update column: programme_duration from course id: 7789. [Source is , and target is None]
+2022-09-08 15:27:43,456 [INFO] UPDATE course SET university_id = '147', updated_at = $1 WHERE id = 7797
+2022-09-08 15:27:43,566 [INFO] No need to update column: tuition_fees from course id: 7797. [Source is , and target is None]
+2022-09-08 15:27:43,566 [INFO] No need to update column: beginning from course id: 7797. [Source is , and target is None]
+2022-09-08 15:27:43,567 [INFO] No need to update column: application_deadline from course id: 7797. [Source is , and target is None]
+2022-09-08 15:27:43,567 [INFO] No need to update column: programme_duration from course id: 7797. [Source is , and target is None]
+2022-09-08 15:27:43,568 [INFO] UPDATE course SET university_id = '131', updated_at = $1 WHERE id = 5511
+2022-09-08 15:27:43,675 [INFO] UPDATE course SET university_id = '125', updated_at = $1 WHERE id = 4900
+2022-09-08 15:27:43,789 [INFO] No need to update column: tuition_fees from course id: 4900. [Source is , and target is None]
+2022-09-08 15:27:43,790 [INFO] No need to update column: beginning from course id: 4900. [Source is , and target is None]
+2022-09-08 15:27:43,790 [INFO] No need to update column: application_deadline from course id: 4900. [Source is , and target is None]
+2022-09-08 15:27:43,791 [INFO] No need to update column: programme_duration from course id: 4900. [Source is , and target is None]
+2022-09-08 15:27:43,794 [INFO] UPDATE course SET university_id = '139', updated_at = $1 WHERE id = 3911
+2022-09-08 15:27:43,902 [INFO] UPDATE course SET university_id = '236', updated_at = $1 WHERE id = 3820
+2022-09-08 15:27:44,007 [INFO] UPDATE course SET university_id = '149', updated_at = $1 WHERE id = 5408
+2022-09-08 15:27:44,118 [INFO] UPDATE course SET university_id = '122', updated_at = $1 WHERE id = 6954
+2022-09-08 15:27:44,248 [INFO] UPDATE course SET university_id = '138', updated_at = $1 WHERE id = 3775
+2022-09-08 15:27:44,360 [INFO] UPDATE course SET university_id = '141', updated_at = $1 WHERE id = 7686
+2022-09-08 15:27:44,474 [INFO] UPDATE course SET university_id = '131', updated_at = $1 WHERE id = 7707
+2022-09-08 15:27:44,591 [INFO] No need to update column: beginning from course id: 7707. [Source is , and target is None]
+2022-09-08 15:27:44,591 [INFO] No need to update column: application_deadline from course id: 7707. [Source is , and target is None]
+2022-09-08 15:27:44,592 [INFO] No need to update column: programme_duration from course id: 7707. [Source is , and target is None]
+2022-09-08 15:27:44,592 [INFO] UPDATE course SET university_id = '131', updated_at = $1 WHERE id = 3639
+2022-09-08 15:27:44,703 [INFO] UPDATE course SET university_id = '150', updated_at = $1 WHERE id = 3686
+2022-09-08 15:27:44,813 [INFO] UPDATE course SET university_id = '118', updated_at = $1 WHERE id = 5329
+2022-09-08 15:27:44,937 [INFO] No need to update column: beginning from course id: 5329. [Source is , and target is None]
+2022-09-08 15:27:44,938 [INFO] No need to update column: application_deadline from course id: 5329. [Source is , and target is None]
+2022-09-08 15:27:44,939 [INFO] No need to update column: programme_duration from course id: 5329. [Source is , and target is None]
+2022-09-08 15:27:44,942 [INFO] UPDATE course SET university_id = '151', updated_at = $1 WHERE id = 5483
+2022-09-08 15:27:45,066 [INFO] No need to update column: beginning from course id: 5483. [Source is Winter semester, and target is None]
+2022-09-08 15:27:45,067 [INFO] No need to update column: programme_duration from course id: 5483. [Source is , and target is None]
+2022-09-08 15:27:45,071 [INFO] UPDATE course SET university_id = '123', updated_at = $1 WHERE id = 5249
+2022-09-08 15:27:45,180 [INFO] No need to update column: beginning from course id: 5249. [Source is , and target is None]
+2022-09-08 15:27:45,181 [INFO] No need to update column: application_deadline from course id: 5249. [Source is , and target is None]
+2022-09-08 15:27:45,182 [INFO] No need to update column: programme_duration from course id: 5249. [Source is , and target is None]
+2022-09-08 15:27:45,183 [INFO] UPDATE course SET university_id = '120', updated_at = $1 WHERE id = 6564
+2022-09-08 15:27:45,287 [INFO] UPDATE course SET university_id = '152', updated_at = $1 WHERE id = 4020
+2022-09-08 15:27:45,395 [INFO] UPDATE course SET university_id = '132', updated_at = $1 WHERE id = 7791
+2022-09-08 15:27:45,509 [INFO] No need to update column: tuition_fees from course id: 7791. [Source is , and target is None]
+2022-09-08 15:27:45,510 [INFO] No need to update column: beginning from course id: 7791. [Source is , and target is None]
+2022-09-08 15:27:45,510 [INFO] No need to update column: application_deadline from course id: 7791. [Source is , and target is None]
+2022-09-08 15:27:45,511 [INFO] No need to update column: programme_duration from course id: 7791. [Source is , and target is None]
+2022-09-08 15:27:45,514 [INFO] UPDATE course SET university_id = '130', updated_at = $1 WHERE id = 6189
+2022-09-08 15:27:45,635 [INFO] UPDATE course SET university_id = '110', updated_at = $1 WHERE id = 4686
+2022-09-08 15:27:45,805 [INFO] UPDATE course SET university_id = '144', updated_at = $1 WHERE id = 6178
+2022-09-08 15:27:45,967 [INFO] UPDATE course SET university_id = '150', updated_at = $1 WHERE id = 4885
+2022-09-08 15:27:46,122 [INFO] UPDATE course SET university_id = '115', updated_at = $1 WHERE id = 4660
+2022-09-08 15:27:46,279 [INFO] UPDATE course SET university_id = '125', updated_at = $1 WHERE id = 3812
+2022-09-08 15:27:46,441 [INFO] No need to update column: tuition_fees from course id: 3812. [Source is , and target is None]
+2022-09-08 15:27:46,460 [INFO] UPDATE course SET university_id = '154', updated_at = $1 WHERE id = 6566
+2022-09-08 15:27:46,617 [INFO] No need to update column: tuition_fees from course id: 6566. [Source is 8.900,00, and target is None]
+2022-09-08 15:27:46,619 [INFO] UPDATE course SET university_id = '155', updated_at = $1 WHERE id = 6955
+2022-09-08 15:27:46,786 [INFO] UPDATE course SET university_id = '107', updated_at = $1 WHERE id = 3747
+2022-09-08 15:27:46,940 [INFO] UPDATE course SET university_id = '156', updated_at = $1 WHERE id = 5222
+2022-09-08 15:27:47,118 [INFO] UPDATE course SET university_id = '120', updated_at = $1 WHERE id = 6563
+2022-09-08 15:27:47,279 [INFO] UPDATE course SET university_id = '158', updated_at = $1 WHERE id = 6559
+2022-09-08 15:27:47,437 [INFO] No need to update column: tuition_fees from course id: 6559. [Source is , and target is None]
+2022-09-08 15:27:47,437 [INFO] No need to update column: beginning from course id: 6559. [Source is , and target is None]
+2022-09-08 15:27:47,438 [INFO] No need to update column: application_deadline from course id: 6559. [Source is , and target is None]
+2022-09-08 15:27:47,438 [INFO] No need to update column: programme_duration from course id: 6559. [Source is , and target is None]
+2022-09-08 15:27:47,440 [INFO] UPDATE course SET university_id = '115', updated_at = $1 WHERE id = 3654
+2022-09-08 15:27:47,602 [INFO] UPDATE course SET university_id = '114', updated_at = $1 WHERE id = 4728
+2022-09-08 15:27:47,766 [INFO] UPDATE course SET university_id = '160', updated_at = $1 WHERE id = 4939
+2022-09-08 15:27:47,948 [INFO] No need to update column: tuition_fees from course id: 4939. [Source is , and target is None]
+2022-09-08 15:27:47,952 [INFO] No need to update column: beginning from course id: 4939. [Source is , and target is None]
+2022-09-08 15:27:47,970 [INFO] No need to update column: application_deadline from course id: 4939. [Source is , and target is None]
+2022-09-08 15:27:47,994 [INFO] No need to update column: programme_duration from course id: 4939. [Source is , and target is None]
+2022-09-08 15:27:47,997 [INFO] UPDATE course SET university_id = '155', updated_at = $1 WHERE id = 6968
+2022-09-08 15:27:48,156 [INFO] UPDATE course SET university_id = '150', updated_at = $1 WHERE id = 3689
+2022-09-08 15:27:48,311 [INFO] UPDATE course SET university_id = '161', updated_at = $1 WHERE id = 4465
+2022-09-08 15:27:48,488 [INFO] UPDATE course SET university_id = '162', updated_at = $1 WHERE id = 5574
+2022-09-08 15:27:48,658 [INFO] UPDATE course SET university_id = '125', updated_at = $1 WHERE id = 4918
+2022-09-08 15:27:48,831 [INFO] No need to update column: tuition_fees from course id: 4918. [Source is , and target is None]
+2022-09-08 15:27:48,835 [INFO] No need to update column: beginning from course id: 4918. [Source is , and target is None]
+2022-09-08 15:27:48,840 [INFO] No need to update column: application_deadline from course id: 4918. [Source is , and target is None]
+2022-09-08 15:27:48,842 [INFO] No need to update column: programme_duration from course id: 4918. [Source is , and target is None]
+2022-09-08 15:27:48,848 [INFO] UPDATE course SET university_id = '158', updated_at = $1 WHERE id = 6562
+2022-09-08 15:27:49,008 [INFO] UPDATE course SET university_id = '150', updated_at = $1 WHERE id = 5651
+2022-09-08 15:27:49,167 [INFO] UPDATE course SET university_id = '164', updated_at = $1 WHERE id = 7572
+2022-09-08 15:27:49,322 [INFO] UPDATE course SET university_id = '138', updated_at = $1 WHERE id = 3871
+2022-09-08 15:27:49,488 [INFO] UPDATE course SET university_id = '165', updated_at = $1 WHERE id = 3730
+2022-09-08 15:27:49,659 [INFO] UPDATE course SET university_id = '165', updated_at = $1 WHERE id = 3731
+2022-09-08 15:27:49,840 [INFO] UPDATE course SET university_id = '166', updated_at = $1 WHERE id = 7632
+2022-09-08 15:27:50,000 [INFO] UPDATE course SET university_id = '108', updated_at = $1 WHERE id = 3811
+2022-09-08 15:27:50,158 [INFO] UPDATE course SET university_id = '166', updated_at = $1 WHERE id = 3975
+2022-09-08 15:27:50,337 [INFO] UPDATE course SET university_id = '132', updated_at = $1 WHERE id = 5255
+2022-09-08 15:27:50,528 [INFO] UPDATE course SET university_id = '167', updated_at = $1 WHERE id = 7151
+2022-09-08 15:27:50,699 [INFO] UPDATE course SET university_id = '139', updated_at = $1 WHERE id = 7676
+2022-09-08 15:27:50,858 [INFO] No need to update column: application_deadline from course id: 7676. [Source is , and target is None]
+2022-09-08 15:27:50,859 [INFO] UPDATE course SET university_id = '150', updated_at = $1 WHERE id = 3687
+2022-09-08 15:27:51,036 [INFO] UPDATE course SET university_id = '236', updated_at = $1 WHERE id = 6357
+2022-09-08 15:27:51,198 [INFO] UPDATE course SET university_id = '110', updated_at = $1 WHERE id = 3782
+2022-09-08 15:27:51,379 [INFO] UPDATE course SET university_id = '150', updated_at = $1 WHERE id = 4883
+2022-09-08 15:27:51,540 [INFO] UPDATE course SET university_id = '169', updated_at = $1 WHERE id = 4391
+2022-09-08 15:27:51,760 [INFO] UPDATE course SET university_id = '155', updated_at = $1 WHERE id = 7126
+2022-09-08 15:27:51,937 [INFO] UPDATE course SET university_id = '150', updated_at = $1 WHERE id = 3688
+2022-09-08 15:27:52,115 [INFO] UPDATE course SET university_id = '158', updated_at = $1 WHERE id = 3852
+2022-09-08 15:27:52,310 [INFO] UPDATE course SET university_id = '238', updated_at = $1 WHERE id = 3919
+2022-09-08 15:27:52,470 [INFO] UPDATE course SET university_id = '142', updated_at = $1 WHERE id = 4549
+2022-09-08 15:27:52,632 [INFO] UPDATE course SET university_id = '111', updated_at = $1 WHERE id = 4500
+2022-09-08 15:27:52,799 [INFO] UPDATE course SET university_id = '108', updated_at = $1 WHERE id = 3995
+2022-09-08 15:27:52,967 [INFO] UPDATE course SET university_id = '170', updated_at = $1 WHERE id = 5363
+2022-09-08 15:27:53,131 [INFO] UPDATE course SET university_id = '139', updated_at = $1 WHERE id = 5247
+2022-09-08 15:27:53,313 [INFO] UPDATE course SET university_id = '111', updated_at = $1 WHERE id = 3899
+2022-09-08 15:27:53,491 [INFO] UPDATE course SET university_id = '238', updated_at = $1 WHERE id = 3865
+2022-09-08 15:27:53,657 [INFO] UPDATE course SET university_id = '111', updated_at = $1 WHERE id = 3896
+2022-09-08 15:27:53,824 [INFO] UPDATE course SET university_id = '108', updated_at = $1 WHERE id = 4159
+2022-09-08 15:27:54,002 [INFO] UPDATE course SET university_id = '110', updated_at = $1 WHERE id = 4872
+2022-09-08 15:27:54,175 [INFO] UPDATE course SET university_id = '110', updated_at = $1 WHERE id = 3781
+2022-09-08 15:27:54,337 [INFO] UPDATE course SET university_id = '159', updated_at = $1 WHERE id = 4148
+2022-09-08 15:27:54,491 [INFO] UPDATE course SET university_id = '118', updated_at = $1 WHERE id = 6384
+2022-09-08 15:27:54,668 [INFO] UPDATE course SET university_id = '173', updated_at = $1 WHERE id = 3907
+2022-09-08 15:27:54,848 [INFO] UPDATE course SET university_id = '174', updated_at = $1 WHERE id = 3909
+2022-09-08 15:27:55,019 [INFO] UPDATE course SET university_id = '175', updated_at = $1 WHERE id = 3894
+2022-09-08 15:27:55,185 [INFO] UPDATE course SET university_id = '176', updated_at = $1 WHERE id = 3921
+2022-09-08 15:27:55,358 [INFO] UPDATE course SET university_id = '177', updated_at = $1 WHERE id = 4232
+2022-09-08 15:27:55,530 [INFO] UPDATE course SET university_id = '179', updated_at = $1 WHERE id = 4756
+2022-09-08 15:27:55,698 [INFO] UPDATE course SET university_id = '180', updated_at = $1 WHERE id = 6506
+2022-09-08 15:27:55,857 [INFO] UPDATE course SET university_id = '182', updated_at = $1 WHERE id = 5295
+2022-09-08 15:27:56,020 [INFO] UPDATE course SET university_id = '183', updated_at = $1 WHERE id = 5336
+2022-09-08 15:27:56,190 [INFO] UPDATE course SET university_id = '184', updated_at = $1 WHERE id = 6102
+2022-09-08 15:27:56,347 [INFO] UPDATE course SET university_id = '186', updated_at = $1 WHERE id = 4050
+2022-09-08 15:27:56,514 [INFO] UPDATE course SET university_id = '188', updated_at = $1 WHERE id = 4468
+2022-09-08 15:27:56,675 [INFO] UPDATE course SET university_id = '189', updated_at = $1 WHERE id = 6241
+2022-09-08 15:27:56,859 [INFO] UPDATE course SET university_id = '190', updated_at = $1 WHERE id = 5214
+2022-09-08 15:27:57,023 [INFO] UPDATE course SET university_id = '192', updated_at = $1 WHERE id = 4117
+2022-09-08 15:27:57,178 [INFO] UPDATE course SET university_id = '193', updated_at = $1 WHERE id = 3940
+2022-09-08 15:27:57,357 [INFO] UPDATE course SET university_id = '125', updated_at = $1 WHERE id = 4627
+2022-09-08 15:27:57,521 [INFO] No need to update column: tuition_fees from course id: 4627. [Source is , and target is None]
+2022-09-08 15:27:57,522 [INFO] UPDATE course SET university_id = '125', updated_at = $1 WHERE id = 4530
+2022-09-08 15:27:57,683 [INFO] No need to update column: tuition_fees from course id: 4530. [Source is , and target is None]
+2022-09-08 15:27:57,684 [INFO] UPDATE course SET university_id = '125', updated_at = $1 WHERE id = 4625
+2022-09-08 15:27:57,853 [INFO] No need to update column: tuition_fees from course id: 4625. [Source is , and target is None]
+2022-09-08 15:27:57,854 [INFO] UPDATE course SET university_id = '125', updated_at = $1 WHERE id = 4626
+2022-09-08 15:27:58,033 [INFO] No need to update column: tuition_fees from course id: 4626. [Source is , and target is None]
+2022-09-08 15:27:58,034 [INFO] UPDATE course SET university_id = '125', updated_at = $1 WHERE id = 5416
+2022-09-08 15:27:58,188 [INFO] No need to update column: tuition_fees from course id: 5416. [Source is , and target is None]
+2022-09-08 15:27:58,192 [INFO] UPDATE course SET university_id = '194', updated_at = $1 WHERE id = 4058
+2022-09-08 15:27:58,364 [INFO] UPDATE course SET university_id = '132', updated_at = $1 WHERE id = 4674
+2022-09-08 15:27:58,552 [INFO] UPDATE course SET university_id = '125', updated_at = $1 WHERE id = 6901
+2022-09-08 15:27:58,719 [INFO] No need to update column: tuition_fees from course id: 6901. [Source is , and target is None]
+2022-09-08 15:27:58,719 [INFO] No need to update column: beginning from course id: 6901. [Source is , and target is None]
+2022-09-08 15:27:58,720 [INFO] No need to update column: application_deadline from course id: 6901. [Source is , and target is None]
+2022-09-08 15:27:58,720 [INFO] No need to update column: programme_duration from course id: 6901. [Source is , and target is None]
+2022-09-08 15:27:58,723 [INFO] UPDATE course SET university_id = '107', updated_at = $1 WHERE id = 5036
+2022-09-08 15:27:58,887 [INFO] No need to update column: tuition_fees from course id: 5036. [Source is , and target is None]
+2022-09-08 15:27:58,887 [INFO] No need to update column: beginning from course id: 5036. [Source is , and target is None]
+2022-09-08 15:27:58,888 [INFO] No need to update column: application_deadline from course id: 5036. [Source is , and target is None]
+2022-09-08 15:27:58,888 [INFO] No need to update column: programme_duration from course id: 5036. [Source is , and target is None]
+2022-09-08 15:27:58,889 [INFO] UPDATE course SET university_id = '131', updated_at = $1 WHERE id = 5491
+2022-09-08 15:27:59,055 [INFO] No need to update column: tuition_fees from course id: 5491. [Source is , and target is None]
+2022-09-08 15:27:59,055 [INFO] No need to update column: beginning from course id: 5491. [Source is , and target is None]
+2022-09-08 15:27:59,056 [INFO] No need to update column: application_deadline from course id: 5491. [Source is , and target is None]
+2022-09-08 15:27:59,056 [INFO] No need to update column: programme_duration from course id: 5491. [Source is , and target is None]
+2022-09-08 15:27:59,058 [INFO] UPDATE course SET university_id = '131', updated_at = $1 WHERE id = 7620
+2022-09-08 15:27:59,232 [INFO] No need to update column: tuition_fees from course id: 7620. [Source is , and target is None]
+2022-09-08 15:27:59,232 [INFO] No need to update column: beginning from course id: 7620. [Source is , and target is None]
+2022-09-08 15:27:59,233 [INFO] No need to update column: application_deadline from course id: 7620. [Source is , and target is None]
+2022-09-08 15:27:59,233 [INFO] No need to update column: programme_duration from course id: 7620. [Source is , and target is None]
+2022-09-08 15:27:59,234 [INFO] UPDATE course SET university_id = '131', updated_at = $1 WHERE id = 5492
+2022-09-08 15:27:59,394 [INFO] No need to update column: tuition_fees from course id: 5492. [Source is , and target is None]
+2022-09-08 15:27:59,395 [INFO] No need to update column: beginning from course id: 5492. [Source is , and target is None]
+2022-09-08 15:27:59,398 [INFO] No need to update column: application_deadline from course id: 5492. [Source is , and target is None]
+2022-09-08 15:27:59,402 [INFO] No need to update column: programme_duration from course id: 5492. [Source is , and target is None]
+2022-09-08 15:27:59,408 [INFO] UPDATE course SET university_id = '131', updated_at = $1 WHERE id = 7621
+2022-09-08 15:27:59,574 [INFO] No need to update column: tuition_fees from course id: 7621. [Source is , and target is None]
+2022-09-08 15:27:59,574 [INFO] No need to update column: beginning from course id: 7621. [Source is , and target is None]
+2022-09-08 15:27:59,575 [INFO] No need to update column: application_deadline from course id: 7621. [Source is , and target is None]
+2022-09-08 15:27:59,575 [INFO] No need to update column: programme_duration from course id: 7621. [Source is , and target is None]
+2022-09-08 15:27:59,576 [INFO] UPDATE course SET university_id = '131', updated_at = $1 WHERE id = 7622
+2022-09-08 15:27:59,741 [INFO] No need to update column: tuition_fees from course id: 7622. [Source is , and target is None]
+2022-09-08 15:27:59,742 [INFO] No need to update column: beginning from course id: 7622. [Source is , and target is None]
+2022-09-08 15:27:59,742 [INFO] No need to update column: application_deadline from course id: 7622. [Source is , and target is None]
+2022-09-08 15:27:59,742 [INFO] No need to update column: programme_duration from course id: 7622. [Source is , and target is None]
+2022-09-08 15:27:59,743 [INFO] UPDATE course SET university_id = '108', updated_at = $1 WHERE id = 4488
+2022-09-08 15:27:59,906 [INFO] UPDATE course SET university_id = '235', updated_at = $1 WHERE id = 7777
+2022-09-08 15:28:00,074 [INFO] UPDATE course SET university_id = '125', updated_at = $1 WHERE id = 4409
+2022-09-08 15:28:00,233 [INFO] UPDATE course SET university_id = '196', updated_at = $1 WHERE id = 4632
+2022-09-08 15:28:00,406 [INFO] UPDATE course SET university_id = '131', updated_at = $1 WHERE id = 5481
+2022-09-08 15:28:00,586 [INFO] No need to update column: tuition_fees from course id: 5481. [Source is , and target is None]
+2022-09-08 15:28:00,593 [INFO] No need to update column: beginning from course id: 5481. [Source is , and target is None]
+2022-09-08 15:28:00,594 [INFO] No need to update column: application_deadline from course id: 5481. [Source is , and target is None]
+2022-09-08 15:28:00,595 [INFO] No need to update column: programme_duration from course id: 5481. [Source is , and target is None]
+2022-09-08 15:28:00,598 [INFO] UPDATE course SET university_id = '107', updated_at = $1 WHERE id = 5317
+2022-09-08 15:28:00,760 [INFO] UPDATE course SET university_id = '144', updated_at = $1 WHERE id = 7031
+2022-09-08 15:28:00,938 [INFO] UPDATE course SET university_id = '131', updated_at = $1 WHERE id = 3817
+2022-09-08 15:28:01,104 [INFO] UPDATE course SET university_id = '146', updated_at = $1 WHERE id = 4730
+2022-09-08 15:28:01,275 [INFO] UPDATE course SET university_id = '130', updated_at = $1 WHERE id = 6264
+2022-09-08 15:28:01,433 [INFO] UPDATE course SET university_id = '198', updated_at = $1 WHERE id = 4426
+2022-09-08 15:28:01,620 [INFO] No need to update column: application_deadline from course id: 4426. [Source is , and target is None]
+2022-09-08 15:28:01,636 [INFO] UPDATE course SET university_id = '154', updated_at = $1 WHERE id = 4731
+2022-09-08 15:28:01,802 [INFO] UPDATE course SET university_id = '199', updated_at = $1 WHERE id = 4541
+2022-09-08 15:28:01,956 [INFO] UPDATE course SET university_id = '123', updated_at = $1 WHERE id = 5005
+2022-09-08 15:28:02,122 [INFO] No need to update column: tuition_fees from course id: 5005. [Source is , and target is None]
+2022-09-08 15:28:02,122 [INFO] No need to update column: beginning from course id: 5005. [Source is , and target is None]
+2022-09-08 15:28:02,123 [INFO] No need to update column: application_deadline from course id: 5005. [Source is , and target is None]
+2022-09-08 15:28:02,123 [INFO] No need to update column: programme_duration from course id: 5005. [Source is , and target is None]
+2022-09-08 15:28:02,124 [INFO] UPDATE course SET university_id = '200', updated_at = $1 WHERE id = 5308
+2022-09-08 15:28:02,289 [INFO] UPDATE course SET university_id = '200', updated_at = $1 WHERE id = 4658
+2022-09-08 15:28:02,453 [INFO] UPDATE course SET university_id = '132', updated_at = $1 WHERE id = 7768
+2022-09-08 15:28:02,610 [INFO] UPDATE course SET university_id = '201', updated_at = $1 WHERE id = 7681
+2022-09-08 15:28:02,768 [INFO] UPDATE course SET university_id = '200', updated_at = $1 WHERE id = 4462
+2022-09-08 15:28:02,928 [INFO] UPDATE course SET university_id = '161', updated_at = $1 WHERE id = 4467
+2022-09-08 15:28:03,113 [INFO] UPDATE course SET university_id = '144', updated_at = $1 WHERE id = 4647
+2022-09-08 15:28:03,280 [INFO] UPDATE course SET university_id = '235', updated_at = $1 WHERE id = 7625
+2022-09-08 15:28:03,444 [INFO] UPDATE course SET university_id = '170', updated_at = $1 WHERE id = 4318
+2022-09-08 15:28:03,614 [INFO] UPDATE course SET university_id = '132', updated_at = $1 WHERE id = 5258
+2022-09-08 15:28:03,780 [INFO] No need to update column: beginning from course id: 5258. [Source is , and target is None]
+2022-09-08 15:28:03,781 [INFO] No need to update column: application_deadline from course id: 5258. [Source is , and target is None]
+2022-09-08 15:28:03,782 [INFO] No need to update column: programme_duration from course id: 5258. [Source is , and target is None]
+2022-09-08 15:28:03,784 [INFO] UPDATE course SET university_id = '128', updated_at = $1 WHERE id = 3795
+2022-09-08 15:28:03,958 [INFO] UPDATE course SET university_id = '151', updated_at = $1 WHERE id = 4071
+2022-09-08 15:28:04,117 [INFO] UPDATE course SET university_id = '139', updated_at = $1 WHERE id = 4873
+2022-09-08 15:28:04,299 [INFO] UPDATE course SET university_id = '131', updated_at = $1 WHERE id = 6081
+2022-09-08 15:28:04,488 [INFO] UPDATE course SET university_id = '167', updated_at = $1 WHERE id = 3826
+2022-09-08 15:28:04,709 [INFO] UPDATE course SET university_id = '201', updated_at = $1 WHERE id = 4681
+2022-09-08 15:28:04,872 [INFO] UPDATE course SET university_id = '149', updated_at = $1 WHERE id = 7166
+2022-09-08 15:28:05,043 [INFO] UPDATE course SET university_id = '151', updated_at = $1 WHERE id = 4716
+2022-09-08 15:28:05,208 [INFO] UPDATE course SET university_id = '167', updated_at = $1 WHERE id = 4515
+2022-09-08 15:28:05,365 [INFO] UPDATE course SET university_id = '160', updated_at = $1 WHERE id = 3770
+2022-09-08 15:28:05,540 [INFO] No need to update column: tuition_fees from course id: 3770. [Source is , and target is None]
+2022-09-08 15:28:05,545 [INFO] UPDATE course SET university_id = '151', updated_at = $1 WHERE id = 6939
+2022-09-08 15:28:05,718 [INFO] UPDATE course SET university_id = '127', updated_at = $1 WHERE id = 7169
+2022-09-08 15:28:05,883 [INFO] UPDATE course SET university_id = '125', updated_at = $1 WHERE id = 7700
+2022-09-08 15:28:06,043 [INFO] No need to update column: tuition_fees from course id: 7700. [Source is , and target is None]
+2022-09-08 15:28:06,045 [INFO] UPDATE course SET university_id = '127', updated_at = $1 WHERE id = 4475
+2022-09-08 15:28:06,206 [INFO] UPDATE course SET university_id = '155', updated_at = $1 WHERE id = 6098
+2022-09-08 15:28:06,365 [INFO] UPDATE course SET university_id = '118', updated_at = $1 WHERE id = 3845
+2022-09-08 15:28:06,539 [INFO] UPDATE course SET university_id = '205', updated_at = $1 WHERE id = 3867
+2022-09-08 15:28:06,699 [INFO] UPDATE course SET university_id = '118', updated_at = $1 WHERE id = 4394
+2022-09-08 15:28:06,886 [INFO] UPDATE course SET university_id = '132', updated_at = $1 WHERE id = 3884
+2022-09-08 15:28:07,054 [INFO] No need to update column: tuition_fees from course id: 3884. [Source is none, and target is None]
+2022-09-08 15:28:07,055 [INFO] UPDATE course SET university_id = '149', updated_at = $1 WHERE id = 3726
+2022-09-08 15:28:07,214 [INFO] UPDATE course SET university_id = '127', updated_at = $1 WHERE id = 4063
+2022-09-08 15:28:07,401 [INFO] UPDATE course SET university_id = '129', updated_at = $1 WHERE id = 4779
+2022-09-08 15:28:07,566 [INFO] UPDATE course SET university_id = '143', updated_at = $1 WHERE id = 6114
+2022-09-08 15:28:07,736 [INFO] UPDATE course SET university_id = '160', updated_at = $1 WHERE id = 5240
+2022-09-08 15:28:07,906 [INFO] UPDATE course SET university_id = '143', updated_at = $1 WHERE id = 4692
+2022-09-08 15:28:08,106 [INFO] UPDATE course SET university_id = '143', updated_at = $1 WHERE id = 6938
+2022-09-08 15:28:08,277 [INFO] UPDATE course SET university_id = '143', updated_at = $1 WHERE id = 4581
+2022-09-08 15:28:08,440 [INFO] UPDATE course SET university_id = '143', updated_at = $1 WHERE id = 3793
+2022-09-08 15:28:08,603 [INFO] UPDATE course SET university_id = '160', updated_at = $1 WHERE id = 3771
+2022-09-08 15:28:08,761 [INFO] UPDATE course SET university_id = '129', updated_at = $1 WHERE id = 5625
+2022-09-08 15:28:08,934 [INFO] UPDATE course SET university_id = '110', updated_at = $1 WHERE id = 4591
+2022-09-08 15:28:09,105 [INFO] UPDATE course SET university_id = '129', updated_at = $1 WHERE id = 5616
+2022-09-08 15:28:09,286 [INFO] UPDATE course SET university_id = '110', updated_at = $1 WHERE id = 4213
+2022-09-08 15:28:09,457 [INFO] UPDATE course SET university_id = '129', updated_at = $1 WHERE id = 7607
+2022-09-08 15:28:09,620 [INFO] UPDATE course SET university_id = '143', updated_at = $1 WHERE id = 3948
+2022-09-08 15:28:09,779 [INFO] UPDATE course SET university_id = '160', updated_at = $1 WHERE id = 5576
+2022-09-08 15:28:09,939 [INFO] UPDATE course SET university_id = '206', updated_at = $1 WHERE id = 4254
+2022-09-08 15:28:10,151 [INFO] UPDATE course SET university_id = '129', updated_at = $1 WHERE id = 4389
+2022-09-08 15:28:10,316 [INFO] UPDATE course SET university_id = '144', updated_at = $1 WHERE id = 6931
+2022-09-08 15:28:10,472 [INFO] UPDATE course SET university_id = '238', updated_at = $1 WHERE id = 3860
+2022-09-08 15:28:10,649 [INFO] UPDATE course SET university_id = '109', updated_at = $1 WHERE id = 4300
+2022-09-08 15:28:10,814 [INFO] UPDATE course SET university_id = '129', updated_at = $1 WHERE id = 4526
+2022-09-08 15:28:10,984 [INFO] UPDATE course SET university_id = '144', updated_at = $1 WHERE id = 4767
+2022-09-08 15:28:11,143 [INFO] UPDATE course SET university_id = '129', updated_at = $1 WHERE id = 4525
+2022-09-08 15:28:11,318 [INFO] UPDATE course SET university_id = '143', updated_at = $1 WHERE id = 6111
+2022-09-08 15:28:11,504 [INFO] UPDATE course SET university_id = '129', updated_at = $1 WHERE id = 3987
+2022-09-08 15:28:11,669 [INFO] UPDATE course SET university_id = '144', updated_at = $1 WHERE id = 7089
+2022-09-08 15:28:11,829 [INFO] UPDATE course SET university_id = '207', updated_at = $1 WHERE id = 3701
+2022-09-08 15:28:12,003 [INFO] UPDATE course SET university_id = '160', updated_at = $1 WHERE id = 4030
+2022-09-08 15:28:12,201 [INFO] UPDATE course SET university_id = '160', updated_at = $1 WHERE id = 4774
+2022-09-08 15:28:12,365 [INFO] UPDATE course SET university_id = '208', updated_at = $1 WHERE id = 3796
+2022-09-08 15:28:12,528 [INFO] UPDATE course SET university_id = '118', updated_at = $1 WHERE id = 5327
+2022-09-08 15:28:12,713 [INFO] UPDATE course SET university_id = '125', updated_at = $1 WHERE id = 3752
+2022-09-08 15:28:12,885 [INFO] UPDATE course SET university_id = '128', updated_at = $1 WHERE id = 4175
+2022-09-08 15:28:13,053 [INFO] UPDATE course SET university_id = '139', updated_at = $1 WHERE id = 3969
+2022-09-08 15:28:13,209 [INFO] UPDATE course SET university_id = '165', updated_at = $1 WHERE id = 7648
+2022-09-08 15:28:13,368 [INFO] UPDATE course SET university_id = '140', updated_at = $1 WHERE id = 4879
+2022-09-08 15:28:13,533 [INFO] UPDATE course SET university_id = '140', updated_at = $1 WHERE id = 4513
+2022-09-08 15:28:13,703 [INFO] UPDATE course SET university_id = '129', updated_at = $1 WHERE id = 5266
+2022-09-08 15:28:13,873 [INFO] UPDATE course SET university_id = '209', updated_at = $1 WHERE id = 7721
+2022-09-08 15:28:14,032 [INFO] UPDATE course SET university_id = '125', updated_at = $1 WHERE id = 3709
+2022-09-08 15:28:14,210 [INFO] No need to update column: tuition_fees from course id: 3709. [Source is , and target is None]
+2022-09-08 15:28:14,211 [INFO] UPDATE course SET university_id = '143', updated_at = $1 WHERE id = 3650
+2022-09-08 15:28:14,387 [INFO] UPDATE course SET university_id = '141', updated_at = $1 WHERE id = 4464
+2022-09-08 15:28:14,560 [INFO] UPDATE course SET university_id = '128', updated_at = $1 WHERE id = 6210
+2022-09-08 15:28:14,751 [INFO] UPDATE course SET university_id = '131', updated_at = $1 WHERE id = 6956
+2022-09-08 15:28:14,925 [INFO] UPDATE course SET university_id = '118', updated_at = $1 WHERE id = 4333
+2022-09-08 15:28:15,084 [INFO] UPDATE course SET university_id = '143', updated_at = $1 WHERE id = 6093
+2022-09-08 15:28:15,250 [INFO] UPDATE course SET university_id = '128', updated_at = $1 WHERE id = 4281
+2022-09-08 15:28:15,435 [INFO] UPDATE course SET university_id = '143', updated_at = $1 WHERE id = 4580
+2022-09-08 15:28:15,603 [INFO] UPDATE course SET university_id = '118', updated_at = $1 WHERE id = 6899
+2022-09-08 15:28:15,762 [INFO] UPDATE course SET university_id = '110', updated_at = $1 WHERE id = 7858
+2022-09-08 15:28:15,926 [INFO] No need to update column: application_deadline from course id: 7858. [Source is , and target is None]
+2022-09-08 15:28:15,938 [INFO] UPDATE course SET university_id = '211', updated_at = $1 WHERE id = 5586
+2022-09-08 15:28:16,097 [INFO] UPDATE course SET university_id = '134', updated_at = $1 WHERE id = 6226
+2022-09-08 15:28:16,255 [INFO] No need to update column: tuition_fees from course id: 6226. [Source is , and target is None]
+2022-09-08 15:28:16,256 [INFO] UPDATE course SET university_id = '125', updated_at = $1 WHERE id = 4662
+2022-09-08 15:28:16,430 [INFO] No need to update column: tuition_fees from course id: 4662. [Source is , and target is None]
+2022-09-08 15:28:16,432 [INFO] UPDATE course SET university_id = '125', updated_at = $1 WHERE id = 3589
+2022-09-08 15:28:16,597 [INFO] No need to update column: tuition_fees from course id: 3589. [Source is , and target is None]
+2022-09-08 15:28:16,599 [INFO] UPDATE course SET university_id = '125', updated_at = $1 WHERE id = 3630
+2022-09-08 15:28:16,778 [INFO] UPDATE course SET university_id = '134', updated_at = $1 WHERE id = 4344
+2022-09-08 15:28:16,936 [INFO] No need to update column: tuition_fees from course id: 4344. [Source is , and target is None]
+2022-09-08 15:28:16,939 [INFO] UPDATE course SET university_id = '134', updated_at = $1 WHERE id = 6230
+2022-09-08 15:28:17,116 [INFO] No need to update column: tuition_fees from course id: 6230. [Source is , and target is None]
+2022-09-08 15:28:17,117 [INFO] UPDATE course SET university_id = '134', updated_at = $1 WHERE id = 6231
+2022-09-08 15:28:17,286 [INFO] No need to update column: tuition_fees from course id: 6231. [Source is , and target is None]
+2022-09-08 15:28:17,292 [INFO] UPDATE course SET university_id = '123', updated_at = $1 WHERE id = 3966
+2022-09-08 15:28:17,464 [INFO] UPDATE course SET university_id = '135', updated_at = $1 WHERE id = 7827
+2022-09-08 15:28:17,626 [INFO] UPDATE course SET university_id = '107', updated_at = $1 WHERE id = 3749
+2022-09-08 15:28:17,816 [INFO] UPDATE course SET university_id = '142', updated_at = $1 WHERE id = 4202
+2022-09-08 15:28:17,981 [INFO] UPDATE course SET university_id = '135', updated_at = $1 WHERE id = 3633
+2022-09-08 15:28:18,144 [INFO] UPDATE course SET university_id = '107', updated_at = $1 WHERE id = 3750
+2022-09-08 15:28:18,330 [INFO] UPDATE course SET university_id = '166', updated_at = $1 WHERE id = 6347
+2022-09-08 15:28:18,508 [INFO] UPDATE course SET university_id = '115', updated_at = $1 WHERE id = 3655
+2022-09-08 15:28:18,669 [INFO] UPDATE course SET university_id = '108', updated_at = $1 WHERE id = 6905
+2022-09-08 15:28:18,835 [INFO] UPDATE course SET university_id = '107', updated_at = $1 WHERE id = 3751
+2022-09-08 15:28:19,016 [INFO] UPDATE course SET university_id = '213', updated_at = $1 WHERE id = 4505
+2022-09-08 15:28:19,200 [INFO] UPDATE course SET university_id = '188', updated_at = $1 WHERE id = 3874
+2022-09-08 15:28:19,367 [INFO] UPDATE course SET university_id = '108', updated_at = $1 WHERE id = 3988
+2022-09-08 15:28:19,526 [INFO] UPDATE course SET university_id = '118', updated_at = $1 WHERE id = 4180
+2022-09-08 15:28:19,717 [INFO] UPDATE course SET university_id = '131', updated_at = $1 WHERE id = 3634
+2022-09-08 15:28:19,887 [INFO] UPDATE course SET university_id = '131', updated_at = $1 WHERE id = 4412
+2022-09-08 15:28:20,137 [INFO] UPDATE course SET university_id = '214', updated_at = $1 WHERE id = 6213
+2022-09-08 15:28:20,313 [INFO] UPDATE course SET university_id = '131', updated_at = $1 WHERE id = 4735
+2022-09-08 15:28:20,474 [INFO] UPDATE course SET university_id = '115', updated_at = $1 WHERE id = 3612
+2022-09-08 15:28:20,645 [INFO] UPDATE course SET university_id = '158', updated_at = $1 WHERE id = 6567
+2022-09-08 15:28:20,803 [INFO] UPDATE course SET university_id = '154', updated_at = $1 WHERE id = 4743
+2022-09-08 15:28:20,964 [INFO] UPDATE course SET university_id = '199', updated_at = $1 WHERE id = 5636
+2022-09-08 15:28:21,127 [INFO] UPDATE course SET university_id = '143', updated_at = $1 WHERE id = 4155
+2022-09-08 15:28:21,299 [INFO] UPDATE course SET university_id = '131', updated_at = $1 WHERE id = 4654
+2022-09-08 15:28:21,465 [INFO] UPDATE course SET university_id = '128', updated_at = $1 WHERE id = 6317
+2022-09-08 15:28:21,636 [INFO] UPDATE course SET university_id = '108', updated_at = $1 WHERE id = 4777
+2022-09-08 15:28:21,820 [INFO] UPDATE course SET university_id = '141', updated_at = $1 WHERE id = 7075
+2022-09-08 15:28:21,984 [INFO] UPDATE course SET university_id = '108', updated_at = $1 WHERE id = 3992
+2022-09-08 15:28:22,145 [INFO] UPDATE course SET university_id = '215', updated_at = $1 WHERE id = 5335
+2022-09-08 15:28:22,312 [INFO] UPDATE course SET university_id = '123', updated_at = $1 WHERE id = 6382
+2022-09-08 15:28:22,510 [INFO] No need to update column: application_deadline from course id: 6382. [Source is , and target is None]
+2022-09-08 15:28:22,511 [INFO] UPDATE course SET university_id = '123', updated_at = $1 WHERE id = 7649
+2022-09-08 15:28:22,674 [INFO] No need to update column: application_deadline from course id: 7649. [Source is , and target is None]
+2022-09-08 15:28:22,676 [INFO] UPDATE course SET university_id = '123', updated_at = $1 WHERE id = 4786
+2022-09-08 15:28:22,848 [INFO] UPDATE course SET university_id = '123', updated_at = $1 WHERE id = 3967
+2022-09-08 15:28:23,012 [INFO] UPDATE course SET university_id = '123', updated_at = $1 WHERE id = 3968
+2022-09-08 15:28:23,174 [INFO] UPDATE course SET university_id = '216', updated_at = $1 WHERE id = 6963
+2022-09-08 15:28:23,351 [INFO] UPDATE course SET university_id = '135', updated_at = $1 WHERE id = 5220
+2022-09-08 15:28:23,549 [INFO] UPDATE course SET university_id = '150', updated_at = $1 WHERE id = 5154
+2022-09-08 15:28:23,715 [INFO] No need to update column: tuition_fees from course id: 5154. [Source is , and target is None]
+2022-09-08 15:28:23,715 [INFO] No need to update column: beginning from course id: 5154. [Source is , and target is None]
+2022-09-08 15:28:23,716 [INFO] No need to update column: application_deadline from course id: 5154. [Source is , and target is None]
+2022-09-08 15:28:23,716 [INFO] No need to update column: programme_duration from course id: 5154. [Source is , and target is None]
+2022-09-08 15:28:23,718 [INFO] UPDATE course SET university_id = '217', updated_at = $1 WHERE id = 6156
+2022-09-08 15:28:23,883 [INFO] UPDATE course SET university_id = '117', updated_at = $1 WHERE id = 4068
+2022-09-08 15:28:24,058 [INFO] UPDATE course SET university_id = '108', updated_at = $1 WHERE id = 4707
+2022-09-08 15:28:24,227 [INFO] UPDATE course SET university_id = '115', updated_at = $1 WHERE id = 3794
+2022-09-08 15:28:24,403 [INFO] UPDATE course SET university_id = '218', updated_at = $1 WHERE id = 7767
+2022-09-08 15:28:24,567 [INFO] UPDATE course SET university_id = '142', updated_at = $1 WHERE id = 4398
+2022-09-08 15:28:24,732 [INFO] UPDATE course SET university_id = '206', updated_at = $1 WHERE id = 4061
+2022-09-08 15:28:24,910 [INFO] UPDATE course SET university_id = '110', updated_at = $1 WHERE id = 4142
+2022-09-08 15:28:25,077 [INFO] UPDATE course SET university_id = '170', updated_at = $1 WHERE id = 7204
+2022-09-08 15:28:25,247 [INFO] UPDATE course SET university_id = '150', updated_at = $1 WHERE id = 4754
+2022-09-08 15:28:25,424 [INFO] UPDATE course SET university_id = '118', updated_at = $1 WHERE id = 5362
+2022-09-08 15:28:25,601 [INFO] UPDATE course SET university_id = '136', updated_at = $1 WHERE id = 3758
+2022-09-08 15:28:25,763 [INFO] UPDATE course SET university_id = '109', updated_at = $1 WHERE id = 3718
+2022-09-08 15:28:25,921 [INFO] UPDATE course SET university_id = '235', updated_at = $1 WHERE id = 7763
+2022-09-08 15:28:26,084 [INFO] UPDATE course SET university_id = '164', updated_at = $1 WHERE id = 5149
+2022-09-08 15:28:26,250 [INFO] No need to update column: tuition_fees from course id: 5149. [Source is , and target is None]
+2022-09-08 15:28:26,251 [INFO] No need to update column: beginning from course id: 5149. [Source is , and target is None]
+2022-09-08 15:28:26,251 [INFO] No need to update column: application_deadline from course id: 5149. [Source is , and target is None]
+2022-09-08 15:28:26,251 [INFO] No need to update column: programme_duration from course id: 5149. [Source is , and target is None]
+2022-09-08 15:28:26,252 [INFO] UPDATE course SET university_id = '164', updated_at = $1 WHERE id = 5150
+2022-09-08 15:28:26,417 [INFO] No need to update column: tuition_fees from course id: 5150. [Source is , and target is None]
+2022-09-08 15:28:26,418 [INFO] No need to update column: beginning from course id: 5150. [Source is , and target is None]
+2022-09-08 15:28:26,418 [INFO] No need to update column: application_deadline from course id: 5150. [Source is , and target is None]
+2022-09-08 15:28:26,419 [INFO] No need to update column: programme_duration from course id: 5150. [Source is , and target is None]
+2022-09-08 15:28:26,420 [INFO] UPDATE course SET university_id = '164', updated_at = $1 WHERE id = 7706
+2022-09-08 15:28:26,591 [INFO] No need to update column: tuition_fees from course id: 7706. [Source is , and target is None]
+2022-09-08 15:28:26,591 [INFO] No need to update column: beginning from course id: 7706. [Source is , and target is None]
+2022-09-08 15:28:26,592 [INFO] No need to update column: application_deadline from course id: 7706. [Source is , and target is None]
+2022-09-08 15:28:26,592 [INFO] No need to update column: programme_duration from course id: 7706. [Source is , and target is None]
+2022-09-08 15:28:26,593 [INFO] UPDATE course SET university_id = '164', updated_at = $1 WHERE id = 5023
+2022-09-08 15:28:26,762 [INFO] No need to update column: tuition_fees from course id: 5023. [Source is , and target is None]
+2022-09-08 15:28:26,764 [INFO] No need to update column: beginning from course id: 5023. [Source is , and target is None]
+2022-09-08 15:28:26,764 [INFO] No need to update column: application_deadline from course id: 5023. [Source is , and target is None]
+2022-09-08 15:28:26,765 [INFO] No need to update column: programme_duration from course id: 5023. [Source is , and target is None]
+2022-09-08 15:28:26,769 [INFO] UPDATE course SET university_id = '163', updated_at = $1 WHERE id = 7843
+2022-09-08 15:28:26,937 [INFO] UPDATE course SET university_id = '164', updated_at = $1 WHERE id = 4705
+2022-09-08 15:28:27,093 [INFO] UPDATE course SET university_id = '221', updated_at = $1 WHERE id = 7729
+2022-09-08 15:28:27,278 [INFO] UPDATE course SET university_id = '113', updated_at = $1 WHERE id = 7212
+2022-09-08 15:28:27,450 [INFO] UPDATE course SET university_id = '131', updated_at = $1 WHERE id = 4308
+2022-09-08 15:28:27,634 [INFO] UPDATE course SET university_id = '238', updated_at = $1 WHERE id = 4829
+2022-09-08 15:28:27,814 [INFO] UPDATE course SET university_id = '222', updated_at = $1 WHERE id = 7281
+2022-09-08 15:28:28,018 [INFO] UPDATE course SET university_id = '108', updated_at = $1 WHERE id = 4827
+2022-09-08 15:28:28,183 [INFO] UPDATE course SET university_id = '223', updated_at = $1 WHERE id = 5591
+2022-09-08 15:28:28,351 [INFO] UPDATE course SET university_id = '120', updated_at = $1 WHERE id = 7747
+2022-09-08 15:28:28,537 [INFO] UPDATE course SET university_id = '170', updated_at = $1 WHERE id = 4309
+2022-09-08 15:28:28,708 [INFO] UPDATE course SET university_id = '165', updated_at = $1 WHERE id = 4944
+2022-09-08 15:28:28,862 [INFO] No need to update column: tuition_fees from course id: 4944. [Source is , and target is None]
+2022-09-08 15:28:28,864 [INFO] No need to update column: beginning from course id: 4944. [Source is , and target is None]
+2022-09-08 15:28:28,864 [INFO] No need to update column: application_deadline from course id: 4944. [Source is , and target is None]
+2022-09-08 15:28:28,864 [INFO] No need to update column: programme_duration from course id: 4944. [Source is , and target is None]
+2022-09-08 15:28:28,873 [INFO] UPDATE course SET university_id = '132', updated_at = $1 WHERE id = 5137
+2022-09-08 15:28:29,037 [INFO] No need to update column: tuition_fees from course id: 5137. [Source is , and target is None]
+2022-09-08 15:28:29,037 [INFO] No need to update column: beginning from course id: 5137. [Source is , and target is None]
+2022-09-08 15:28:29,038 [INFO] No need to update column: application_deadline from course id: 5137. [Source is , and target is None]
+2022-09-08 15:28:29,038 [INFO] No need to update column: programme_duration from course id: 5137. [Source is , and target is None]
+2022-09-08 15:28:29,039 [INFO] UPDATE course SET university_id = '108', updated_at = $1 WHERE id = 7670
+2022-09-08 15:28:29,227 [INFO] UPDATE course SET university_id = '222', updated_at = $1 WHERE id = 6349
+2022-09-08 15:28:29,447 [INFO] =========End updating new course  =========
+2022-09-08 15:28:29,932 [INFO] =========Start deleting course=========
+2022-09-08 15:28:32,663 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 15:28:32,811 [INFO] Course id = 7930 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 15:28:32,920 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 15:28:33,055 [INFO] Course id = 4604 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 15:28:33,211 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 15:28:33,333 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 15:28:33,466 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 15:28:33,585 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 15:28:33,716 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 15:28:33,893 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 15:28:34,012 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 15:28:34,119 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 15:28:34,257 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 15:28:34,638 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 15:28:34,762 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 15:28:34,988 [INFO] No course deleted
+2022-09-08 15:28:35,057 [INFO] =========End deleting course  =========
