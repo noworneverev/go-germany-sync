@@ -2860,3 +2860,88 @@
 2022-09-08 15:28:34,762 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-09-08 15:28:34,988 [INFO] No course deleted
 2022-09-08 15:28:35,057 [INFO] =========End deleting course  =========
+2022-09-08 18:26:59,116 [INFO] =========Start syncing university=========
+2022-09-08 18:26:59,808 [INFO] No new university
+2022-09-08 18:26:59,943 [INFO] =========End syncing university  =========
+2022-09-08 18:27:00,962 [INFO] =========Start creating new course=========
+2022-09-08 18:27:02,762 [INFO] No new course
+2022-09-08 18:27:02,898 [INFO] =========End creating new course  =========
+2022-09-08 18:27:03,948 [INFO] =========Start updating new course=========
+2022-09-08 18:27:05,765 [INFO] No course updated
+2022-09-08 18:27:05,900 [INFO] =========End updating new course  =========
+2022-09-08 18:27:06,928 [INFO] =========Start deleting course=========
+2022-09-08 18:27:08,556 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 18:27:08,839 [INFO] Course id = 7930 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 18:27:09,109 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 18:27:09,387 [INFO] Course id = 4604 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 18:27:09,659 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 18:27:09,939 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 18:27:10,218 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 18:27:10,491 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 18:27:10,762 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 18:27:11,038 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 18:27:11,309 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 18:27:11,578 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 18:27:11,857 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 18:27:12,173 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 18:27:12,443 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-08 18:27:12,871 [INFO] DELETE FROM courses_languages WHERE course_id = 8356
+2022-09-08 18:27:13,007 [INFO] DELETE FROM  course WHERE id = 8356
+2022-09-08 18:27:13,175 [INFO] =========End deleting course  =========
+2022-09-09 18:28:56,760 [INFO] =========Start syncing university=========
+2022-09-09 18:28:57,555 [INFO] No new university
+2022-09-09 18:28:57,712 [INFO] =========End syncing university  =========
+2022-09-09 18:28:58,872 [INFO] =========Start creating new course=========
+2022-09-09 18:29:01,254 [INFO] New courses created:
+2022-09-09 18:29:01,255 [INFO] [(8489, 34, 5, 'Berlin in the Winter / Berlin in the Summer', 'Berlin in the Winter / Berlin in the Summer', '', '', '', '', 'German Language Course (including Literature and Culture Studies)', '/deutschland/studienangebote/international-programmes/en/detail/8489/', False, '', False, '', True, datetime.datetime(2022, 9, 9, 18, 29, 0, 934463), None), (8481, 20, 2, 'European Mining Course (EMC)', 'European Mining Course (EMC)', '', '', 'none', 'Winter semester', 'Mining, Metallurgy', '/deutschland/studienangebote/international-programmes/en/detail/8481/', False, '<p><a href="http://www.emc-master.eu/Application">http://www.emc-master.eu</a></p>', False, '4 semesters', True, datetime.datetime(2022, 9, 9, 18, 29, 0, 934474), None), (8485, 34, 6, 'Global Governance: Power, Structure, and Agency', 'Global Governance: Power, Structure, and Agency', '', '', '', '', 'Social Science', '/deutschland/studienangebote/international-programmes/en/detail/8485/', False, '', False, '', True, datetime.datetime(2022, 9, 9, 18, 29, 0, 934478), None), (8486, 34, 6, 'Human Rights Violations in Germany: Gender, Colonial Crimes, & Transnational Corporations', 'Human Rights Violations in Germany', '', '', '', '', 'Social Science', '/deutschland/studienangebote/international-programmes/en/detail/8486/', False, '', False, '', True, datetime.datetime(2022, 9, 9, 18, 29, 0, 934482), None), (8488, 34, 6, 'Interreligious and Intercultural Tensions in Germany', 'Interreligious and Intercultural Tensions in Germany', '', '', '', '', 'Languages and Cultural Studies in general', '/deutschland/studienangebote/international-programmes/en/detail/8488/', False, '', False, '', True, datetime.datetime(2022, 9, 9, 18, 29, 0, 934486), None), (8487, 34, 6, 'Introduction to International Economic Law', 'Introduction to International Economic Law', '', '', '', '', 'Law, Economics and Social Sciences in general', '/deutschland/studienangebote/international-programmes/en/detail/8487/', False, '', False, '', True, datetime.datetime(2022, 9, 9, 18, 29, 0, 934490), None), (8483, 34, 6, 'Nazi Germany – Rise and Fall', 'Nazi Germany – Rise and Fall', '', '', '', '', 'History', '/deutschland/studienangebote/international-programmes/en/detail/8483/', False, '', False, '', True, datetime.datetime(2022, 9, 9, 18, 29, 0, 934494), None), (8484, 34, 6, 'Planning Economic and Urban Neighbourhoods in Transition – The Case of Berlin', 'Planning Economic and Urban Neighbourhoods in Transition', '', '', '', '', 'Town and Country Planning', '/deutschland/studienangebote/international-programmes/en/detail/8484/', False, '', False, '', True, datetime.datetime(2022, 9, 9, 18, 29, 0, 934503), None), (7082, 90, 3, 'Science of Intelligence (SCIoI)', 'Science of Intelligence (SCIoI)', '', '', 'none', 'Winter semester', 'Computer Science', '/deutschland/studienangebote/international-programmes/en/detail/7082/', False, '<p>Application window is 24 October to 24&nbsp;November (for a&nbsp;start in the&nbsp;following winter semester)</p>\n\n<p>Please see the <a href="https://www.scienceofintelligence.de/call-for-applications/open-positions/timeline/">website</a><a href="https://www.scienceofintelligence.de/call-for-applications/open-positions/"> </a>for the exact timeline.</p>', False, '6 semesters', True, datetime.datetime(2022, 9, 9, 18, 29, 0, 934512), None), (8482, 34, 6, 'The Berlin Wall and the Cold War Era', 'The Berlin Wall and the Cold War Era', '', '', '', '', 'History', '/deutschland/studienangebote/international-programmes/en/detail/8482/', False, '', False, '', True, datetime.datetime(2022, 9, 9, 18, 29, 0, 934516), None), (5041, 34, 6, 'Writers in and around Berlin: Reflections on Currently Discussed Books', 'Writers in and around Berlin', '', '', '', '', 'German Language and Literature (German, Germanic Languages except English)', '/deutschland/studienangebote/international-programmes/en/detail/5041/', False, '', False, '', True, datetime.datetime(2022, 9, 9, 18, 29, 0, 934519), None)]
+2022-09-09 18:29:01,572 [INFO] New courses_languages created:
+2022-09-09 18:29:01,573 [INFO] [(2974, 8489, 2), (2975, 8481, 1), (2976, 8485, 1), (2977, 8486, 1), (2978, 8488, 1), (2979, 8487, 1), (2980, 8483, 1), (2981, 8484, 1), (2982, 7082, 1), (2983, 8482, 1), (2984, 5041, 2)]
+2022-09-09 18:29:01,729 [INFO] =========End creating new course  =========
+2022-09-09 18:29:02,908 [INFO] =========Start updating new course=========
+2022-09-09 18:29:04,802 [INFO] UPDATE course SET application_deadline = '<p>Winter semester: 2 May to 31 May<br />
+Summer semester: 1 November to 30 November</p>', updated_at = $1 WHERE id = 7251
+2022-09-09 18:29:05,440 [INFO] =========End updating new course  =========
+2022-09-09 18:29:06,586 [INFO] =========Start deleting course=========
+2022-09-09 18:29:08,469 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-09 18:29:08,793 [INFO] Course id = 7930 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-09 18:29:09,106 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-09 18:29:09,581 [INFO] DELETE FROM courses_languages WHERE course_id = 4604
+2022-09-09 18:29:09,739 [INFO] DELETE FROM  course WHERE id = 4604
+2022-09-09 18:29:10,054 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-09 18:29:10,375 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-09 18:29:10,695 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-09 18:29:11,010 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-09 18:29:11,323 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-09 18:29:11,640 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-09 18:29:11,953 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-09 18:29:12,265 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-09 18:29:12,585 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-09 18:29:12,938 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-09 18:29:13,250 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-09 18:29:13,460 [INFO] =========End deleting course  =========
+2022-09-10 18:28:00,796 [INFO] =========Start syncing university=========
+2022-09-10 18:28:01,574 [INFO] No new university
+2022-09-10 18:28:01,727 [INFO] =========End syncing university  =========
+2022-09-10 18:28:02,916 [INFO] =========Start creating new course=========
+2022-09-10 18:28:04,977 [INFO] No new course
+2022-09-10 18:28:05,134 [INFO] =========End creating new course  =========
+2022-09-10 18:28:06,328 [INFO] =========Start updating new course=========
+2022-09-10 18:28:08,430 [INFO] No course updated
+2022-09-10 18:28:08,589 [INFO] =========End updating new course  =========
+2022-09-10 18:28:09,719 [INFO] =========Start deleting course=========
+2022-09-10 18:28:11,576 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-10 18:28:11,897 [INFO] Course id = 7930 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-10 18:28:12,204 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-10 18:28:12,523 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-10 18:28:12,840 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-10 18:28:13,157 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-10 18:28:13,467 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-10 18:28:13,775 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-10 18:28:14,088 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-10 18:28:14,396 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-10 18:28:14,703 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-10 18:28:15,019 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-10 18:28:15,373 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-10 18:28:15,680 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-10 18:28:15,738 [INFO] No course deleted
+2022-09-10 18:28:15,891 [INFO] =========End deleting course  =========
