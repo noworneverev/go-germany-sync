@@ -2945,3 +2945,63 @@ Summer semester: 1 November to 30 November</p>', updated_at = $1 WHERE id = 7251
 2022-09-10 18:28:15,680 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-09-10 18:28:15,738 [INFO] No course deleted
 2022-09-10 18:28:15,891 [INFO] =========End deleting course  =========
+2022-09-11 18:27:05,099 [INFO] =========Start syncing university=========
+2022-09-11 18:27:05,929 [INFO] No new university
+2022-09-11 18:27:06,091 [INFO] =========End syncing university  =========
+2022-09-11 18:27:07,292 [INFO] =========Start creating new course=========
+2022-09-11 18:27:09,501 [INFO] No new course
+2022-09-11 18:27:09,664 [INFO] =========End creating new course  =========
+2022-09-11 18:27:10,911 [INFO] =========Start updating new course=========
+2022-09-11 18:27:13,208 [INFO] No course updated
+2022-09-11 18:27:13,377 [INFO] =========End updating new course  =========
+2022-09-11 18:27:14,541 [INFO] =========Start deleting course=========
+2022-09-11 18:27:16,461 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-11 18:27:16,799 [INFO] Course id = 7930 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-11 18:27:17,117 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-11 18:27:17,450 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-11 18:27:17,782 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-11 18:27:18,116 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-11 18:27:18,439 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-11 18:27:18,758 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-11 18:27:19,086 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-11 18:27:19,405 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-11 18:27:19,722 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-11 18:27:20,053 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-11 18:27:20,450 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-11 18:27:20,768 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-11 18:27:20,866 [INFO] No course deleted
+2022-09-11 18:27:21,024 [INFO] =========End deleting course  =========
+2022-09-12 18:29:10,345 [INFO] =========Start syncing university=========
+2022-09-12 18:29:10,990 [INFO] No new university
+2022-09-12 18:29:11,116 [INFO] =========End syncing university  =========
+2022-09-12 18:29:12,050 [INFO] =========Start creating new course=========
+2022-09-12 18:29:14,013 [INFO] New courses created:
+2022-09-12 18:29:14,013 [INFO] [(5463, 125, 1, 'International Degree Programme – Shipping and Chartering BA', 'Shipping and Chartering', '', '', 'none', 'Winter semester, Summer semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/5463/', False, '<p>Please see: <a href="https://www.hs-bremen.de/internet/en/studium/bewerbung/fristen/">https://www.hs-bremen.de/internet/en/studium/bewerbung/fristen/</a></p>', False, '7 semesters', True, datetime.datetime(2022, 9, 12, 18, 29, 13, 757939), None), (4528, 125, 2, 'International MBA - Focus Human Resource Management', 'International MBA - Focus Human Resource Management', '', '', '', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/4528/', False, '<p>First round: 31 March<br />\nSecond round: 31 May<br />\nThird round (EU residents only): 31 July</p>', False, '2 semesters', True, datetime.datetime(2022, 9, 12, 18, 29, 13, 757965), None), (7024, 202, 2, "Master of Arts in Childhood Studies and Children's Rights (MACR)", "MA Childhood Studies and Children's Rights (MACR)", '', '', '2.533,00', 'Winter semester', 'Social Science', '/deutschland/studienangebote/international-programmes/en/detail/7024/', False, '<p><strong>15 May annually</strong></p>\n\n<p>Application documents must be sent electronically via e-mail in one PDF file to <a href="mailto:macr_application@fh-potsdam.de">macr_application@fh-potsdam.de</a>.</p>\n\n<p><strong>Attention:</strong> Applicants holding a degree from a non-German university must apply through <a href="https://www.uni-assist.de/en/">uni-assist</a>. Further information can be found on the page for&nbsp;<a href="https://www.fh-potsdam.de/en/study-further-education/application/bewerbungs-immatrikulationsverfahren/internationale-bewerberinnen">international applicants.</a> Register early, as the process can take up to six to eight weeks.</p>\n\n<p><strong>If you have a Master&#39;s entrance qualification that is officially documented by another institution, you can ask the FH Potsdam for recognition.</strong></p>', True, '3 semesters', True, datetime.datetime(2022, 9, 12, 18, 29, 13, 757980), None)]
+2022-09-12 18:29:14,267 [INFO] New courses_languages created:
+2022-09-12 18:29:14,267 [INFO] [(2985, 5463, 1), (2986, 4528, 1), (2987, 7024, 1)]
+2022-09-12 18:29:14,393 [INFO] =========End creating new course  =========
+2022-09-12 18:29:15,342 [INFO] =========Start updating new course=========
+2022-09-12 18:29:16,989 [INFO] No need to update column: tuition_fees from course id: 3589. [Source is , and target is None]
+2022-09-12 18:29:16,989 [INFO] UPDATE course SET application_deadline = '<p>First round: 31 March</p>
+
+<p>Second round: 31 May</p>
+
+<p>Third round (EU residents only): 31 July</p>', updated_at = $1 WHERE id = 3589
+2022-09-12 18:29:17,422 [INFO] =========End updating new course  =========
+2022-09-12 18:29:18,365 [INFO] =========Start deleting course=========
+2022-09-12 18:29:19,895 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-12 18:29:20,160 [INFO] Course id = 7930 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-12 18:29:20,414 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-12 18:29:20,676 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-12 18:29:20,938 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-12 18:29:21,200 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-12 18:29:21,456 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-12 18:29:21,710 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-12 18:29:21,968 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-12 18:29:22,223 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-12 18:29:22,475 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-12 18:29:22,736 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-12 18:29:23,033 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-12 18:29:23,285 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-12 18:29:23,341 [INFO] No course deleted
+2022-09-12 18:29:23,467 [INFO] =========End deleting course  =========
