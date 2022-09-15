@@ -3057,3 +3057,32 @@ Summer semester: 1 November to 30 November</p>', updated_at = $1 WHERE id = 7251
 2022-09-14 18:29:08,720 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-09-14 18:29:08,778 [INFO] No course deleted
 2022-09-14 18:29:08,884 [INFO] =========End deleting course  =========
+2022-09-15 18:28:56,738 [INFO] =========Start syncing university=========
+2022-09-15 18:28:57,565 [INFO] No new university
+2022-09-15 18:28:57,727 [INFO] =========End syncing university  =========
+2022-09-15 18:28:58,950 [INFO] =========Start creating new course=========
+2022-09-15 18:29:01,479 [INFO] New courses created:
+2022-09-15 18:29:01,479 [INFO] [(6403, 71, 1, 'BA Management in International Business', 'BA Management in International Business', '', '', '3.540,00', 'Winter semester, Summer semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/6403/', False, '<p>You can apply up to one year in advance.</p>\n\n<p>For non-EU citizens, we recommend applying not later than three months before the beginning of the semester. Due to the visa application process, you might not be able to start your studies in the desired semester.</p>\n\n<p>Please check the website of the German embassy of your country for more information about the visa process.</p>', True, '6 semesters', True, datetime.datetime(2022, 9, 15, 18, 29, 1, 142600), None), (6404, 71, 2, 'MA Business Management', 'MA Business Management', '', '', '3.900,00', 'Winter semester, Summer semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/6404/', False, '<p>You can apply up to one year in advance.</p>\n\n<p>For non-EU citizens, we recommend to apply no later than three months before the beginning of the semester. Due to the visa application process, you might not be able to start your studies in the desired semester.</p>\n\n<p>Please check the website of the German embassy of your country for more information about the visa process.</p>', True, '3 semesters', True, datetime.datetime(2022, 9, 15, 18, 29, 1, 142619), None)]
+2022-09-15 18:29:01,817 [INFO] New courses_languages created:
+2022-09-15 18:29:01,817 [INFO] [(2988, 6403, 1), (2989, 6404, 1)]
+2022-09-15 18:29:01,984 [INFO] =========End creating new course  =========
+2022-09-15 18:29:03,209 [INFO] =========Start updating new course=========
+2022-09-15 18:29:05,404 [INFO] No course updated
+2022-09-15 18:29:05,572 [INFO] =========End updating new course  =========
+2022-09-15 18:29:06,763 [INFO] =========Start deleting course=========
+2022-09-15 18:29:08,739 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-15 18:29:09,079 [INFO] Course id = 7930 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-15 18:29:09,406 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-15 18:29:09,744 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-15 18:29:10,081 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-15 18:29:10,417 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-15 18:29:10,748 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-15 18:29:11,076 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-15 18:29:11,410 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-15 18:29:11,738 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-15 18:29:12,066 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-15 18:29:12,401 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-15 18:29:12,776 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-15 18:29:13,103 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-15 18:29:13,163 [INFO] No course deleted
+2022-09-15 18:29:13,326 [INFO] =========End deleting course  =========
