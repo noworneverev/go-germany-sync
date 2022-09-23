@@ -3267,3 +3267,51 @@ Summer semester: 1 November to 30 November</p>', updated_at = $1 WHERE id = 7251
 2022-09-22 18:28:32,866 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-09-22 18:28:32,928 [INFO] No course deleted
 2022-09-22 18:28:33,064 [INFO] =========End deleting course  =========
+2022-09-23 18:31:44,214 [INFO] =========Start syncing university=========
+2022-09-23 18:31:44,907 [INFO] No new university
+2022-09-23 18:31:45,043 [INFO] =========End syncing university  =========
+2022-09-23 18:31:46,054 [INFO] =========Start creating new course=========
+2022-09-23 18:31:47,866 [INFO] No new course
+2022-09-23 18:31:48,002 [INFO] =========End creating new course  =========
+2022-09-23 18:31:49,015 [INFO] =========Start updating new course=========
+2022-09-23 18:31:50,747 [INFO] UPDATE course SET application_deadline = '<p><strong>30 November 2022:</strong> Early bird deadline*</p>
+
+<p><strong>1 February 2023</strong>:&nbsp;priority deadline<br />
+<strong>1 May 2023</strong>: final application deadline</p>
+
+<p>*Students who submit their application by <strong>30 November&nbsp;</strong>will automatically receive a tuition waiver which can also be combined with other scholarships.</p>
+
+<p>Before submitting your application, remember to carefully read our <a href="https://www.hertie-school.org/en/mds/admissions?utm_source=daad&amp;utm_medium=referral&amp;utm_campaign=degreedatabases">admission&nbsp;requirements</a>.</p>', updated_at = $1 WHERE id = 7169
+2022-09-23 18:31:51,021 [INFO] UPDATE course SET application_deadline = '<p><strong>30 November 2022:</strong> Early bird deadline*</p>
+
+<p><strong>1 February 2023:</strong> priority deadline<br />
+<strong>1 May 2023:</strong> final application deadline</p>
+
+<p>*Students who submit their application by <strong>30 November&nbsp;</strong>will automatically receive a tuition waiver which can also be combined with other scholarships.</p>
+
+<p>Before submitting your application, remember to read our <a href="https://www.hertie-school.org/en/mia/admissions?utm_source=daad&amp;utm_medium=referral&amp;utm_campaign=degreedatabases">admission&nbsp;requirements</a> carefully.</p>', updated_at = $1 WHERE id = 4475
+2022-09-23 18:31:51,295 [INFO] UPDATE course SET application_deadline = '<p><strong>30 November 2022</strong>: Early-bird deadline*</p>
+
+<p><strong>1 February 2023:</strong> priority deadline<br />
+<strong>1 May 2023:</strong> final application deadline<br />
+<br />
+*Students who submit their application by <strong>30&nbsp;November&nbsp;</strong>will automatically receive a&nbsp;tuition waiver which can also be combined with other scholarships.</p>
+
+<p>Before submitting your application, remember to read our <a href="https://www.hertie-school.org/en/mpp/admissions?utm_source=daad&amp;utm_medium=referral&amp;utm_campaign=degreedatabases">admission&nbsp;requirements</a> carefully.</p>', updated_at = $1 WHERE id = 4063
+2022-09-23 18:31:51,787 [INFO] =========End updating new course  =========
+2022-09-23 18:31:52,789 [INFO] =========Start deleting course=========
+2022-09-23 18:31:54,407 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-23 18:31:54,689 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-23 18:31:54,967 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-23 18:31:55,243 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-23 18:31:55,520 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-23 18:31:55,790 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-23 18:31:56,059 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-23 18:31:56,332 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-23 18:31:56,600 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-23 18:31:56,868 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-23 18:31:57,143 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-23 18:31:57,455 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-23 18:31:57,722 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-23 18:31:57,780 [INFO] No course deleted
+2022-09-23 18:31:57,913 [INFO] =========End deleting course  =========
