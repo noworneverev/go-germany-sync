@@ -3468,3 +3468,31 @@ Summer semester: 1 November to 30 November</p>', updated_at = $1 WHERE id = 7251
 2022-09-29 18:32:56,023 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-09-29 18:32:56,098 [INFO] No course deleted
 2022-09-29 18:32:56,205 [INFO] =========End deleting course  =========
+2022-09-30 18:32:22,097 [INFO] =========Start syncing university=========
+2022-09-30 18:32:22,746 [INFO] No new university
+2022-09-30 18:32:22,872 [INFO] =========End syncing university  =========
+2022-09-30 18:32:23,809 [INFO] =========Start creating new course=========
+2022-09-30 18:32:25,832 [INFO] New courses created:
+2022-09-30 18:32:25,832 [INFO] [(7065, 19, 2, 'Advanced Architecture — From Urban Design to Building Construction', 'Advanced Architecture', '', '', 'none', 'Summer semester', 'Architecture', '/deutschland/studienangebote/international-programmes/en/detail/7065/', False, '<p>The application deadline for the next summer semester is 1 March of the same year for applicants holding German Bachelor&#39;s degrees. Applicants with Bachelor&rsquo;s degrees from foreign countries must submit their applications by 15 October of the previous year.</p>', False, '4 semesters', True, datetime.datetime(2022, 9, 30, 18, 32, 25, 578642), None), (5377, 203, 2, 'Master of Arts in Philosophy, Politics and Economics (MA PPE)', 'MA Philosophy, Politics and Economics', '', '', '', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/5377/', False, '<p>We offer a rolling application process. You can apply all year round and secure your study place at an early date.</p>', True, '4 semesters', True, datetime.datetime(2022, 9, 30, 18, 32, 25, 578676), None), (5383, 203, 2, 'Master of Science in Strategy and Organisation', 'MSc Strategy and Organisation', '', '', '', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/5383/', False, '<p>We offer a rolling application process. This means that you can apply all year round and secure your study place at an early date.</p>', True, '4 semesters', True, datetime.datetime(2022, 9, 30, 18, 32, 25, 578691), None)]
+2022-09-30 18:32:26,086 [INFO] New courses_languages created:
+2022-09-30 18:32:26,086 [INFO] [(3006, 7065, 1), (3007, 5377, 1), (3008, 5383, 1)]
+2022-09-30 18:32:26,212 [INFO] =========End creating new course  =========
+2022-09-30 18:32:27,163 [INFO] =========Start updating new course=========
+2022-09-30 18:32:28,947 [INFO] No course updated
+2022-09-30 18:32:29,074 [INFO] =========End updating new course  =========
+2022-09-30 18:32:30,061 [INFO] =========Start deleting course=========
+2022-09-30 18:32:31,611 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-30 18:32:31,889 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-30 18:32:32,162 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-30 18:32:32,434 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-30 18:32:32,706 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-30 18:32:32,966 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-30 18:32:33,225 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-30 18:32:33,490 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-30 18:32:33,747 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-30 18:32:34,003 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-30 18:32:34,272 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-30 18:32:34,611 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-30 18:32:34,867 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-09-30 18:32:34,972 [INFO] No course deleted
+2022-09-30 18:32:35,099 [INFO] =========End deleting course  =========
