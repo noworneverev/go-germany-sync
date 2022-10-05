@@ -3596,3 +3596,32 @@ Summer semester: 1 November to 30 November</p>', updated_at = $1 WHERE id = 7251
 2022-10-04 18:37:18,326 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-10-04 18:37:18,387 [INFO] No course deleted
 2022-10-04 18:37:18,544 [INFO] =========End deleting course  =========
+2022-10-05 18:39:47,433 [INFO] =========Start syncing university=========
+2022-10-05 18:39:48,635 [INFO] New university:
+2022-10-05 18:39:48,635 [INFO] [(248, 'NIT Northern Institute of Technology Management', '', 'Hamburg', True, False, False, None, datetime.datetime(2022, 10, 5, 18, 39, 48, 295577), None, '')]
+2022-10-05 18:39:48,804 [INFO] =========End syncing university  =========
+2022-10-05 18:39:50,004 [INFO] =========Start creating new course=========
+2022-10-05 18:39:52,467 [INFO] New courses created:
+2022-10-05 18:39:52,467 [INFO] [(6348, 248, 2, "Double Degree Master's in Technology Management (MBA + MSc)", "Double Degree Master's in Technology Management (MBA + MSc)", '', '', 'varied', 'Winter semester', 'Engineering in general', '/deutschland/studienangebote/international-programmes/en/detail/6348/', False, '<p><strong>Double Master&#39;s degree programme:</strong></p>\n\n<ul>\n\t<li>NIT (MA/MBA) + International TUHH Master&#39;s: <strong>1 March </strong>for the following winter semester</li>\n\t<li>NIT&nbsp;(MA/MBA) + German TUHH Master&#39;s: <strong>15 July</strong> for the following winter semester</li>\n</ul>\n\n<p><strong><a href="https://www.nithh.de/admissions">Application process for the double Master&#39;s degree programme</a></strong></p>\n\n<p>If you prefer to study only our <strong>MBA/Master&#39;s programme</strong> in Technology Management, check the application process here:&nbsp;<a href="https://www.nithh.de/admissions">Application process for the Master&#39;s degree programme</a></p>', False, '4 semesters', True, datetime.datetime(2022, 10, 5, 18, 39, 52, 140459), None), (8497, 39, 2, 'International Management, MA', 'International Management, MA', '', '', 'none', 'Winter semester, Summer semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/8497/', False, '<p>15 July for the winter semester</p>\n\n<p>15 January for the summer semester</p>\n\n<p>Due to the visa processing time, it is strongly recommended that non-EU applicants submit their documents at the beginning of the application period (1 April &amp; 1 November).</p>', False, '3 semesters', True, datetime.datetime(2022, 10, 5, 18, 39, 52, 140473), None), (4090, 248, 2, 'MBA | MA in Technology Management', 'MBA | MA in Technology Management', '', '', 'varied', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/4090/', False, '<p><strong>MBA/Master&#39;s programme:</strong></p>\n\n<p><strong>NIT (MA/MBA):</strong> <strong>15 July</strong> for the following winter semester<br />\n<a href="https://www.nithh.de/admissions">Application process for the Master&#39;s degree programme</a></p>\n\n<p>If you are interested in our <strong>double degree Master&#39;s</strong> programme as well, please check the application process here:<br />\n<a href="https://www.nithh.de/admissions">Application process for the double degree Master&#39;s programme</a></p>', False, '4 semesters', True, datetime.datetime(2022, 10, 5, 18, 39, 52, 140488), None)]
+2022-10-05 18:39:52,793 [INFO] New courses_languages created:
+2022-10-05 18:39:52,793 [INFO] [(3009, 6348, 1), (3010, 8497, 1), (3011, 4090, 1)]
+2022-10-05 18:39:52,955 [INFO] =========End creating new course  =========
+2022-10-05 18:39:54,165 [INFO] =========Start updating new course=========
+2022-10-05 18:39:56,338 [INFO] No course updated
+2022-10-05 18:39:56,503 [INFO] =========End updating new course  =========
+2022-10-05 18:39:57,713 [INFO] =========Start deleting course=========
+2022-10-05 18:39:59,713 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-05 18:40:00,060 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-05 18:40:00,403 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-05 18:40:00,745 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-05 18:40:01,087 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-05 18:40:01,422 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-05 18:40:01,754 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-05 18:40:02,092 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-05 18:40:02,424 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-05 18:40:02,755 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-05 18:40:03,095 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-05 18:40:03,475 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-05 18:40:03,806 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-05 18:40:03,869 [INFO] No course deleted
+2022-10-05 18:40:04,034 [INFO] =========End deleting course  =========
