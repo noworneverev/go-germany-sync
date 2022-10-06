@@ -3625,3 +3625,37 @@ Summer semester: 1 November to 30 November</p>', updated_at = $1 WHERE id = 7251
 2022-10-05 18:40:03,806 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-10-05 18:40:03,869 [INFO] No course deleted
 2022-10-05 18:40:04,034 [INFO] =========End deleting course  =========
+2022-10-06 18:33:28,772 [INFO] =========Start syncing university=========
+2022-10-06 18:33:29,461 [INFO] No new university
+2022-10-06 18:33:29,596 [INFO] =========End syncing university  =========
+2022-10-06 18:33:30,611 [INFO] =========Start creating new course=========
+2022-10-06 18:33:32,671 [INFO] New courses created:
+2022-10-06 18:33:32,671 [INFO] [(5569, 187, 3, 'International Max Planck Research School for Ultrafast Imaging & Structural Dynamics (IMPRS UFAST)', 'IMPRS for Ultrafast Imaging & Structural Dynamics (UFAST)', '', '', 'none', 'Any time', 'Mathematics, Natural Sciences in general', '/deutschland/studienangebote/international-programmes/en/detail/5569/', False, '<p>The annual call for applications opens on 15 September and ends on 15 November. Online registration is required prior to application. Please refer to the following website for details: <a href="https://www.mpsd.mpg.de/imprs-ufast/apply">https://www.mpsd.mpg.de/imprs-ufast/apply</a>.</p>', False, '6 semesters', True, datetime.datetime(2022, 10, 6, 18, 33, 32, 403081), None)]
+2022-10-06 18:33:32,940 [INFO] New courses_languages created:
+2022-10-06 18:33:32,940 [INFO] [(3012, 5569, 1)]
+2022-10-06 18:33:33,074 [INFO] =========End creating new course  =========
+2022-10-06 18:33:34,063 [INFO] =========Start updating new course=========
+2022-10-06 18:33:35,794 [INFO] UPDATE course SET tuition_fees = '2.450,00', updated_at = $1 WHERE id = 3841
+2022-10-06 18:33:36,126 [INFO] No need to update column: tuition_fees from course id: 5045. [Source is , and target is None]
+2022-10-06 18:33:36,127 [INFO] No need to update column: beginning from course id: 5045. [Source is , and target is None]
+2022-10-06 18:33:36,127 [INFO] UPDATE course SET subject = 'Political Science', updated_at = $1 WHERE id = 5045
+2022-10-06 18:33:36,396 [INFO] No need to update column: application_deadline from course id: 5045. [Source is , and target is None]
+2022-10-06 18:33:36,396 [INFO] No need to update column: programme_duration from course id: 5045. [Source is , and target is None]
+2022-10-06 18:33:36,534 [INFO] =========End updating new course  =========
+2022-10-06 18:33:37,572 [INFO] =========Start deleting course=========
+2022-10-06 18:33:39,196 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-06 18:33:39,478 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-06 18:33:39,757 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-06 18:33:40,036 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-06 18:33:40,452 [INFO] DELETE FROM courses_languages WHERE course_id = 3807
+2022-10-06 18:33:40,588 [INFO] DELETE FROM  course WHERE id = 3807
+2022-10-06 18:33:40,858 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-06 18:33:41,130 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-06 18:33:41,400 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-06 18:33:41,674 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-06 18:33:41,943 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-06 18:33:42,212 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-06 18:33:42,488 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-06 18:33:42,801 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-06 18:33:43,069 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-06 18:33:43,263 [INFO] =========End deleting course  =========
