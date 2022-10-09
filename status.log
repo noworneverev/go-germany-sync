@@ -3713,3 +3713,28 @@ Summer semester: 1 November to 30 November</p>', updated_at = $1 WHERE id = 7251
 2022-10-08 18:29:05,909 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-10-08 18:29:06,018 [INFO] No course deleted
 2022-10-08 18:29:06,126 [INFO] =========End deleting course  =========
+2022-10-09 18:29:10,269 [INFO] =========Start syncing university=========
+2022-10-09 18:29:10,919 [INFO] No new university
+2022-10-09 18:29:11,045 [INFO] =========End syncing university  =========
+2022-10-09 18:29:12,004 [INFO] =========Start creating new course=========
+2022-10-09 18:29:13,785 [INFO] No new course
+2022-10-09 18:29:13,910 [INFO] =========End creating new course  =========
+2022-10-09 18:29:14,869 [INFO] =========Start updating new course=========
+2022-10-09 18:29:16,629 [INFO] No course updated
+2022-10-09 18:29:16,756 [INFO] =========End updating new course  =========
+2022-10-09 18:29:17,708 [INFO] =========Start deleting course=========
+2022-10-09 18:29:19,248 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-09 18:29:19,521 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-09 18:29:19,791 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-09 18:29:20,058 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-09 18:29:20,325 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-09 18:29:20,583 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-09 18:29:20,840 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-09 18:29:21,102 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-09 18:29:21,358 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-09 18:29:21,612 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-09 18:29:21,877 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-09 18:29:22,197 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-09 18:29:22,452 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-09 18:29:22,532 [INFO] No course deleted
+2022-10-09 18:29:22,659 [INFO] =========End deleting course  =========
