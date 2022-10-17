@@ -3944,3 +3944,36 @@ Summer semester: 1 November to 30 November</p>', updated_at = $1 WHERE id = 7251
 2022-10-16 18:29:30,119 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-10-16 18:29:30,216 [INFO] No course deleted
 2022-10-16 18:29:30,324 [INFO] =========End deleting course  =========
+2022-10-17 18:43:21,037 [INFO] =========Start syncing university=========
+2022-10-17 18:43:21,805 [INFO] New university:
+2022-10-17 18:43:21,806 [INFO] [(249, 'University of Marburg', '', 'Marburg', True, False, False, None, datetime.datetime(2022, 10, 17, 18, 43, 21, 591098), None, '')]
+2022-10-17 18:43:21,914 [INFO] =========End syncing university  =========
+2022-10-17 18:43:22,727 [INFO] =========Start creating new course=========
+2022-10-17 18:43:24,503 [INFO] New courses created:
+2022-10-17 18:43:24,503 [INFO] [(4056, 42, 2, 'Intercultural Theology (MA)', 'Intercultural Theology (MA)', '', '', 'none', 'Winter semester', 'Protestant Theology', '/deutschland/studienangebote/international-programmes/en/detail/4056/', False, '<p>Please note: we highly recommend that applicants submit their applications from December to March in order to increase their chances of receiving a scholarship. The application deadline is 1 April.</p>', False, '4 semesters', True, datetime.datetime(2022, 10, 17, 18, 43, 24, 287573), None)]
+2022-10-17 18:43:24,721 [INFO] New courses_languages created:
+2022-10-17 18:43:24,721 [INFO] [(3013, 4056, 1)]
+2022-10-17 18:43:24,828 [INFO] =========End creating new course  =========
+2022-10-17 18:43:25,645 [INFO] =========Start updating new course=========
+2022-10-17 18:43:26,986 [INFO] UPDATE course SET university_id = '249', updated_at = $1 WHERE id = 4055
+2022-10-17 18:43:27,203 [INFO] UPDATE course SET application_deadline = '<p>Application deadline for the winter semester is 15 June.<br />
+Application deadline for the summer semester is 15 December.<br />
+<br />
+The online application system is available between 1 October and 15 December&nbsp;and between 1 April and 15 June. Submitting the application as early as possible is recommended for international students who require a visa for Germany. Applicants who submit their complete application no later than 5 November/10 May are also eligible for accommodation in one of the university&#39;s residence halls.</p>', updated_at = $1 WHERE id = 4055
+2022-10-17 18:43:27,764 [INFO] =========End updating new course  =========
+2022-10-17 18:43:28,587 [INFO] =========Start deleting course=========
+2022-10-17 18:43:29,889 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-17 18:43:30,127 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-17 18:43:30,362 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-17 18:43:30,594 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-17 18:43:30,825 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-17 18:43:31,044 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-17 18:43:31,263 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-17 18:43:31,490 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-17 18:43:31,705 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-17 18:43:31,919 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-17 18:43:32,158 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-17 18:43:32,460 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-17 18:43:32,674 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-17 18:43:32,790 [INFO] No course deleted
+2022-10-17 18:43:32,897 [INFO] =========End deleting course  =========
