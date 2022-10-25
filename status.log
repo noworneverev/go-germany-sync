@@ -4158,3 +4158,37 @@ Application deadline for the summer semester is 15 January.</p>
 2022-10-24 18:40:16,288 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-10-24 18:40:16,602 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-10-24 18:40:16,825 [INFO] =========End deleting course  =========
+2022-10-25 18:53:06,792 [INFO] =========Start syncing university=========
+2022-10-25 18:53:07,448 [INFO] No new university
+2022-10-25 18:53:07,576 [INFO] =========End syncing university  =========
+2022-10-25 18:53:08,537 [INFO] =========Start creating new course=========
+2022-10-25 18:53:10,296 [INFO] No new course
+2022-10-25 18:53:10,423 [INFO] =========End creating new course  =========
+2022-10-25 18:53:11,373 [INFO] =========Start updating new course=========
+2022-10-25 18:53:12,925 [INFO] UPDATE course SET tuition_fees = '12.500,00', updated_at = $1 WHERE id = 3666
+2022-10-25 18:53:13,208 [INFO] UPDATE course SET beginning = 'Winter semester, Summer semester', updated_at = $1 WHERE id = 7183
+2022-10-25 18:53:13,463 [INFO] UPDATE course SET application_deadline = '<ol>
+	<li>Applicants with a Bachelor&#39;s degree from outside of Germany must first apply via <a href="https://bit.ly/2sTgnDB">uni-assist</a> from as soon as possible until 15 June for the following winter semester or until 1 December for the following summer semester.<br />
+	If you have acquired your Bachelor&#39;s degree outside of Germany, uni-assist has to verify your eligibility to study in Germany and to convert your grades into the German grading system. You will have to submit all required documents to uni-assist online. The process takes four to six weeks.</li>
+	<li><a href="http://bit.ly/2GoD5J4">PRIMUSS &ndash; THI application portal</a>: from 2 May until 15 July for the following winter semester or from 15 November until 15 January for the following summer semester.<br />
+	You will have to apply online at the PRIMUSS university application portal. In case of admission, you will have to send all required documents by mail later on.</li>
+</ol>
+
+<p>Note: Due to the coronavirus situation, application deadlines might change. Please check the <a href="https://www.thi.de/en/international/studies/application">THI website</a> to get up-to-date information regarding the application period.</p>', updated_at = $1 WHERE id = 7183
+2022-10-25 18:53:14,028 [INFO] =========End updating new course  =========
+2022-10-25 18:53:15,005 [INFO] =========Start deleting course=========
+2022-10-25 18:53:16,550 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-25 18:53:16,833 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-25 18:53:17,106 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-25 18:53:17,378 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-25 18:53:17,647 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-25 18:53:17,906 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-25 18:53:18,164 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-25 18:53:18,428 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-25 18:53:18,685 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-25 18:53:18,941 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-25 18:53:19,208 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-25 18:53:19,534 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-25 18:53:19,789 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-25 18:53:19,879 [INFO] No course deleted
+2022-10-25 18:53:20,006 [INFO] =========End deleting course  =========
