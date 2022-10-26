@@ -4192,3 +4192,34 @@ Application deadline for the summer semester is 15 January.</p>
 2022-10-25 18:53:19,789 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-10-25 18:53:19,879 [INFO] No course deleted
 2022-10-25 18:53:20,006 [INFO] =========End deleting course  =========
+2022-10-26 18:28:14,744 [INFO] =========Start syncing university=========
+2022-10-26 18:28:15,550 [INFO] No new university
+2022-10-26 18:28:15,708 [INFO] =========End syncing university  =========
+2022-10-26 18:28:16,933 [INFO] =========Start creating new course=========
+2022-10-26 18:28:19,471 [INFO] New courses created:
+2022-10-26 18:28:19,471 [INFO] [(5519, 22, 5, 'MISU at LMU: Fit for B1 Certificate', 'Fit for B1 Certificate', '', '', '', '', 'German Language Course (including Literature and Culture Studies)', '/deutschland/studienangebote/international-programmes/en/detail/5519/', False, '', False, '', True, datetime.datetime(2022, 10, 26, 18, 28, 19, 134573), None)]
+2022-10-26 18:28:19,808 [INFO] New courses_languages created:
+2022-10-26 18:28:19,808 [INFO] [(3013, 5519, 2)]
+2022-10-26 18:28:19,976 [INFO] =========End creating new course  =========
+2022-10-26 18:28:21,197 [INFO] =========Start updating new course=========
+2022-10-26 18:28:23,288 [INFO] UPDATE course SET application_deadline = '<ul>
+	<li>15 January for the following summer semester</li>
+	<li>15 July for the following winter semester</li>
+</ul>', updated_at = $1 WHERE id = 4826
+2022-10-26 18:28:23,877 [INFO] =========End updating new course  =========
+2022-10-26 18:28:25,110 [INFO] =========Start deleting course=========
+2022-10-26 18:28:27,143 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-26 18:28:27,494 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-26 18:28:27,843 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-26 18:28:28,190 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-26 18:28:28,537 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-26 18:28:28,878 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-26 18:28:29,217 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-26 18:28:29,561 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-26 18:28:29,899 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-26 18:28:30,236 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-26 18:28:30,582 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-26 18:28:30,969 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-26 18:28:31,306 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-10-26 18:28:31,369 [INFO] No course deleted
+2022-10-26 18:28:31,537 [INFO] =========End deleting course  =========
