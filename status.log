@@ -4376,3 +4376,53 @@ Application deadline for the summer semester is 15 January.</p>
 2022-11-01 18:30:14,401 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-11-01 18:30:14,476 [INFO] No course deleted
 2022-11-01 18:30:14,584 [INFO] =========End deleting course  =========
+2022-11-02 18:28:25,560 [INFO] =========Start syncing university=========
+2022-11-02 18:28:26,214 [INFO] No new university
+2022-11-02 18:28:26,341 [INFO] =========End syncing university  =========
+2022-11-02 18:28:27,322 [INFO] =========Start creating new course=========
+2022-11-02 18:28:29,105 [INFO] No new course
+2022-11-02 18:28:29,232 [INFO] =========End creating new course  =========
+2022-11-02 18:28:30,183 [INFO] =========Start updating new course=========
+2022-11-02 18:28:31,704 [INFO] UPDATE course SET application_deadline = '<p>15 July for the following winter semester</p>
+
+<p>Due to the visa processing time, it is strongly recommended that non-EU applicants submit their documents at the beginning of the application period (1 April).</p>', updated_at = $1 WHERE id = 7666
+2022-11-02 18:28:31,994 [INFO] UPDATE course SET application_deadline = '<p>15 January for the following summer semester</p>
+
+<p>Due to the visa processing time, it is strongly recommended that non-EU applicants submit their documents at the beginning of the application period (1&nbsp;November).</p>', updated_at = $1 WHERE id = 8368
+2022-11-02 18:28:32,249 [INFO] UPDATE course SET application_deadline = '<p>15 June for the winter semester<br />
+15 December for the summer semester</p>
+
+<p>Due to the visa processing time, it is strongly recommended that non-EU applicants submit their documents at the beginning of the application period on 1 April / 1 November!</p>', updated_at = $1 WHERE id = 4636
+2022-11-02 18:28:32,531 [INFO] UPDATE course SET application_deadline = '<p>15 July for the following&nbsp;winter semester<br />
+15 December for the following summer semester</p>', updated_at = $1 WHERE id = 8282
+2022-11-02 18:28:32,792 [INFO] UPDATE course SET application_deadline = '<p>15 January for the following summer semester</p>
+
+<p>Due to the visa processing time, it is strongly recommended that non-EU applicants submit their documents at the beginning of the application period (1&nbsp;November).</p>', updated_at = $1 WHERE id = 7892
+2022-11-02 18:28:33,125 [INFO] UPDATE course SET application_deadline = '<p>15 June for the following winter semester</p>
+
+<p>Due to the visa processing time, it is STRONGLY recommended that non-EU applicants submit their documents at the beginning of the application period on 1 April!</p>', updated_at = $1 WHERE id = 5281
+2022-11-02 18:28:33,384 [INFO] UPDATE course SET application_deadline = '<p>Summer semester:</p>
+
+<p>Start of the application period: 16 November 2022<br />
+End of the application period: 16 December 2022</p>
+
+<p>Winter semester:<br />
+The dates will be announced later.</p>', updated_at = $1 WHERE id = 7721
+2022-11-02 18:28:33,648 [INFO] UPDATE course SET application_deadline = '<p>31 December&nbsp;2022 for a study start on 1 September 2023</p>', updated_at = $1 WHERE id = 7037
+2022-11-02 18:28:34,105 [INFO] =========End updating new course  =========
+2022-11-02 18:28:35,072 [INFO] =========Start deleting course=========
+2022-11-02 18:28:36,624 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-02 18:28:36,902 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-02 18:28:37,176 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-02 18:28:37,448 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-02 18:28:37,719 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-02 18:28:37,979 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-02 18:28:38,238 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-02 18:28:38,503 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-02 18:28:38,761 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-02 18:28:39,017 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-02 18:28:39,285 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-02 18:28:39,624 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-02 18:28:39,880 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-02 18:28:39,983 [INFO] No course deleted
+2022-11-02 18:28:40,110 [INFO] =========End deleting course  =========
