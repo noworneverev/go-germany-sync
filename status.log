@@ -4426,3 +4426,34 @@ The dates will be announced later.</p>', updated_at = $1 WHERE id = 7721
 2022-11-02 18:28:39,880 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-11-02 18:28:39,983 [INFO] No course deleted
 2022-11-02 18:28:40,110 [INFO] =========End deleting course  =========
+2022-11-03 18:33:03,982 [INFO] =========Start syncing university=========
+2022-11-03 18:33:04,629 [INFO] No new university
+2022-11-03 18:33:04,755 [INFO] =========End syncing university  =========
+2022-11-03 18:33:05,696 [INFO] =========Start creating new course=========
+2022-11-03 18:33:07,392 [INFO] No new course
+2022-11-03 18:33:07,518 [INFO] =========End creating new course  =========
+2022-11-03 18:33:08,461 [INFO] =========Start updating new course=========
+2022-11-03 18:33:10,005 [INFO] UPDATE course SET beginning = 'Winter semester', updated_at = $1 WHERE id = 8309
+2022-11-03 18:33:10,261 [INFO] UPDATE course SET application_deadline = '<ol>
+	<li>Applicants with a Bachelor&#39;s degree from outside of Germany must first apply via <a href="https://bit.ly/2sTgnDB">uni-assist</a> by 15 June for the following winter semester at the latest. If you acquired your Bachelor&#39;s degree outside of Germany, uni-assist has to verify your eligibility to study in Germany and to convert your grades to the German grade system. You will have to submit all required documents to uni-assist online. The process takes four to six weeks.</li>
+	<li><a href="http://bit.ly/2GoD5J4">PRIMUSS &ndash; THI application portal</a>: from 2 May until 15 July for the following winter semester<br />
+	You will have to apply online at the PRIMUSS university application portal. In case of admission, you will have to send all required documents by post later on.</li>
+	<li>Please note that due to the coronavirus situation, application deadlines might change. Please check <a href="https://www.thi.de/en/international/studies/application">the THI website</a> to get up-to-date information regarding the application periods.</li>
+</ol>', updated_at = $1 WHERE id = 8309
+2022-11-03 18:33:10,797 [INFO] =========End updating new course  =========
+2022-11-03 18:33:11,739 [INFO] =========Start deleting course=========
+2022-11-03 18:33:13,280 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-03 18:33:13,548 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-03 18:33:13,813 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-03 18:33:14,076 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-03 18:33:14,340 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-03 18:33:14,597 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-03 18:33:14,853 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-03 18:33:15,114 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-03 18:33:15,370 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-03 18:33:15,624 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-03 18:33:15,887 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-03 18:33:16,188 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-03 18:33:16,444 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-03 18:33:16,503 [INFO] No course deleted
+2022-11-03 18:33:16,630 [INFO] =========End deleting course  =========
