@@ -4457,3 +4457,32 @@ The dates will be announced later.</p>', updated_at = $1 WHERE id = 7721
 2022-11-03 18:33:16,444 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-11-03 18:33:16,503 [INFO] No course deleted
 2022-11-03 18:33:16,630 [INFO] =========End deleting course  =========
+2022-11-04 18:26:54,470 [INFO] =========Start syncing university=========
+2022-11-04 18:26:55,124 [INFO] No new university
+2022-11-04 18:26:55,251 [INFO] =========End syncing university  =========
+2022-11-04 18:26:56,204 [INFO] =========Start creating new course=========
+2022-11-04 18:26:58,225 [INFO] New courses created:
+2022-11-04 18:26:58,225 [INFO] [(8505, 24, 1, "Bachelor's in Sustainable Management & Technology (BSMT)", "Bachelor's in Sustainable Management & Technology (BSMT)", '', '', 'none', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/8505/', False, '<p>Application period between 15 May and 15 July (national and international applicants)</p>', False, '6 semesters', True, datetime.datetime(2022, 11, 4, 18, 26, 57, 967985), None), (8506, 24, 2, "Master's in Sustainable Management & Technology (MSMT)", "Master's in Sustainable Management & Technology (MSMT)", '', '', 'none', 'Winter semester, Summer semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/8506/', False, '<p>Application period for winter semester between 1 April to 31 May and for summer semester between 1 November to 30 November</p>', False, '4 semesters', True, datetime.datetime(2022, 11, 4, 18, 26, 57, 968001), None)]
+2022-11-04 18:26:58,482 [INFO] New courses_languages created:
+2022-11-04 18:26:58,483 [INFO] [(3015, 8505, 1), (3016, 8506, 1)]
+2022-11-04 18:26:58,610 [INFO] =========End creating new course  =========
+2022-11-04 18:26:59,557 [INFO] =========Start updating new course=========
+2022-11-04 18:27:01,301 [INFO] No course updated
+2022-11-04 18:27:01,428 [INFO] =========End updating new course  =========
+2022-11-04 18:27:02,379 [INFO] =========Start deleting course=========
+2022-11-04 18:27:03,922 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-04 18:27:04,198 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-04 18:27:04,465 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-04 18:27:04,735 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-04 18:27:05,001 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-04 18:27:05,262 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-04 18:27:05,520 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-04 18:27:05,786 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-04 18:27:06,041 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-04 18:27:06,296 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-04 18:27:06,562 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-04 18:27:06,957 [INFO] DELETE FROM courses_languages WHERE course_id = 4972
+2022-11-04 18:27:07,086 [INFO] DELETE FROM  course WHERE id = 4972
+2022-11-04 18:27:07,396 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-04 18:27:07,651 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-04 18:27:07,848 [INFO] =========End deleting course  =========
