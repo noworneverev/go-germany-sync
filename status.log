@@ -4536,3 +4536,67 @@ The dates will be announced later.</p>', updated_at = $1 WHERE id = 7721
 2022-11-06 18:25:38,158 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-11-06 18:25:38,232 [INFO] No course deleted
 2022-11-06 18:25:38,338 [INFO] =========End deleting course  =========
+2022-11-07 18:26:33,203 [INFO] =========Start syncing university=========
+2022-11-07 18:26:33,766 [INFO] No new university
+2022-11-07 18:26:33,873 [INFO] =========End syncing university  =========
+2022-11-07 18:26:34,685 [INFO] =========Start creating new course=========
+2022-11-07 18:26:36,415 [INFO] New courses created:
+2022-11-07 18:26:36,415 [INFO] [(7818, 22, 56, 'MISU at LMU: European Studies + German Class Online Winter School (ESG Online Winter)', 'EU Studies + German Online Winter School', '', '', '', '', 'Political Science', '/deutschland/studienangebote/international-programmes/en/detail/7818/', False, '', True, '', True, datetime.datetime(2022, 11, 7, 18, 26, 36, 201648), None)]
+2022-11-07 18:26:36,630 [INFO] New courses_languages created:
+2022-11-07 18:26:36,630 [INFO] [(3017, 7818, 1), (3018, 7818, 2)]
+2022-11-07 18:26:36,737 [INFO] =========End creating new course  =========
+2022-11-07 18:26:37,548 [INFO] =========Start updating new course=========
+2022-11-07 18:26:39,012 [INFO] UPDATE course SET name_en_short = 'Advanced Course in International Law', updated_at = $1 WHERE id = 5022
+2022-11-07 18:26:39,226 [INFO] No need to update column: tuition_fees from course id: 5022. [Source is , and target is None]
+2022-11-07 18:26:39,226 [INFO] No need to update column: beginning from course id: 5022. [Source is , and target is None]
+2022-11-07 18:26:39,226 [INFO] No need to update column: application_deadline from course id: 5022. [Source is , and target is None]
+2022-11-07 18:26:39,227 [INFO] No need to update column: programme_duration from course id: 5022. [Source is , and target is None]
+2022-11-07 18:26:39,227 [INFO] UPDATE course SET name_en_short = 'EU Studies + German Language Course in Vienna, Prague and Munich', updated_at = $1 WHERE id = 5356
+2022-11-07 18:26:39,441 [INFO] No need to update column: tuition_fees from course id: 5356. [Source is , and target is None]
+2022-11-07 18:26:39,442 [INFO] No need to update column: beginning from course id: 5356. [Source is , and target is None]
+2022-11-07 18:26:39,442 [INFO] No need to update column: application_deadline from course id: 5356. [Source is , and target is None]
+2022-11-07 18:26:39,442 [INFO] No need to update column: programme_duration from course id: 5356. [Source is , and target is None]
+2022-11-07 18:26:39,443 [INFO] UPDATE course SET name_en = 'MISU at LMU: European Studies: Munich - Vienna (EUC)', updated_at = $1 WHERE id = 8435
+2022-11-07 18:26:39,657 [INFO] UPDATE course SET name_en_short = 'European Studies: Munich - Vienna', updated_at = $1 WHERE id = 8435
+2022-11-07 18:26:39,871 [INFO] UPDATE course SET course_type = '6', updated_at = $1 WHERE id = 8435
+2022-11-07 18:26:40,085 [INFO] No need to update column: tuition_fees from course id: 8435. [Source is , and target is None]
+2022-11-07 18:26:40,086 [INFO] No need to update column: beginning from course id: 8435. [Source is , and target is None]
+2022-11-07 18:26:40,086 [INFO] No need to update column: application_deadline from course id: 8435. [Source is , and target is None]
+2022-11-07 18:26:40,086 [INFO] No need to update column: programme_duration from course id: 8435. [Source is , and target is None]
+2022-11-07 18:26:40,087 [INFO] UPDATE course SET name_en_short = 'EU Studies: Vienna – Prague – Munich', updated_at = $1 WHERE id = 5118
+2022-11-07 18:26:40,301 [INFO] No need to update column: tuition_fees from course id: 5118. [Source is , and target is None]
+2022-11-07 18:26:40,302 [INFO] No need to update column: beginning from course id: 5118. [Source is , and target is None]
+2022-11-07 18:26:40,302 [INFO] No need to update column: application_deadline from course id: 5118. [Source is , and target is None]
+2022-11-07 18:26:40,302 [INFO] No need to update column: programme_duration from course id: 5118. [Source is , and target is None]
+2022-11-07 18:26:40,303 [INFO] UPDATE course SET name_en_short = 'Financial Statement Analysis and Valuation', updated_at = $1 WHERE id = 5117
+2022-11-07 18:26:40,516 [INFO] No need to update column: tuition_fees from course id: 5117. [Source is , and target is None]
+2022-11-07 18:26:40,517 [INFO] No need to update column: beginning from course id: 5117. [Source is , and target is None]
+2022-11-07 18:26:40,517 [INFO] No need to update column: application_deadline from course id: 5117. [Source is , and target is None]
+2022-11-07 18:26:40,517 [INFO] No need to update column: programme_duration from course id: 5117. [Source is , and target is None]
+2022-11-07 18:26:40,520 [INFO] UPDATE course SET name_en_short = 'MISU at LMU: International Management and Communications', updated_at = $1 WHERE id = 5014
+2022-11-07 18:26:40,734 [INFO] No need to update column: tuition_fees from course id: 5014. [Source is , and target is None]
+2022-11-07 18:26:40,734 [INFO] No need to update column: beginning from course id: 5014. [Source is , and target is None]
+2022-11-07 18:26:40,734 [INFO] No need to update column: application_deadline from course id: 5014. [Source is , and target is None]
+2022-11-07 18:26:40,734 [INFO] No need to update column: programme_duration from course id: 5014. [Source is , and target is None]
+2022-11-07 18:26:40,735 [INFO] UPDATE course SET name_en_short = 'Machine Learning and Data Analytics', updated_at = $1 WHERE id = 5148
+2022-11-07 18:26:40,949 [INFO] No need to update column: tuition_fees from course id: 5148. [Source is , and target is None]
+2022-11-07 18:26:40,950 [INFO] No need to update column: beginning from course id: 5148. [Source is , and target is None]
+2022-11-07 18:26:40,950 [INFO] No need to update column: application_deadline from course id: 5148. [Source is , and target is None]
+2022-11-07 18:26:40,950 [INFO] No need to update column: programme_duration from course id: 5148. [Source is , and target is None]
+2022-11-07 18:26:41,114 [INFO] =========End updating new course  =========
+2022-11-07 18:26:41,939 [INFO] =========Start deleting course=========
+2022-11-07 18:26:43,255 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-07 18:26:43,490 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-07 18:26:43,720 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-07 18:26:43,952 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-07 18:26:44,183 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-07 18:26:44,404 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-07 18:26:44,624 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-07 18:26:44,849 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-07 18:26:45,068 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-07 18:26:45,285 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-07 18:26:45,512 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-07 18:26:45,790 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-07 18:26:46,014 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-07 18:26:46,094 [INFO] No course deleted
+2022-11-07 18:26:46,202 [INFO] =========End deleting course  =========
