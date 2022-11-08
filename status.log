@@ -4600,3 +4600,43 @@ The dates will be announced later.</p>', updated_at = $1 WHERE id = 7721
 2022-11-07 18:26:46,014 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-11-07 18:26:46,094 [INFO] No course deleted
 2022-11-07 18:26:46,202 [INFO] =========End deleting course  =========
+2022-11-08 18:31:30,624 [INFO] =========Start syncing university=========
+2022-11-08 18:31:31,764 [INFO] New university:
+2022-11-08 18:31:31,764 [INFO] [(250, 'Max Planck Institute of Animal Behavior', '', 'Konstanz', True, False, False, None, datetime.datetime(2022, 11, 8, 18, 31, 31, 442439), None, ''), (251, 'ifs Internationale Filmschule Köln', '', 'Köln', True, False, False, None, datetime.datetime(2022, 11, 8, 18, 31, 31, 442444), None, '')]
+2022-11-08 18:31:31,924 [INFO] =========End syncing university  =========
+2022-11-08 18:31:33,109 [INFO] =========Start creating new course=========
+2022-11-08 18:31:35,547 [INFO] New courses created:
+2022-11-08 18:31:35,548 [INFO] [(7875, 171, 3, 'International Max Planck Research School "Knowledge and Its Resources: Historical Reciprocities"', 'IMPRS "Knowledge and Its Resources: Historical Reciprocities"', '', '', 'none', 'Winter semester', 'History', '/deutschland/studienangebote/international-programmes/en/detail/7875/', False, '<p>15 January 2023</p>', False, '8 semesters', True, datetime.datetime(2022, 11, 8, 18, 31, 35, 224616), None), (8510, 250, 3, 'International Max Planck Research School for Quantitative Behaviour, Ecology and Evolution from Lab to Field', 'IMPRS for Quantitative Behaviour, Ecology and Evolution', '', '', 'none', 'Any time', 'Biology', '/deutschland/studienangebote/international-programmes/en/detail/8510/', False, '<p>Application deadline for 2023 doctoral projects is 16 December 2022</p>\n\n<p>Deadline for letter of reference: 26 December 2022</p>', False, '8 semesters', True, datetime.datetime(2022, 11, 8, 18, 31, 35, 224650), None)]
+2022-11-08 18:31:35,871 [INFO] New courses_languages created:
+2022-11-08 18:31:35,871 [INFO] [(3019, 7875, 1), (3020, 8510, 1)]
+2022-11-08 18:31:36,032 [INFO] =========End creating new course  =========
+2022-11-08 18:31:37,185 [INFO] =========Start updating new course=========
+2022-11-08 18:31:39,147 [INFO] UPDATE course SET name_en = 'International Max Planck Research School for Molecular Plant Science (IMPRS MolPlant)', updated_at = $1 WHERE id = 4117
+2022-11-08 18:31:39,462 [INFO] UPDATE course SET name_en_short = 'IMPRS for Molecular Plant Science (IMPRS MolPlant)', updated_at = $1 WHERE id = 4117
+2022-11-08 18:31:39,777 [INFO] UPDATE course SET subject = 'Biology', updated_at = $1 WHERE id = 4117
+2022-11-08 18:31:40,091 [INFO] UPDATE course SET application_deadline = '<p><strong>Application deadlines</strong> are posted on&nbsp;<a href="https://www.mpimp-golm.mpg.de/IMPRS-PhD"><strong>our&nbsp;website</strong></a>. <strong>Application calls</strong> for<strong> PhD positions in the</strong> <strong>IMPRS</strong> are held <strong>once per year</strong>.</p>
+
+<p>Usually, the <strong>application deadline</strong> for funded positions is in <strong>January. </strong>The<strong>&nbsp;selection&nbsp;interviews</strong>&nbsp;for our IMPRS are usually held in <strong>late March or in April</strong>.</p>
+
+<p>After the interviews, successful candidates <strong>start their PhD</strong> projects between <strong>May and December.</strong></p>', updated_at = $1 WHERE id = 4117
+2022-11-08 18:31:40,418 [INFO] UPDATE course SET application_deadline = '<p>More information: <a href="https://www.filmschule.de/de/studium/ma-3d-animation-film-games">https://www.filmschule.de/de/studium/ma-3d-animation-film-games</a></p>', updated_at = $1 WHERE id = 5308
+2022-11-08 18:31:40,734 [INFO] UPDATE course SET application_deadline = '<p><a href="https://www.filmschule.de/de/studium/ma-digital-narratives">https://www.filmschule.de/de/studium/ma-digital-narratives</a></p>', updated_at = $1 WHERE id = 4658
+2022-11-08 18:31:41,050 [INFO] UPDATE course SET application_deadline = '<p>More information: <a href="https://www.filmschule.de/de/studium/ma-serial-storytelling">https://www.filmschule.de/de/studium/ma-serial-storytelling</a></p>', updated_at = $1 WHERE id = 4462
+2022-11-08 18:31:41,617 [INFO] =========End updating new course  =========
+2022-11-08 18:31:42,800 [INFO] =========Start deleting course=========
+2022-11-08 18:31:44,725 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-08 18:31:45,058 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-08 18:31:45,389 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-08 18:31:45,718 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-08 18:31:46,046 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-08 18:31:46,368 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-08 18:31:46,688 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-08 18:31:47,013 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-08 18:31:47,333 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-08 18:31:47,651 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-08 18:31:47,978 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-08 18:31:48,459 [INFO] DELETE FROM courses_languages WHERE course_id = 6280
+2022-11-08 18:31:48,620 [INFO] DELETE FROM  course WHERE id = 6280
+2022-11-08 18:31:48,984 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-08 18:31:49,304 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-08 18:31:49,524 [INFO] =========End deleting course  =========
