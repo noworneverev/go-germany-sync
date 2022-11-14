@@ -4761,3 +4761,35 @@ The dates will be announced later.</p>', updated_at = $1 WHERE id = 7721
 2022-11-13 18:25:36,021 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-11-13 18:25:36,081 [INFO] No course deleted
 2022-11-13 18:25:36,206 [INFO] =========End deleting course  =========
+2022-11-14 18:26:26,112 [INFO] =========Start syncing university=========
+2022-11-14 18:26:26,760 [INFO] No new university
+2022-11-14 18:26:26,886 [INFO] =========End syncing university  =========
+2022-11-14 18:26:27,831 [INFO] =========Start creating new course=========
+2022-11-14 18:26:29,807 [INFO] New courses created:
+2022-11-14 18:26:29,807 [INFO] [(8518, 49, 2, 'Artificial Intelligence and Robotics (MSc)', 'Artificial Intelligence and Robotics (MSc)', '', '', 'none', 'Summer semester', 'Computer Science', '/deutschland/studienangebote/international-programmes/en/detail/8518/', False, '<p>Our <strong><a href="https://www3.primuss.de/cgi-bin/bew_anmeldung_v2/index.pl?Session=&amp;FH=fhh&amp;Email=&amp;Portal=1&amp;Language=en">application portal</a></strong> is open during the following application period:&nbsp;</p>\n\n<p><strong>5 November &ndash; 30 November</strong> for the following summer semester</p>', False, '3 semesters', True, datetime.datetime(2022, 11, 14, 18, 26, 29, 548260), None), (8519, 91, 2, 'MA Linguistics: Language, Communication and Cognition', 'MA Linguistics', '', '', 'varied', 'Winter semester', 'General and Comparative Literature and Linguistics', '/deutschland/studienangebote/international-programmes/en/detail/8519/', False, '<p>15 July for the following winter semester</p>', False, '4 semesters', True, datetime.datetime(2022, 11, 14, 18, 26, 29, 548276), None), (8520, 91, 2, 'MA Linguistics: Language, Communication and Cognition / MA Linguistik: Sprache, Kommunikation und Kognition', 'MA Linguistics / MA Linguistik', '', '', 'varied', 'Winter semester', 'General and Comparative Literature and Linguistics', '/deutschland/studienangebote/international-programmes/en/detail/8520/', False, '<p>15 July for the following winter semester</p>', False, '4 semesters', True, datetime.datetime(2022, 11, 14, 18, 26, 29, 548283), None), (8517, 22, 6, "MCQST Summer Bachelor's Programme", "MCQST Summer Bachelor's Programme", '', '', '', '', 'Mathematics, Natural Sciences in general', '/deutschland/studienangebote/international-programmes/en/detail/8517/', False, '', False, '', True, datetime.datetime(2022, 11, 14, 18, 26, 29, 548289), None), (8516, 22, 6, 'MISU at LMU: Big Data Analytics and Business Intelligence (EBI)', 'Big Data Analytics and Business Intelligence (EBI)', '', '', '', '', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/8516/', False, '', False, '', True, datetime.datetime(2022, 11, 14, 18, 26, 29, 548292), None), (8515, 98, 7, 'Study Preparation Year: Sprungbrett Uni-Deutsch with TestDaF', 'Sprungbrett Uni-Deutsch with TestDaF', '', '', '', '', '', '/deutschland/studienangebote/international-programmes/en/detail/8515/', False, '', True, '', True, datetime.datetime(2022, 11, 14, 18, 26, 29, 548307), None)]
+2022-11-14 18:26:30,063 [INFO] New courses_languages created:
+2022-11-14 18:26:30,063 [INFO] [(3021, 8518, 1), (3022, 8519, 1), (3023, 8520, 2), (3024, 8520, 1), (3025, 8520, 4), (3026, 8520, 5), (3027, 8520, 6), (3028, 8517, 1), (3029, 8516, 1), (3030, 8515, 2)]
+2022-11-14 18:26:30,190 [INFO] =========End creating new course  =========
+2022-11-14 18:26:31,142 [INFO] =========Start updating new course=========
+2022-11-14 18:26:32,686 [INFO] UPDATE course SET application_deadline = '<p><strong>Summer semester</strong>: 15 December (visa required for Germany) or 15 January</p>
+
+<p><strong>Winter semester</strong>: 15 May (visa required for Germany) or 15 June</p>
+
+<p>The application portal is closed outside of the application periods. You can find information on the application periods <a href="https://www.informatik.uni-konstanz.de/studium/master-of-science/msc-computer-and-information-science/study/master-of-science/master-computer-and-information-science/prospective-students-and-application/">here</a>.</p>', updated_at = $1 WHERE id = 4249
+2022-11-14 18:26:33,231 [INFO] =========End updating new course  =========
+2022-11-14 18:26:34,205 [INFO] =========Start deleting course=========
+2022-11-14 18:26:35,730 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-14 18:26:35,995 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-14 18:26:36,257 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-14 18:26:36,519 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-14 18:26:36,780 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-14 18:26:37,034 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-14 18:26:37,287 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-14 18:26:37,545 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-14 18:26:37,798 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-14 18:26:38,050 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-14 18:26:38,310 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-14 18:26:38,607 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-14 18:26:38,859 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-14 18:26:38,922 [INFO] No course deleted
+2022-11-14 18:26:39,047 [INFO] =========End deleting course  =========
