@@ -4870,3 +4870,135 @@ The dates will be announced later.</p>', updated_at = $1 WHERE id = 7721
 2022-11-17 18:25:14,584 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-11-17 18:25:14,648 [INFO] No course deleted
 2022-11-17 18:25:14,782 [INFO] =========End deleting course  =========
+2022-11-18 18:27:01,606 [INFO] =========Start syncing university=========
+2022-11-18 18:27:02,159 [INFO] No new university
+2022-11-18 18:27:02,266 [INFO] =========End syncing university  =========
+2022-11-18 18:27:03,088 [INFO] =========Start creating new course=========
+2022-11-18 18:27:04,818 [INFO] New courses created:
+2022-11-18 18:27:04,819 [INFO] [(4378, 127, 3, 'Doctoral Programme in Governance', 'Doctoral Programme in Governance', '', '', 'none', 'Winter semester', 'Law, Economics and Social Sciences in general', '/deutschland/studienangebote/international-programmes/en/detail/4378/', False, '<p><strong>31 January 2023</strong><br />\nTo apply, please first consult our website: <a href="https://www.hertie-school.org/en/phd">https://www.hertie-school.org/en/phd</a><br />\nApplications will be reviewed in February and March 2023.&nbsp;On the basis of the&nbsp;evaluation, interviews will be scheduled in late March and April 2023.&nbsp;</p>', False, '6 semesters', True, datetime.datetime(2022, 11, 18, 18, 27, 4, 597564), None), (8524, 164, 2, 'Interdisciplinary Engineering', 'Interdisciplinary Engineering', '', '', 'none', 'Winter semester, Summer semester', 'Engineering in general', '/deutschland/studienangebote/international-programmes/en/detail/8524/', False, '<p>Application deadline for applicants with German school leaving certificates:<br />\n24 February 2023</p>\n\n<p><a href="https://studis.hochschule-trier.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces?page=Bewerber/-innen">https://studis.hochschule-trier.de/qisserver/pages/cs/sys/portal/hisinoneStartPage.faces?page=Bewerber/-innen</a></p>\n\n<p>--------------------------------------------------------------------------------------------------------------</p>\n\n<p>Application deadline for applicants with non-German school leaving certificates):<br />\n31 January 2023</p>\n\n<p>Deadline for missing documents: 15 February 2023&nbsp;</p>\n\n<p><a href="https://www.uni-assist.de/">https://www.uni-assist.de/</a></p>\n\n<p>--------------------------------------------------------------------------------------------------------------</p>\n\n<p>Enrolment deadline: 10 March 2023</p>', False, '3 semesters', True, datetime.datetime(2022, 11, 18, 18, 27, 4, 597590), None)]
+2022-11-18 18:27:05,036 [INFO] New courses_languages created:
+2022-11-18 18:27:05,036 [INFO] [(3032, 4378, 1), (3033, 8524, 1)]
+2022-11-18 18:27:05,144 [INFO] =========End creating new course  =========
+2022-11-18 18:27:05,982 [INFO] =========Start updating new course=========
+2022-11-18 18:27:07,309 [INFO] UPDATE course SET application_deadline = '<p>Non-EU applicants (applicants who have citizenship of a country outside EU/EEA):<br />
+2 December to 1 March</p>
+
+<p>EU applicants (applicants who have citizenship of an EU/EEA country, are currently enrolled at RWTH Aachen or hold a German university degree):<br />
+2 December to 15 July</p>
+
+<p><strong>Apply by 15 January (non-EU) / 15 April (EU) to benefit from a 10% early bird discount on the tuition fees!</strong></p>', updated_at = $1 WHERE id = 4157
+2022-11-18 18:27:07,547 [INFO] UPDATE course SET application_deadline = '<p><strong>Application deadline:</strong></p>
+
+<p>15 June for the following winter semester</p>
+
+<p><strong>Pre-application process:</strong></p>
+
+<p>In order to verify whether you meet the requirements for admission to the programme before submitting your application, it is highly recommended that all applicants (EU, German, non-EU) submit their relevant documents&nbsp;(Bachelor&#39;s degree, Bachelor&#39;s transcript, language certificate)&nbsp;for a pre-check.&nbsp;We start with the pre-check in April.</p>
+
+<p>After successfully passing the pre-check, you will receive instructions and a link to the online portal.</p>
+
+<p>Here you can find the link to the Pre-Check Service: <a href="https://precheck.go-study-europe.de/">https://precheck.go-study-europe.de/</a></p>
+
+<p>Please check:&nbsp;<a href="https://www.fh-dortmund.de/en/studies/application-enrollment.php">https://www.fh-dortmund.de/en/studies/application-enrollment.php</a></p>
+
+<p><strong>Application process:</strong></p>
+
+<p>We only accept online applications. You will be guided to the application portal after doing the pre-check (described above).</p>', updated_at = $1 WHERE id = 3996
+2022-11-18 18:27:07,829 [INFO] UPDATE course SET application_deadline = '<p>Non-EU applicants (applicants who have citizenship of a country outside EU/EEA):<br />
+2 December to 1 March</p>
+
+<p>EU applicants (applicants who have citizenship of an EU/EEA country, are currently enrolled at RWTH Aachen or hold a German university degree):<br />
+2 December to 15 July</p>
+
+<p><strong>Apply by 15 January (non-EU) / 15 April (EU) to benefit from a 10% early bird discount on the tuition fees!</strong></p>', updated_at = $1 WHERE id = 4598
+2022-11-18 18:27:08,045 [INFO] UPDATE course SET application_deadline = '<p>Non-EU applicants (applicants who have citizenship of a country outside EU/EEA):<br />
+2 December to 1 March</p>
+
+<p>EU applicants (applicants who&nbsp; have citizenship of an EU/EEA country, are currently enrolled at RWTH Aachen or hold a German university degree):<br />
+2 December to 15 July</p>
+
+<p><strong>Apply by 15 January (non-EU) / 15 April (EU) to benefit from a 10% early bird discount on the tuition fees!</strong></p>', updated_at = $1 WHERE id = 4362
+2022-11-18 18:27:08,274 [INFO] UPDATE course SET name_en = 'Master of Public Administration in European Studies (MPA-ES)', updated_at = $1 WHERE id = 5624
+2022-11-18 18:27:08,490 [INFO] UPDATE course SET name_en_short = 'Master of Public Administration in European Studies (MPA-ES)', updated_at = $1 WHERE id = 5624
+2022-11-18 18:27:08,706 [INFO] UPDATE course SET application_deadline = '<p>Non-EU applicants (applicants who have citizenship of a country outside EU/EEA):<br />
+2 December to 1 March</p>
+
+<p>EU applicants (applicants who have citizenship of an EU/EEA country, are currently enrolled at RWTH Aachen or hold a German university degree):<br />
+2 December to 15 July</p>
+
+<p><strong>Apply by 15 January (non-EU) / 15 April (EU) to benefit from a 10% early bird discount on the tuition fees!</strong></p>', updated_at = $1 WHERE id = 5624
+2022-11-18 18:27:08,929 [INFO] UPDATE course SET beginning = 'Winter semester', updated_at = $1 WHERE id = 8324
+2022-11-18 18:27:09,145 [INFO] UPDATE course SET application_deadline = '<p>Non-EU applicants: 15 July for the following winter semester<br />
+EU applicants: 30 August for the following winter semester</p>', updated_at = $1 WHERE id = 8324
+2022-11-18 18:27:09,381 [INFO] UPDATE course SET application_deadline = '<p><strong>Application deadline:</strong></p>
+
+<p>15 June for the following winter semester</p>
+
+<p><strong>Pre-application process:</strong></p>
+
+<p>In order to verify whether you meet the requirements for admission to the programme before submitting your application, all applicants (EU, German, non-EU) are highly recommended to submit their relevant documents&nbsp;(Bachelor&#39;s degree, Bachelor&#39;s transcript, language certificate)&nbsp;for a pre-check.&nbsp;We start with the pre-check in April.</p>
+
+<p>After successfully passing the pre-check, you will receive instructions and a link to the online portal.</p>
+
+<p>Here you can find the link to the Pre-Check Service: <a href="https://precheck.go-study-europe.de/">https://precheck.go-study-europe.de/</a>.</p>
+
+<p>Please check:&nbsp;<a href="https://www.fh-dortmund.de/en/studies/application-enrollment.php">https://www.fh-dortmund.de/en/studies/application-enrollment.php</a>.</p>
+
+<p><strong>Application process:</strong></p>
+
+<p>We only accept online applications. You will be guided to the application portal after doing the pre-check (described above).</p>', updated_at = $1 WHERE id = 4879
+2022-11-18 18:27:09,597 [INFO] UPDATE course SET application_deadline = '<p><strong>Application deadline:</strong></p>
+
+<p>15 June for the following winter semester</p>
+
+<p><strong>Pre-application process:</strong></p>
+
+<p>In order to verify whether you meet the requirements for admission to the programme before submitting your application, all applicants (EU, German, non-EU) are highly recommended to submit their relevant documents&nbsp;(Bachelor&#39;s degree, Bachelor&#39;s transcript, language certificate)&nbsp;for a pre-check.&nbsp;We start with the pre-check in April.</p>
+
+<p>After successfully passing the pre-check, you will receive instructions and a link to the online portal.</p>
+
+<p>Here you can find the link to the Pre-Check Service: <a href="https://precheck.go-study-europe.de/">https://precheck.go-study-europe.de/</a></p>
+
+<p>Please check:&nbsp;<a href="https://www.fh-dortmund.de/en/studies/application-enrollment.php">https://www.fh-dortmund.de/en/studies/application-enrollment.php</a></p>
+
+<p><strong>Application process:</strong></p>
+
+<p>We only accept online applications. You will be guided to the application portal after doing the pre-check (described above).</p>', updated_at = $1 WHERE id = 4513
+2022-11-18 18:27:09,868 [INFO] UPDATE course SET application_deadline = '<p>Non-EU applicants (applicants who have citizenship of a country outside EU/EEA):<br />
+2 December to 1 March</p>
+
+<p>EU applicants (applicants who have citizenship of an EU/EEA country, are currently enrolled at RWTH Aachen or hold a German university degree):<br />
+2 December to 15 July</p>
+
+<p><strong>Apply by 15 January (non-EU) / 15 April (EU) to benefit from a 10% early bird discount on the tuition fees!</strong></p>', updated_at = $1 WHERE id = 4819
+2022-11-18 18:27:10,090 [INFO] UPDATE course SET application_deadline = '<p>Non-EU applicants (applicants who have citizenship of a country outside EU/EEA):<br />
+2 December to 1 March</p>
+
+<p>EU applicants (applicants who have citizenship of an EU/EEA country, are currently enrolled at RWTH Aachen, or hold a German university degree):<br />
+2 December to 15 July</p>
+
+<p><strong>Apply by 15 January (non-EU) / 15 April (EU) to benefit from a 10% early bird discount on the tuition fees!</strong></p>', updated_at = $1 WHERE id = 3813
+2022-11-18 18:27:10,320 [INFO] UPDATE course SET application_deadline = '<p>Non-EU applicants (applicants who have citizenship of a country outside EU/EEA):<br />
+2 December to 1 March</p>
+
+<p>EU applicants (applicants who have citizenship of an EU/EEA country, are currently enrolled at RWTH Aachen or hold a German university degree):<br />
+2 December to 15 July</p>
+
+<p><strong>Apply by 15 January (non-EU) / 15 April (EU) to benefit from a 10% early bird discount on the tuition fees!</strong></p>', updated_at = $1 WHERE id = 4445
+2022-11-18 18:27:10,652 [INFO] =========End updating new course  =========
+2022-11-18 18:27:11,480 [INFO] =========Start deleting course=========
+2022-11-18 18:27:12,783 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-18 18:27:13,013 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-18 18:27:13,240 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-18 18:27:13,468 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-18 18:27:13,696 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-18 18:27:13,913 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-18 18:27:14,129 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-18 18:27:14,352 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-18 18:27:14,567 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-18 18:27:14,782 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-18 18:27:15,006 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-18 18:27:15,281 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-18 18:27:15,496 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-18 18:27:15,572 [INFO] No course deleted
+2022-11-18 18:27:15,679 [INFO] =========End deleting course  =========
