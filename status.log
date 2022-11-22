@@ -5074,3 +5074,36 @@ EU applicants: 30 August for the following winter semester</p>', updated_at = $1
 2022-11-21 18:26:03,957 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-11-21 18:26:04,020 [INFO] No course deleted
 2022-11-21 18:26:04,155 [INFO] =========End deleting course  =========
+2022-11-22 18:25:38,856 [INFO] =========Start syncing university=========
+2022-11-22 18:25:39,503 [INFO] No new university
+2022-11-22 18:25:39,630 [INFO] =========End syncing university  =========
+2022-11-22 18:25:40,583 [INFO] =========Start creating new course=========
+2022-11-22 18:25:42,301 [INFO] No new course
+2022-11-22 18:25:42,428 [INFO] =========End creating new course  =========
+2022-11-22 18:25:43,380 [INFO] =========Start updating new course=========
+2022-11-22 18:25:44,915 [INFO] UPDATE course SET application_deadline = '<p><strong>Non-EU applicants: 15 May</strong> for the following winter semester<br />
+<strong>EU applicants: 15 July</strong> for the following winter semester</p>
+
+<p><strong>Updated application information</strong> and <strong>all details about applying</strong> can be found at <a href="https://www.ete.hs-mannheim.de/bachelor/apply.html">https://www.ete.hs-mannheim.de/bachelor/apply.html</a>.</p>', updated_at = $1 WHERE id = 3618
+2022-11-22 18:25:45,198 [INFO] UPDATE course SET application_deadline = '<p><strong>Non-EU applicants: 15 May</strong> for the following winter semester<br />
+<strong>EU applicants: 15 July</strong> for the following winter semester</p>
+
+<p><strong>Updated application information</strong> and <strong>all details about applying</strong> can be found at <a href="https://www.ete.hs-mannheim.de/bachelor/apply.html">https://www.ete.hs-mannheim.de/bachelor/apply.html</a>.</p>', updated_at = $1 WHERE id = 7693
+2022-11-22 18:25:45,514 [INFO] UPDATE course SET tuition_fees = '5.500,00', updated_at = $1 WHERE id = 4731
+2022-11-22 18:25:45,997 [INFO] =========End updating new course  =========
+2022-11-22 18:25:46,949 [INFO] =========Start deleting course=========
+2022-11-22 18:25:48,486 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-22 18:25:48,754 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-22 18:25:49,020 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-22 18:25:49,284 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-22 18:25:49,548 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-22 18:25:49,804 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-22 18:25:50,060 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-22 18:25:50,320 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-22 18:25:50,575 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-22 18:25:50,828 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-22 18:25:51,096 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-22 18:25:51,399 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-22 18:25:51,653 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-22 18:25:51,719 [INFO] No course deleted
+2022-11-22 18:25:51,845 [INFO] =========End deleting course  =========
