@@ -5131,3 +5131,95 @@ EU applicants: 30 August for the following winter semester</p>', updated_at = $1
 2022-11-23 18:23:34,755 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-11-23 18:23:34,817 [INFO] No course deleted
 2022-11-23 18:23:34,942 [INFO] =========End deleting course  =========
+2022-11-24 18:24:13,981 [INFO] =========Start syncing university=========
+2022-11-24 18:24:14,840 [INFO] No new university
+2022-11-24 18:24:15,008 [INFO] =========End syncing university  =========
+2022-11-24 18:24:16,169 [INFO] =========Start creating new course=========
+2022-11-24 18:24:18,250 [INFO] No new course
+2022-11-24 18:24:18,407 [INFO] =========End creating new course  =========
+2022-11-24 18:24:19,660 [INFO] =========Start updating new course=========
+2022-11-24 18:24:21,810 [INFO] UPDATE course SET application_deadline = '<p>Winter semester: 1 April to 15 May<br />
+Summer semester: 15 October to 15 November</p>', updated_at = $1 WHERE id = 6938
+2022-11-24 18:24:22,157 [INFO] UPDATE course SET application_deadline = '<p>Application period with a <strong>Bachelor&#39;s degree obtained in Germany&nbsp;</strong>via <strong>Kiel University</strong>:</p>
+
+<ul>
+	<li><strong>1 June</strong> to <strong>1 August</strong> for the following <strong>winter</strong> semester</li>
+	<li><strong>1 December</strong> to <strong>1 February</strong> for the following <strong>summer</strong> semester</li>
+</ul>
+
+<p>Application period with a <strong>Bachelor&#39;s degree obtained in other countries&nbsp;</strong>via <strong>uni-assist</strong>:</p>
+
+<ul>
+	<li><strong>1 March </strong>to <strong>15 July</strong> for the following <strong>winter</strong> semester</li>
+	<li><strong>1 November </strong>to <strong>15 January</strong> for the following <strong>summer</strong> semester</li>
+</ul>
+
+<p>Effectively, formalities for foreign applicants normally require at least three additional months, e.g., visa application, application for scholarships from the DAAD or elsewhere, etc.</p>', updated_at = $1 WHERE id = 4275
+2022-11-24 18:24:22,499 [INFO] UPDATE course SET application_deadline = '<p>Application period with a <strong>Bachelor&#39;s degree obtained in Germany&nbsp;</strong>via <strong>Kiel University</strong>:</p>
+
+<ul>
+	<li><strong>1 June</strong> to <strong>1 August</strong> for the following <strong>winter</strong> semester</li>
+	<li><strong>1 December</strong> to <strong>1 February</strong> for the following <strong>summer</strong> semester</li>
+</ul>
+
+<p>Application period with a <strong>Bachelor&#39;s degree obtained in other countries&nbsp;</strong>via <strong>uni-assist</strong>:</p>
+
+<ul>
+	<li><strong>1 March </strong>to <strong>15 July</strong> for the following <strong>winter</strong> semester</li>
+	<li><strong>1 November </strong>to <strong>15 January</strong> for the following <strong>summer</strong> semester</li>
+</ul>
+
+<p>Effectively, formalities for foreign applicants normally require at least three more months, e.g. visa application, application for scholarships from the DAAD or elsewhere, etc.</p>', updated_at = $1 WHERE id = 4506
+2022-11-24 18:24:22,849 [INFO] UPDATE course SET application_deadline = '<p>Application period with a <strong>Bachelor&#39;s degree obtained in Germany</strong>&nbsp;via <strong>Kiel University</strong>:</p>
+
+<ul>
+	<li><strong>1 June</strong> to <strong>1 August</strong> for the following <strong>winter</strong> semester</li>
+	<li><strong>1 December</strong> to <strong>1 February</strong> for the following <strong>summer</strong> semester</li>
+</ul>
+
+<p>Application period with a <strong>Bachelor&#39;s degree obtained in other countries</strong>&nbsp;via <strong>uni-assist</strong>:</p>
+
+<ul>
+	<li><strong>1 March </strong>to <strong>15 July</strong> for the following <strong>winter</strong> semester</li>
+	<li><strong>1 November </strong>to <strong>15 January</strong> for the following <strong>summer</strong> semester</li>
+</ul>
+
+<p>Effectively, formalities for foreign applicants normally require at least three more months, e.g. visa application, application for scholarships from the DAAD or elsewhere, etc.</p>', updated_at = $1 WHERE id = 4274
+2022-11-24 18:24:23,190 [INFO] UPDATE course SET application_deadline = '<p>Application period with a <strong>Bachelor&#39;s degree obtained in Germany&nbsp;</strong>via <strong>Kiel University</strong>:</p>
+
+<ul>
+	<li><strong>1 June</strong> to <strong>1 August</strong> for the following <strong>winter</strong> semester</li>
+	<li><strong>1 December</strong> to <strong>1 February</strong> for the following <strong>summer</strong> semester</li>
+</ul>
+
+<p>Application period with a <strong>Bachelor&#39;s degree obtained in other countries&nbsp;</strong>via <strong>uni-assist</strong>:</p>
+
+<ul>
+	<li><strong>1 March </strong>to <strong>15 July</strong> for the following <strong>winter</strong> semester</li>
+	<li><strong>1 November </strong>to <strong>15 January</strong> for the following <strong>summer</strong> semester</li>
+</ul>
+
+<p>Effectively, formalities for foreign applicants normally require at least three additional months, e.g. visa application, application for scholarships from the DAAD or elsewhere, etc.</p>', updated_at = $1 WHERE id = 4287
+2022-11-24 18:24:23,588 [INFO] UPDATE course SET name_en = 'Sprungbrett Uni-Deutsch mit TestDaF', updated_at = $1 WHERE id = 8515
+2022-11-24 18:24:23,928 [INFO] UPDATE course SET name_en_short = 'Sprungbrett Uni-Deutsch mit TestDaF', updated_at = $1 WHERE id = 8515
+2022-11-24 18:24:24,267 [INFO] No need to update column: tuition_fees from course id: 8515. [Source is , and target is None]
+2022-11-24 18:24:24,267 [INFO] No need to update column: beginning from course id: 8515. [Source is , and target is None]
+2022-11-24 18:24:24,268 [INFO] No need to update column: application_deadline from course id: 8515. [Source is , and target is None]
+2022-11-24 18:24:24,268 [INFO] No need to update column: programme_duration from course id: 8515. [Source is , and target is None]
+2022-11-24 18:24:24,453 [INFO] =========End updating new course  =========
+2022-11-24 18:24:25,627 [INFO] =========Start deleting course=========
+2022-11-24 18:24:27,561 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-24 18:24:27,896 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-24 18:24:28,227 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-24 18:24:28,556 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-24 18:24:28,887 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-24 18:24:29,210 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-24 18:24:29,532 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-24 18:24:29,858 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-24 18:24:30,180 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-24 18:24:30,499 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-24 18:24:30,829 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-24 18:24:31,197 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-24 18:24:31,517 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-24 18:24:31,583 [INFO] No course deleted
+2022-11-24 18:24:31,742 [INFO] =========End deleting course  =========
