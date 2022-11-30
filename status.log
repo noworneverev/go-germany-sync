@@ -5346,3 +5346,31 @@ Summer semester: 15 October to 15 November</p>', updated_at = $1 WHERE id = 6938
 2022-11-29 18:22:02,928 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-11-29 18:22:03,125 [INFO] No course deleted
 2022-11-29 18:22:03,226 [INFO] =========End deleting course  =========
+2022-11-30 18:24:19,092 [INFO] =========Start syncing university=========
+2022-11-30 18:24:20,060 [INFO] New university:
+2022-11-30 18:24:20,060 [INFO] [(252, 'ESCP Berlin Campus', '', 'Berlin', True, False, False, None, datetime.datetime(2022, 11, 30, 18, 24, 19, 784003), None, '')]
+2022-11-30 18:24:20,195 [INFO] =========End syncing university  =========
+2022-11-30 18:24:21,215 [INFO] =========Start creating new course=========
+2022-11-30 18:24:23,319 [INFO] New courses created:
+2022-11-30 18:24:23,319 [INFO] [(8531, 252, 2, 'Master in Management (MIM)', 'Master in Management (MIM)', '', '', '', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/8531/', False, '<p>End of May (start of the programme: 1 September)</p>', False, '4 semesters', True, datetime.datetime(2022, 11, 30, 18, 24, 23, 42724), None), (8533, 252, 2, 'MSc in International Sustainability Management', 'MSc in International Sustainability Management', '', '', '', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/8533/', False, '<p>31 July (for the intake starting on 15 September)</p>', False, '4 semesters', True, datetime.datetime(2022, 11, 30, 18, 24, 23, 42751), None), (8535, 252, 2, 'MSc in Strategy and Digital Business', 'MSc in Strategy and Digital Business', '', '', '', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/8535/', False, '<p>31 July (for the intake starting 15 September)</p>', False, '4 semesters', True, datetime.datetime(2022, 11, 30, 18, 24, 23, 42766), None), (8532, 252, 2, 'MSc in Sustainability Entrepreneurship and Innovation', 'MSc in Sustainability Entrepreneurship and Innovation', '', '', '', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/8532/', False, '<p>31 July (the start of the programme is around 15 September)</p>', False, '4 semesters', True, datetime.datetime(2022, 11, 30, 18, 24, 23, 42780), None), (8534, 252, 2, 'SALES 4.0 | MSc in International Sales Management', 'SALES 4.0 | MSc in International Sales Management', '', '', 'none', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/8534/', False, '<p>31 July (the start of the programme is 15 September)</p>', False, '4 semesters', True, datetime.datetime(2022, 11, 30, 18, 24, 23, 42795), None)]
+2022-11-30 18:24:23,594 [INFO] New courses_languages created:
+2022-11-30 18:24:23,594 [INFO] [(3034, 8531, 1), (3035, 8531, 2), (3036, 8531, 4), (3037, 8531, 6), (3038, 8533, 1), (3039, 8535, 1), (3040, 8532, 1), (3041, 8534, 1)]
+2022-11-30 18:24:23,730 [INFO] =========End creating new course  =========
+2022-11-30 18:24:24,798 [INFO] =========Start updating new course=========
+2022-11-30 18:24:26,786 [INFO] =========End updating new course  =========
+2022-11-30 18:24:27,890 [INFO] =========Start deleting course=========
+2022-11-30 18:24:29,517 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-30 18:24:29,801 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-30 18:24:30,082 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-30 18:24:30,361 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-30 18:24:30,639 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-30 18:24:30,911 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-30 18:24:31,181 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-30 18:24:31,457 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-30 18:24:31,733 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-30 18:24:32,002 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-30 18:24:32,279 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-30 18:24:32,595 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-30 18:24:32,865 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-11-30 18:24:32,932 [INFO] No course deleted
+2022-11-30 18:24:33,066 [INFO] =========End deleting course  =========
