@@ -5583,3 +5583,32 @@ Summer semester: 15 October to 15 November</p>', updated_at = $1 WHERE id = 6938
 2022-12-08 18:22:19,976 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-12-08 18:22:20,038 [INFO] No course deleted
 2022-12-08 18:22:20,173 [INFO] =========End deleting course  =========
+2022-12-09 18:22:01,796 [INFO] =========Start syncing university=========
+2022-12-09 18:22:02,564 [INFO] New university:
+2022-12-09 18:22:02,564 [INFO] [(253, 'Max Planck Institute for the Science of Light', '', 'Erlangen', True, False, False, None, datetime.datetime(2022, 12, 9, 18, 22, 2, 346836), None, ''), (254, 'Neu-Ulm University of Applied Sciences', '', 'Neu-Ulm', True, False, False, None, datetime.datetime(2022, 12, 9, 18, 22, 2, 346841), None, '')]
+2022-12-09 18:22:02,671 [INFO] =========End syncing university  =========
+2022-12-09 18:22:03,469 [INFO] =========Start creating new course=========
+2022-12-09 18:22:05,156 [INFO] New courses created:
+2022-12-09 18:22:05,157 [INFO] [(3908, 253, 3, 'International Max Planck Research School Physics of Light (IMPRS-PL)', 'IMPRS Physics of Light', '', '', 'none', 'Any time', 'Physics, Astronomy', '/deutschland/studienangebote/international-programmes/en/detail/3908/', False, '<p>Applications are possible throughout the year. For more information, please see: <a href="https://mpl.mpg.de/study-work-or-visit/graduate-programs/physics-of-light/application/application-for-phd-positions">https://mpl.mpg.de/study-work-or-visit/graduate-programs/physics-of-light/application/application-for-phd-positions</a></p>', False, '6 semesters', True, datetime.datetime(2022, 12, 9, 18, 22, 4, 936713), None), (8537, 253, 3, 'International Max Planck Research School – Physics and Medicine (IMPRS-PM)', 'IMPRS Physics and Medicine', '', '', 'none', 'Any time', 'Medicine in general', '/deutschland/studienangebote/international-programmes/en/detail/8537/', False, '<p>Applications are possible throughout the year. For more information, please see: <a href="https://mpzpm.de/study-work-or-visit/graduate-programs/physics-and-medicine/application/application-for-phd-positions">https://mpzpm.de/study-work-or-visit/graduate-programs/physics-and-medicine/application/application-for-phd-positions</a>.</p>', False, '6 semesters', True, datetime.datetime(2022, 12, 9, 18, 22, 4, 936745), None), (8538, 254, 2, 'Social Entrepreneurship for Sustainable Develop\xadment (MA)', 'Social Entrepreneurship for Sustainable Develop\xadment (MA)', '', '', 'none', 'Summer semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/8538/', False, '<p>15 January for the following summer semester</p>', False, '3 semesters', True, datetime.datetime(2022, 12, 9, 18, 22, 4, 936761), None)]
+2022-12-09 18:22:05,370 [INFO] New courses_languages created:
+2022-12-09 18:22:05,370 [INFO] [(3043, 3908, 1), (3044, 8537, 1), (3045, 8538, 1)]
+2022-12-09 18:22:05,477 [INFO] =========End creating new course  =========
+2022-12-09 18:22:06,288 [INFO] =========Start updating new course=========
+2022-12-09 18:22:07,639 [INFO] UPDATE course SET beginning = 'Winter semester, Summer semester', updated_at = $1 WHERE id = 5615
+2022-12-09 18:22:08,108 [INFO] =========End updating new course  =========
+2022-12-09 18:22:08,925 [INFO] =========Start deleting course=========
+2022-12-09 18:22:10,242 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-09 18:22:10,473 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-09 18:22:10,702 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-09 18:22:10,929 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-09 18:22:11,160 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-09 18:22:11,383 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-09 18:22:11,602 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-09 18:22:11,827 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-09 18:22:12,046 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-09 18:22:12,264 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-09 18:22:12,490 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-09 18:22:12,757 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-09 18:22:12,974 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-09 18:22:13,042 [INFO] No course deleted
+2022-12-09 18:22:13,150 [INFO] =========End deleting course  =========
