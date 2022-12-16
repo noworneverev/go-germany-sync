@@ -5770,3 +5770,36 @@ Summer semester: 15 October to 15 November</p>', updated_at = $1 WHERE id = 6938
 2022-12-15 18:20:37,144 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-12-15 18:20:37,253 [INFO] No course deleted
 2022-12-15 18:20:37,422 [INFO] =========End deleting course  =========
+2022-12-16 18:20:50,357 [INFO] =========Start syncing university=========
+2022-12-16 18:20:51,173 [INFO] No new university
+2022-12-16 18:20:51,334 [INFO] =========End syncing university  =========
+2022-12-16 18:20:52,513 [INFO] =========Start creating new course=========
+2022-12-16 18:20:54,908 [INFO] New courses created:
+2022-12-16 18:20:54,908 [INFO] [(8541, 164, 6, 'International Summer School Disaster Risk Reduction 2023', 'International Summer School Disaster Risk Reduction 2023', '', '', '', '', 'Law, Economics and Social Sciences in general', '/deutschland/studienangebote/international-programmes/en/detail/8541/', False, '', False, '', True, datetime.datetime(2022, 12, 16, 18, 20, 54, 589391), None), (7866, 39, 6, 'Master Summer School on Future Challenges in Engineering', 'Future Challenges in Engineering', '', '', '', '', 'Engineering in general', '/deutschland/studienangebote/international-programmes/en/detail/7866/', False, '', False, '', True, datetime.datetime(2022, 12, 16, 18, 20, 54, 589411), None)]
+2022-12-16 18:20:55,223 [INFO] New courses_languages created:
+2022-12-16 18:20:55,223 [INFO] [(3046, 8541, 1), (3047, 7866, 1)]
+2022-12-16 18:20:55,380 [INFO] =========End creating new course  =========
+2022-12-16 18:20:56,545 [INFO] =========Start updating new course=========
+2022-12-16 18:20:58,548 [INFO] UPDATE course SET application_deadline = '<p>For summer semester 2023: 8 December 2022 until 15 January 2023</p>
+
+<p>For winter semester 2023/24: 9 February 2023 until 15 June 2023</p>', updated_at = $1 WHERE id = 8297
+2022-12-16 18:20:58,859 [INFO] UPDATE course SET application_deadline = '<p>For summer semester 2023: 8 December 2022 until 15 January 2023</p>
+
+<p>For winter semester 2023/24: 9 February 2023 until 15 June 2023</p>', updated_at = $1 WHERE id = 8298
+2022-12-16 18:20:59,363 [INFO] =========End updating new course  =========
+2022-12-16 18:21:00,501 [INFO] =========Start deleting course=========
+2022-12-16 18:21:02,360 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-16 18:21:02,683 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-16 18:21:03,002 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-16 18:21:03,320 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-16 18:21:03,638 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-16 18:21:03,950 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-16 18:21:04,259 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-16 18:21:04,574 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-16 18:21:04,883 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-16 18:21:05,191 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-16 18:21:05,507 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-16 18:21:05,864 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-16 18:21:06,172 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-16 18:21:06,242 [INFO] No course deleted
+2022-12-16 18:21:06,395 [INFO] =========End deleting course  =========
