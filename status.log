@@ -5880,3 +5880,42 @@ Summer semester: 15 October to 15 November</p>', updated_at = $1 WHERE id = 6938
 2022-12-19 18:22:09,777 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-12-19 18:22:09,867 [INFO] No course deleted
 2022-12-19 18:22:09,975 [INFO] =========End deleting course  =========
+2022-12-20 18:21:16,678 [INFO] =========Start syncing university=========
+2022-12-20 18:21:17,234 [INFO] No new university
+2022-12-20 18:21:17,341 [INFO] =========End syncing university  =========
+2022-12-20 18:21:18,154 [INFO] =========Start creating new course=========
+2022-12-20 18:21:19,739 [INFO] No new course
+2022-12-20 18:21:19,846 [INFO] =========End creating new course  =========
+2022-12-20 18:21:20,700 [INFO] =========Start updating new course=========
+2022-12-20 18:21:22,026 [INFO] UPDATE course SET application_deadline = '<p>Application period: 1 April to 15 June for the following winter semester.</p>
+
+<p>Further information is available <a href="https://www.ku.de/en/study-offer/bwl-digital-customer-experience-service-design-master">on the website</a>.</p>', updated_at = $1 WHERE id = 8272
+2022-12-20 18:21:22,249 [INFO] UPDATE course SET application_deadline = '<p>Application periods:</p>
+
+<p>December to January for the following summer semester<br />
+April to June for the following winter semester</p>
+
+<p>Application deadlines can be found on the programme website: <a href="https://www.ku.de/en/study-offer/business-administration-entre-ma-1">https://www.ku.de/en/study-offer/business-administration-entre-ma-1</a>.</p>', updated_at = $1 WHERE id = 7005
+2022-12-20 18:21:22,467 [INFO] UPDATE course SET application_deadline = '<p>Application period: 1 April to 15 June for the following winter semester</p>
+
+<p>Specific information will also be published on the <a href="https://www.ku.de/en/study-offer/business-administration-international-master">website</a>.</p>', updated_at = $1 WHERE id = 7047
+2022-12-20 18:21:22,684 [INFO] UPDATE course SET application_deadline = '<p>Application period: 1 April to 15 June for the following winter semester</p>
+
+<p>Further information is available <a href="https://www.ku.de/en/study-offer/business-psychology-master">on the website</a>.</p>', updated_at = $1 WHERE id = 7004
+2022-12-20 18:21:23,294 [INFO] =========End updating new course  =========
+2022-12-20 18:21:24,122 [INFO] =========Start deleting course=========
+2022-12-20 18:21:25,439 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-20 18:21:25,681 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-20 18:21:25,920 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-20 18:21:26,153 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-20 18:21:26,384 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-20 18:21:26,605 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-20 18:21:26,823 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-20 18:21:27,049 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-20 18:21:27,266 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-20 18:21:27,482 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-20 18:21:27,713 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-20 18:21:28,015 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-20 18:21:28,231 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-20 18:21:28,343 [INFO] No course deleted
+2022-12-20 18:21:28,451 [INFO] =========End deleting course  =========
