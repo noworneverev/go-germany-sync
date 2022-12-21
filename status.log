@@ -5919,3 +5919,48 @@ April to June for the following winter semester</p>
 2022-12-20 18:21:28,231 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-12-20 18:21:28,343 [INFO] No course deleted
 2022-12-20 18:21:28,451 [INFO] =========End deleting course  =========
+2022-12-21 18:22:17,933 [INFO] =========Start syncing university=========
+2022-12-21 18:22:18,601 [INFO] No new university
+2022-12-21 18:22:18,729 [INFO] =========End syncing university  =========
+2022-12-21 18:22:19,738 [INFO] =========Start creating new course=========
+2022-12-21 18:22:21,577 [INFO] No new course
+2022-12-21 18:22:21,705 [INFO] =========End creating new course  =========
+2022-12-21 18:22:22,689 [INFO] =========Start updating new course=========
+2022-12-21 18:22:24,235 [INFO] UPDATE course SET tuition_fees = 'varied', updated_at = $1 WHERE id = 5660
+2022-12-21 18:22:24,509 [INFO] UPDATE course SET tuition_fees = 'varied', updated_at = $1 WHERE id = 5460
+2022-12-21 18:22:24,772 [INFO] UPDATE course SET tuition_fees = 'varied', updated_at = $1 WHERE id = 4538
+2022-12-21 18:22:25,027 [INFO] UPDATE course SET name_en = 'BA Data Science & Business', updated_at = $1 WHERE id = 5461
+2022-12-21 18:22:25,282 [INFO] UPDATE course SET name_en_short = 'BA Data Science & Business', updated_at = $1 WHERE id = 5461
+2022-12-21 18:22:25,537 [INFO] UPDATE course SET tuition_fees = 'varied', updated_at = $1 WHERE id = 5461
+2022-12-21 18:22:25,793 [INFO] UPDATE course SET tuition_fees = 'varied', updated_at = $1 WHERE id = 4557
+2022-12-21 18:22:26,050 [INFO] UPDATE course SET name_en = 'BA Interior Architecture/Interior Design', updated_at = $1 WHERE id = 4539
+2022-12-21 18:22:26,305 [INFO] UPDATE course SET name_en_short = 'BA Interior Architecture/Interior Design', updated_at = $1 WHERE id = 4539
+2022-12-21 18:22:26,560 [INFO] UPDATE course SET tuition_fees = 'varied', updated_at = $1 WHERE id = 4539
+2022-12-21 18:22:26,841 [INFO] UPDATE course SET application_deadline = '<ul>
+</ul>
+
+<p>Please check the following <a href="https://www.tu-darmstadt.de/studieren/studieninteressierte/bewerbung_zulassung_tu/bewerbungsfristen/bachelor_studiengaenge_2/index.en.jsp#master_d_1">page</a> for the application deadlines.</p>', updated_at = $1 WHERE id = 6286
+2022-12-21 18:22:27,132 [INFO] No need to update column: tuition_fees from course id: 6338. [Source is , and target is None]
+2022-12-21 18:22:27,132 [INFO] No need to update column: beginning from course id: 6338. [Source is , and target is None]
+2022-12-21 18:22:27,132 [INFO] No need to update column: application_deadline from course id: 6338. [Source is , and target is None]
+2022-12-21 18:22:27,132 [INFO] UPDATE course SET is_complete_online_possible = 'True', updated_at = $1 WHERE id = 6338
+2022-12-21 18:22:27,389 [INFO] No need to update column: programme_duration from course id: 6338. [Source is , and target is None]
+2022-12-21 18:22:27,465 [INFO] UPDATE course SET name_en = 'MA Interior Architecture/Interior Design', updated_at = $1 WHERE id = 8474
+2022-12-21 18:22:27,721 [INFO] UPDATE course SET name_en_short = 'MA Interior Architecture/Interior Design', updated_at = $1 WHERE id = 8474
+2022-12-21 18:22:28,276 [INFO] =========End updating new course  =========
+2022-12-21 18:22:29,238 [INFO] =========Start deleting course=========
+2022-12-21 18:22:30,779 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-21 18:22:31,062 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-21 18:22:31,336 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-21 18:22:31,610 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-21 18:22:31,885 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-21 18:22:32,144 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-21 18:22:32,402 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-21 18:22:32,671 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-21 18:22:32,926 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-21 18:22:33,180 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-21 18:22:33,450 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-21 18:22:33,795 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-21 18:22:34,050 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-21 18:22:34,180 [INFO] No course deleted
+2022-12-21 18:22:34,306 [INFO] =========End deleting course  =========
