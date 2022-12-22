@@ -5964,3 +5964,39 @@ April to June for the following winter semester</p>
 2022-12-21 18:22:34,050 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2022-12-21 18:22:34,180 [INFO] No course deleted
 2022-12-21 18:22:34,306 [INFO] =========End deleting course  =========
+2022-12-22 18:21:27,113 [INFO] =========Start syncing university=========
+2022-12-22 18:21:27,910 [INFO] No new university
+2022-12-22 18:21:28,065 [INFO] =========End syncing university  =========
+2022-12-22 18:21:29,215 [INFO] =========Start creating new course=========
+2022-12-22 18:21:31,607 [INFO] New courses created:
+2022-12-22 18:21:31,607 [INFO] [(8549, 20, 2, 'Biomedical Engineering', 'Biomedical Engineering', '', '', 'none', 'Winter semester', 'Medicine in general', '/deutschland/studienangebote/international-programmes/en/detail/8549/', False, '<p>Please ensure that all required documents are uploaded as soon as possible on RWTHonline.</p>\n\n<p><strong>Deadline for non-EU students</strong>: We recommend submitting applications by February, but not later than the <strong>deadline of 1 March</strong>. The International Office is responsible for processing applications and assessment for the fulfilment of the formal requirements. Admission/rejection letters will be sent out by the beginning of May at the earliest.</p>\n\n<p><strong>Deadline for EU students</strong>: We recommend submitting applications by May, but not later than the <strong>deadline 15 July</strong>. The Registrar&#39;s Office is responsible for processing applications, assessment for the fulfilment of the formal requirements. Admission/rejection letters will be sent out by the beginning of August at the earliest.</p>', False, '4 semesters', True, datetime.datetime(2022, 12, 22, 18, 21, 31, 288009), None)]
+2022-12-22 18:21:31,920 [INFO] New courses_languages created:
+2022-12-22 18:21:31,920 [INFO] [(3059, 8549, 1)]
+2022-12-22 18:21:32,076 [INFO] =========End creating new course  =========
+2022-12-22 18:21:33,223 [INFO] =========Start updating new course=========
+2022-12-22 18:21:35,144 [INFO] UPDATE course SET application_deadline = '<p>ESMT administers a rolling admissions deadline. Applicants are welcome to apply at any time before the final deadline. Applications received by rounds one, two and three qualify for a tuition discount.</p>
+
+<p>The final application date is typically beginning of September to start in the October intake.</p>
+
+<p>For more information, see the <a href="https://degrees.esmt.berlin/mba-programs/executive-mba/admissions">ESMT website.</a></p>', updated_at = $1 WHERE id = 4135
+2022-12-22 18:21:35,583 [INFO] UPDATE course SET tuition_fees = '9.875,00', updated_at = $1 WHERE id = 7075
+2022-12-22 18:21:35,895 [INFO] UPDATE course SET application_deadline = '<p>ESMT administers a rolling admissions deadline. Applicants are welcome to apply any time before the final deadline. However, they may want to consider the first three early application deadlines that include a tuition discount.</p>
+
+<p>Please also see our <a href="https://degrees.esmt.berlin/mba-programs/part-time-mba/admissions">admissions page.</a></p>', updated_at = $1 WHERE id = 7075
+2022-12-22 18:21:36,405 [INFO] =========End updating new course  =========
+2022-12-22 18:21:37,574 [INFO] =========Start deleting course=========
+2022-12-22 18:21:39,474 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-22 18:21:39,802 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-22 18:21:40,129 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-22 18:21:40,454 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-22 18:21:40,779 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-22 18:21:41,096 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-22 18:21:41,413 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-22 18:21:41,734 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-22 18:21:42,050 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-22 18:21:42,364 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-22 18:21:42,686 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-22 18:21:43,048 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-22 18:21:43,362 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2022-12-22 18:21:43,429 [INFO] No course deleted
+2022-12-22 18:21:43,585 [INFO] =========End deleting course  =========
