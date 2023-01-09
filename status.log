@@ -6443,3 +6443,39 @@ For further information, please check our programme website.</p>', updated_at = 
 2023-01-08 18:20:15,018 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-01-08 18:20:15,082 [INFO] No course deleted
 2023-01-08 18:20:15,239 [INFO] =========End deleting course  =========
+2023-01-09 18:22:42,003 [INFO] =========Start syncing university=========
+2023-01-09 18:22:42,655 [INFO] No new university
+2023-01-09 18:22:42,781 [INFO] =========End syncing university  =========
+2023-01-09 18:22:43,870 [INFO] =========Start creating new course=========
+2023-01-09 18:22:45,709 [INFO] No new course
+2023-01-09 18:22:45,836 [INFO] =========End creating new course  =========
+2023-01-09 18:22:46,850 [INFO] =========Start updating new course=========
+2023-01-09 18:22:48,428 [INFO] UPDATE course SET name_en = 'Bucerius / UC College of the Law San Francisco Summer Programme: Licensing Transactions in Intellectual Property', updated_at = $1 WHERE id = 5582
+2023-01-09 18:22:48,690 [INFO] No need to update column: tuition_fees from course id: 5582. [Source is , and target is None]
+2023-01-09 18:22:48,690 [INFO] No need to update column: beginning from course id: 5582. [Source is , and target is None]
+2023-01-09 18:22:48,690 [INFO] No need to update column: application_deadline from course id: 5582. [Source is , and target is None]
+2023-01-09 18:22:48,690 [INFO] No need to update column: programme_duration from course id: 5582. [Source is , and target is None]
+2023-01-09 18:22:48,814 [INFO] UPDATE course SET application_deadline = '<p>Applications are open from 15 January until 15 July.</p>', updated_at = $1 WHERE id = 6136
+2023-01-09 18:22:49,116 [INFO] UPDATE course SET application_deadline = '<p>Recommended deadline: 15 March (especially for non-EU students)<br />
+Final deadline: 31 May</p>
+
+<p>Registration deadline TUM Test Power Engineering 2023: <strong>5 February 2023</strong></p>', updated_at = $1 WHERE id = 8446
+2023-01-09 18:22:49,458 [INFO] UPDATE course SET beginning = 'Winter semester, Summer semester', updated_at = $1 WHERE id = 8559
+2023-01-09 18:22:49,882 [INFO] =========End updating new course  =========
+2023-01-09 18:22:50,889 [INFO] =========Start deleting course=========
+2023-01-09 18:22:52,440 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-09 18:22:52,723 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-09 18:22:52,998 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-09 18:22:53,272 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-09 18:22:53,545 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-09 18:22:53,806 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-09 18:22:54,063 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-09 18:22:54,329 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-09 18:22:54,586 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-09 18:22:54,841 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-09 18:22:55,112 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-09 18:22:55,457 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-09 18:22:55,712 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-09 18:22:56,170 [INFO] DELETE FROM courses_languages WHERE course_id = 6184
+2023-01-09 18:22:56,299 [INFO] DELETE FROM  course WHERE id = 6184
+2023-01-09 18:22:56,471 [INFO] =========End deleting course  =========
