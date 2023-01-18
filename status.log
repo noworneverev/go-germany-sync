@@ -6729,3 +6729,33 @@ For further information, please check the programme website.</p>', updated_at = 
 2023-01-17 18:21:48,986 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-01-17 18:21:49,053 [INFO] No course deleted
 2023-01-17 18:21:49,163 [INFO] =========End deleting course  =========
+2023-01-18 18:21:02,944 [INFO] =========Start syncing university=========
+2023-01-18 18:21:03,507 [INFO] No new university
+2023-01-18 18:21:03,616 [INFO] =========End syncing university  =========
+2023-01-18 18:21:04,435 [INFO] =========Start creating new course=========
+2023-01-18 18:21:06,161 [INFO] New courses created:
+2023-01-18 18:21:06,161 [INFO] [(4604, 118, 2, 'International Management (MSc)', 'International Management (MSc)', '', '', 'none', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/4604/', False, '<p>15 May for the following winter semester</p>', False, '4 semesters', True, datetime.datetime(2023, 1, 18, 18, 21, 5, 927839), None), (4241, 118, 2, 'Master of Science in International Economics and Economic Policy', 'International Economics and Economic Policy (MSc)', '', '', 'none', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/4241/', False, '<p>15 May for the following winter semester</p>', False, '4 semesters', True, datetime.datetime(2023, 1, 18, 18, 21, 5, 927854), None), (4306, 118, 2, 'Money and Finance (MSc)', 'Money and Finance (MSc)', '', '', 'none', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/4306/', False, '<p>15 May for the following winter semester</p>', False, '4 semesters', True, datetime.datetime(2023, 1, 18, 18, 21, 5, 927862), None)]
+2023-01-18 18:21:06,381 [INFO] New courses_languages created:
+2023-01-18 18:21:06,381 [INFO] [(3070, 4604, 1), (3071, 4241, 1), (3072, 4306, 1)]
+2023-01-18 18:21:06,491 [INFO] =========End creating new course  =========
+2023-01-18 18:21:07,331 [INFO] =========Start updating new course=========
+2023-01-18 18:21:08,829 [INFO] UPDATE course SET application_deadline = '<p>If you are interested in the programme, please fill in a <a href="https://www.th-luebeck.de/fileadmin/media/01_Hochschule/05_Fachbereiche/Bauwesen/Bilder/Labore/Wasserbau/Downloads/WEM_Pre-Application-Form.pdf">pre-application form</a>. We will give you feedback on your eligibility (language, Bachelor&#39;s degree, grades). Eligible students&nbsp;should send their&nbsp;application to uni-assist before&nbsp;the 1 March.&nbsp;For non-European students, an early application is recommended.</p>
+
+<p>For German and European students, the application is open until the end of September. Please check the&nbsp;<a href="https://www.th-luebeck.de/wem">WEM website</a> for further application details.</p>', updated_at = $1 WHERE id = 4393
+2023-01-18 18:21:09,164 [INFO] =========End updating new course  =========
+2023-01-18 18:21:09,988 [INFO] =========Start deleting course=========
+2023-01-18 18:21:11,320 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-18 18:21:11,553 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-18 18:21:11,782 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-18 18:21:12,011 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-18 18:21:12,239 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-18 18:21:12,461 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-18 18:21:12,682 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-18 18:21:12,907 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-18 18:21:13,128 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-18 18:21:13,348 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-18 18:21:13,575 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-18 18:21:13,838 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-18 18:21:14,058 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-18 18:21:14,120 [INFO] No course deleted
+2023-01-18 18:21:14,229 [INFO] =========End deleting course  =========
