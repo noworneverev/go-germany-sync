@@ -6790,3 +6790,34 @@ For further information, please check the programme website.</p>', updated_at = 
 2023-01-19 18:22:51,359 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-01-19 18:22:51,423 [INFO] No course deleted
 2023-01-19 18:22:51,584 [INFO] =========End deleting course  =========
+2023-01-20 18:22:13,740 [INFO] =========Start syncing university=========
+2023-01-20 18:22:14,874 [INFO] New university:
+2023-01-20 18:22:14,874 [INFO] [(258, 'Max Planck Institute for Biological Intelligence', '', 'Planegg', True, False, False, None, datetime.datetime(2023, 1, 20, 18, 22, 14, 553973), None, '')]
+2023-01-20 18:22:15,034 [INFO] =========End syncing university  =========
+2023-01-20 18:22:16,182 [INFO] =========Start creating new course=========
+2023-01-20 18:22:18,545 [INFO] New courses created:
+2023-01-20 18:22:18,545 [INFO] [(8563, 258, 3, 'International Max Planck Research School - Biological Intelligence', 'IMPRS - Biological Intelligence', '', '', 'none', 'Winter semester', 'Mathematics, Natural Sciences in general', '/deutschland/studienangebote/international-programmes/en/detail/8563/', False, '<p>The closing date for applications is 31 January 2023.&nbsp;</p>\n\n<p>Details about the&nbsp;application process can be found on our&nbsp;<a href="https://imprs-bi.mpg.de/51861/How-to-apply">website</a>.</p>', False, '8 semesters', True, datetime.datetime(2023, 1, 20, 18, 22, 18, 232485), None)]
+2023-01-20 18:22:18,858 [INFO] New courses_languages created:
+2023-01-20 18:22:18,858 [INFO] [(3073, 8563, 1)]
+2023-01-20 18:22:19,014 [INFO] =========End creating new course  =========
+2023-01-20 18:22:20,171 [INFO] =========Start updating new course=========
+2023-01-20 18:22:22,156 [INFO] UPDATE course SET application_deadline = '<p>Application period from 1 March until 15 April</p>', updated_at = $1 WHERE id = 4289
+2023-01-20 18:22:22,490 [INFO] UPDATE course SET name_en = 'Master''s in Innovation, Business and Sustainability (MIBAS)', updated_at = $1 WHERE id = 3745
+2023-01-20 18:22:22,806 [INFO] UPDATE course SET name_en_short = 'Master''s in Innovation, Business and Sustainability (MIBAS)', updated_at = $1 WHERE id = 3745
+2023-01-20 18:22:23,339 [INFO] =========End updating new course  =========
+2023-01-20 18:22:24,482 [INFO] =========Start deleting course=========
+2023-01-20 18:22:26,365 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-20 18:22:26,690 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-20 18:22:27,012 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-20 18:22:27,333 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-20 18:22:27,654 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-20 18:22:27,968 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-20 18:22:28,281 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-20 18:22:28,598 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-20 18:22:28,911 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-20 18:22:29,223 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-20 18:22:29,542 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-20 18:22:29,899 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-20 18:22:30,211 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-20 18:22:30,275 [INFO] No course deleted
+2023-01-20 18:22:30,431 [INFO] =========End deleting course  =========
