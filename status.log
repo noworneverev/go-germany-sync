@@ -6895,3 +6895,37 @@ For further information, please check the programme website.</p>', updated_at = 
 2023-01-23 18:20:39,776 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-01-23 18:20:39,846 [INFO] No course deleted
 2023-01-23 18:20:40,007 [INFO] =========End deleting course  =========
+2023-01-24 18:21:24,504 [INFO] =========Start syncing university=========
+2023-01-24 18:21:25,068 [INFO] No new university
+2023-01-24 18:21:25,177 [INFO] =========End syncing university  =========
+2023-01-24 18:21:25,992 [INFO] =========Start creating new course=========
+2023-01-24 18:21:27,701 [INFO] New courses created:
+2023-01-24 18:21:27,701 [INFO] [(7612, 17, 2, 'Advanced Manufacturing', 'Advanced Manufacturing', '', '', 'none', 'Winter semester', 'Engineering in general', '/deutschland/studienangebote/international-programmes/en/detail/7612/', False, '<p>15 July for the following winter semester</p>', True, '4 semesters', True, datetime.datetime(2023, 1, 24, 18, 21, 27, 480986), None)]
+2023-01-24 18:21:27,920 [INFO] New courses_languages created:
+2023-01-24 18:21:27,921 [INFO] [(3074, 7612, 1)]
+2023-01-24 18:21:28,029 [INFO] =========End creating new course  =========
+2023-01-24 18:21:28,850 [INFO] =========Start updating new course=========
+2023-01-24 18:21:30,235 [INFO] UPDATE course SET name_en = 'International German SME (Small and Medium Enterprises) – Sustainability in Business and Technology', updated_at = $1 WHERE id = 6273
+2023-01-24 18:21:30,456 [INFO] UPDATE course SET name_en_short = 'International German SME: Sustainability in Business & Technology', updated_at = $1 WHERE id = 6273
+2023-01-24 18:21:30,677 [INFO] No need to update column: tuition_fees from course id: 6273. [Source is , and target is None]
+2023-01-24 18:21:30,677 [INFO] No need to update column: beginning from course id: 6273. [Source is , and target is None]
+2023-01-24 18:21:30,677 [INFO] No need to update column: application_deadline from course id: 6273. [Source is , and target is None]
+2023-01-24 18:21:30,677 [INFO] No need to update column: programme_duration from course id: 6273. [Source is , and target is None]
+2023-01-24 18:21:30,727 [INFO] UPDATE course SET tuition_fees = '6.248,00', updated_at = $1 WHERE id = 5510
+2023-01-24 18:21:31,122 [INFO] =========End updating new course  =========
+2023-01-24 18:21:31,969 [INFO] =========Start deleting course=========
+2023-01-24 18:21:33,311 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-24 18:21:33,546 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-24 18:21:33,777 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-24 18:21:34,007 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-24 18:21:34,238 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-24 18:21:34,463 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-24 18:21:34,685 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-24 18:21:34,912 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-24 18:21:35,135 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-24 18:21:35,356 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-24 18:21:35,585 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-24 18:21:35,850 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-24 18:21:36,073 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-24 18:21:36,137 [INFO] No course deleted
+2023-01-24 18:21:36,247 [INFO] =========End deleting course  =========
