@@ -6953,3 +6953,398 @@ For further information, please check the programme website.</p>', updated_at = 
 2023-01-25 18:20:41,323 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-01-25 18:20:41,389 [INFO] No course deleted
 2023-01-25 18:20:41,515 [INFO] =========End deleting course  =========
+2023-01-26 18:21:12,030 [INFO] =========Start syncing university=========
+2023-01-26 18:21:12,810 [INFO] No new university
+2023-01-26 18:21:12,963 [INFO] =========End syncing university  =========
+2023-01-26 18:21:14,110 [INFO] =========Start creating new course=========
+2023-01-26 18:21:16,132 [INFO] No new course
+2023-01-26 18:21:16,284 [INFO] =========End creating new course  =========
+2023-01-26 18:21:17,465 [INFO] =========Start updating new course=========
+2023-01-26 18:21:19,346 [INFO] UPDATE course SET tuition_fees = '965', updated_at = $1 WHERE id = 8299
+2023-01-26 18:21:19,661 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 6217
+2023-01-26 18:21:19,977 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 5332
+2023-01-26 18:21:20,289 [INFO] UPDATE course SET tuition_fees = '3,900', updated_at = $1 WHERE id = 3949
+2023-01-26 18:21:20,602 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 3791
+2023-01-26 18:21:20,916 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 3981
+2023-01-26 18:21:21,229 [INFO] UPDATE course SET tuition_fees = '4,740', updated_at = $1 WHERE id = 4886
+2023-01-26 18:21:21,542 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 7847
+2023-01-26 18:21:21,855 [INFO] UPDATE course SET tuition_fees = '2,900', updated_at = $1 WHERE id = 7795
+2023-01-26 18:21:22,168 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 7801
+2023-01-26 18:21:22,480 [INFO] UPDATE course SET tuition_fees = '3,540', updated_at = $1 WHERE id = 8447
+2023-01-26 18:21:22,793 [INFO] UPDATE course SET tuition_fees = '750', updated_at = $1 WHERE id = 4346
+2023-01-26 18:21:23,105 [INFO] UPDATE course SET tuition_fees = '4,140', updated_at = $1 WHERE id = 7730
+2023-01-26 18:21:23,419 [INFO] UPDATE course SET tuition_fees = '2,428', updated_at = $1 WHERE id = 5242
+2023-01-26 18:21:23,732 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 6219
+2023-01-26 18:21:24,045 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 3618
+2023-01-26 18:21:24,359 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 5423
+2023-01-26 18:21:24,674 [INFO] UPDATE course SET tuition_fees = '3,540', updated_at = $1 WHERE id = 6403
+2023-01-26 18:21:24,987 [INFO] UPDATE course SET tuition_fees = '7,700', updated_at = $1 WHERE id = 4380
+2023-01-26 18:21:25,299 [INFO] UPDATE course SET tuition_fees = '6,190', updated_at = $1 WHERE id = 4392
+2023-01-26 18:21:25,615 [INFO] UPDATE course SET tuition_fees = '7,700', updated_at = $1 WHERE id = 7162
+2023-01-26 18:21:25,927 [INFO] UPDATE course SET tuition_fees = '7,700', updated_at = $1 WHERE id = 7163
+2023-01-26 18:21:26,240 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 4828
+2023-01-26 18:21:26,553 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 7710
+2023-01-26 18:21:26,866 [INFO] No need to update column: application_deadline from course id: 7710. [Source is , and target is None]
+2023-01-26 18:21:26,866 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 5617
+2023-01-26 18:21:27,178 [INFO] No need to update column: application_deadline from course id: 5617. [Source is , and target is None]
+2023-01-26 18:21:27,179 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 4128
+2023-01-26 18:21:27,491 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 5274
+2023-01-26 18:21:27,804 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 4631
+2023-01-26 18:21:28,117 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 3675
+2023-01-26 18:21:28,430 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 4048
+2023-01-26 18:21:28,742 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 3592
+2023-01-26 18:21:29,055 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 3659
+2023-01-26 18:21:29,368 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 3660
+2023-01-26 18:21:29,681 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 3663
+2023-01-26 18:21:29,994 [INFO] UPDATE course SET tuition_fees = '2,500', updated_at = $1 WHERE id = 8430
+2023-01-26 18:21:30,307 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 3616
+2023-01-26 18:21:30,619 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 3664
+2023-01-26 18:21:30,934 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 3898
+2023-01-26 18:21:31,246 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 3593
+2023-01-26 18:21:31,559 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 4203
+2023-01-26 18:21:31,871 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 3661
+2023-01-26 18:21:32,184 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 3662
+2023-01-26 18:21:32,497 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 4303
+2023-01-26 18:21:32,810 [INFO] UPDATE course SET tuition_fees = '6,190', updated_at = $1 WHERE id = 7916
+2023-01-26 18:21:33,123 [INFO] UPDATE course SET tuition_fees = '6,190', updated_at = $1 WHERE id = 7915
+2023-01-26 18:21:33,436 [INFO] UPDATE course SET tuition_fees = '6,190', updated_at = $1 WHERE id = 7914
+2023-01-26 18:21:33,752 [INFO] UPDATE course SET tuition_fees = '9,900', updated_at = $1 WHERE id = 3625
+2023-01-26 18:21:34,064 [INFO] UPDATE course SET tuition_fees = '4,950', updated_at = $1 WHERE id = 6995
+2023-01-26 18:21:34,379 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 5691
+2023-01-26 18:21:34,691 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 6119
+2023-01-26 18:21:35,004 [INFO] UPDATE course SET tuition_fees = '200', updated_at = $1 WHERE id = 8314
+2023-01-26 18:21:35,320 [INFO] UPDATE course SET tuition_fees = '7,000', updated_at = $1 WHERE id = 3918
+2023-01-26 18:21:35,632 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 4630
+2023-01-26 18:21:35,946 [INFO] UPDATE course SET tuition_fees = '12,500', updated_at = $1 WHERE id = 3666
+2023-01-26 18:21:36,259 [INFO] UPDATE course SET tuition_fees = '6,600', updated_at = $1 WHERE id = 4665
+2023-01-26 18:21:36,572 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 4659
+2023-01-26 18:21:36,885 [INFO] UPDATE course SET tuition_fees = '4,080', updated_at = $1 WHERE id = 6944
+2023-01-26 18:21:37,199 [INFO] UPDATE course SET tuition_fees = '4,080', updated_at = $1 WHERE id = 6949
+2023-01-26 18:21:37,511 [INFO] UPDATE course SET application_deadline = '<p>There is&nbsp;<strong>no deadline&nbsp;</strong>for enrolment. You have the choice to apply whenever you want. But to guarantee a smooth process, we highly recommend applying as soon as possible.</p>
+
+<p><strong>Important information:&nbsp;</strong>Please verify the specific visa deadlines for your country for beginning studies in Germany. You will only be able to enrol at the university if you have a visa valid for study in Germany. Please contact the German embassy in your home country to obtain the specific deadlines.</p>', updated_at = $1 WHERE id = 6949
+2023-01-26 18:21:37,825 [INFO] UPDATE course SET tuition_fees = '1,543', updated_at = $1 WHERE id = 3737
+2023-01-26 18:21:38,138 [INFO] UPDATE course SET tuition_fees = '6,280', updated_at = $1 WHERE id = 6238
+2023-01-26 18:21:38,451 [INFO] UPDATE course SET tuition_fees = '5,980', updated_at = $1 WHERE id = 7054
+2023-01-26 18:21:38,763 [INFO] UPDATE course SET tuition_fees = '4,080', updated_at = $1 WHERE id = 6424
+2023-01-26 18:21:39,076 [INFO] UPDATE course SET tuition_fees = '4,080', updated_at = $1 WHERE id = 6947
+2023-01-26 18:21:39,389 [INFO] UPDATE course SET tuition_fees = '3,300', updated_at = $1 WHERE id = 7752
+2023-01-26 18:21:39,706 [INFO] UPDATE course SET tuition_fees = '3,230', updated_at = $1 WHERE id = 4858
+2023-01-26 18:21:40,020 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 7800
+2023-01-26 18:21:40,334 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 7639
+2023-01-26 18:21:40,648 [INFO] UPDATE course SET tuition_fees = '6,450', updated_at = $1 WHERE id = 5646
+2023-01-26 18:21:40,961 [INFO] UPDATE course SET tuition_fees = '6,450', updated_at = $1 WHERE id = 5436
+2023-01-26 18:21:41,275 [INFO] UPDATE course SET tuition_fees = '5,500', updated_at = $1 WHERE id = 4157
+2023-01-26 18:21:41,589 [INFO] UPDATE course SET tuition_fees = '1,250', updated_at = $1 WHERE id = 4474
+2023-01-26 18:21:41,901 [INFO] UPDATE course SET tuition_fees = '4,880', updated_at = $1 WHERE id = 7001
+2023-01-26 18:21:42,216 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 6218
+2023-01-26 18:21:42,530 [INFO] UPDATE course SET tuition_fees = '3,900', updated_at = $1 WHERE id = 7945
+2023-01-26 18:21:42,843 [INFO] UPDATE course SET tuition_fees = '4,140', updated_at = $1 WHERE id = 4787
+2023-01-26 18:21:43,157 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 5440
+2023-01-26 18:21:43,471 [INFO] UPDATE course SET tuition_fees = '850', updated_at = $1 WHERE id = 4049
+2023-01-26 18:21:43,785 [INFO] UPDATE course SET tuition_fees = '3,900', updated_at = $1 WHERE id = 7944
+2023-01-26 18:21:44,098 [INFO] UPDATE course SET tuition_fees = '5,700', updated_at = $1 WHERE id = 7209
+2023-01-26 18:21:44,412 [INFO] UPDATE course SET tuition_fees = '3,900', updated_at = $1 WHERE id = 8478
+2023-01-26 18:21:44,724 [INFO] UPDATE course SET tuition_fees = '5,280', updated_at = $1 WHERE id = 5698
+2023-01-26 18:21:45,037 [INFO] UPDATE course SET tuition_fees = '5,280', updated_at = $1 WHERE id = 5699
+2023-01-26 18:21:45,350 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 8377
+2023-01-26 18:21:45,663 [INFO] UPDATE course SET tuition_fees = '6,450', updated_at = $1 WHERE id = 7790
+2023-01-26 18:21:45,975 [INFO] UPDATE course SET tuition_fees = '5,400', updated_at = $1 WHERE id = 7786
+2023-01-26 18:21:46,287 [INFO] UPDATE course SET tuition_fees = '3,300', updated_at = $1 WHERE id = 7856
+2023-01-26 18:21:46,600 [INFO] UPDATE course SET tuition_fees = '2,500', updated_at = $1 WHERE id = 8345
+2023-01-26 18:21:46,912 [INFO] UPDATE course SET tuition_fees = '2,280', updated_at = $1 WHERE id = 3937
+2023-01-26 18:21:47,226 [INFO] UPDATE course SET tuition_fees = '1,150', updated_at = $1 WHERE id = 6315
+2023-01-26 18:21:47,539 [INFO] UPDATE course SET tuition_fees = '1,150', updated_at = $1 WHERE id = 7059
+2023-01-26 18:21:47,853 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 6336
+2023-01-26 18:21:48,166 [INFO] UPDATE course SET tuition_fees = '13,333', updated_at = $1 WHERE id = 3953
+2023-01-26 18:21:48,479 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 7693
+2023-01-26 18:21:48,795 [INFO] UPDATE course SET tuition_fees = '9,000', updated_at = $1 WHERE id = 8475
+2023-01-26 18:21:49,110 [INFO] UPDATE course SET tuition_fees = '500', updated_at = $1 WHERE id = 8357
+2023-01-26 18:21:49,424 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 4201
+2023-01-26 18:21:49,736 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 3993
+2023-01-26 18:21:50,205 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 4854
+2023-01-26 18:21:50,675 [INFO] UPDATE course SET tuition_fees = '7,500', updated_at = $1 WHERE id = 4551
+2023-01-26 18:21:51,143 [INFO] UPDATE course SET tuition_fees = '6,450', updated_at = $1 WHERE id = 4832
+2023-01-26 18:21:51,611 [INFO] UPDATE course SET tuition_fees = '6,450', updated_at = $1 WHERE id = 6362
+2023-01-26 18:21:52,079 [INFO] UPDATE course SET tuition_fees = '6,450', updated_at = $1 WHERE id = 6361
+2023-01-26 18:21:52,547 [INFO] UPDATE course SET tuition_fees = '6,450', updated_at = $1 WHERE id = 6364
+2023-01-26 18:21:53,016 [INFO] UPDATE course SET tuition_fees = '6,450', updated_at = $1 WHERE id = 4357
+2023-01-26 18:21:53,485 [INFO] UPDATE course SET tuition_fees = '6,280', updated_at = $1 WHERE id = 8303
+2023-01-26 18:21:53,955 [INFO] UPDATE course SET tuition_fees = '5,200', updated_at = $1 WHERE id = 4589
+2023-01-26 18:21:54,423 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 5426
+2023-01-26 18:21:54,890 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 3943
+2023-01-26 18:21:55,359 [INFO] UPDATE course SET tuition_fees = '1,800', updated_at = $1 WHERE id = 4054
+2023-01-26 18:21:55,828 [INFO] UPDATE course SET tuition_fees = '1,250', updated_at = $1 WHERE id = 4091
+2023-01-26 18:21:56,296 [INFO] UPDATE course SET tuition_fees = '2,125', updated_at = $1 WHERE id = 3934
+2023-01-26 18:21:56,765 [INFO] UPDATE course SET tuition_fees = '9,125', updated_at = $1 WHERE id = 4123
+2023-01-26 18:21:57,233 [INFO] UPDATE course SET tuition_fees = '9,750', updated_at = $1 WHERE id = 4431
+2023-01-26 18:21:57,701 [INFO] UPDATE course SET tuition_fees = '19,833', updated_at = $1 WHERE id = 4135
+2023-01-26 18:21:58,169 [INFO] UPDATE course SET tuition_fees = '16,500', updated_at = $1 WHERE id = 4542
+2023-01-26 18:21:58,637 [INFO] UPDATE course SET tuition_fees = '7,500', updated_at = $1 WHERE id = 7074
+2023-01-26 18:21:59,106 [INFO] UPDATE course SET tuition_fees = '9,750', updated_at = $1 WHERE id = 4432
+2023-01-26 18:21:59,574 [INFO] UPDATE course SET tuition_fees = '9,750', updated_at = $1 WHERE id = 4089
+2023-01-26 18:22:00,042 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 7804
+2023-01-26 18:22:00,510 [INFO] UPDATE course SET tuition_fees = '5,400', updated_at = $1 WHERE id = 7011
+2023-01-26 18:22:00,979 [INFO] UPDATE course SET tuition_fees = '5,380', updated_at = $1 WHERE id = 7068
+2023-01-26 18:22:01,447 [INFO] UPDATE course SET tuition_fees = '6,280', updated_at = $1 WHERE id = 5262
+2023-01-26 18:22:01,915 [INFO] UPDATE course SET tuition_fees = '1,990', updated_at = $1 WHERE id = 5321
+2023-01-26 18:22:02,383 [INFO] UPDATE course SET tuition_fees = '7,500', updated_at = $1 WHERE id = 4552
+2023-01-26 18:22:02,855 [INFO] UPDATE course SET tuition_fees = '20,250', updated_at = $1 WHERE id = 3665
+2023-01-26 18:22:03,323 [INFO] UPDATE course SET tuition_fees = '8,000', updated_at = $1 WHERE id = 3651
+2023-01-26 18:22:03,792 [INFO] UPDATE course SET tuition_fees = '21,000', updated_at = $1 WHERE id = 4536
+2023-01-26 18:22:04,260 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 7123
+2023-01-26 18:22:04,728 [INFO] UPDATE course SET tuition_fees = '13,166', updated_at = $1 WHERE id = 3653
+2023-01-26 18:22:05,196 [INFO] UPDATE course SET tuition_fees = '3,300', updated_at = $1 WHERE id = 4729
+2023-01-26 18:22:05,665 [INFO] UPDATE course SET tuition_fees = '1,700', updated_at = $1 WHERE id = 3862
+2023-01-26 18:22:06,135 [INFO] UPDATE course SET tuition_fees = '3,150', updated_at = $1 WHERE id = 4370
+2023-01-26 18:22:06,603 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 8395
+2023-01-26 18:22:07,075 [INFO] UPDATE course SET tuition_fees = '2,500', updated_at = $1 WHERE id = 3915
+2023-01-26 18:22:07,544 [INFO] UPDATE course SET tuition_fees = '4,620', updated_at = $1 WHERE id = 5615
+2023-01-26 18:22:08,014 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 7734
+2023-01-26 18:22:08,483 [INFO] UPDATE course SET tuition_fees = '8,750', updated_at = $1 WHERE id = 8420
+2023-01-26 18:22:08,952 [INFO] UPDATE course SET tuition_fees = '7,000', updated_at = $1 WHERE id = 7686
+2023-01-26 18:22:09,421 [INFO] UPDATE course SET tuition_fees = '3,875', updated_at = $1 WHERE id = 3704
+2023-01-26 18:22:09,889 [INFO] UPDATE course SET tuition_fees = '3,875', updated_at = $1 WHERE id = 7774
+2023-01-26 18:22:10,358 [INFO] UPDATE course SET tuition_fees = '5,700', updated_at = $1 WHERE id = 7208
+2023-01-26 18:22:10,835 [INFO] UPDATE course SET tuition_fees = '4,000', updated_at = $1 WHERE id = 7881
+2023-01-26 18:22:11,303 [INFO] UPDATE course SET tuition_fees = '1,000', updated_at = $1 WHERE id = 4623
+2023-01-26 18:22:11,772 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 7803
+2023-01-26 18:22:12,240 [INFO] UPDATE course SET tuition_fees = '5,280', updated_at = $1 WHERE id = 7127
+2023-01-26 18:22:12,709 [INFO] No need to update column: application_deadline from course id: 7127. [Source is , and target is None]
+2023-01-26 18:22:12,709 [INFO] UPDATE course SET tuition_fees = '5,280', updated_at = $1 WHERE id = 7785
+2023-01-26 18:22:13,179 [INFO] UPDATE course SET tuition_fees = '5,380', updated_at = $1 WHERE id = 7070
+2023-01-26 18:22:13,647 [INFO] UPDATE course SET tuition_fees = '7,500', updated_at = $1 WHERE id = 4553
+2023-01-26 18:22:14,115 [INFO] UPDATE course SET tuition_fees = '4,620', updated_at = $1 WHERE id = 4343
+2023-01-26 18:22:14,584 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 4501
+2023-01-26 18:22:15,055 [INFO] UPDATE course SET tuition_fees = '2,400', updated_at = $1 WHERE id = 6225
+2023-01-26 18:22:15,523 [INFO] UPDATE course SET tuition_fees = '2,640', updated_at = $1 WHERE id = 4465
+2023-01-26 18:22:15,992 [INFO] UPDATE course SET tuition_fees = '4,890', updated_at = $1 WHERE id = 8396
+2023-01-26 18:22:16,461 [INFO] UPDATE course SET tuition_fees = '4,020', updated_at = $1 WHERE id = 4369
+2023-01-26 18:22:16,930 [INFO] UPDATE course SET tuition_fees = '6,280', updated_at = $1 WHERE id = 5263
+2023-01-26 18:22:17,398 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 3838
+2023-01-26 18:22:17,867 [INFO] UPDATE course SET tuition_fees = '4,620', updated_at = $1 WHERE id = 4293
+2023-01-26 18:22:18,336 [INFO] UPDATE course SET tuition_fees = '4,080', updated_at = $1 WHERE id = 6423
+2023-01-26 18:22:18,803 [INFO] UPDATE course SET tuition_fees = '4,080', updated_at = $1 WHERE id = 6951
+2023-01-26 18:22:19,272 [INFO] UPDATE course SET application_deadline = '<p>There is&nbsp;<strong>no deadline&nbsp;</strong>for enrolment. You have the choice to apply whenever you want. But to guarantee a smooth process, we highly recommend applying as soon as possible.</p>
+
+<p><strong>Important information:&nbsp;</strong>Please verify the specific visa deadlines for your country for beginning studies in Germany. You will only be able to enrol at the university if you have a visa valid for study in Germany. Please contact the German embassy in your home country to obtain the specific deadlines.</p>', updated_at = $1 WHERE id = 6951
+2023-01-26 18:22:19,741 [INFO] UPDATE course SET tuition_fees = '5,700', updated_at = $1 WHERE id = 5692
+2023-01-26 18:22:20,208 [INFO] UPDATE course SET tuition_fees = '5,700', updated_at = $1 WHERE id = 5693
+2023-01-26 18:22:20,677 [INFO] UPDATE course SET tuition_fees = '5,700', updated_at = $1 WHERE id = 5694
+2023-01-26 18:22:21,144 [INFO] UPDATE course SET tuition_fees = '5,700', updated_at = $1 WHERE id = 6958
+2023-01-26 18:22:21,612 [INFO] UPDATE course SET tuition_fees = '5,280', updated_at = $1 WHERE id = 5695
+2023-01-26 18:22:22,080 [INFO] UPDATE course SET tuition_fees = '5,280', updated_at = $1 WHERE id = 5696
+2023-01-26 18:22:22,549 [INFO] UPDATE course SET tuition_fees = '5,280', updated_at = $1 WHERE id = 5697
+2023-01-26 18:22:23,017 [INFO] UPDATE course SET tuition_fees = '4,000', updated_at = $1 WHERE id = 3674
+2023-01-26 18:22:23,485 [INFO] UPDATE course SET tuition_fees = '7,250', updated_at = $1 WHERE id = 4448
+2023-01-26 18:22:23,954 [INFO] UPDATE course SET tuition_fees = '6,450', updated_at = $1 WHERE id = 5564
+2023-01-26 18:22:24,422 [INFO] UPDATE course SET tuition_fees = '7,095', updated_at = $1 WHERE id = 7087
+2023-01-26 18:22:24,891 [INFO] UPDATE course SET tuition_fees = '3,000', updated_at = $1 WHERE id = 5445
+2023-01-26 18:22:25,361 [INFO] UPDATE course SET tuition_fees = '2,500', updated_at = $1 WHERE id = 3853
+2023-01-26 18:22:25,830 [INFO] UPDATE course SET tuition_fees = '5,280', updated_at = $1 WHERE id = 5690
+2023-01-26 18:22:26,299 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 4414
+2023-01-26 18:22:26,767 [INFO] UPDATE course SET tuition_fees = '6,480', updated_at = $1 WHERE id = 5261
+2023-01-26 18:22:27,236 [INFO] UPDATE course SET tuition_fees = '5,380', updated_at = $1 WHERE id = 5259
+2023-01-26 18:22:27,705 [INFO] UPDATE course SET tuition_fees = '6,450', updated_at = $1 WHERE id = 4037
+2023-01-26 18:22:28,173 [INFO] UPDATE course SET tuition_fees = '5,280', updated_at = $1 WHERE id = 8320
+2023-01-26 18:22:28,641 [INFO] UPDATE course SET tuition_fees = '5,280', updated_at = $1 WHERE id = 8321
+2023-01-26 18:22:29,110 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 3919
+2023-01-26 18:22:29,578 [INFO] UPDATE course SET tuition_fees = '6,280', updated_at = $1 WHERE id = 5260
+2023-01-26 18:22:30,046 [INFO] UPDATE course SET tuition_fees = '4,620', updated_at = $1 WHERE id = 4882
+2023-01-26 18:22:30,514 [INFO] UPDATE course SET tuition_fees = '5,700', updated_at = $1 WHERE id = 7210
+2023-01-26 18:22:30,983 [INFO] UPDATE course SET tuition_fees = '6,450', updated_at = $1 WHERE id = 6365
+2023-01-26 18:22:31,452 [INFO] UPDATE course SET tuition_fees = '750', updated_at = $1 WHERE id = 3865
+2023-01-26 18:22:31,922 [INFO] UPDATE course SET tuition_fees = '2,500', updated_at = $1 WHERE id = 4148
+2023-01-26 18:22:32,391 [INFO] UPDATE course SET tuition_fees = '3,600', updated_at = $1 WHERE id = 6384
+2023-01-26 18:22:32,863 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 4047
+2023-01-26 18:22:33,333 [INFO] UPDATE course SET tuition_fees = '3,000', updated_at = $1 WHERE id = 5447
+2023-01-26 18:22:33,803 [INFO] UPDATE course SET tuition_fees = '2,500', updated_at = $1 WHERE id = 3720
+2023-01-26 18:22:34,273 [INFO] UPDATE course SET tuition_fees = '2,000', updated_at = $1 WHERE id = 4488
+2023-01-26 18:22:34,740 [INFO] UPDATE course SET tuition_fees = '3,810', updated_at = $1 WHERE id = 7777
+2023-01-26 18:22:35,208 [INFO] UPDATE course SET tuition_fees = '5,280', updated_at = $1 WHERE id = 5700
+2023-01-26 18:22:35,676 [INFO] UPDATE course SET tuition_fees = '5,280', updated_at = $1 WHERE id = 5701
+2023-01-26 18:22:36,146 [INFO] UPDATE course SET tuition_fees = '2,250', updated_at = $1 WHERE id = 4632
+2023-01-26 18:22:36,616 [INFO] UPDATE course SET tuition_fees = '800', updated_at = $1 WHERE id = 4066
+2023-01-26 18:22:37,085 [INFO] UPDATE course SET tuition_fees = '826', updated_at = $1 WHERE id = 7031
+2023-01-26 18:22:37,557 [INFO] UPDATE course SET tuition_fees = '5,500', updated_at = $1 WHERE id = 4731
+2023-01-26 18:22:38,026 [INFO] UPDATE course SET tuition_fees = '2,250', updated_at = $1 WHERE id = 4541
+2023-01-26 18:22:38,494 [INFO] UPDATE course SET tuition_fees = '6,280', updated_at = $1 WHERE id = 5265
+2023-01-26 18:22:38,963 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 5308
+2023-01-26 18:22:39,433 [INFO] UPDATE course SET tuition_fees = '3,900', updated_at = $1 WHERE id = 6404
+2023-01-26 18:22:39,903 [INFO] UPDATE course SET tuition_fees = '4,140', updated_at = $1 WHERE id = 8493
+2023-01-26 18:22:40,376 [INFO] UPDATE course SET tuition_fees = '3,750', updated_at = $1 WHERE id = 4658
+2023-01-26 18:22:40,845 [INFO] UPDATE course SET tuition_fees = '2,200', updated_at = $1 WHERE id = 5664
+2023-01-26 18:22:41,316 [INFO] UPDATE course SET tuition_fees = '5,900', updated_at = $1 WHERE id = 7681
+2023-01-26 18:22:41,784 [INFO] UPDATE course SET tuition_fees = '3,750', updated_at = $1 WHERE id = 4462
+2023-01-26 18:22:42,252 [INFO] UPDATE course SET tuition_fees = '2,640', updated_at = $1 WHERE id = 4467
+2023-01-26 18:22:42,722 [INFO] UPDATE course SET tuition_fees = '5,500', updated_at = $1 WHERE id = 4598
+2023-01-26 18:22:43,191 [INFO] UPDATE course SET tuition_fees = '5,500', updated_at = $1 WHERE id = 4362
+2023-01-26 18:22:43,660 [INFO] UPDATE course SET tuition_fees = '3,570', updated_at = $1 WHERE id = 7625
+2023-01-26 18:22:44,129 [INFO] UPDATE course SET tuition_fees = '7,500', updated_at = $1 WHERE id = 4550
+2023-01-26 18:22:44,599 [INFO] UPDATE course SET tuition_fees = '2,475', updated_at = $1 WHERE id = 4560
+2023-01-26 18:22:45,069 [INFO] UPDATE course SET tuition_fees = '2,533', updated_at = $1 WHERE id = 7024
+2023-01-26 18:22:45,539 [INFO] UPDATE course SET tuition_fees = '800', updated_at = $1 WHERE id = 4057
+2023-01-26 18:22:46,008 [INFO] UPDATE course SET tuition_fees = '4,830', updated_at = $1 WHERE id = 7890
+2023-01-26 18:22:46,478 [INFO] No need to update column: application_deadline from course id: 7890. [Source is , and target is None]
+2023-01-26 18:22:46,479 [INFO] UPDATE course SET tuition_fees = '1,800', updated_at = $1 WHERE id = 4602
+2023-01-26 18:22:46,948 [INFO] UPDATE course SET tuition_fees = '5,900', updated_at = $1 WHERE id = 4681
+2023-01-26 18:22:47,420 [INFO] UPDATE course SET tuition_fees = '4,770', updated_at = $1 WHERE id = 5618
+2023-01-26 18:22:47,888 [INFO] No need to update column: application_deadline from course id: 5618. [Source is , and target is None]
+2023-01-26 18:22:47,889 [INFO] UPDATE course SET tuition_fees = '2,750', updated_at = $1 WHERE id = 3821
+2023-01-26 18:22:48,357 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 3840
+2023-01-26 18:22:48,825 [INFO] UPDATE course SET tuition_fees = '4,167', updated_at = $1 WHERE id = 3800
+2023-01-26 18:22:49,292 [INFO] UPDATE course SET tuition_fees = '4,200', updated_at = $1 WHERE id = 3864
+2023-01-26 18:22:49,760 [INFO] UPDATE course SET tuition_fees = '800', updated_at = $1 WHERE id = 7609
+2023-01-26 18:22:50,228 [INFO] UPDATE course SET tuition_fees = '4,250', updated_at = $1 WHERE id = 4244
+2023-01-26 18:22:50,697 [INFO] UPDATE course SET tuition_fees = '4,250', updated_at = $1 WHERE id = 6939
+2023-01-26 18:22:51,165 [INFO] UPDATE course SET tuition_fees = '9,125', updated_at = $1 WHERE id = 7169
+2023-01-26 18:22:51,633 [INFO] UPDATE course SET tuition_fees = '4,750', updated_at = $1 WHERE id = 6880
+2023-01-26 18:22:52,101 [INFO] UPDATE course SET tuition_fees = '9,750', updated_at = $1 WHERE id = 4125
+2023-01-26 18:22:52,570 [INFO] UPDATE course SET tuition_fees = '9,125', updated_at = $1 WHERE id = 4475
+2023-01-26 18:22:53,039 [INFO] UPDATE course SET tuition_fees = '500', updated_at = $1 WHERE id = 4199
+2023-01-26 18:22:53,507 [INFO] UPDATE course SET tuition_fees = '3,900', updated_at = $1 WHERE id = 4763
+2023-01-26 18:22:53,975 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 3845
+2023-01-26 18:22:54,443 [INFO] UPDATE course SET tuition_fees = '16,000', updated_at = $1 WHERE id = 3867
+2023-01-26 18:22:54,912 [INFO] UPDATE course SET tuition_fees = '9,000', updated_at = $1 WHERE id = 4394
+2023-01-26 18:22:55,380 [INFO] UPDATE course SET tuition_fees = '5,350', updated_at = $1 WHERE id = 5624
+2023-01-26 18:22:55,849 [INFO] UPDATE course SET tuition_fees = '2,400', updated_at = $1 WHERE id = 4029
+2023-01-26 18:22:56,318 [INFO] UPDATE course SET tuition_fees = '6,700', updated_at = $1 WHERE id = 4186
+2023-01-26 18:22:56,786 [INFO] UPDATE course SET tuition_fees = '1,600', updated_at = $1 WHERE id = 3726
+2023-01-26 18:22:57,254 [INFO] UPDATE course SET tuition_fees = '9,125', updated_at = $1 WHERE id = 4063
+2023-01-26 18:22:57,728 [INFO] UPDATE course SET tuition_fees = '5,790', updated_at = $1 WHERE id = 8479
+2023-01-26 18:22:58,196 [INFO] No need to update column: application_deadline from course id: 8479. [Source is , and target is None]
+2023-01-26 18:22:58,197 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 4653
+2023-01-26 18:22:58,668 [INFO] UPDATE course SET tuition_fees = '7,190', updated_at = $1 WHERE id = 4246
+2023-01-26 18:22:59,140 [INFO] UPDATE course SET tuition_fees = '6,000', updated_at = $1 WHERE id = 5590
+2023-01-26 18:22:59,610 [INFO] UPDATE course SET tuition_fees = '7,050', updated_at = $1 WHERE id = 6952
+2023-01-26 18:23:00,080 [INFO] UPDATE course SET tuition_fees = '7,190', updated_at = $1 WHERE id = 4253
+2023-01-26 18:23:00,548 [INFO] UPDATE course SET tuition_fees = '5,750', updated_at = $1 WHERE id = 4719
+2023-01-26 18:23:01,017 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 4387
+2023-01-26 18:23:01,486 [INFO] UPDATE course SET tuition_fees = '2,250', updated_at = $1 WHERE id = 4160
+2023-01-26 18:23:01,955 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 6400
+2023-01-26 18:23:02,425 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 3951
+2023-01-26 18:23:02,893 [INFO] UPDATE course SET tuition_fees = '7,850', updated_at = $1 WHERE id = 7156
+2023-01-26 18:23:03,363 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 3701
+2023-01-26 18:23:03,832 [INFO] UPDATE course SET tuition_fees = '1,750', updated_at = $1 WHERE id = 4838
+2023-01-26 18:23:04,301 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 4301
+2023-01-26 18:23:04,771 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 4240
+2023-01-26 18:23:05,239 [INFO] UPDATE course SET tuition_fees = '1,105', updated_at = $1 WHERE id = 3825
+2023-01-26 18:23:05,709 [INFO] UPDATE course SET tuition_fees = '2,450', updated_at = $1 WHERE id = 3841
+2023-01-26 18:23:06,178 [INFO] UPDATE course SET tuition_fees = '6,248', updated_at = $1 WHERE id = 5510
+2023-01-26 18:23:06,646 [INFO] UPDATE course SET tuition_fees = '3,667', updated_at = $1 WHERE id = 3798
+2023-01-26 18:23:07,114 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 7697
+2023-01-26 18:23:07,582 [INFO] UPDATE course SET tuition_fees = '8,000', updated_at = $1 WHERE id = 8427
+2023-01-26 18:23:08,051 [INFO] UPDATE course SET tuition_fees = '8,250', updated_at = $1 WHERE id = 4255
+2023-01-26 18:23:08,520 [INFO] UPDATE course SET tuition_fees = '3,900', updated_at = $1 WHERE id = 4175
+2023-01-26 18:23:08,988 [INFO] UPDATE course SET tuition_fees = '8,250', updated_at = $1 WHERE id = 8477
+2023-01-26 18:23:09,457 [INFO] UPDATE course SET tuition_fees = '3,125', updated_at = $1 WHERE id = 6994
+2023-01-26 18:23:09,925 [INFO] UPDATE course SET tuition_fees = '3,125', updated_at = $1 WHERE id = 7722
+2023-01-26 18:23:10,394 [INFO] UPDATE course SET tuition_fees = '8,250', updated_at = $1 WHERE id = 8476
+2023-01-26 18:23:10,864 [INFO] UPDATE course SET tuition_fees = '8,000', updated_at = $1 WHERE id = 4464
+2023-01-26 18:23:11,332 [INFO] UPDATE course SET tuition_fees = '750', updated_at = $1 WHERE id = 3711
+2023-01-26 18:23:11,800 [INFO] UPDATE course SET tuition_fees = '8,000', updated_at = $1 WHERE id = 8418
+2023-01-26 18:23:12,269 [INFO] UPDATE course SET tuition_fees = '8,300', updated_at = $1 WHERE id = 5516
+2023-01-26 18:23:12,738 [INFO] UPDATE course SET tuition_fees = '8,875', updated_at = $1 WHERE id = 4126
+2023-01-26 18:23:13,207 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 6176
+2023-01-26 18:23:13,676 [INFO] UPDATE course SET tuition_fees = '4,000', updated_at = $1 WHERE id = 4667
+2023-01-26 18:23:14,145 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 6942
+2023-01-26 18:23:14,613 [INFO] UPDATE course SET tuition_fees = '2,200', updated_at = $1 WHERE id = 4363
+2023-01-26 18:23:15,082 [INFO] UPDATE course SET tuition_fees = '3,400', updated_at = $1 WHERE id = 3738
+2023-01-26 18:23:15,551 [INFO] UPDATE course SET tuition_fees = '2,158', updated_at = $1 WHERE id = 4671
+2023-01-26 18:23:16,019 [INFO] UPDATE course SET tuition_fees = '5,500', updated_at = $1 WHERE id = 5395
+2023-01-26 18:23:16,494 [INFO] UPDATE course SET tuition_fees = '3,450', updated_at = $1 WHERE id = 3715
+2023-01-26 18:23:16,962 [INFO] UPDATE course SET tuition_fees = '7,200', updated_at = $1 WHERE id = 4648
+2023-01-26 18:23:17,431 [INFO] UPDATE course SET tuition_fees = '7,200', updated_at = $1 WHERE id = 4638
+2023-01-26 18:23:17,899 [INFO] UPDATE course SET tuition_fees = '4,170', updated_at = $1 WHERE id = 3630
+2023-01-26 18:23:18,368 [INFO] UPDATE course SET tuition_fees = '9,875', updated_at = $1 WHERE id = 3628
+2023-01-26 18:23:18,835 [INFO] UPDATE course SET tuition_fees = '7,200', updated_at = $1 WHERE id = 7072
+2023-01-26 18:23:19,303 [INFO] UPDATE course SET tuition_fees = '2,950', updated_at = $1 WHERE id = 8301
+2023-01-26 18:23:19,773 [INFO] UPDATE course SET tuition_fees = '7,200', updated_at = $1 WHERE id = 7073
+2023-01-26 18:23:20,242 [INFO] UPDATE course SET tuition_fees = '5,833', updated_at = $1 WHERE id = 8419
+2023-01-26 18:23:20,710 [INFO] UPDATE course SET tuition_fees = '3,375', updated_at = $1 WHERE id = 8421
+2023-01-26 18:23:21,179 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 7827
+2023-01-26 18:23:21,648 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 3633
+2023-01-26 18:23:22,117 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 7640
+2023-01-26 18:23:22,587 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 6104
+2023-01-26 18:23:23,065 [INFO] UPDATE course SET tuition_fees = '7,500', updated_at = $1 WHERE id = 4554
+2023-01-26 18:23:23,533 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 8451
+2023-01-26 18:23:24,005 [INFO] UPDATE course SET tuition_fees = '5,625', updated_at = $1 WHERE id = 8343
+2023-01-26 18:23:24,474 [INFO] UPDATE course SET tuition_fees = '3,100', updated_at = $1 WHERE id = 8404
+2023-01-26 18:23:24,943 [INFO] UPDATE course SET tuition_fees = '7,500', updated_at = $1 WHERE id = 4874
+2023-01-26 18:23:25,412 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 8440
+2023-01-26 18:23:25,881 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 8429
+2023-01-26 18:23:26,349 [INFO] UPDATE course SET tuition_fees = '5,625', updated_at = $1 WHERE id = 8411
+2023-01-26 18:23:26,818 [INFO] UPDATE course SET tuition_fees = '3,100', updated_at = $1 WHERE id = 8413
+2023-01-26 18:23:27,289 [INFO] UPDATE course SET tuition_fees = '2,500', updated_at = $1 WHERE id = 4412
+2023-01-26 18:23:27,758 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 7002
+2023-01-26 18:23:28,226 [INFO] UPDATE course SET tuition_fees = '4,140', updated_at = $1 WHERE id = 4622
+2023-01-26 18:23:28,697 [INFO] UPDATE course SET tuition_fees = '5,450', updated_at = $1 WHERE id = 4743
+2023-01-26 18:23:29,166 [INFO] UPDATE course SET tuition_fees = '2,250', updated_at = $1 WHERE id = 5636
+2023-01-26 18:23:29,635 [INFO] UPDATE course SET tuition_fees = '2,000', updated_at = $1 WHERE id = 4654
+2023-01-26 18:23:30,104 [INFO] UPDATE course SET tuition_fees = '3,300', updated_at = $1 WHERE id = 4664
+2023-01-26 18:23:30,573 [INFO] UPDATE course SET tuition_fees = '9,875', updated_at = $1 WHERE id = 7075
+2023-01-26 18:23:31,042 [INFO] UPDATE course SET tuition_fees = '10,500', updated_at = $1 WHERE id = 8463
+2023-01-26 18:23:31,515 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 6216
+2023-01-26 18:23:31,984 [INFO] UPDATE course SET tuition_fees = '5,400', updated_at = $1 WHERE id = 7010
+2023-01-26 18:23:32,452 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 5220
+2023-01-26 18:23:32,923 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 6220
+2023-01-26 18:23:33,393 [INFO] UPDATE course SET tuition_fees = '2,550', updated_at = $1 WHERE id = 8406
+2023-01-26 18:23:33,863 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 3617
+2023-01-26 18:23:34,333 [INFO] UPDATE course SET tuition_fees = '7,500', updated_at = $1 WHERE id = 4555
+2023-01-26 18:23:34,802 [INFO] UPDATE course SET tuition_fees = '4,750', updated_at = $1 WHERE id = 6529
+2023-01-26 18:23:35,271 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 7767
+2023-01-26 18:23:35,741 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 6535
+2023-01-26 18:23:36,212 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 6163
+2023-01-26 18:23:36,683 [INFO] UPDATE course SET tuition_fees = '5,500', updated_at = $1 WHERE id = 4819
+2023-01-26 18:23:37,156 [INFO] UPDATE course SET tuition_fees = '5,500', updated_at = $1 WHERE id = 3813
+2023-01-26 18:23:37,624 [INFO] UPDATE course SET tuition_fees = '5,400', updated_at = $1 WHERE id = 7009
+2023-01-26 18:23:38,095 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 8393
+2023-01-26 18:23:38,563 [INFO] UPDATE course SET tuition_fees = '3,300', updated_at = $1 WHERE id = 3667
+2023-01-26 18:23:39,034 [INFO] UPDATE course SET tuition_fees = '5,400', updated_at = $1 WHERE id = 6215
+2023-01-26 18:23:39,503 [INFO] UPDATE course SET tuition_fees = '3,570', updated_at = $1 WHERE id = 7763
+2023-01-26 18:23:39,971 [INFO] UPDATE course SET tuition_fees = '6,280', updated_at = $1 WHERE id = 5264
+2023-01-26 18:23:40,441 [INFO] UPDATE course SET tuition_fees = '4,080', updated_at = $1 WHERE id = 6425
+2023-01-26 18:23:40,909 [INFO] UPDATE course SET tuition_fees = '4,080', updated_at = $1 WHERE id = 6948
+2023-01-26 18:23:41,377 [INFO] UPDATE course SET tuition_fees = '6,450', updated_at = $1 WHERE id = 7058
+2023-01-26 18:23:41,845 [INFO] UPDATE course SET tuition_fees = '6,450', updated_at = $1 WHERE id = 7146
+2023-01-26 18:23:42,313 [INFO] UPDATE course SET tuition_fees = '2,520', updated_at = $1 WHERE id = 6946
+2023-01-26 18:23:42,780 [INFO] UPDATE course SET application_deadline = '<p>There is&nbsp;<strong>no deadline&nbsp;</strong>for enrolment. You have the choice to apply whenever you want. But to guarantee a smooth process, we highly recommend applying as soon as possible.</p>', updated_at = $1 WHERE id = 6946
+2023-01-26 18:23:43,250 [INFO] UPDATE course SET tuition_fees = '2,520', updated_at = $1 WHERE id = 7836
+2023-01-26 18:23:43,718 [INFO] UPDATE course SET tuition_fees = '4,080', updated_at = $1 WHERE id = 6427
+2023-01-26 18:23:44,187 [INFO] UPDATE course SET tuition_fees = '4,080', updated_at = $1 WHERE id = 6950
+2023-01-26 18:23:44,655 [INFO] UPDATE course SET tuition_fees = '3,000', updated_at = $1 WHERE id = 7843
+2023-01-26 18:23:45,123 [INFO] UPDATE course SET tuition_fees = '3,570', updated_at = $1 WHERE id = 8449
+2023-01-26 18:23:45,592 [INFO] UPDATE course SET tuition_fees = '3,690', updated_at = $1 WHERE id = 7008
+2023-01-26 18:23:46,061 [INFO] UPDATE course SET tuition_fees = '4,750', updated_at = $1 WHERE id = 6904
+2023-01-26 18:23:46,531 [INFO] UPDATE course SET tuition_fees = '4,950', updated_at = $1 WHERE id = 7754
+2023-01-26 18:23:47,000 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 4829
+2023-01-26 18:23:47,468 [INFO] UPDATE course SET tuition_fees = '6,600', updated_at = $1 WHERE id = 5352
+2023-01-26 18:23:47,936 [INFO] UPDATE course SET tuition_fees = '1,000', updated_at = $1 WHERE id = 3773
+2023-01-26 18:23:48,405 [INFO] UPDATE course SET tuition_fees = '5,980', updated_at = $1 WHERE id = 3725
+2023-01-26 18:23:48,874 [INFO] UPDATE course SET tuition_fees = '5,500', updated_at = $1 WHERE id = 4445
+2023-01-26 18:23:49,344 [INFO] UPDATE course SET tuition_fees = '925', updated_at = $1 WHERE id = 6451
+2023-01-26 18:23:49,812 [INFO] UPDATE course SET tuition_fees = '4,250', updated_at = $1 WHERE id = 4129
+2023-01-26 18:23:50,283 [INFO] UPDATE course SET tuition_fees = '3,000', updated_at = $1 WHERE id = 3804
+2023-01-26 18:23:50,752 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 4396
+2023-01-26 18:23:51,220 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 8268
+2023-01-26 18:23:51,690 [INFO] UPDATE course SET tuition_fees = '1,500', updated_at = $1 WHERE id = 4853
+2023-01-26 18:23:52,157 [INFO] UPDATE course SET tuition_fees = '4,620', updated_at = $1 WHERE id = 5614
+2023-01-26 18:23:52,625 [INFO] UPDATE course SET tuition_fees = '4,500', updated_at = $1 WHERE id = 7015
+2023-01-26 18:23:53,093 [INFO] UPDATE course SET tuition_fees = '1,400', updated_at = $1 WHERE id = 4230
+2023-01-26 18:23:53,718 [INFO] =========End updating new course  =========
+2023-01-26 18:23:54,949 [INFO] =========Start deleting course=========
+2023-01-26 18:23:56,792 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-26 18:23:57,111 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-26 18:23:57,428 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-26 18:23:57,742 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-26 18:23:58,058 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-26 18:23:58,365 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-26 18:23:58,671 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-26 18:23:58,982 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-26 18:23:59,288 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-26 18:23:59,593 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-26 18:23:59,905 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-26 18:24:00,258 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-26 18:24:00,563 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-26 18:24:00,633 [INFO] No course deleted
+2023-01-26 18:24:00,785 [INFO] =========End deleting course  =========
