@@ -7444,3 +7444,31 @@ For further information, please check the programme website.</p>', updated_at = 
 2023-01-30 18:21:55,187 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-01-30 18:21:55,250 [INFO] No course deleted
 2023-01-30 18:21:55,378 [INFO] =========End deleting course  =========
+2023-01-31 18:21:33,446 [INFO] =========Start syncing university=========
+2023-01-31 18:21:34,163 [INFO] No new university
+2023-01-31 18:21:34,303 [INFO] =========End syncing university  =========
+2023-01-31 18:21:35,388 [INFO] =========Start creating new course=========
+2023-01-31 18:21:37,518 [INFO] New courses created:
+2023-01-31 18:21:37,518 [INFO] [(8566, 45, 2, 'Master of Science in Stem Cell Medicine', 'Master of Science in Stem Cell Medicine', '', '', '4,233', 'Winter semester', 'Medicine in general', '/deutschland/studienangebote/international-programmes/en/detail/8566/', False, '<p>Non-EU applicants: 1 March for the following winter semester</p>\n\n<p>EU applicants: 15 July for the following winter semester</p>', False, '3 semesters', True, datetime.datetime(2023, 1, 31, 18, 21, 37, 233678), None)]
+2023-01-31 18:21:37,798 [INFO] New courses_languages created:
+2023-01-31 18:21:37,798 [INFO] [(3075, 8566, 1)]
+2023-01-31 18:21:37,936 [INFO] =========End creating new course  =========
+2023-01-31 18:21:39,011 [INFO] =========Start updating new course=========
+2023-01-31 18:21:41,148 [INFO] =========End updating new course  =========
+2023-01-31 18:21:42,222 [INFO] =========Start deleting course=========
+2023-01-31 18:21:43,915 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-31 18:21:44,207 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-31 18:21:44,495 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-31 18:21:44,784 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-31 18:21:45,072 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-31 18:21:45,354 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-31 18:21:45,634 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-31 18:21:45,918 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-31 18:21:46,198 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-31 18:21:46,477 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-31 18:21:46,762 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-31 18:21:47,083 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-31 18:21:47,362 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-01-31 18:21:47,804 [INFO] DELETE FROM courses_languages WHERE course_id = 5121
+2023-01-31 18:21:47,945 [INFO] DELETE FROM  course WHERE id = 5121
+2023-01-31 18:21:48,124 [INFO] =========End deleting course  =========
