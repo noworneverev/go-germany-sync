@@ -7592,3 +7592,36 @@ For further information, please check the programme website.</p>', updated_at = 
 2023-02-05 18:20:02,839 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-02-05 18:20:02,908 [INFO] No course deleted
 2023-02-05 18:20:03,068 [INFO] =========End deleting course  =========
+2023-02-06 18:21:36,402 [INFO] =========Start syncing university=========
+2023-02-06 18:21:37,363 [INFO] New university:
+2023-02-06 18:21:37,363 [INFO] [(259, 'University of Koblenz', '', 'Koblenz', True, False, False, None, datetime.datetime(2023, 2, 6, 18, 21, 37, 89701), None, '')]
+2023-02-06 18:21:37,497 [INFO] =========End syncing university  =========
+2023-02-06 18:21:38,529 [INFO] =========Start creating new course=========
+2023-02-06 18:21:40,617 [INFO] New courses created:
+2023-02-06 18:21:40,617 [INFO] [(8567, 102, 56, 'Adentrándose a Alemania: Idioma, Cultura y Derechos Humanos', 'Adentrándose a Alemania: Idioma, Cultura y Derechos Humanos', '', '', '', '', 'Regional Studies', '/deutschland/studienangebote/international-programmes/en/detail/8567/', False, '', False, '', True, datetime.datetime(2023, 2, 6, 18, 21, 40, 337620), None)]
+2023-02-06 18:21:40,891 [INFO] New courses_languages created:
+2023-02-06 18:21:40,891 [INFO] [(3076, 8567, 6), (3077, 8567, 2)]
+2023-02-06 18:21:41,027 [INFO] =========End creating new course  =========
+2023-02-06 18:21:42,052 [INFO] =========Start updating new course=========
+2023-02-06 18:21:43,686 [INFO] UPDATE course SET university_id = '259', updated_at = $1 WHERE id = 4688
+2023-02-06 18:21:43,973 [INFO] UPDATE course SET university_id = '259', updated_at = $1 WHERE id = 6911
+2023-02-06 18:21:44,262 [INFO] UPDATE course SET university_id = '259', updated_at = $1 WHERE id = 6924
+2023-02-06 18:21:44,630 [INFO] UPDATE course SET university_id = '259', updated_at = $1 WHERE id = 4579
+2023-02-06 18:21:44,956 [INFO] UPDATE course SET university_id = '259', updated_at = $1 WHERE id = 4384
+2023-02-06 18:21:45,366 [INFO] =========End updating new course  =========
+2023-02-06 18:21:46,399 [INFO] =========Start deleting course=========
+2023-02-06 18:21:48,045 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-06 18:21:48,331 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-06 18:21:48,613 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-06 18:21:48,895 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-06 18:21:49,176 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-06 18:21:49,451 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-06 18:21:49,725 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-06 18:21:50,003 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-06 18:21:50,276 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-06 18:21:50,548 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-06 18:21:50,827 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-06 18:21:51,142 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-06 18:21:51,415 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-06 18:21:51,476 [INFO] No course deleted
+2023-02-06 18:21:51,611 [INFO] =========End deleting course  =========
