@@ -7772,3 +7772,69 @@ For further information, please check the programme website.</p>', updated_at = 
 2023-02-12 18:20:58,103 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-02-12 18:20:58,167 [INFO] No course deleted
 2023-02-12 18:20:58,302 [INFO] =========End deleting course  =========
+2023-02-13 18:22:52,527 [INFO] =========Start syncing university=========
+2023-02-13 18:22:53,094 [INFO] No new university
+2023-02-13 18:22:53,204 [INFO] =========End syncing university  =========
+2023-02-13 18:22:54,067 [INFO] =========Start creating new course=========
+2023-02-13 18:22:55,556 [INFO] No new course
+2023-02-13 18:22:55,665 [INFO] =========End creating new course  =========
+2023-02-13 18:22:56,487 [INFO] =========Start updating new course=========
+2023-02-13 18:22:57,815 [INFO] UPDATE course SET application_deadline = '<p><strong>The application portal opens on 3 April </strong>for the winter semester 2023/24.</p>
+
+<p>Application deadline for the following winter semester:</p>
+
+<p><strong>Non-EU applicants: 15 May</strong></p>
+
+<p><strong>EU applicants: 15 July</strong></p>
+
+<p>No summer intake</p>
+
+<p><strong>Updated application information </strong>and<strong> all details about applying </strong>can be found at <a href="https://www.ete.hs-mannheim.de/bachelor/apply.html">https://www.ete.hs-mannheim.de/bachelor/apply.html</a>.</p>
+
+<p>For questions, contact <a href="mailto:apply.eeb@elektrotechnik.hs-mannheim.de">apply.eeb@elektrotechnik.hs-mannheim.de</a>.</p>', updated_at = $1 WHERE id = 3618
+2023-02-13 18:22:58,039 [INFO] UPDATE course SET is_complete_online_possible = 'False', updated_at = $1 WHERE id = 3618
+2023-02-13 18:22:58,285 [INFO] UPDATE course SET application_deadline = '<p><strong>The application portal opens on 3 April </strong>for the winter semester 2023/24.</p>
+
+<p>Application deadline for the following winter semester:</p>
+
+<p><strong>Non-EU applicants: 15 May</strong></p>
+
+<p><strong>EU applicants: 15 July</strong></p>
+
+<p>No summer intake</p>
+
+<p><strong>Updated application information </strong>and<strong> all details about applying </strong>can be found at <a href="https://www.ete.hs-mannheim.de/bachelor/apply.html">https://www.ete.hs-mannheim.de/bachelor/apply.html</a>.</p>
+
+<p>For questions, contact <a href="mailto:apply.eeb@elektrotechnik.hs-mannheim.de">apply.eeb@elektrotechnik.hs-mannheim.de</a>.</p>', updated_at = $1 WHERE id = 7693
+2023-02-13 18:22:58,507 [INFO] UPDATE course SET is_complete_online_possible = 'False', updated_at = $1 WHERE id = 7693
+2023-02-13 18:22:58,852 [INFO] UPDATE course SET application_deadline = '<p><strong>The application portal opens on 3 April </strong>for the winter semester 2023/24.</p>
+
+<p>Application deadline for the following winter semester:</p>
+
+<p><strong>Non-EU applicants: 15 May</strong></p>
+
+<p><strong>EU applicants: 15 July</strong></p>
+
+<p>No summer intake</p>
+
+<p><strong>Updated application information </strong>and<strong> all details about applying </strong>can be found at <a href="https://www.ete.hs-mannheim.de/bachelor/apply.html">https://www.ete.hs-mannheim.de/bachelor/apply.html</a>.</p>
+
+<p>For questions, contact <a href="mailto:apply.eeb@elektrotechnik.hs-mannheim.de">apply.eeb@elektrotechnik.hs-mannheim.de</a>.</p>', updated_at = $1 WHERE id = 3617
+2023-02-13 18:22:59,072 [INFO] UPDATE course SET is_complete_online_possible = 'False', updated_at = $1 WHERE id = 3617
+2023-02-13 18:22:59,429 [INFO] =========End updating new course  =========
+2023-02-13 18:23:00,249 [INFO] =========Start deleting course=========
+2023-02-13 18:23:01,581 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-13 18:23:01,814 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-13 18:23:02,043 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-13 18:23:02,271 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-13 18:23:02,500 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-13 18:23:02,721 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-13 18:23:02,942 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-13 18:23:03,167 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-13 18:23:03,387 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-13 18:23:03,607 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-13 18:23:03,833 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-13 18:23:04,095 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-13 18:23:04,314 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-13 18:23:04,377 [INFO] No course deleted
+2023-02-13 18:23:04,486 [INFO] =========End deleting course  =========
