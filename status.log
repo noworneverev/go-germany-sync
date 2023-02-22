@@ -8068,3 +8068,32 @@ For DCU &amp; NEOMA: 15 July (expected)</p>', updated_at = $1 WHERE id = 3775
 2023-02-21 18:22:55,810 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-02-21 18:22:55,871 [INFO] No course deleted
 2023-02-21 18:22:55,980 [INFO] =========End deleting course  =========
+2023-02-22 18:23:05,635 [INFO] =========Start syncing university=========
+2023-02-22 18:23:06,193 [INFO] No new university
+2023-02-22 18:23:06,300 [INFO] =========End syncing university  =========
+2023-02-22 18:23:07,145 [INFO] =========Start creating new course=========
+2023-02-22 18:23:08,751 [INFO] No new course
+2023-02-22 18:23:08,860 [INFO] =========End creating new course  =========
+2023-02-22 18:23:09,698 [INFO] =========Start updating new course=========
+2023-02-22 18:23:11,052 [INFO] UPDATE course SET university_id = '257', updated_at = $1 WHERE id = 4302
+2023-02-22 18:23:11,273 [INFO] UPDATE course SET university_id = '257', updated_at = $1 WHERE id = 4548
+2023-02-22 18:23:11,499 [INFO] UPDATE course SET application_deadline = '<p>The application deadline is available on our&nbsp;homepage:&nbsp;<a href="https://rptu.de/en/studium/vor-dem-studium/bewerbung/distance-study">rptu.de/en/studium/vor-dem-studium/bewerbung/distance-study</a></p>', updated_at = $1 WHERE id = 5321
+2023-02-22 18:23:11,842 [INFO] UPDATE course SET application_deadline = '<p>Information on the application deadline can be found here:<br />
+<a href="https://rptu.de/en/studium/vor-dem-studium/bewerbung/distance-study">rptu.de/en/studium/vor-dem-studium/bewerbung/distance-study</a></p>', updated_at = $1 WHERE id = 3841
+2023-02-22 18:23:12,279 [INFO] =========End updating new course  =========
+2023-02-22 18:23:13,102 [INFO] =========Start deleting course=========
+2023-02-22 18:23:14,422 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-22 18:23:14,663 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-22 18:23:14,899 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-22 18:23:15,137 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-22 18:23:15,373 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-22 18:23:15,595 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-22 18:23:15,814 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-22 18:23:16,042 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-22 18:23:16,261 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-22 18:23:16,477 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-22 18:23:16,710 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-22 18:23:17,015 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-22 18:23:17,232 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-22 18:23:17,354 [INFO] No course deleted
+2023-02-22 18:23:17,462 [INFO] =========End deleting course  =========
