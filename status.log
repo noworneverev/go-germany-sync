@@ -8193,3 +8193,32 @@ For DCU &amp; NEOMA: 15 July (expected)</p>', updated_at = $1 WHERE id = 3775
 2023-02-26 18:21:33,340 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-02-26 18:21:33,416 [INFO] No course deleted
 2023-02-26 18:21:33,574 [INFO] =========End deleting course  =========
+2023-02-27 18:23:42,098 [INFO] =========Start syncing university=========
+2023-02-27 18:23:42,660 [INFO] No new university
+2023-02-27 18:23:42,769 [INFO] =========End syncing university  =========
+2023-02-27 18:23:43,610 [INFO] =========Start creating new course=========
+2023-02-27 18:23:45,340 [INFO] New courses created:
+2023-02-27 18:23:45,340 [INFO] [(8579, 39, 2, 'Advanced Industrial Engineering', 'Advanced Industrial Engineering', '', '', 'none', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/8579/', False, '<p>15 July</p>', True, '3 semesters, 6 semesters', True, datetime.datetime(2023, 2, 27, 18, 23, 45, 104655), None), (8581, 91, 2, 'MSc Medical Sciences – Cardiovascular Research', 'MSc Medical Sciences – Cardiovascular Research', '', '', 'varied', 'Winter semester', 'Medicine in general', '/deutschland/studienangebote/international-programmes/en/detail/8581/', False, '<p>31 March for the following winter semester</p>', False, '2 semesters', True, datetime.datetime(2023, 2, 27, 18, 23, 45, 104673), None), (8580, 62, 1, 'Sustainable Civil Engineering', 'Sustainable Civil Engineering', '', '', 'none', 'Winter semester', 'Civil Engineering', '/deutschland/studienangebote/international-programmes/en/detail/8580/', False, '<p>Apply via uni-assist from as soon as possible until 30 May at the latest for the following winter semester&nbsp;(applicants with a university entrance qualification from outside of Germany). Uni-assist has to verify your eligibility to study in Germany and convert your grades to the German grade system. You will have to submit all required documents to uni-assist online. The process could take up to six weeks.</p>\n\n<p>hochschulstart.de: from 2 May until 15 July</p>\n\n<p>The PRIMUSS &ndash; THI application portal is open from 2 May until 15 July for the following winter semester. Please check the website for changes in the application periods.&nbsp;<a href="https://www.thi.de/en/studies/application/bachelorapplication-from-abroad">Bachelor&#39;s application from abroad (thi.de)</a></p>', False, '7 semesters', True, datetime.datetime(2023, 2, 27, 18, 23, 45, 104679), None)]
+2023-02-27 18:23:45,563 [INFO] New courses_languages created:
+2023-02-27 18:23:45,563 [INFO] [(3080, 8579, 1), (3081, 8581, 1), (3082, 8580, 1)]
+2023-02-27 18:23:45,672 [INFO] =========End creating new course  =========
+2023-02-27 18:23:46,511 [INFO] =========Start updating new course=========
+2023-02-27 18:23:47,966 [INFO] UPDATE course SET application_deadline = '<p>All applicants: 15 April - 31 May</p>', updated_at = $1 WHERE id = 4013
+2023-02-27 18:23:48,339 [INFO] =========End updating new course  =========
+2023-02-27 18:23:49,159 [INFO] =========Start deleting course=========
+2023-02-27 18:23:50,491 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-27 18:23:50,827 [INFO] DELETE FROM courses_languages WHERE course_id = 5043
+2023-02-27 18:23:50,940 [INFO] DELETE FROM  course WHERE id = 5043
+2023-02-27 18:23:51,167 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-27 18:23:51,396 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-27 18:23:51,624 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-27 18:23:51,852 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-27 18:23:52,074 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-27 18:23:52,295 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-27 18:23:52,520 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-27 18:23:52,740 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-27 18:23:52,959 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-27 18:23:53,186 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-27 18:23:53,448 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-27 18:23:53,668 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-27 18:23:53,840 [INFO] =========End deleting course  =========
