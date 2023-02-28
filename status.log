@@ -8222,3 +8222,34 @@ For DCU &amp; NEOMA: 15 July (expected)</p>', updated_at = $1 WHERE id = 3775
 2023-02-27 18:23:53,448 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-02-27 18:23:53,668 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-02-27 18:23:53,840 [INFO] =========End deleting course  =========
+2023-02-28 18:23:26,082 [INFO] =========Start syncing university=========
+2023-02-28 18:23:26,646 [INFO] No new university
+2023-02-28 18:23:26,755 [INFO] =========End syncing university  =========
+2023-02-28 18:23:27,578 [INFO] =========Start creating new course=========
+2023-02-28 18:23:29,302 [INFO] New courses created:
+2023-02-28 18:23:29,302 [INFO] [(6448, 45, 6, 'Smart Production Systems & Robotics', 'Smart Production Systems', '', '', '', '', 'Engineering in general', '/deutschland/studienangebote/international-programmes/en/detail/6448/', False, '', False, '', True, datetime.datetime(2023, 2, 28, 18, 23, 29, 75577), None), (8582, 45, 56, 'Summer School: German Engineering, Language & Culture', 'Summer School: German Engineering, Language & Culture', '', '', '', '', 'Engineering in general', '/deutschland/studienangebote/international-programmes/en/detail/8582/', False, '', False, '', True, datetime.datetime(2023, 2, 28, 18, 23, 29, 75590), None)]
+2023-02-28 18:23:29,523 [INFO] New courses_languages created:
+2023-02-28 18:23:29,523 [INFO] [(3083, 6448, 1), (3084, 8582, 1)]
+2023-02-28 18:23:29,632 [INFO] =========End creating new course  =========
+2023-02-28 18:23:30,453 [INFO] =========Start updating new course=========
+2023-02-28 18:23:31,886 [INFO] UPDATE course SET application_deadline = '<p>Deadline for the DAAD scholarship: 15 December 2023 (date of receipt at the university)<br />
+The deadline refers to the year before students intend to start the programme.</p>
+
+<p>Deadline for TropHEE programme: 31 August of the year in which students want to start their studies at the university</p>', updated_at = $1 WHERE id = 4173
+2023-02-28 18:23:32,285 [INFO] =========End updating new course  =========
+2023-02-28 18:23:33,128 [INFO] =========Start deleting course=========
+2023-02-28 18:23:34,447 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-28 18:23:34,677 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-28 18:23:34,905 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-28 18:23:35,132 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-28 18:23:35,359 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-28 18:23:35,580 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-28 18:23:35,799 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-28 18:23:36,022 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-28 18:23:36,241 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-28 18:23:36,459 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-28 18:23:36,684 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-28 18:23:36,944 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-28 18:23:37,162 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-02-28 18:23:37,223 [INFO] No course deleted
+2023-02-28 18:23:37,331 [INFO] =========End deleting course  =========
