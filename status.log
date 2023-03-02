@@ -8292,3 +8292,49 @@ The deadline refers to the year before students intend to start the programme.</
 2023-03-01 18:23:45,427 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-03-01 18:23:45,646 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-03-01 18:23:45,825 [INFO] =========End deleting course  =========
+2023-03-02 18:26:55,192 [INFO] =========Start syncing university=========
+2023-03-02 18:26:56,047 [INFO] No new university
+2023-03-02 18:26:56,214 [INFO] =========End syncing university  =========
+2023-03-02 18:26:57,385 [INFO] =========Start creating new course=========
+2023-03-02 18:26:59,888 [INFO] New courses created:
+2023-03-02 18:26:59,889 [INFO] [(3815, 116, 2, 'Control, Computer and Communications Engineering (CCCE)', 'Control, Computer and Communications Engineering (CCCE)', '', '', 'none', 'Winter semester', 'Electrical Engineering', '/deutschland/studienangebote/international-programmes/en/detail/3815/', False, '<p><strong>For annual admission in October:</strong></p>\n\n<ul>\n\t<li>International applicants (who have completed their Bachelor&#39;s degree abroad): <strong><strong>1 April to 15 May</strong></strong></li>\n\t<li>Graduates from other German state universities: <strong>1 June to 31 July</strong></li>\n</ul>', False, '3 semesters', True, datetime.datetime(2023, 3, 2, 18, 26, 59, 561745), None), (8584, 2, 2, 'Exercise Science & Training', 'Exercise Science & Training', '', '', 'none', 'Winter semester', 'Sport', '/deutschland/studienangebote/international-programmes/en/detail/8584/', False, '<p>15 June</p>', False, '4 semesters', True, datetime.datetime(2023, 3, 2, 18, 26, 59, 561759), None)]
+2023-03-02 18:27:00,210 [INFO] New courses_languages created:
+2023-03-02 18:27:00,210 [INFO] [(3085, 3815, 1), (3086, 8584, 1)]
+2023-03-02 18:27:00,367 [INFO] =========End creating new course  =========
+2023-03-02 18:27:01,604 [INFO] =========Start updating new course=========
+2023-03-02 18:27:03,670 [INFO] No need to update column: tuition_fees from course id: 5353. [Source is , and target is None]
+2023-03-02 18:27:03,670 [INFO] No need to update column: beginning from course id: 5353. [Source is , and target is None]
+2023-03-02 18:27:03,670 [INFO] UPDATE course SET subject = 'Law, Economics and Social Sciences in general', updated_at = $1 WHERE id = 5353
+2023-03-02 18:27:04,007 [INFO] No need to update column: application_deadline from course id: 5353. [Source is , and target is None]
+2023-03-02 18:27:04,007 [INFO] No need to update column: programme_duration from course id: 5353. [Source is , and target is None]
+2023-03-02 18:27:04,044 [INFO] UPDATE course SET application_deadline = '<p>Application period for international students via uni-assist:</p>
+
+<ul>
+	<li><strong>1 June to 15 July </strong>for the winter semester (semester start in October)</li>
+	<li><strong>1 December to 15 January </strong>for the summer semester (semester start in April)</li>
+</ul>
+
+<p>Application period for non-international students via Viacampus:</p>
+
+<ul>
+	<li><strong>1 June to 15 September </strong>for the winter semester (semester start in October)</li>
+	<li><strong>1 December to 15 March </strong>for the summer semester (semester start in April)</li>
+</ul>', updated_at = $1 WHERE id = 3731
+2023-03-02 18:27:04,427 [INFO] UPDATE course SET application_deadline = '<p>Please refer to <a href="https://www.uni-flensburg.de/europeanstudies/application-admission">https://www.uni-flensburg.de/europeanstudies/application-admission</a> for further information.</p>', updated_at = $1 WHERE id = 6383
+2023-03-02 18:27:05,071 [INFO] =========End updating new course  =========
+2023-03-02 18:27:06,334 [INFO] =========Start deleting course=========
+2023-03-02 18:27:08,372 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-02 18:27:08,732 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-02 18:27:09,089 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-02 18:27:09,443 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-02 18:27:09,795 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-02 18:27:10,142 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-02 18:27:10,481 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-02 18:27:10,829 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-02 18:27:11,167 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-02 18:27:11,503 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-02 18:27:11,854 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-02 18:27:12,272 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-02 18:27:12,609 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-02 18:27:12,719 [INFO] No course deleted
+2023-03-02 18:27:12,887 [INFO] =========End deleting course  =========
