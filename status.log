@@ -8468,3 +8468,70 @@ The deadline refers to the year before students intend to start the programme.</
 2023-03-07 18:23:33,351 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-03-07 18:23:33,419 [INFO] No course deleted
 2023-03-07 18:23:33,534 [INFO] =========End deleting course  =========
+2023-03-08 18:23:38,272 [INFO] =========Start syncing university=========
+2023-03-08 18:23:39,053 [INFO] No new university
+2023-03-08 18:23:39,206 [INFO] =========End syncing university  =========
+2023-03-08 18:23:40,353 [INFO] =========Start creating new course=========
+2023-03-08 18:23:42,366 [INFO] No new course
+2023-03-08 18:23:42,518 [INFO] =========End creating new course  =========
+2023-03-08 18:23:43,660 [INFO] =========Start updating new course=========
+2023-03-08 18:23:45,485 [INFO] UPDATE course SET application_deadline = '<p>15 May</p>
+
+<p>Applicants from India can submit the APS (Academic Evaluation Centre) later and do not have to submit it at the time of application. The proof must be submitted with the enrolment at the latest.</p>', updated_at = $1 WHERE id = 5403
+2023-03-08 18:23:45,815 [INFO] UPDATE course SET application_deadline = '<p>15 May</p>
+
+<p>Applicants from India can submit the APS (Academic Evaluation Centre) later and <strong>do not have to submit it at the time of application</strong>. The proof must be submitted with the enrolment at the latest.</p>', updated_at = $1 WHERE id = 4288
+2023-03-08 18:23:46,143 [INFO] UPDATE course SET application_deadline = '<p>15 May</p>
+
+<p>Applicants from India can submit the APS (Academic Evaluation Centre) later and do not have to submit it at the time of application. The proof must be submitted with the enrolment at the latest.</p>', updated_at = $1 WHERE id = 6283
+2023-03-08 18:23:46,467 [INFO] UPDATE course SET application_deadline = '<p>The deadline for international applications requiring a visa is 15 May for students starting in October (winter semester). Please send what you have at this stage, even if it is not all complete; we may extend conditional admission, which will allow you to already apply for the visa. Late applications may be considered, but only if there are free spots and only if it is still possible to start on time in Freiberg (i.e. until the start of lectures in October). Late applications have to be complete and can be sent to Professor Stephan directly via e-mail. In any case, arriving after the start of your study programme is not possible. For students in need of a visa, it all depends on the speed of the embassies, and this varies immensely.</p>
+
+<p>Applicants from India can submit the APS (Academic Evaluation Centre) later and do not have to submit it at the time of application. The proof must be submitted with the enrolment at the latest.</p>', updated_at = $1 WHERE id = 7655
+2023-03-08 18:23:46,779 [INFO] No need to update column: tuition_fees from course id: 4452. [Source is , and target is None]
+2023-03-08 18:23:46,779 [INFO] UPDATE course SET application_deadline = '<p>31 January</p>
+
+<p>Information on how to apply: <a href="https://www.tubaf.org/en/department/studieninteressierte/erreichbarkeit-interessierte">www.tubaf.org</a></p>', updated_at = $1 WHERE id = 4452
+2023-03-08 18:23:47,085 [INFO] UPDATE course SET application_deadline = '<p>15 May for a start in winter semester (October)</p>
+
+<p>Applicants from India can submit the APS (Academic Evaluation Centre) later and <strong>do not have to submit it at the time of application</strong>. The proof must be submitted with the enrolment at the latest.</p>', updated_at = $1 WHERE id = 4283
+2023-03-08 18:23:47,390 [INFO] UPDATE course SET name_en_short = 'Groundwater Management', updated_at = $1 WHERE id = 4271
+2023-03-08 18:23:47,694 [INFO] UPDATE course SET application_deadline = '<p>15 May</p>
+
+<p>Applicants from India can submit the APS (Academic Evaluation Centre) later and <strong>do not have to submit it at the time of application</strong>. The proof must be submitted with the enrolment at the latest.</p>', updated_at = $1 WHERE id = 4271
+2023-03-08 18:23:48,042 [INFO] UPDATE course SET application_deadline = '<p>15 May for a start in the winter semester (recommended)<br />
+15 October for a start in the summer semester (Please note: Starting in the summer semester is possible, but it might lead to an extended study period.)</p>
+
+<p>Applicants from India can submit the APS (Academic Evaluation Centre) later and <strong>do not have to submit it at the time of application</strong>. The proof must be submitted with the enrolment at the latest.</p>', updated_at = $1 WHERE id = 4446
+2023-03-08 18:23:48,361 [INFO] UPDATE course SET application_deadline = '<p>15 May</p>
+
+<p>Applicants from India can submit the APS (Academic Evaluation Centre) later and do not have to submit it at the time of application. The proof must be submitted with the enrolment at the latest.</p>', updated_at = $1 WHERE id = 7973
+2023-03-08 18:23:48,670 [INFO] UPDATE course SET application_deadline = '<p>15 May</p>
+
+<p>Applicants from India can submit the APS (Academic Evaluation Centre) later and do not have to submit it at the time of application. The proof must be submitted with the enrolment at the latest.</p>
+
+<p>&nbsp;</p>', updated_at = $1 WHERE id = 7028
+2023-03-08 18:23:48,983 [INFO] UPDATE course SET application_deadline = '<p>15 May for a start in the winter semester</p>
+
+<p>15 October for a start in the summer semester</p>
+
+<p>Applicants from India can submit the APS (Academic Evaluation Centre) later and do not have to submit it at the time of application. The proof must be submitted with the enrolment at the latest.</p>', updated_at = $1 WHERE id = 5232
+2023-03-08 18:23:49,333 [INFO] UPDATE course SET application_deadline = '<p>15 May</p>
+
+<p>Applicants from India can submit the APS (Academic Evaluation Centre) later and do not have to submit it at the time of application. The proof must be submitted with the enrolment at the latest.</p>', updated_at = $1 WHERE id = 5231
+2023-03-08 18:23:49,797 [INFO] =========End updating new course  =========
+2023-03-08 18:23:50,968 [INFO] =========Start deleting course=========
+2023-03-08 18:23:52,861 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-08 18:23:53,188 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-08 18:23:53,511 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-08 18:23:53,834 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-08 18:23:54,156 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-08 18:23:54,473 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-08 18:23:54,787 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-08 18:23:55,106 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-08 18:23:55,420 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-08 18:23:55,733 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-08 18:23:56,054 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-08 18:23:56,412 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-08 18:23:56,725 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-08 18:23:56,788 [INFO] No course deleted
+2023-03-08 18:23:56,944 [INFO] =========End deleting course  =========
