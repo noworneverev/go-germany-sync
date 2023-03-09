@@ -8535,3 +8535,36 @@ The deadline refers to the year before students intend to start the programme.</
 2023-03-08 18:23:56,725 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-03-08 18:23:56,788 [INFO] No course deleted
 2023-03-08 18:23:56,944 [INFO] =========End deleting course  =========
+2023-03-09 18:22:20,742 [INFO] =========Start syncing university=========
+2023-03-09 18:22:21,434 [INFO] No new university
+2023-03-09 18:22:21,569 [INFO] =========End syncing university  =========
+2023-03-09 18:22:22,595 [INFO] =========Start creating new course=========
+2023-03-09 18:22:24,391 [INFO] No new course
+2023-03-09 18:22:24,526 [INFO] =========End creating new course  =========
+2023-03-09 18:22:25,569 [INFO] =========Start updating new course=========
+2023-03-09 18:22:27,255 [INFO] UPDATE course SET name_en = 'HTW Foundation – DSH Preparatory Course', updated_at = $1 WHERE id = 8340
+2023-03-09 18:22:27,532 [INFO] UPDATE course SET name_en_short = 'HTW Foundation – PreDSH', updated_at = $1 WHERE id = 8340
+2023-03-09 18:22:27,804 [INFO] No need to update column: tuition_fees from course id: 8340. [Source is , and target is None]
+2023-03-09 18:22:27,804 [INFO] No need to update column: beginning from course id: 8340. [Source is , and target is None]
+2023-03-09 18:22:27,804 [INFO] No need to update column: application_deadline from course id: 8340. [Source is , and target is None]
+2023-03-09 18:22:27,804 [INFO] No need to update column: programme_duration from course id: 8340. [Source is , and target is None]
+2023-03-09 18:22:27,880 [INFO] UPDATE course SET application_deadline = '<p>The application deadline is 31 March for the following winter semester. We activate the application platform on 1 January.</p>
+
+<p>Current information can be found on our <a href="https://www.immunosensation.de/opportunities/msc-immunosciences-and-infection">programme website</a> and the <a href="https://www.uni-bonn.de/en/studying?set_language=en">website of our university</a>.</p>', updated_at = $1 WHERE id = 4776
+2023-03-09 18:22:28,336 [INFO] =========End updating new course  =========
+2023-03-09 18:22:29,331 [INFO] =========Start deleting course=========
+2023-03-09 18:22:30,961 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-09 18:22:31,243 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-09 18:22:31,522 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-09 18:22:31,801 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-09 18:22:32,080 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-09 18:22:32,351 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-09 18:22:32,621 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-09 18:22:32,896 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-09 18:22:33,166 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-09 18:22:33,436 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-09 18:22:33,712 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-09 18:22:34,024 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-09 18:22:34,292 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-09 18:22:34,355 [INFO] No course deleted
+2023-03-09 18:22:34,489 [INFO] =========End deleting course  =========
