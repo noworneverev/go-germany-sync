@@ -8643,3 +8643,34 @@ The deadline refers to the year before students intend to start the programme.</
 2023-03-12 18:20:31,928 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-03-12 18:20:32,033 [INFO] No course deleted
 2023-03-12 18:20:32,141 [INFO] =========End deleting course  =========
+2023-03-13 18:21:33,954 [INFO] =========Start syncing university=========
+2023-03-13 18:21:34,517 [INFO] No new university
+2023-03-13 18:21:34,626 [INFO] =========End syncing university  =========
+2023-03-13 18:21:35,447 [INFO] =========Start creating new course=========
+2023-03-13 18:21:37,179 [INFO] New courses created:
+2023-03-13 18:21:37,179 [INFO] [(8591, 51, 2, 'Global East Asia (MAGEA)', 'Global East Asia (MAGEA)', '', '', 'none', 'Winter semester', 'Other / Non-European Languages and Cultural Studies', '/deutschland/studienangebote/international-programmes/en/detail/8591/', False, '<p>Admission deadlines are published on the central <a href="https://www.fu-berlin.de/en/studium/studienangebot/master/global-east-asia/index.html">programme website </a>of the Student Services Centre as well as on the website of the programme: <a href="http://www.fu-berlin.de/magea">www.fu-berlin.de/magea</a>.</p>', False, '4 semesters', True, datetime.datetime(2023, 3, 13, 18, 21, 36, 945730), None), (8589, 62, 2, 'Master of Science Global Engineering and Management', 'Global Engineering and Management', '', '', '2,475', 'Winter semester', 'Engineering in general', '/deutschland/studienangebote/international-programmes/en/detail/8589/', False, '<p>Application period: 2 May until 15 July for the upcoming winter semester</p>\n\n<p>You will find detailed information on the application process under:<br />\n<a href="https://www.thi.de/en/studies/application/masterapplication-from-abroad/">https://www.thi.de/en/studies/application/masterapplication-from-abroad/</a>.</p>', True, '4 semesters', True, datetime.datetime(2023, 3, 13, 18, 21, 36, 945746), None), (8590, 62, 2, 'MBA Global Management', 'MBA Global Management', '', '', '2,475', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/8590/', False, '<p>Application period: 2 May until 15 July for the upcoming winter semester</p>\n\n<p>You will find detailed information on the application process under:<br />\n<a href="https://www.thi.de/en/studies/application/masterapplication-from-abroad/">https://www.thi.de/en/studies/application/masterapplication-from-abroad/</a></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>', True, '4 semesters', True, datetime.datetime(2023, 3, 13, 18, 21, 36, 945751), None)]
+2023-03-13 18:21:37,401 [INFO] New courses_languages created:
+2023-03-13 18:21:37,401 [INFO] [(3091, 8591, 1), (3092, 8591, 8), (3093, 8589, 1), (3094, 8590, 1)]
+2023-03-13 18:21:37,511 [INFO] =========End creating new course  =========
+2023-03-13 18:21:38,333 [INFO] =========Start updating new course=========
+2023-03-13 18:21:39,710 [INFO] UPDATE course SET application_deadline = '<ul>
+	<li>Applications for the following winter semester: 31 May (DAAD scholarships: 30 November of the previous year; update: please note that there is a one-time second deadline on 31 March 2023)</li>
+	<li>Applications for the following summer semester: 30 November</li>
+</ul>', updated_at = $1 WHERE id = 4098
+2023-03-13 18:21:40,179 [INFO] =========End updating new course  =========
+2023-03-13 18:21:41,005 [INFO] =========Start deleting course=========
+2023-03-13 18:21:42,344 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-13 18:21:42,578 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-13 18:21:42,809 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-13 18:21:43,039 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-13 18:21:43,270 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-13 18:21:43,493 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-13 18:21:43,715 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-13 18:21:43,942 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-13 18:21:44,164 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-13 18:21:44,385 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-13 18:21:44,613 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-13 18:21:44,880 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-13 18:21:45,101 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-13 18:21:45,166 [INFO] No course deleted
+2023-03-13 18:21:45,276 [INFO] =========End deleting course  =========
