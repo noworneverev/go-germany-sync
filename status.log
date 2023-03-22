@@ -8876,3 +8876,236 @@ The deadline refers to the year before students intend to start the programme.</
 2023-03-21 18:21:21,767 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-03-21 18:21:21,883 [INFO] No course deleted
 2023-03-21 18:21:22,010 [INFO] =========End deleting course  =========
+2023-03-22 18:21:01,381 [INFO] =========Start syncing university=========
+2023-03-22 18:21:02,071 [INFO] No new university
+2023-03-22 18:21:02,206 [INFO] =========End syncing university  =========
+2023-03-22 18:21:03,213 [INFO] =========Start creating new course=========
+2023-03-22 18:21:05,283 [INFO] New courses created:
+2023-03-22 18:21:05,283 [INFO] [(8597, 255, 2, 'Master of Transformation', 'Master of Transformation', '', '', '5,500', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/8597/', False, '<p>The application period for international MBA programmes beginning in the winter semester runs from 1 April to 15&nbsp;July every year.</p>', False, '3 semesters', True, datetime.datetime(2023, 3, 22, 18, 21, 5, 10201), None)]
+2023-03-22 18:21:05,555 [INFO] New courses_languages created:
+2023-03-22 18:21:05,555 [INFO] [(3096, 8597, 1)]
+2023-03-22 18:21:05,689 [INFO] =========End creating new course  =========
+2023-03-22 18:21:06,685 [INFO] =========Start updating new course=========
+2023-03-22 18:21:08,389 [INFO] UPDATE course SET application_deadline = '<p>Non-EU citizens:</p>
+
+<ul>
+	<li>31 May 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 January 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>
+
+<p>EU citizens:</p>
+
+<ul>
+	<li>15 July 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 January 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>
+
+<p>Applicants with a BA or MA degree from a German university:</p>
+
+<ul>
+	<li>15 September 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 March 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>', updated_at = $1 WHERE id = 6967
+2023-03-22 18:21:08,668 [INFO] UPDATE course SET beginning = 'Winter semester, Summer semester', updated_at = $1 WHERE id = 4816
+2023-03-22 18:21:08,939 [INFO] UPDATE course SET application_deadline = '<p>Non-EU citizens:</p>
+
+<ul>
+	<li>31 May 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 January 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>
+
+<p>EU citizens:</p>
+
+<ul>
+	<li>15 July 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 January 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>
+
+<p>Applicants with a BA or MA degree from a German university:</p>
+
+<ul>
+	<li>15 September 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 March 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>', updated_at = $1 WHERE id = 4816
+2023-03-22 18:21:09,210 [INFO] UPDATE course SET beginning = 'Winter semester, Summer semester', updated_at = $1 WHERE id = 4408
+2023-03-22 18:21:09,480 [INFO] UPDATE course SET application_deadline = '<p>Non-EU citizens:</p>
+
+<ul>
+	<li>31 May 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 January 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>
+
+<p>EU citizens:</p>
+
+<ul>
+	<li>15 July 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 January 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>
+
+<p>Applicants with a BA or MA degree from a German university:</p>
+
+<ul>
+	<li>15 September 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 March 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>', updated_at = $1 WHERE id = 4408
+2023-03-22 18:21:09,756 [INFO] UPDATE course SET application_deadline = '<p>Non-EU citizens:</p>
+
+<ul>
+	<li>31 May 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 January 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>
+
+<p>EU citizens:</p>
+
+<ul>
+	<li>15 July 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 January 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>
+
+<p>Applicants with a BA or MA degree from a German university:</p>
+
+<ul>
+	<li>15 September 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 March 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>', updated_at = $1 WHERE id = 4679
+2023-03-22 18:21:10,029 [INFO] UPDATE course SET application_deadline = '<p>Non-EU citizens:</p>
+
+<ul>
+	<li>31 May 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 January 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>
+
+<p>EU citizens:</p>
+
+<ul>
+	<li>15 July 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 January 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>
+
+<p>Applicants with a BA or MA degree from a German university:</p>
+
+<ul>
+	<li>15 September 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 March 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>
+
+<p>Non-EU citizens:</p>
+
+<ul>
+	<li>31 May 2023&nbsp;for the winter semester 2023/2024</li>
+	<li>No application for the summer semester 2023 possible</li>
+</ul>
+
+<p>EU citizens:</p>
+
+<ul>
+	<li>&nbsp;15 July 2023&nbsp;for the winter semester 2023/2024</li>
+	<li>&nbsp;15 January 2023 for the summer semester 2023</li>
+</ul>
+
+<p>Applicants with German university admission qualifications:</p>
+
+<ul>
+	<li>15 September 2023&nbsp;for the winter semester 2023/2024</li>
+	<li>15 March 2023 for the summer semester&nbsp;2023</li>
+</ul>', updated_at = $1 WHERE id = 5351
+2023-03-22 18:21:10,304 [INFO] UPDATE course SET beginning = 'Winter semester, Summer semester', updated_at = $1 WHERE id = 4236
+2023-03-22 18:21:10,573 [INFO] UPDATE course SET application_deadline = '<p>Non-EU citizens:</p>
+
+<ul>
+	<li>31 May 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 January 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>
+
+<p>EU citizens:</p>
+
+<ul>
+	<li>15 July 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 January 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>
+
+<p>Applicants with a BA or MA degree from a German university:</p>
+
+<ul>
+	<li>15 September 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 March 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>', updated_at = $1 WHERE id = 4236
+2023-03-22 18:21:10,844 [INFO] UPDATE course SET beginning = 'Winter semester, Summer semester', updated_at = $1 WHERE id = 3789
+2023-03-22 18:21:11,114 [INFO] UPDATE course SET application_deadline = '<p>Non-EU citizens:</p>
+
+<ul>
+	<li>31 May 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 January 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>
+
+<p>EU citizens:</p>
+
+<ul>
+	<li>15 July 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 January 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>
+
+<p>Applicants with a BA or MA degree from a German university:</p>
+
+<ul>
+	<li>15 September 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 March 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>', updated_at = $1 WHERE id = 3789
+2023-03-22 18:21:11,385 [INFO] UPDATE course SET application_deadline = '<p>Non-EU citizens:</p>
+
+<ul>
+	<li>31 May 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 January 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>
+
+<p>EU citizens:</p>
+
+<ul>
+	<li>15 July 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 January 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>
+
+<p>Applicants with a BA or MA degree from a German university:</p>
+
+<ul>
+	<li>15 September 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 March 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>', updated_at = $1 WHERE id = 6304
+2023-03-22 18:21:11,660 [INFO] UPDATE course SET beginning = 'Winter semester, Summer semester', updated_at = $1 WHERE id = 7708
+2023-03-22 18:21:11,929 [INFO] UPDATE course SET application_deadline = '<p>Non-EU citizens:</p>
+
+<ul>
+	<li>31 May 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 January 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>
+
+<p>EU citizens:</p>
+
+<ul>
+	<li>15 July 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 January 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>
+
+<p>Applicants with a BA or MA degree from a German university:</p>
+
+<ul>
+	<li>15 September 2023 for the winter semester 2023/24 and the summer semester 2024</li>
+	<li>15 March 2024 for the summer semester 2024 and the winter semester 2024/25</li>
+</ul>', updated_at = $1 WHERE id = 7708
+2023-03-22 18:21:12,406 [INFO] =========End updating new course  =========
+2023-03-22 18:21:13,447 [INFO] =========Start deleting course=========
+2023-03-22 18:21:15,094 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-22 18:21:15,380 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-22 18:21:15,663 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-22 18:21:15,945 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-22 18:21:16,227 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-22 18:21:16,503 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-22 18:21:16,776 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-22 18:21:17,055 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-22 18:21:17,328 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-22 18:21:17,600 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-22 18:21:17,881 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-22 18:21:18,203 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-22 18:21:18,476 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-03-22 18:21:18,545 [INFO] No course deleted
+2023-03-22 18:21:18,680 [INFO] =========End deleting course  =========
