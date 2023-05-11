@@ -10456,3 +10456,43 @@ Summer semester: 15 February</p>
 2023-05-09 18:20:10,302 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-05-09 18:20:10,366 [INFO] No course deleted
 2023-05-09 18:20:10,517 [INFO] =========End deleting course  =========
+2023-05-11 18:19:14,422 [INFO] =========Start syncing university=========
+2023-05-11 18:19:15,519 [INFO] New university:
+2023-05-11 18:19:15,519 [INFO] [(263, 'Bremerhaven University of Applied Sciences', '', 'Bremerhaven', True, False, False, None, datetime.datetime(2023, 5, 11, 18, 19, 15, 203637), None, '')]
+2023-05-11 18:19:15,671 [INFO] =========End syncing university  =========
+2023-05-11 18:19:16,798 [INFO] =========Start creating new course=========
+2023-05-11 18:19:18,804 [INFO] No new course
+2023-05-11 18:19:18,956 [INFO] =========End creating new course  =========
+2023-05-11 18:19:20,111 [INFO] =========Start updating new course=========
+2023-05-11 18:19:21,973 [INFO] UPDATE course SET tuition_fees = '4,320', updated_at = $1 WHERE id = 7945
+2023-05-11 18:19:22,289 [INFO] UPDATE course SET tuition_fees = '4,320', updated_at = $1 WHERE id = 7944
+2023-05-11 18:19:22,596 [INFO] UPDATE course SET tuition_fees = '4,320', updated_at = $1 WHERE id = 8478
+2023-05-11 18:19:22,909 [INFO] UPDATE course SET university_id = '263', updated_at = $1 WHERE id = 4399
+2023-05-11 18:19:23,264 [INFO] UPDATE course SET university_id = '263', updated_at = $1 WHERE id = 7839
+2023-05-11 18:19:23,652 [INFO] UPDATE course SET university_id = '263', updated_at = $1 WHERE id = 4068
+2023-05-11 18:19:24,137 [INFO] =========End updating new course  =========
+2023-05-11 18:19:25,280 [INFO] =========Start deleting course=========
+2023-05-11 18:19:27,267 [INFO] DELETE FROM courses_languages WHERE course_id = 3615
+2023-05-11 18:19:27,420 [INFO] DELETE FROM  course WHERE id = 3615
+2023-05-11 18:19:27,729 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-11 18:19:28,046 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-11 18:19:28,359 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-11 18:19:28,672 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-11 18:19:28,984 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-11 18:19:29,291 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-11 18:19:29,595 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-11 18:19:29,905 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-11 18:19:30,210 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-11 18:19:30,513 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-11 18:19:30,824 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-11 18:19:31,173 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-11 18:19:31,476 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-11 18:19:31,958 [INFO] DELETE FROM courses_languages WHERE course_id = 5103
+2023-05-11 18:19:32,111 [INFO] DELETE FROM  course WHERE id = 5103
+2023-05-11 18:19:32,603 [INFO] DELETE FROM courses_languages WHERE course_id = 8524
+2023-05-11 18:19:32,757 [INFO] DELETE FROM  course WHERE id = 8524
+2023-05-11 18:19:33,215 [INFO] DELETE FROM courses_languages WHERE course_id = 8546
+2023-05-11 18:19:33,369 [INFO] DELETE FROM  course WHERE id = 8546
+2023-05-11 18:19:33,826 [INFO] DELETE FROM courses_languages WHERE course_id = 8545
+2023-05-11 18:19:33,979 [INFO] DELETE FROM  course WHERE id = 8545
+2023-05-11 18:19:34,133 [INFO] =========End deleting course  =========
