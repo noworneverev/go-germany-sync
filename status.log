@@ -10569,3 +10569,61 @@ Summer semester: 15 February</p>
 2023-05-14 18:18:16,923 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-05-14 18:18:16,993 [INFO] No course deleted
 2023-05-14 18:18:17,157 [INFO] =========End deleting course  =========
+2023-05-15 18:19:35,876 [INFO] =========Start syncing university=========
+2023-05-15 18:19:36,714 [INFO] No new university
+2023-05-15 18:19:36,879 [INFO] =========End syncing university  =========
+2023-05-15 18:19:38,108 [INFO] =========Start creating new course=========
+2023-05-15 18:19:40,287 [INFO] No new course
+2023-05-15 18:19:40,451 [INFO] =========End creating new course  =========
+2023-05-15 18:19:41,661 [INFO] =========Start updating new course=========
+2023-05-15 18:19:43,678 [INFO] UPDATE course SET application_deadline = '<p>Applicants with a&nbsp;<strong>non-European</strong> Bachelor&#39;s degree are required to apply online via uni-assist:</p>
+
+<p><strong>Summer semester: 31 December</strong></p>
+
+<p>Applicants with a&nbsp;<strong>European</strong>&nbsp;Bachelor&#39;s degree can find the complete application procedure&nbsp;here:&nbsp;</p>
+
+<p><strong>Summer semester: 15 February</strong></p>
+
+<p>More information: <a href="https://www.hs-bremerhaven.de/en/study/application-for-master-coursres">https://www.hs-bremerhaven.de/en/study/application-for-master-coursres</a></p>', updated_at = $1 WHERE id = 4399
+2023-05-15 18:19:44,063 [INFO] UPDATE course SET beginning = 'Winter semester', updated_at = $1 WHERE id = 7839
+2023-05-15 18:19:44,394 [INFO] UPDATE course SET application_deadline = '<p><strong>Non-EU applicants:</strong><br />
+Winter semester: 30 June</p>
+
+<p><strong>EU applicants:</strong><br />
+Winter semester: 15 July</p>
+
+<p><strong>More information:</strong><br />
+<a href="https://www.hs-bremerhaven.de/en/itm">https://www.hs-bremerhaven.de/en/itm</a></p>', updated_at = $1 WHERE id = 7839
+2023-05-15 18:19:44,810 [INFO] UPDATE course SET application_deadline = '<p>Applicants with a&nbsp;<strong>non-European</strong> Bachelor&#39;s degree:</p>
+
+<ul>
+	<li><strong>Winter semester: 30 June</strong></li>
+	<li><strong>Summer semester: 31 December</strong></li>
+</ul>
+
+<p>Applicants with a&nbsp;<strong>European</strong>&nbsp;Bachelor&#39;s degree:</p>
+
+<ul>
+	<li><strong>Winter semester: 15 August</strong></li>
+	<li><strong>Summer semester: 15 February</strong></li>
+</ul>
+
+<p>More information: <a href="https://www.hs-bremerhaven.de/en/study/application-for-master-coursres">https://www.hs-bremerhaven.de/en/study/application-for-master-coursres</a></p>', updated_at = $1 WHERE id = 4068
+2023-05-15 18:19:45,333 [INFO] =========End updating new course  =========
+2023-05-15 18:19:46,541 [INFO] =========Start deleting course=========
+2023-05-15 18:19:48,534 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-15 18:19:48,878 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-15 18:19:49,218 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-15 18:19:49,558 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-15 18:19:49,897 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-15 18:19:50,230 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-15 18:19:50,561 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-15 18:19:51,061 [INFO] DELETE FROM courses_languages WHERE course_id = 3977
+2023-05-15 18:19:51,228 [INFO] DELETE FROM  course WHERE id = 3977
+2023-05-15 18:19:51,558 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-15 18:19:51,889 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-15 18:19:52,218 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-15 18:19:52,557 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-15 18:19:52,936 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-15 18:19:53,265 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-15 18:19:53,498 [INFO] =========End deleting course  =========
