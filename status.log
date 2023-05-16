@@ -10627,3 +10627,32 @@ Winter semester: 15 July</p>
 2023-05-15 18:19:52,936 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-05-15 18:19:53,265 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-05-15 18:19:53,498 [INFO] =========End deleting course  =========
+2023-05-16 18:19:22,618 [INFO] =========Start syncing university=========
+2023-05-16 18:19:23,622 [INFO] New university:
+2023-05-16 18:19:23,623 [INFO] [(264, 'University of Hildesheim', '', 'Hildesheim', True, False, False, None, datetime.datetime(2023, 5, 16, 18, 19, 23, 337867), None, '')]
+2023-05-16 18:19:23,764 [INFO] =========End syncing university  =========
+2023-05-16 18:19:24,811 [INFO] =========Start creating new course=========
+2023-05-16 18:19:26,648 [INFO] No new course
+2023-05-16 18:19:26,784 [INFO] =========End creating new course  =========
+2023-05-16 18:19:27,808 [INFO] =========Start updating new course=========
+2023-05-16 18:19:29,510 [INFO] UPDATE course SET university_id = '264', updated_at = $1 WHERE id = 6954
+2023-05-16 18:19:30,068 [INFO] =========End updating new course  =========
+2023-05-16 18:19:31,074 [INFO] =========Start deleting course=========
+2023-05-16 18:19:32,855 [INFO] DELETE FROM courses_languages WHERE course_id = 6143
+2023-05-16 18:19:32,993 [INFO] DELETE FROM  course WHERE id = 6143
+2023-05-16 18:19:33,271 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-16 18:19:33,558 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-16 18:19:33,842 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-16 18:19:34,126 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-16 18:19:34,410 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-16 18:19:34,686 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-16 18:19:34,960 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-16 18:19:35,376 [INFO] DELETE FROM courses_languages WHERE course_id = 7828
+2023-05-16 18:19:35,513 [INFO] DELETE FROM  course WHERE id = 7828
+2023-05-16 18:19:35,787 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-16 18:19:36,065 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-16 18:19:36,348 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-16 18:19:36,644 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-16 18:19:36,975 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-16 18:19:37,258 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-05-16 18:19:37,467 [INFO] =========End deleting course  =========
