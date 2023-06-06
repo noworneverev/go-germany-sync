@@ -11160,3 +11160,124 @@ Winter semester: 15 July</p>
 2023-06-05 18:19:19,776 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-06-05 18:19:20,091 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-06-05 18:19:20,318 [INFO] =========End deleting course  =========
+2023-06-06 18:19:30,294 [INFO] =========Start syncing university=========
+2023-06-06 18:19:30,848 [INFO] No new university
+2023-06-06 18:19:30,954 [INFO] =========End syncing university  =========
+2023-06-06 18:19:31,768 [INFO] =========Start creating new course=========
+2023-06-06 18:19:33,283 [INFO] No new course
+2023-06-06 18:19:33,391 [INFO] =========End creating new course  =========
+2023-06-06 18:19:34,270 [INFO] =========Start updating new course=========
+2023-06-06 18:19:35,588 [INFO] UPDATE course SET application_deadline = '<p>Application periods:</p>
+
+<p>1 June to 15 July&nbsp;(programme start: September)<br />
+1 December to 15 January&nbsp;(programme start: March)</p>
+
+<p>Please have your school and Bachelor&#39;s certificates checked first by uni-assist (<a href="http://www.uni-assist.de">www.uni-assist.de</a>) to get a VPD (&quot;Vorpr&uuml;fungsdokumentation&quot;) BEFORE applying to HAW Hamburg.</p>
+
+<p>With your VPD, please apply using the HAW Hamburg&nbsp;online application portal. Here is the link:&nbsp;<a href="https://bit.ly/applyHAW">https://bit.ly/applyHAW</a>.</p>
+
+<p>The HAW Hamburg online application portal is open during the application period only.</p>
+
+<p>You do not need to send your documents with the postal mail to complete your application.</p>', updated_at = $1 WHERE id = 4025
+2023-06-06 18:19:35,812 [INFO] UPDATE course SET application_deadline = '<p>Application periods:</p>
+
+<p>Programme starting in September:<br />
+1 April to 31 May (non-EU applicants)<br />
+1 June to 15 July (EU applicants)</p>
+
+<p>Programme starting in March:<br />
+1 October to 30 November (non-EU applicants)<br />
+1 December to 15 January (EU applicants)</p>
+
+<p>Please have your school certificates (and where necessary) your university transcripts checked first by uni-assist (<a href="http://www.uni-assist.de">www.uni-assist.de</a>) to get a VPD (&quot;Vorpr&uuml;fungsdokumentation&quot;) BEFORE applying to HAW Hamburg.</p>
+
+<p>With your VPD, please then apply using the HAW Hamburg online application portal. Here is the link:&nbsp;<a href="https://bit.ly/applyHAW">https://bit.ly/applyHAW</a>.</p>
+
+<p>The HAW Hamburg online application portal is open during the application periods only.</p>
+
+<p>You do not need to send your documents with the postal mail to complete your application.</p>', updated_at = $1 WHERE id = 4022
+2023-06-06 18:19:36,069 [INFO] UPDATE course SET application_deadline = '<p>Application period:</p>
+
+<p>1 to 30 April (programme start: September)</p>
+
+<p>Please have your school and Bachelor certificates checked first by uni-assist (<a href="http://www.uni-assist.de">www.uni-assist.de</a>) to get a VPD (&quot;Vorpr&uuml;fungsdokumentation&quot;) BEFORE applying to HAW Hamburg.</p>
+
+<p>With your VPD, please apply using the HAW Hamburg online application portal. Here is the link:&nbsp;<a href="https://bit.ly/applyHAW">https://bit.ly/applyHAW</a>.</p>
+
+<p>The HAW Hamburg online application portal is open during the application period only.</p>
+
+<p>You do not need to send your documents with the postal mail to complete your application.</p>', updated_at = $1 WHERE id = 5433
+2023-06-06 18:19:36,310 [INFO] UPDATE course SET application_deadline = '<p>Application period:<br />
+1 June to 15 July (programme start:&nbsp;September)</p>
+
+<p>Please have your school and Bachelor&#39;s certificates checked first by uni-assist (<a href="http://www.uni-assist.de">www.uni-assist.de</a>) to get a VPD (&quot;Vorpr&uuml;fungsdokumentation&quot;) BEFORE applying to HAW Hamburg.</p>
+
+<p>With your VPD, please apply using the HAW Hamburg online application portal. Here is the link:&nbsp;<a href="https://bit.ly/applyHAW">https://bit.ly/applyHAW</a>.</p>
+
+<p>The HAW Hamburg online application portal is open during the application period only.</p>
+
+<p>You do not need to send your documents with the postal mail to complete your application.</p>', updated_at = $1 WHERE id = 4161
+2023-06-06 18:19:36,586 [INFO] UPDATE course SET application_deadline = '<p>Application periods:</p>
+
+<p>1 June to 30 September (programme start: March)<br />
+1 December to 31 March (programme start: September)</p>
+
+<p>Please have your school and Bachelor&#39;s certificates checked first by uni-assist (<a href="http://www.uni-assist.de">www.uni-assist.de</a>) to get a VPD (&quot;Vorpr&uuml;fungsdokumentation&quot;) BEFORE applying to HAW Hamburg.</p>
+
+<p>With your VPD, please apply using the HAW Hamburg online application portal. Here is the link:&nbsp;<a href="https://bit.ly/applyHAW">https://bit.ly/applyHAW</a>.</p>
+
+<p>The HAW Hamburg online application portal is open during the application period only.</p>
+
+<p>You do not need to send your documents with the postal mail to complete your application.</p>', updated_at = $1 WHERE id = 4029
+2023-06-06 18:19:36,823 [INFO] UPDATE course SET application_deadline = '<p>Application periods:</p>
+
+<p>1 April to 15 May (programme start: September)<br />
+1 October to 15 November&nbsp;(programme start: March)</p>
+
+<p>Please have your school and Bachelor&#39;s certificates checked first by uni-assist (<a href="http://www.uni-assist.de">www.uni-assist.de</a>) to get a VPD (&quot;Vorpr&uuml;fungsdokumentation&quot;) BEFORE applying to HAW Hamburg.</p>
+
+<p>With your VPD, please apply using the HAW Hamburg online application portal. Here is the link:&nbsp;<a href="https://bit.ly/applyHAW">https://bit.ly/applyHAW</a>.</p>
+
+<p>The HAW Hamburg online application portal is open during the application period only.</p>
+
+<p>You do not need to send your documents with the postal mail to complete your application.</p>', updated_at = $1 WHERE id = 6243
+2023-06-06 18:19:37,080 [INFO] UPDATE course SET application_deadline = '<p>Application periods:<br />
+1 June to 15 July (programme start: September)<br />
+1 December to 15 January (programme start: March)</p>
+
+<p>Please have your school and Bachelor&#39;s certificates checked first by uni-assist to get a VPD (&quot;Vorpr&uuml;fungsdokumentation&quot;) BEFORE applying to HAW Hamburg: <a href="http://www.uni-assist.de">www.uni-assist.de</a>.</p>
+
+<p>With your VPD, please apply using the HAW Hamburg online application portal. Here is the link:&nbsp;<a href="https://bit.ly/applyHAW">https://bit.ly/applyHAW</a>.</p>
+
+<p>The HAW Hamburg online application portal is open during the application period only.</p>
+
+<p>You do not need to send your documents with the postal mail to complete your application.</p>', updated_at = $1 WHERE id = 4027
+2023-06-06 18:19:37,302 [INFO] UPDATE course SET application_deadline = '<p>Application period:</p>
+
+<p>1 April to 15 May (programme start: September)</p>
+
+<p>Please have your school and Bachelor&#39;s certificates checked first by uni-assist (<a href="http://www.uni-assist.de">www.uni-assist.de</a>) to get a VPD (&quot;Vorpr&uuml;fungsdokumentation&quot;) BEFORE applying to HAW Hamburg.</p>
+
+<p>With your VPD, please apply using the myHAW online application portal. Here is the link:&nbsp;<a href="https://bit.ly/applyHAW">https://bit.ly/applyHAW</a>.</p>
+
+<p>The HAW Hamburg online application portal is open during the application period&nbsp;only.</p>
+
+<p>You do not need to send your documents with the postal mail to complete your application.&nbsp;</p>', updated_at = $1 WHERE id = 4059
+2023-06-06 18:19:37,671 [INFO] =========End updating new course  =========
+2023-06-06 18:19:38,480 [INFO] =========Start deleting course=========
+2023-06-06 18:19:39,796 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-06 18:19:40,030 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-06 18:19:40,259 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-06 18:19:40,487 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-06 18:19:40,716 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-06 18:19:40,937 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-06 18:19:41,156 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-06 18:19:41,380 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-06 18:19:41,599 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-06 18:19:41,815 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-06 18:19:42,043 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-06 18:19:42,318 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-06 18:19:42,534 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-06 18:19:42,884 [INFO] DELETE FROM courses_languages WHERE course_id = 6389
+2023-06-06 18:19:42,994 [INFO] DELETE FROM  course WHERE id = 6389
+2023-06-06 18:19:43,153 [INFO] =========End deleting course  =========
