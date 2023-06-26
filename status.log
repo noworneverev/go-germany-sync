@@ -11832,3 +11832,51 @@ Applicants with a Bachelor&#39;s degree (or equivalent) from a German university
 2023-06-25 18:22:06,596 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-06-25 18:22:06,715 [INFO] No course deleted
 2023-06-25 18:22:06,822 [INFO] =========End deleting course  =========
+2023-06-26 18:22:54,791 [INFO] =========Start syncing university=========
+2023-06-26 18:22:55,597 [INFO] No new university
+2023-06-26 18:22:55,754 [INFO] =========End syncing university  =========
+2023-06-26 18:22:56,961 [INFO] =========Start creating new course=========
+2023-06-26 18:22:59,162 [INFO] No new course
+2023-06-26 18:22:59,324 [INFO] =========End creating new course  =========
+2023-06-26 18:23:00,557 [INFO] =========Start updating new course=========
+2023-06-26 18:23:02,523 [INFO] UPDATE course SET application_deadline = '<p>Applicants with a Bachelor&#39;s degree (or equivalent) from a German university:</p>
+
+<ul>
+	<li>15 July (winter semester)</li>
+	<li>15 January (summer semester) directly to Osnabr&uuml;ck University</li>
+</ul>
+
+<p>Applicants with international degrees (application via uni-assist):</p>
+
+<ul>
+	<li>15 June (winter semester)</li>
+	<li>15 January (summer semester)</li>
+</ul>
+
+<p>(For details on the application procedure, please consult our <a href="https://www.uni-osnabrueck.de/en/prospective-students/international-prospective-students/application/">website</a>.)</p>', updated_at = $1 WHERE id = 3614
+2023-06-26 18:23:02,971 [INFO] UPDATE course SET tuition_fees = '19,750', updated_at = $1 WHERE id = 3867
+2023-06-26 18:23:03,309 [INFO] UPDATE course SET application_deadline = '<p>15 June 2023</p>', updated_at = $1 WHERE id = 8324
+2023-06-26 18:23:03,657 [INFO] UPDATE course SET application_deadline = '<p>Summer semester:</p>
+
+<p>Start of the application period: 16 November 2022<br />
+End of the application period: 16 December 2022</p>
+
+<p>Winter semester:<br />
+15 June 2023</p>', updated_at = $1 WHERE id = 7721
+2023-06-26 18:23:04,240 [INFO] =========End updating new course  =========
+2023-06-26 18:23:05,468 [INFO] =========Start deleting course=========
+2023-06-26 18:23:07,432 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-26 18:23:07,778 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-26 18:23:08,118 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-26 18:23:08,459 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-26 18:23:08,797 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-26 18:23:09,127 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-26 18:23:09,455 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-26 18:23:09,787 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-26 18:23:10,112 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-26 18:23:10,436 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-26 18:23:10,774 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-26 18:23:11,157 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-26 18:23:11,481 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-06-26 18:23:11,570 [INFO] No course deleted
+2023-06-26 18:23:11,731 [INFO] =========End deleting course  =========
