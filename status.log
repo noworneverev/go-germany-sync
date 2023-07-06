@@ -12103,3 +12103,31 @@ End of the application period: 16 December 2022</p>
 2023-07-05 18:23:35,434 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-07-05 18:23:35,508 [INFO] No course deleted
 2023-07-05 18:23:35,668 [INFO] =========End deleting course  =========
+2023-07-06 18:21:58,000 [INFO] =========Start syncing university=========
+2023-07-06 18:21:58,655 [INFO] No new university
+2023-07-06 18:21:58,782 [INFO] =========End syncing university  =========
+2023-07-06 18:21:59,756 [INFO] =========Start creating new course=========
+2023-07-06 18:22:01,532 [INFO] No new course
+2023-07-06 18:22:01,658 [INFO] =========End creating new course  =========
+2023-07-06 18:22:02,616 [INFO] =========Start updating new course=========
+2023-07-06 18:22:04,223 [INFO] UPDATE course SET application_deadline = '<p>15 June (for applications with international certificates)<br />
+15 July (for applications with German degrees)</p>
+
+<p>Please note that you also have to register and take a <a href="https://www.frankfurt-university.de/de/studium/master-studiengange/accounting-and-finance-msc/studierfahigkeitstest/">study aptitude test</a>.</p>', updated_at = $1 WHERE id = 6281
+2023-07-06 18:22:04,818 [INFO] =========End updating new course  =========
+2023-07-06 18:22:05,789 [INFO] =========Start deleting course=========
+2023-07-06 18:22:07,336 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-06 18:22:07,610 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-06 18:22:07,879 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-06 18:22:08,147 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-06 18:22:08,414 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-06 18:22:08,673 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-06 18:22:08,933 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-06 18:22:09,197 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-06 18:22:09,454 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-06 18:22:09,709 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-06 18:22:09,978 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-06 18:22:10,301 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-06 18:22:10,557 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-06 18:22:10,649 [INFO] No course deleted
+2023-07-06 18:22:10,776 [INFO] =========End deleting course  =========
