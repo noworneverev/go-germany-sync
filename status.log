@@ -12515,3 +12515,48 @@ End of the application period: 16 December 2022</p>
 2023-07-21 18:20:36,726 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-07-21 18:20:36,818 [INFO] No course deleted
 2023-07-21 18:20:36,925 [INFO] =========End deleting course  =========
+2023-07-22 18:18:13,447 [INFO] =========Start syncing university=========
+2023-07-22 18:18:14,094 [INFO] No new university
+2023-07-22 18:18:14,220 [INFO] =========End syncing university  =========
+2023-07-22 18:18:15,162 [INFO] =========Start creating new course=========
+2023-07-22 18:18:16,862 [INFO] No new course
+2023-07-22 18:18:16,989 [INFO] =========End creating new course  =========
+2023-07-22 18:18:17,926 [INFO] =========Start updating new course=========
+2023-07-22 18:18:19,754 [INFO] =========End updating new course  =========
+2023-07-22 18:18:20,731 [INFO] =========Start deleting course=========
+2023-07-22 18:18:22,267 [INFO] Course id = 4545 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-22 18:18:22,534 [INFO] Course id = 3677 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-22 18:18:22,797 [INFO] Course id = 5512 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-22 18:18:23,060 [INFO] Course id = 4425 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-22 18:18:23,323 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-22 18:18:23,580 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-22 18:18:23,835 [INFO] Course id = 4193 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-22 18:18:24,094 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-22 18:18:24,349 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-22 18:18:24,603 [INFO] Course id = 4592 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-22 18:18:24,865 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-22 18:18:25,162 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-22 18:18:25,417 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-07-22 18:18:25,821 [INFO] DELETE FROM courses_languages WHERE course_id = 4905
+2023-07-22 18:18:25,953 [INFO] DELETE FROM  course WHERE id = 4905
+2023-07-22 18:18:26,338 [INFO] DELETE FROM courses_languages WHERE course_id = 5069
+2023-07-22 18:18:26,467 [INFO] DELETE FROM  course WHERE id = 5069
+2023-07-22 18:18:26,849 [INFO] DELETE FROM courses_languages WHERE course_id = 5068
+2023-07-22 18:18:26,977 [INFO] DELETE FROM  course WHERE id = 5068
+2023-07-22 18:18:27,358 [INFO] DELETE FROM courses_languages WHERE course_id = 5032
+2023-07-22 18:18:27,486 [INFO] DELETE FROM  course WHERE id = 5032
+2023-07-22 18:18:27,869 [INFO] DELETE FROM courses_languages WHERE course_id = 5000
+2023-07-22 18:18:27,998 [INFO] DELETE FROM  course WHERE id = 5000
+2023-07-22 18:18:28,382 [INFO] DELETE FROM courses_languages WHERE course_id = 4998
+2023-07-22 18:18:28,512 [INFO] DELETE FROM  course WHERE id = 4998
+2023-07-22 18:18:28,903 [INFO] DELETE FROM courses_languages WHERE course_id = 4938
+2023-07-22 18:18:29,032 [INFO] DELETE FROM  course WHERE id = 4938
+2023-07-22 18:18:29,413 [INFO] DELETE FROM courses_languages WHERE course_id = 5035
+2023-07-22 18:18:29,541 [INFO] DELETE FROM  course WHERE id = 5035
+2023-07-22 18:18:29,922 [INFO] DELETE FROM courses_languages WHERE course_id = 4994
+2023-07-22 18:18:30,050 [INFO] DELETE FROM  course WHERE id = 4994
+2023-07-22 18:18:30,433 [INFO] DELETE FROM courses_languages WHERE course_id = 4921
+2023-07-22 18:18:30,561 [INFO] DELETE FROM  course WHERE id = 4921
+2023-07-22 18:18:30,942 [INFO] DELETE FROM courses_languages WHERE course_id = 8273
+2023-07-22 18:18:31,070 [INFO] DELETE FROM  course WHERE id = 8273
+2023-07-22 18:18:31,221 [INFO] =========End deleting course  =========
