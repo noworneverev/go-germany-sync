@@ -17698,3 +17698,41 @@ Application deadline for the summer semester: 15 January</p>
 2023-08-16 18:18:42,571 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-08-16 18:18:42,703 [INFO] No course deleted
 2023-08-16 18:18:42,866 [INFO] =========End deleting course  =========
+2023-08-17 18:18:54,283 [INFO] =========Start syncing university=========
+2023-08-17 18:18:54,939 [INFO] No new university
+2023-08-17 18:18:55,065 [INFO] =========End syncing university  =========
+2023-08-17 18:18:56,055 [INFO] =========Start creating new course=========
+2023-08-17 18:18:58,108 [INFO] New courses created:
+2023-08-17 18:18:58,108 [INFO] [(8335, 87, 2, 'Master of Arts in Digital and Computational Archaeology', 'Digital and Computational Archaeology', '', '', 'none', 'Winter semester', 'Languages and Cultural Studies in general', '/deutschland/studienangebote/international-programmes/en/detail/8335/', False, '<p>15 July<br />\nDocuments for the VDP examination should be submitted to uni-assist by 30 June at the latest. Applications can be submitted starting in April each year. You are advised to apply early.</p>', False, '4 semesters', True, datetime.datetime(2023, 8, 17, 18, 18, 57, 835228), None), (4296, 204, 2, 'Master of Business Administration (MBA) Renewables', 'MBA Renewables', '', '', '3,200', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/4296/', False, '<p>31 August for a start on 1 October of the same year</p>\n\n<p>Read more about the admission requirements and the application process on our <a href="https://www.mba-renewables.de/application">website</a>.</p>\n\n<ul>\n</ul>', True, '5 semesters', True, datetime.datetime(2023, 8, 17, 18, 18, 57, 835272), None), (6311, 165, 2, 'Master of International Human Rights and Humanitarian Law', 'Master of International Human Rights and Humanitarian Law', '', '', '2,034', 'Winter semester, Summer semester', 'Law', '/deutschland/studienangebote/international-programmes/en/detail/6311/', False, '<p>The application deadline for the winter semester class is 1 September for non-visa holders and 30 September&nbsp;for visa holders.</p>\n\n<p>The application deadline for the summer semester class is 1 January for non-visa holders and 15 February for visa holders.</p>', True, '3 semesters, 6 semesters', True, datetime.datetime(2023, 8, 17, 18, 18, 57, 835286), None)]
+2023-08-17 18:18:58,368 [INFO] New courses_languages created:
+2023-08-17 18:18:58,369 [INFO] [(3483, 8335, 1), (3484, 4296, 1), (3485, 6311, 1)]
+2023-08-17 18:18:58,496 [INFO] =========End creating new course  =========
+2023-08-17 18:18:59,491 [INFO] =========Start updating new course=========
+2023-08-17 18:19:01,099 [INFO] UPDATE course SET beginning = 'Winter semester', updated_at = $1 WHERE id = 8308
+2023-08-17 18:19:01,357 [INFO] UPDATE course SET application_deadline = '<p>15 August for the winter semester</p>', updated_at = $1 WHERE id = 8308
+2023-08-17 18:19:01,919 [INFO] =========End updating new course  =========
+2023-08-17 18:19:02,871 [INFO] =========Start deleting course=========
+2023-08-17 18:19:04,423 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:04,680 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:04,944 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:05,208 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:05,479 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:05,750 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:06,007 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:06,269 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:06,528 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:06,785 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:07,042 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:07,302 [INFO] Course id = 3938 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:07,558 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:07,814 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:08,068 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:08,327 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:08,592 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:08,864 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:09,122 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:09,391 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:09,646 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:09,911 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-17 18:19:09,998 [INFO] No course deleted
+2023-08-17 18:19:10,125 [INFO] =========End deleting course  =========
