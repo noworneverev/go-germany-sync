@@ -17841,3 +17841,43 @@ Application deadline for the summer semester: 15 January</p>
 2023-08-20 18:17:12,808 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-08-20 18:17:12,893 [INFO] No course deleted
 2023-08-20 18:17:13,020 [INFO] =========End deleting course  =========
+2023-08-21 18:17:41,627 [INFO] =========Start syncing university=========
+2023-08-21 18:17:42,477 [INFO] No new university
+2023-08-21 18:17:42,643 [INFO] =========End syncing university  =========
+2023-08-21 18:17:43,876 [INFO] =========Start creating new course=========
+2023-08-21 18:17:46,450 [INFO] New courses created:
+2023-08-21 18:17:46,450 [INFO] [(6487, 77, 1, 'International Business Information Systems (BSc) – Business Management – Computer Science – Data Science', 'International Business Information Systems (BSc)', '', '', 'varied', 'Winter semester, Summer semester', 'Law, Economics and Social Sciences in general', '/deutschland/studienangebote/international-programmes/en/detail/6487/', False, '<p>Contact&nbsp;<a href="mailto:Pavel.Rawe@HS-Furtwangen.de">Pavel.Rawe@HS-Furtwangen.de</a>.<br />\nProf Dr Pavel Rawe (dean of studies and director of the study program) will <strong>guide you through the application process</strong> and provide first-hand information.</p>\n\n<p><strong>Non-European Union&nbsp;</strong>applicants &ndash; for <strong>early</strong> admission (<strong>later</strong> admission also possible <strong>on request</strong> - contact: <a href="mailto:Pavel.Rawe@hs-furtwangen.de">Pavel.Rawe@hs-furtwangen.de</a>):</p>\n\n<ul>\n\t<li><strong>10 December&nbsp;</strong>for&nbsp;<strong>summer&nbsp;</strong>semester (starting 15 March)</li>\n\t<li><strong>15 June </strong>for <strong>winter</strong> semester (starting 1 October)</li>\n</ul>\n\n<p><strong>European Union</strong>&nbsp;applicants and <strong>Non-EU</strong> applicants &ndash; for <strong>regular</strong> admission:</p>\n\n<ul>\n\t<li><strong>15 January</strong> for <strong>summer</strong> semester (starting 15 March)</li>\n\t<li><strong>15 July</strong> for <strong>winter</strong> semester (starting 1 October)</li>\n</ul>\n\n<p><strong>Have you missed the application deadline?</strong> Please&nbsp;contact the study programme director via e-mail: <a href="mailto:pavel.rawe@hs-furtwangen.de">pavel.rawe@hs-furtwangen.de</a>.</p>', True, '7 semesters', True, datetime.datetime(2023, 8, 21, 18, 17, 46, 95404), None), (3806, 22, 2, 'Neuro-Cognitive Psychology (NCP)', 'Neuro-Cognitive Psychology (NCP)', '', '', 'none', 'Winter semester', 'Psychology', '/deutschland/studienangebote/international-programmes/en/detail/3806/', False, '<p>15 February for the following winter semester</p>', False, '4 semesters', True, datetime.datetime(2023, 8, 21, 18, 17, 46, 95417), None)]
+2023-08-21 18:17:46,788 [INFO] New courses_languages created:
+2023-08-21 18:17:46,788 [INFO] [(3486, 6487, 1), (3487, 3806, 1)]
+2023-08-21 18:17:46,954 [INFO] =========End creating new course  =========
+2023-08-21 18:17:48,179 [INFO] =========Start updating new course=========
+2023-08-21 18:17:50,201 [INFO] UPDATE course SET is_complete_online_possible = 'False', updated_at = $1 WHERE id = 6403
+2023-08-21 18:17:50,638 [INFO] UPDATE course SET tuition_fees = '4,140', updated_at = $1 WHERE id = 6404
+2023-08-21 18:17:50,973 [INFO] UPDATE course SET is_complete_online_possible = 'False', updated_at = $1 WHERE id = 6404
+2023-08-21 18:17:51,307 [INFO] UPDATE course SET programme_duration = '3 semesters, 4 semesters', updated_at = $1 WHERE id = 6404
+2023-08-21 18:17:51,915 [INFO] =========End updating new course  =========
+2023-08-21 18:17:53,098 [INFO] =========Start deleting course=========
+2023-08-21 18:17:55,058 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:17:55,382 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:17:55,711 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:17:56,041 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:17:56,378 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:17:56,711 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:17:57,037 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:17:57,363 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:17:57,690 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:17:58,013 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:17:58,337 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:17:58,666 [INFO] Course id = 3938 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:17:58,989 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:17:59,313 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:17:59,636 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:17:59,961 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:18:00,295 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:18:00,637 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:18:00,962 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:18:01,295 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:18:01,619 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:18:01,954 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-21 18:18:02,029 [INFO] No course deleted
+2023-08-21 18:18:02,190 [INFO] =========End deleting course  =========
