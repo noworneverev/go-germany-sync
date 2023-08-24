@@ -17952,3 +17952,58 @@ Application deadline for the summer semester: 15 January</p>
 2023-08-23 18:17:23,908 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-08-23 18:17:23,971 [INFO] No course deleted
 2023-08-23 18:17:24,128 [INFO] =========End deleting course  =========
+2023-08-24 18:19:09,930 [INFO] =========Start syncing university=========
+2023-08-24 18:19:10,847 [INFO] New university:
+2023-08-24 18:19:10,848 [INFO] [(273, 'Leibniz Institute for Natural Product Research and Infection Biology - Hans Knöll Institute', '', 'Jena', True, False, False, None, datetime.datetime(2023, 8, 24, 18, 19, 10, 589378), None, '')]
+2023-08-24 18:19:10,975 [INFO] =========End syncing university  =========
+2023-08-24 18:19:11,936 [INFO] =========Start creating new course=========
+2023-08-24 18:19:13,992 [INFO] New courses created:
+2023-08-24 18:19:13,992 [INFO] [(9115, 236, 2, 'Biosphere Reserves Management (BIOM)', 'Biosphere Reserves Management', '', '', 'none', 'Winter semester', 'Political Science', '/deutschland/studienangebote/international-programmes/en/detail/9115/', False, '<p>Non-EU&nbsp;and EU applicants: 1 May&nbsp;for the following winter semester</p>\n\n<p>Non-EU applicants: Applications at uni-assist can only be made between 1 April and 1 May!</p>\n\n<p>German&nbsp;applicants: 15 July for the following winter semester</p>', False, '4 semesters', True, datetime.datetime(2023, 8, 24, 18, 19, 13, 724542), None), (9117, 273, 3, 'International Leibniz Research School for Microbial and Biomolecular Interactions (ILRS Jena)', 'ILRS for Microbial and Biomolecular Interactions', '', '', 'none', 'Any time', 'Biology', '/deutschland/studienangebote/international-programmes/en/detail/9117/', False, '<p>Variable, depending on project</p>', False, '6 semesters, 8 semesters', True, datetime.datetime(2023, 8, 24, 18, 19, 13, 724578), None), (9116, 144, 2, 'Master of Science in Quantitative Decision Making in Economics and Management (QDEM)', 'Master Quantitative Decision Making in Economics and Management', '', '', 'none', 'Winter semester', 'Law, Economics and Social Sciences in general', '/deutschland/studienangebote/international-programmes/en/detail/9116/', False, '<p>From 1 April through 15 May for the following winter semester</p>', False, '4 semesters', True, datetime.datetime(2023, 8, 24, 18, 19, 13, 724591), None)]
+2023-08-24 18:19:14,251 [INFO] New courses_languages created:
+2023-08-24 18:19:14,251 [INFO] [(3495, 9115, 1), (3496, 9117, 1), (3497, 9116, 1)]
+2023-08-24 18:19:14,377 [INFO] =========End creating new course  =========
+2023-08-24 18:19:15,338 [INFO] =========Start updating new course=========
+2023-08-24 18:19:16,928 [INFO] UPDATE course SET application_deadline = '<p>Applicants with a foreign degree:</p>
+
+<ul>
+	<li>15 July for the following winter semester</li>
+</ul>
+
+<p>Applicants with a German degree:</p>
+
+<ul>
+	<li>15 July for the following winter semester</li>
+</ul>', updated_at = $1 WHERE id = 7718
+2023-08-24 18:19:17,234 [INFO] UPDATE course SET name_en = 'International Bachelor of Wood Technology', updated_at = $1 WHERE id = 8974
+2023-08-24 18:19:17,494 [INFO] UPDATE course SET name_en_short = 'International Bachelor of Wood Technology', updated_at = $1 WHERE id = 8974
+2023-08-24 18:19:17,833 [INFO] UPDATE course SET application_deadline = '<p>The application period is from 15 February to 31 March for the winter semester of the respective year (studies starting in October).</p>
+
+<p>An earlier deadline applies for applying for recognition of first degrees from outside of Germany.</p>
+
+<p>Please see the <a href="https://www.wiso.uni-hamburg.de/studienbuero-sozialoekonomie/studiengaenge/ma-mibas/bewerbung-mibas.html?mtm_campaign=DAAD&amp;mtm_source=daad&amp;mtm_medium=listing">programme website</a> for further details on how to apply.</p>', updated_at = $1 WHERE id = 3745
+2023-08-24 18:19:18,300 [INFO] =========End updating new course  =========
+2023-08-24 18:19:19,300 [INFO] =========Start deleting course=========
+2023-08-24 18:19:20,860 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:21,118 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:21,381 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:21,646 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:21,918 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:22,188 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:22,448 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:22,710 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:22,969 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:23,227 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:23,483 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:23,746 [INFO] Course id = 3938 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:24,003 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:24,261 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:24,516 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:24,775 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:25,044 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:25,318 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:25,577 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:25,846 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:26,102 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:26,371 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-24 18:19:26,461 [INFO] No course deleted
+2023-08-24 18:19:26,589 [INFO] =========End deleting course  =========
