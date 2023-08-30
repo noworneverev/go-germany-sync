@@ -18183,3 +18183,50 @@ Application deadline for the summer semester: 15 January</p>
 2023-08-29 18:19:34,982 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-08-29 18:19:35,075 [INFO] No course deleted
 2023-08-29 18:19:35,183 [INFO] =========End deleting course  =========
+2023-08-30 18:19:31,025 [INFO] =========Start syncing university=========
+2023-08-30 18:19:31,579 [INFO] No new university
+2023-08-30 18:19:31,686 [INFO] =========End syncing university  =========
+2023-08-30 18:19:32,489 [INFO] =========Start creating new course=========
+2023-08-30 18:19:34,233 [INFO] New courses created:
+2023-08-30 18:19:34,233 [INFO] [(9125, 25, 4, 'Bayreuth Graduate Centre for Cultural Studies, Social Sciences, and Humanities (BayKULT)', 'Centre for Cultural Studies, Social Sciences & Humanities', '', '', '', '', '', '/deutschland/studienangebote/international-programmes/en/detail/9125/', False, '', False, '', True, datetime.datetime(2023, 8, 30, 18, 19, 33, 995616), None), (5245, 25, 2, 'Computer Science, Master of Science (MSc)', 'Computer Science (MSc)', '', '', 'none', 'Winter semester, Summer semester', 'Computer Science', '/deutschland/studienangebote/international-programmes/en/detail/5245/', False, '<p><strong>Application period (Germans)</strong><br />\n15 April &ndash; enrolment deadline (for winter semester)<br />\n15 October &ndash; enrolment deadline (for summer semester)<br />\n<a href="https://www.studierendenkanzlei.uni-bayreuth.de/de/masterstudium/Computer-Science_-Master-of-Science/index.html">Application platform</a></p>\n\n<p><strong>Application period (EU citizens)</strong><br />\n15 April &ndash; enrolment deadline (for winter semester)<br />\n15 October &ndash; enrolment deadline (for summer semester)<br />\n<a href="https://www.international-office.uni-bayreuth.de/en/degree-programmes/master-EU/computer-science-msc/index.html">Application platform</a></p>\n\n<p><strong>Application period (non-EU citizens)</strong><br />\n15 April &ndash; 15 July (for winter semester)<br />\n15 October &ndash; 15 January (for summer semester)<br />\n<a href="https://www.international-office.uni-bayreuth.de/en/degree-programmes/master-Nicht-EU/computer-science-msc/index.html">Application platform</a></p>', False, '4 semesters', True, datetime.datetime(2023, 8, 30, 18, 19, 33, 995627), None), (9126, 108, 6, 'Supply Chain Design & Collaboration', 'Supply Chain Design & Collaboration', '', '', 'none', '', 'Mechanical Engineering / Process Engineering', '/deutschland/studienangebote/international-programmes/en/detail/9126/', False, '', True, '', True, datetime.datetime(2023, 8, 30, 18, 19, 33, 995643), None)]
+2023-08-30 18:19:34,452 [INFO] New courses_languages created:
+2023-08-30 18:19:34,452 [INFO] [(3524, 9125, 2), (3525, 5245, 1), (3526, 9126, 1)]
+2023-08-30 18:19:34,559 [INFO] =========End creating new course  =========
+2023-08-30 18:19:35,414 [INFO] =========Start updating new course=========
+2023-08-30 18:19:36,755 [INFO] UPDATE course SET application_deadline = '<p>28 February for the following winter semester<br />
+For further information, please check the programme website <a href="http://www.mhb.lmu.de">http://www.mhb.lmu.de</a>.</p>', updated_at = $1 WHERE id = 5344
+2023-08-30 18:19:37,089 [INFO] UPDATE course SET application_deadline = '<p>15 October to 1 December for March entries (summer semester)<br />
+15 April to 15 July&nbsp;for October entries (winter semester)</p>', updated_at = $1 WHERE id = 7691
+2023-08-30 18:19:37,305 [INFO] UPDATE course SET application_deadline = '<p>Starting in the winter semester (1 October): If you would like to start your studies in the winter semester, you will study at our main campus in Deggendorf. You will be able to apply from 15 April until 15 July.</p>
+
+<p>Starting in the summer semester (15 March): If you would like to start your studies in the summer semester, you will study at our campus in Cham. You will be able to apply from 15 October until 1 December.</p>', updated_at = $1 WHERE id = 5378
+2023-08-30 18:19:37,543 [INFO] UPDATE course SET application_deadline = '<p>15 October to 30 November for March entries (summer semester at DIT )</p>
+
+<p>15 April to 15 June for September entries (winter semester at University of South Bohemia)</p>', updated_at = $1 WHERE id = 7124
+2023-08-30 18:19:37,762 [INFO] UPDATE course SET application_deadline = '<p>15 October to 30 November for March entries (summer semester)</p>', updated_at = $1 WHERE id = 7744
+2023-08-30 18:19:38,131 [INFO] =========End updating new course  =========
+2023-08-30 18:19:38,963 [INFO] =========Start deleting course=========
+2023-08-30 18:19:40,274 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:40,490 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:40,710 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:40,932 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:41,161 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:41,387 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:41,605 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:41,823 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:42,042 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:42,259 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:42,475 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:42,695 [INFO] Course id = 3938 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:42,910 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:43,125 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:43,339 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:43,556 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:43,786 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:44,016 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:44,232 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:44,458 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:44,676 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:44,900 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-30 18:19:44,980 [INFO] No course deleted
+2023-08-30 18:19:45,087 [INFO] =========End deleting course  =========
