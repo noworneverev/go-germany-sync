@@ -18230,3 +18230,40 @@ For further information, please check the programme website <a href="http://www.
 2023-08-30 18:19:44,900 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-08-30 18:19:44,980 [INFO] No course deleted
 2023-08-30 18:19:45,087 [INFO] =========End deleting course  =========
+2023-08-31 18:19:47,063 [INFO] =========Start syncing university=========
+2023-08-31 18:19:47,722 [INFO] No new university
+2023-08-31 18:19:47,849 [INFO] =========End syncing university  =========
+2023-08-31 18:19:48,836 [INFO] =========Start creating new course=========
+2023-08-31 18:19:50,927 [INFO] New courses created:
+2023-08-31 18:19:50,927 [INFO] [(9131, 68, 1, 'BA in Artistic Practice and Society', 'BA in Artistic Practice and Society', '', '', '', 'Winter semester', 'Art, Art Theory in general', '/deutschland/studienangebote/international-programmes/en/detail/9131/', False, '<p>Spring transfer: 15 October<br />\nEarly action international students: 1 November<br />\nRegular admission international students: 15 January<br />\nFall transfer: 15 February<br />\nLate admission EU citizens/residents: 1 May</p>', False, '8 semesters', True, datetime.datetime(2023, 8, 31, 18, 19, 50, 656437), None), (4537, 68, 1, 'BA in Economics, Politics, and Social Thought', 'Economics, Politics, and Social Thought', '', '', '', 'Winter semester', 'Law, Economics and Social Sciences in general', '/deutschland/studienangebote/international-programmes/en/detail/4537/', False, '<p>Spring transfer: 15 October<br />\nEarly action international students: 1 November<br />\nRegular admission international students: 15 January<br />\nFall transfer: 15 February<br />\nLate admission EU citizens/residents: 1 May</p>', False, '8 semesters', True, datetime.datetime(2023, 8, 31, 18, 19, 50, 656453), None), (4535, 68, 1, 'BA in Humanities, the Arts, and Social Thought', 'BA in Humanities, the Arts, and Social Thought', '', '', '', 'Winter semester', 'Political Science', '/deutschland/studienangebote/international-programmes/en/detail/4535/', False, '<p>Spring transfer: 15 October<br />\nEarly action international students: 1 November<br />\nRegular admission international students: 15 January<br />\nFall transfer: 15 February<br />\nLate admission EU citizens/residents: 1 May</p>', False, '8 semesters', True, datetime.datetime(2023, 8, 31, 18, 19, 50, 656462), None), (9129, 207, 2, 'Master of Arts in International Marketing and Sales', 'Master of Arts in International Marketing and Sales', '', '', 'varied', 'Winter semester, Summer semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/9129/', False, '<p>15 July (winter semester)<br />\n15 November (summer semester)</p>', False, '3 semesters', True, datetime.datetime(2023, 8, 31, 18, 19, 50, 656486), None), (9130, 207, 2, 'Master of Science in Applied Photonics', 'Master of Science in Applied Photonics', '', '', 'varied', 'Winter semester, Summer semester', 'Engineering in general', '/deutschland/studienangebote/international-programmes/en/detail/9130/', False, '<p>Winter semester: 15 July<br />\nSummer semester: 15 January</p>', False, '3 semesters', True, datetime.datetime(2023, 8, 31, 18, 19, 50, 656504), None), (9128, 78, 2, 'Sustainability & Transformation Management (MSc)', 'Sustainability & Transformation Management (MSc)', '', '', '5,280', 'Winter semester, Summer semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/9128/', False, '<p>It is possible to submit applications all year round.</p>', False, '4 semesters', True, datetime.datetime(2023, 8, 31, 18, 19, 50, 656512), None)]
+2023-08-31 18:19:51,186 [INFO] New courses_languages created:
+2023-08-31 18:19:51,187 [INFO] [(3527, 9131, 1), (3528, 4537, 1), (3529, 4535, 1), (3530, 9129, 1), (3531, 9130, 1), (3532, 9128, 1)]
+2023-08-31 18:19:51,314 [INFO] =========End creating new course  =========
+2023-08-31 18:19:52,310 [INFO] =========Start updating new course=========
+2023-08-31 18:19:53,855 [INFO] UPDATE course SET is_complete_online_possible = 'False', updated_at = $1 WHERE id = 6937
+2023-08-31 18:19:54,510 [INFO] =========End updating new course  =========
+2023-08-31 18:19:55,498 [INFO] =========Start deleting course=========
+2023-08-31 18:19:57,056 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:19:57,312 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:19:57,575 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:19:57,840 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:19:58,120 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:19:58,391 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:19:58,650 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:19:58,909 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:19:59,171 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:19:59,426 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:19:59,682 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:19:59,946 [INFO] Course id = 3938 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:20:00,214 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:20:00,469 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:20:00,724 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:20:00,984 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:20:01,252 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:20:01,527 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:20:01,786 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:20:02,055 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:20:02,312 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:20:02,580 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-08-31 18:20:02,688 [INFO] No course deleted
+2023-08-31 18:20:02,815 [INFO] =========End deleting course  =========
