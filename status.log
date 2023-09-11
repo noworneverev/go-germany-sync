@@ -18610,3 +18610,41 @@ For further information, please check the programme website <a href="http://www.
 2023-09-10 18:17:45,846 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-09-10 18:17:45,913 [INFO] No course deleted
 2023-09-10 18:17:46,021 [INFO] =========End deleting course  =========
+2023-09-11 18:19:37,914 [INFO] =========Start syncing university=========
+2023-09-11 18:19:39,087 [INFO] New university:
+2023-09-11 18:19:39,088 [INFO] [(274, 'Friedensau Adventist University', '', 'Möckern', True, False, False, None, datetime.datetime(2023, 9, 11, 18, 19, 38, 753618), None, '')]
+2023-09-11 18:19:39,253 [INFO] =========End syncing university  =========
+2023-09-11 18:19:40,446 [INFO] =========Start creating new course=========
+2023-09-11 18:19:42,965 [INFO] New courses created:
+2023-09-11 18:19:42,965 [INFO] [(9137, 274, 1, 'International Social Work, Bachelor of Arts', 'BA International Social Work', '', '', '', 'Winter semester', 'Social Science', '/deutschland/studienangebote/international-programmes/en/detail/9137/', False, '<p>Application phase</p>\n\n<ul>\n\t<li>from 1 December to 31 March for non-EU applicants who need a visa and</li>\n\t<li>from 1 April to 31 August for EU applicants who don&rsquo;t need a visa</li>\n</ul>', False, '6 semesters', True, datetime.datetime(2023, 9, 11, 18, 19, 42, 613488), None), (9135, 274, 2, 'Master of Arts in Development Studies', 'MA Development Studies', '', '', '2,793', 'Winter semester', 'Social Science', '/deutschland/studienangebote/international-programmes/en/detail/9135/', False, '<p>EU students: 31 August, non-EU students: 31 March</p>', False, '4 semesters', True, datetime.datetime(2023, 9, 11, 18, 19, 42, 613515), None), (9136, 274, 2, 'Master of Arts in Development Studies (online, part-time)', 'MA Development Studies (online, part-time)', '', '', '1,999', 'Winter semester', 'Social Science', '/deutschland/studienangebote/international-programmes/en/detail/9136/', False, '<p>30 June</p>', True, '6 semesters', True, datetime.datetime(2023, 9, 11, 18, 19, 42, 613532), None), (4397, 32, 2, 'Master of Science in Educational Technology (EduTech)', 'Master in Educational Technology (EduTech)', '', '', 'none', 'Winter semester', 'Education', '/deutschland/studienangebote/international-programmes/en/detail/4397/', False, '<p>The official application period for the winter semester is once per year and starts in early June and ends on 15 July. The application period and process is the same for EU and non-EU applicants. The application is free and fully online via the <a href="https://sim.uni-saarland.de/bewerbung#/Logon">Saarland University SIM application portal</a>.</p>\n\n<p>Please check the <a href="https://edutech.uni-saarland.de/applying-to-edutech-m-sc/">&quot;Applying to EduTech MSc&quot; page on our website</a> for information about the exact application dates as well as additional information on the application process and requirements.</p>\n\n<p>For additional information please also check the <a href="https://www.uni-saarland.de/en/study/programmes/master/edutech.html">&quot;How to Apply&quot; section</a> of the EduTech page at Saarland University&#39;s website.</p>', True, '4 semesters', True, datetime.datetime(2023, 9, 11, 18, 19, 42, 613537), None), (9138, 24, 2, "Master's in Management and Digital Technology (MSc) - Heilbronn", "Master's in Management and Digital Technology", '', '', 'none', 'Winter semester, Summer semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/9138/', False, '<p>The application period for the winter semester runs from 1 April until 31 May (national and international applicants).</p>\n\n<p>The application period for the summer semester runs from 1 November until 30 November (national and international applicants).</p>', False, '4 semesters', True, datetime.datetime(2023, 9, 11, 18, 19, 42, 613541), None)]
+2023-09-11 18:19:43,295 [INFO] New courses_languages created:
+2023-09-11 18:19:43,295 [INFO] [(3534, 9137, 1), (3535, 9135, 1), (3536, 9136, 1), (3537, 4397, 1), (3538, 9138, 1)]
+2023-09-11 18:19:43,457 [INFO] =========End creating new course  =========
+2023-09-11 18:19:44,653 [INFO] =========Start updating new course=========
+2023-09-11 18:19:46,707 [INFO] UPDATE course SET is_complete_online_possible = 'False', updated_at = $1 WHERE id = 4658
+2023-09-11 18:19:47,300 [INFO] =========End updating new course  =========
+2023-09-11 18:19:48,500 [INFO] =========Start deleting course=========
+2023-09-11 18:19:50,491 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:50,819 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:51,153 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:51,489 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:51,831 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:52,169 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:52,500 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:52,831 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:53,163 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:53,492 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:53,821 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:54,154 [INFO] Course id = 3938 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:54,484 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:54,812 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:55,140 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:55,469 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:55,807 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:56,149 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:56,481 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:56,821 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:57,149 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:57,486 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-11 18:19:57,562 [INFO] No course deleted
+2023-09-11 18:19:57,725 [INFO] =========End deleting course  =========
