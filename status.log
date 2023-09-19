@@ -18883,3 +18883,50 @@ For further information, please check the programme website <a href="http://www.
 2023-09-18 18:20:44,041 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-09-18 18:20:44,197 [INFO] No course deleted
 2023-09-18 18:20:44,304 [INFO] =========End deleting course  =========
+2023-09-19 18:20:15,056 [INFO] =========Start syncing university=========
+2023-09-19 18:20:16,358 [INFO] New university:
+2023-09-19 18:20:16,358 [INFO] [(275, 'TRON – Translationale Onkologie an der Universitätsmedizin der Johannes Gutenberg-Universität Mainz', '', 'Mainz', True, False, False, None, datetime.datetime(2023, 9, 19, 18, 20, 16, 33974), None, '')]
+2023-09-19 18:20:16,518 [INFO] =========End syncing university  =========
+2023-09-19 18:20:17,678 [INFO] =========Start creating new course=========
+2023-09-19 18:20:20,127 [INFO] New courses created:
+2023-09-19 18:20:20,127 [INFO] [(9145, 2, 2, 'Double Degree Programme in Management of Educational Services, Adult and Continuing Education', 'Double Degree Programme in Adult and Continuing Education', '', '', 'none', 'Winter semester', 'Education', '/deutschland/studienangebote/international-programmes/en/detail/9145/', False, '<p><strong>15 July </strong>each year</p>', True, '4 semesters', True, datetime.datetime(2023, 9, 19, 18, 20, 19, 790831), None), (3674, 77, 2, 'International Business Management (MBA)', 'International Business Management (MBA)', '', '', '4,000', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/3674/', False, '<p>Non-EU applicants: 31 March<br />\nEU and national applicants: 15 July</p>', False, '3 semesters', True, datetime.datetime(2023, 9, 19, 18, 20, 19, 790868), None), (4297, 77, 2, 'Master of Science in International Management (IMM)', 'Master of Science in International Management (IMM)', '', '', '1,500', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/4297/', False, '<p>Non-EU applicants: 31 March<br />\nEU and national applicants: 15 July</p>', False, '3 semesters', True, datetime.datetime(2023, 9, 19, 18, 20, 19, 790876), None), (9144, 275, 3, 'Talent Academy for Translational Science (ATLAS PhD Programme)', 'Talent Academy for Translational Science (ATLAS PhD Programme)', '', '', 'none', 'Any time', 'Mathematics, Natural Sciences in general', '/deutschland/studienangebote/international-programmes/en/detail/9144/', False, '<p>31 October for the following year</p>', True, '6 semesters', True, datetime.datetime(2023, 9, 19, 18, 20, 19, 790901), None)]
+2023-09-19 18:20:20,445 [INFO] New courses_languages created:
+2023-09-19 18:20:20,445 [INFO] [(3549, 9145, 1), (3550, 3674, 1), (3551, 4297, 1), (3552, 9144, 1)]
+2023-09-19 18:20:20,602 [INFO] =========End creating new course  =========
+2023-09-19 18:20:21,788 [INFO] =========Start updating new course=========
+2023-09-19 18:20:23,877 [INFO] No need to update column: tuition_fees from course id: 3938. [Source is 7.950,00, and target is None]
+2023-09-19 18:20:23,877 [INFO] UPDATE course SET application_deadline = '<p><strong>Deadlines for applications do not exist here.</strong> Every applicant gets an individual appointment for his or her personal application procedure.</p>
+
+<p><strong>Application recommendation for non-EU applicants with visa requirements:</strong><br />
+To start in the autumn semester: end of May<br />
+To start in the spring semester: end of September</p>
+
+<p><strong>Please apply well in advance,</strong> considering the visa process duration in your home country.</p>', updated_at = $1 WHERE id = 3938
+2023-09-19 18:20:24,237 [INFO] UPDATE course SET application_deadline = '<p>15 July for the following winter semester</p>
+
+<p>Applicants from outside Europe are asked to apply as early as possible (due to time required for administration procedure, visa applications, etc.).</p>', updated_at = $1 WHERE id = 3913
+2023-09-19 18:20:24,753 [INFO] =========End updating new course  =========
+2023-09-19 18:20:25,939 [INFO] =========Start deleting course=========
+2023-09-19 18:20:27,890 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-19 18:20:28,212 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-19 18:20:28,540 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-19 18:20:28,869 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-19 18:20:29,208 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-19 18:20:29,541 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-19 18:20:29,867 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-19 18:20:30,191 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-19 18:20:30,517 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-19 18:20:30,847 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-19 18:20:31,169 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-19 18:20:31,498 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-19 18:20:31,820 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-19 18:20:32,141 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-19 18:20:32,465 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-19 18:20:32,797 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-19 18:20:33,138 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-19 18:20:33,461 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-19 18:20:33,795 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-19 18:20:34,118 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-19 18:20:34,448 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-19 18:20:34,529 [INFO] No course deleted
+2023-09-19 18:20:34,694 [INFO] =========End deleting course  =========
