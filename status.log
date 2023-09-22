@@ -19005,3 +19005,38 @@ To start in the spring semester: end of September</p>
 2023-09-21 18:20:54,905 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-09-21 18:20:54,985 [INFO] No course deleted
 2023-09-21 18:20:55,142 [INFO] =========End deleting course  =========
+2023-09-22 18:19:56,450 [INFO] =========Start syncing university=========
+2023-09-22 18:19:57,116 [INFO] No new university
+2023-09-22 18:19:57,223 [INFO] =========End syncing university  =========
+2023-09-22 18:19:58,027 [INFO] =========Start creating new course=========
+2023-09-22 18:19:59,757 [INFO] New courses created:
+2023-09-22 18:19:59,757 [INFO] [(9146, 22, 3, 'DFG – Research Training Group "Family Matters"', 'DFG – Research Training Group "Family Matters"', '', '', 'none', 'Summer semester', 'Languages and Cultural Studies in general', '/deutschland/studienangebote/international-programmes/en/detail/9146/', False, '<p>15 November 2023</p>', False, '8 semesters', True, datetime.datetime(2023, 9, 22, 18, 19, 59, 536223), None)]
+2023-09-22 18:19:59,976 [INFO] New courses_languages created:
+2023-09-22 18:19:59,976 [INFO] [(3553, 9146, 2), (3554, 9146, 1)]
+2023-09-22 18:20:00,085 [INFO] =========End creating new course  =========
+2023-09-22 18:20:00,913 [INFO] =========Start updating new course=========
+2023-09-22 18:20:02,534 [INFO] =========End updating new course  =========
+2023-09-22 18:20:03,356 [INFO] =========Start deleting course=========
+2023-09-22 18:20:04,677 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-22 18:20:04,895 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-22 18:20:05,117 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-22 18:20:05,340 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-22 18:20:05,570 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-22 18:20:05,799 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-22 18:20:06,018 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-22 18:20:06,238 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-22 18:20:06,458 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-22 18:20:06,677 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-22 18:20:06,894 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-22 18:20:07,117 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-22 18:20:07,335 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-22 18:20:07,552 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-22 18:20:07,771 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-22 18:20:07,999 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-22 18:20:08,232 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-22 18:20:08,451 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-22 18:20:08,680 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-22 18:20:08,897 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-22 18:20:09,122 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-09-22 18:20:09,204 [INFO] No course deleted
+2023-09-22 18:20:09,312 [INFO] =========End deleting course  =========
