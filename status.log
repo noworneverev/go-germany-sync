@@ -19760,3 +19760,57 @@ To start in the spring semester: end of September</p>
 2023-10-12 18:21:11,721 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-10-12 18:21:11,792 [INFO] No course deleted
 2023-10-12 18:21:11,901 [INFO] =========End deleting course  =========
+2023-10-13 18:21:04,367 [INFO] =========Start syncing university=========
+2023-10-13 18:21:05,145 [INFO] No new university
+2023-10-13 18:21:05,272 [INFO] =========End syncing university  =========
+2023-10-13 18:21:06,273 [INFO] =========Start creating new course=========
+2023-10-13 18:21:08,097 [INFO] No new course
+2023-10-13 18:21:08,224 [INFO] =========End creating new course  =========
+2023-10-13 18:21:09,191 [INFO] =========Start updating new course=========
+2023-10-13 18:21:10,824 [INFO] UPDATE course SET beginning = 'Winter semester, Summer semester', updated_at = $1 WHERE id = 8907
+2023-10-13 18:21:11,086 [INFO] UPDATE course SET application_deadline = '<p>1. Applicants with a Bachelor&#39;s degree from outside of Germany must first apply via <a href="https://my.uni-assist.de/">uni-assist</a> as soon as possible until 30 May&nbsp;for the following winter semester or until 30 September for the following summer semester.</p>
+
+<p>If you acquired your Bachelor&#39;s degree outside of Germany, uni-assist has to verify your eligibility to study in Germany and to convert your grades to the German grade system. You will have to submit all required documents to uni-assist online. The process takes four to six weeks.</p>
+
+<p>2. <a href="http://www.thi.de/go/online-bewerbung">PRIMUSS &ndash; THI application portal</a>: from 2 May until 15 July for the following winter semester or&nbsp;from 15 November until 15 January for the following summer semester</p>
+
+<p>You will have to apply online at the PRIMUSS university application portal. You will have to upload all the necessary documents there, including your VPD. You can still upload documents within the respective periods (there will be deadlines per document in the upload area) after you have sent your application online (there is no need to send hard copies for an application).</p>', updated_at = $1 WHERE id = 8907
+2023-10-13 18:21:11,525 [INFO] UPDATE course SET beginning = 'Winter semester, Summer semester', updated_at = $1 WHERE id = 4867
+2023-10-13 18:21:11,788 [INFO] UPDATE course SET application_deadline = '<p>1. Applicants with a Bachelor&#39;s degree from outside of Germany must first apply via <a href="https://bit.ly/2sTgnDB">uni-assist</a> from as soon as possible until&nbsp;30 May&nbsp;for the following winter semester or until 30 September for the following summer semester.</p>
+
+<p>If you acquired your Bachelor&#39;s degree outside of Germany, uni-assist has to verify your eligibility to study in Germany and to convert your grades to the German grade system. You will have to submit all required documents to uni-assist online. The process takes four to six weeks.</p>
+
+<p>2. <a href="http://bit.ly/2GoD5J4">PRIMUSS &ndash; THI application portal</a>: from 2 May until 15 July for the following winter semester or&nbsp;from 15 November until 15 January for the following summer semester</p>
+
+<p>You will have to apply online at the PRIMUSS university application portal. There you will have to upload all the necessary documents including your VPD. You can still upload documents within the respective periods (there will be deadlines per document in the upload area) after you have sent your application online (there is no need to send hard copies for an application).</p>', updated_at = $1 WHERE id = 4867
+2023-10-13 18:21:12,061 [INFO] UPDATE course SET beginning = 'Winter semester, Summer semester', updated_at = $1 WHERE id = 8580
+2023-10-13 18:21:12,316 [INFO] UPDATE course SET application_deadline = '<p>Apply via <a href="https://www.uni-assist.de/">uni-assist</a> as soon as possible until 30 May at the latest for the following winter semester or until 30 September for the following summer semester (applicants with a university entrance qualification from outside of Germany). Uni-assist has to verify your eligibility to study in Germany and convert your grades to the German grade system. You will have to submit all required documents to uni-assist online. The process could take up to six weeks.</p>
+
+<p><a href="http://hochschulstart.de">hochschulstart.de</a>: from 2 May until 15 July for the following winter semester or from 15 November until 15 January for the following summer semester</p>
+
+<p>The PRIMUSS &ndash; THI application portal is open from 2 May until 15 July for the following winter semester or&nbsp;from 15 November until 15 January for the following summer semester. Please check the website for changes in the application periods.&nbsp;<a href="https://www.thi.de/en/studies/application/bachelorapplication-from-abroad">Bachelor&#39;s application from abroad (thi.de)</a></p>', updated_at = $1 WHERE id = 8580
+2023-10-13 18:21:12,716 [INFO] =========End updating new course  =========
+2023-10-13 18:21:13,722 [INFO] =========Start deleting course=========
+2023-10-13 18:21:15,294 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-13 18:21:15,549 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-13 18:21:15,814 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-13 18:21:16,079 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-13 18:21:16,358 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-13 18:21:16,630 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-13 18:21:16,888 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-13 18:21:17,157 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-13 18:21:17,417 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-13 18:21:17,672 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-13 18:21:17,926 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-13 18:21:18,190 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-13 18:21:18,446 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-13 18:21:18,699 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-13 18:21:18,956 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-13 18:21:19,225 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-13 18:21:19,505 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-13 18:21:19,761 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-13 18:21:20,033 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-13 18:21:20,287 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-13 18:21:20,555 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-13 18:21:20,688 [INFO] No course deleted
+2023-10-13 18:21:20,815 [INFO] =========End deleting course  =========
