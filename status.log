@@ -19910,3 +19910,55 @@ To start in the spring semester: end of September</p>
 2023-10-16 18:21:58,283 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-10-16 18:21:58,361 [INFO] No course deleted
 2023-10-16 18:21:58,521 [INFO] =========End deleting course  =========
+2023-10-17 18:21:46,236 [INFO] =========Start syncing university=========
+2023-10-17 18:21:47,219 [INFO] No new university
+2023-10-17 18:21:47,380 [INFO] =========End syncing university  =========
+2023-10-17 18:21:48,586 [INFO] =========Start creating new course=========
+2023-10-17 18:21:51,069 [INFO] New courses created:
+2023-10-17 18:21:51,069 [INFO] [(4808, 33, 2, 'Master of Science in Materials Science', 'MSc Materials Science', '', '', 'none', 'Winter semester, Summer semester', 'Physics, Astronomy', '/deutschland/studienangebote/international-programmes/en/detail/4808/', False, '<p>Opening and closing dates of the application periods may vary from year to year and depend on where you obtained your Bachelor&rsquo;s degree. Please always consult <a href="https://www.tu-darmstadt.de/studieren/studieninteressierte/internationale_studieninteressierte/bewerbung_und_zulassung_international/index.en.jsp">the service page of the TU Darmstadt Office for International Admission</a> for binding information.</p>\n\n<p>The application window for the winter semester 2024/25&nbsp;opens on 1 June 2024. Applicants with international certificates must provide their complete application (including certificates and language certificates) in paper form by 31 August 2024. The application period for the summer semester 2024&nbsp;has not been scheduled yet, but will most probably open on 1 December 2023.</p>\n\n<p>Applications will be processed as quickly as possible after having received the complete application. Thus, we strongly encourage early applications.</p>\n\n<p>Applicants with a German school leaving certification (Abitur) should <a href="https://www.tu-darmstadt.de/studieren/bewerben/masterstudium/index.de.jsp">apply at TU Darmstadt via the standard track</a>.</p>', False, '4 semesters', True, datetime.datetime(2023, 10, 17, 18, 21, 50, 728464), None), (9153, 20, 2, 'MSc Sustainability Management: Technology, Analytics & Transformation (SMA)', 'MSc Sustainability Management (SMA)', '', '', '10,000', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/9153/', False, '<p>Application for the SMA&nbsp;is possible from 1 October until 15 July for&nbsp;<strong>EU applicants</strong>&nbsp;and international applicants who hold an academic degree from a European university. For&nbsp;<strong>non-EU applicants</strong>, our application portal is open from 1 October until and including 1 March. There is no application fee.</p>\n\n<p>Benefit from our early bird discount of 3,000 EUR by submitting your complete application by 15 January!</p>', True, '3 semesters', True, datetime.datetime(2023, 10, 17, 18, 21, 50, 728496), None)]
+2023-10-17 18:21:51,395 [INFO] New courses_languages created:
+2023-10-17 18:21:51,395 [INFO] [(3561, 4808, 1), (3562, 9153, 1)]
+2023-10-17 18:21:51,555 [INFO] =========End creating new course  =========
+2023-10-17 18:21:52,748 [INFO] =========Start updating new course=========
+2023-10-17 18:21:54,756 [INFO] UPDATE course SET application_deadline = '<p>Application for the full-time MBA&nbsp;is possible from 1 October until 31 August for <strong>EU applicants</strong> and international applicants who hold an academic degree from a European university. For <strong>non-EU applicants</strong>, our application portal is open from 1 October until and including 1 March.</p>
+
+<p>There is no application fee. Benefit from our early bird discount of 3,000 EUR by submitting your complete application by 15 January!</p>', updated_at = $1 WHERE id = 7123
+2023-10-17 18:21:55,173 [INFO] UPDATE course SET tuition_fees = '4,400', updated_at = $1 WHERE id = 4667
+2023-10-17 18:21:55,515 [INFO] UPDATE course SET application_deadline = '<p>Application for the DDS is possible from 1 October until 15 July for&nbsp;<strong>EU applicants</strong>&nbsp;and international applicants who hold an academic degree from a European university. For&nbsp;<strong>non-EU applicants</strong>, our application portal is open from 1 October until and including 1 March. There is no application fee.</p>
+
+<p>Benefit from our early bird discount of 3,000 EUR by submitting your complete application by 15 January!</p>', updated_at = $1 WHERE id = 4874
+2023-10-17 18:21:55,841 [INFO] UPDATE course SET name_en_short = 'MSc Management and Engineering (MME TIME)', updated_at = $1 WHERE id = 4757
+2023-10-17 18:21:56,164 [INFO] UPDATE course SET tuition_fees = '10,000', updated_at = $1 WHERE id = 4757
+2023-10-17 18:21:56,486 [INFO] UPDATE course SET application_deadline = '<p>Application for the MME TIME is possible from 1 October 1 until 31 August for <strong>EU applicants</strong> and international applicants who hold an academic degree from a European university. For <strong>non-EU applicants</strong>, our application portal is open from 1 October until and including 1 March. There is no application fee.</p>
+
+<p>Benefit from our early bird discount of 3,000 EUR by submitting your complete application by 15 January!</p>', updated_at = $1 WHERE id = 4757
+2023-10-17 18:21:56,810 [INFO] UPDATE course SET name_en_short = 'MSc Management & Engineering (TIME) – part-time', updated_at = $1 WHERE id = 4875
+2023-10-17 18:21:57,133 [INFO] No need to update column: tuition_fees from course id: 4875. [Source is , and target is None]
+2023-10-17 18:21:57,133 [INFO] UPDATE course SET application_deadline = '<p>Application for the MME TIME is possible from 1 October until 15 July for <strong>EU applicants</strong> and international applicants who hold an academic degree from a European university. For <strong>non-EU applicants</strong>, our application portal is open from 1 October until and including 1 March. There is no application fee.</p>
+
+<p>Benefit from our early bird discount of 3,000 EUR by submitting your complete application by 15 January!</p>', updated_at = $1 WHERE id = 4875
+2023-10-17 18:21:57,663 [INFO] =========End updating new course  =========
+2023-10-17 18:21:58,839 [INFO] =========Start deleting course=========
+2023-10-17 18:22:00,748 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-17 18:22:01,062 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-17 18:22:01,383 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-17 18:22:01,705 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-17 18:22:02,032 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-17 18:22:02,357 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-17 18:22:02,675 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-17 18:22:02,995 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-17 18:22:03,313 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-17 18:22:03,628 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-17 18:22:03,944 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-17 18:22:04,265 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-17 18:22:04,581 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-17 18:22:04,895 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-17 18:22:05,213 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-17 18:22:05,537 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-17 18:22:05,869 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-17 18:22:06,185 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-17 18:22:06,511 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-17 18:22:06,826 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-17 18:22:07,149 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-10-17 18:22:07,229 [INFO] No course deleted
+2023-10-17 18:22:07,386 [INFO] =========End deleting course  =========
