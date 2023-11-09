@@ -20724,3 +20724,38 @@ Summer semester: <strong>15 December</strong> (starts in March)</p>
 2023-11-08 18:20:27,570 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-11-08 18:20:27,658 [INFO] No course deleted
 2023-11-08 18:20:27,814 [INFO] =========End deleting course  =========
+2023-11-09 18:20:01,939 [INFO] =========Start syncing university=========
+2023-11-09 18:20:02,606 [INFO] No new university
+2023-11-09 18:20:02,715 [INFO] =========End syncing university  =========
+2023-11-09 18:20:03,541 [INFO] =========Start creating new course=========
+2023-11-09 18:20:05,300 [INFO] New courses created:
+2023-11-09 18:20:05,300 [INFO] [(9161, 25, 2, 'MA African Studies: Critical Perspectives on Society, Culture and Politics', 'African Studies', '', '', 'none', 'Winter semester', 'Other / Non-European Languages and Cultural Studies', '/deutschland/studienangebote/international-programmes/en/detail/9161/', False, '<p><strong>Application deadline for each winter semester: 15 July</strong></p>', False, '4 semesters', True, datetime.datetime(2023, 11, 9, 18, 20, 5, 77344), None)]
+2023-11-09 18:20:05,519 [INFO] New courses_languages created:
+2023-11-09 18:20:05,519 [INFO] [(3567, 9161, 1)]
+2023-11-09 18:20:05,625 [INFO] =========End creating new course  =========
+2023-11-09 18:20:06,451 [INFO] =========Start updating new course=========
+2023-11-09 18:20:08,095 [INFO] =========End updating new course  =========
+2023-11-09 18:20:08,960 [INFO] =========Start deleting course=========
+2023-11-09 18:20:10,287 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-11-09 18:20:10,505 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-11-09 18:20:10,727 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-11-09 18:20:10,953 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-11-09 18:20:11,184 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-11-09 18:20:11,413 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-11-09 18:20:11,634 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-11-09 18:20:11,856 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-11-09 18:20:12,077 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-11-09 18:20:12,295 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-11-09 18:20:12,512 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-11-09 18:20:12,739 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-11-09 18:20:12,958 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-11-09 18:20:13,174 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-11-09 18:20:13,395 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-11-09 18:20:13,625 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-11-09 18:20:13,859 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-11-09 18:20:14,077 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-11-09 18:20:14,308 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-11-09 18:20:14,525 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-11-09 18:20:14,753 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-11-09 18:20:14,851 [INFO] No course deleted
+2023-11-09 18:20:14,958 [INFO] =========End deleting course  =========
