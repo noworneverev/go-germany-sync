@@ -21762,3 +21762,56 @@ For details on the application process and scholarships, visit: <a href="http://
 2023-12-06 18:21:02,573 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-12-06 18:21:02,642 [INFO] No course deleted
 2023-12-06 18:21:02,793 [INFO] =========End deleting course  =========
+2023-12-07 18:20:56,821 [INFO] =========Start syncing university=========
+2023-12-07 18:20:57,695 [INFO] New university:
+2023-12-07 18:20:57,695 [INFO] [(277, 'Albstadt-Sigmaringen University', '', 'Sigmaringen', True, False, False, None, datetime.datetime(2023, 12, 7, 18, 20, 57, 477783), None, '')]
+2023-12-07 18:20:57,802 [INFO] =========End syncing university  =========
+2023-12-07 18:20:58,602 [INFO] =========Start creating new course=========
+2023-12-07 18:21:00,278 [INFO] New courses created:
+2023-12-07 18:21:00,278 [INFO] [(9165, 277, 2, 'Life Science Innovation', 'Life Science Innovation', '', '', 'varied', 'Winter semester, Summer semester', 'Mathematics, Natural Sciences in general', '/deutschland/studienangebote/international-programmes/en/detail/9165/', False, '<p>15 January for the following summer semester</p>\n\n<p>15 July for the following winter semester</p>', True, '3 semesters', True, datetime.datetime(2023, 12, 7, 18, 21, 0, 55611), None)]
+2023-12-07 18:21:00,496 [INFO] New courses_languages created:
+2023-12-07 18:21:00,496 [INFO] [(3575, 9165, 1)]
+2023-12-07 18:21:00,603 [INFO] =========End creating new course  =========
+2023-12-07 18:21:01,391 [INFO] =========Start updating new course=========
+2023-12-07 18:21:02,680 [INFO] UPDATE course SET application_deadline = '<p>30 April for the following winter semester</p>
+
+<p>30 November for the following summer semester</p>', updated_at = $1 WHERE id = 8903
+2023-12-07 18:21:02,935 [INFO] UPDATE course SET name_en = 'EMMaH – European Master of Medical Technology and Healthcare Business (MSc)', updated_at = $1 WHERE id = 5433
+2023-12-07 18:21:03,156 [INFO] UPDATE course SET name_en_short = 'European Master of Medical Technology and Healthcare Business', updated_at = $1 WHERE id = 5433
+2023-12-07 18:21:03,370 [INFO] UPDATE course SET tuition_fees = 'none', updated_at = $1 WHERE id = 5433
+2023-12-07 18:21:03,584 [INFO] UPDATE course SET application_deadline = '<p>Application period:</p>
+
+<p>15 November to 15 January (programme start: 1 October)</p>
+
+<p>Please have your school and Bachelor certificates checked first by uni-assist (<a href="http://www.uni-assist.de">www.uni-assist.de</a>) to get a VPD (&quot;Vorpr&uuml;fungsdokumentation&quot;) BEFORE applying to HAW Hamburg.</p>
+
+<p>With your VPD, please apply using the HAW Hamburg online application portal:&nbsp;<a href="https://bit.ly/applyHAW">https://bit.ly/applyHAW</a>.</p>
+
+<p>The HAW Hamburg online application portal is open during the application period only.</p>
+
+<p>You do not need to send your documents with the postal mail to complete your application.</p>', updated_at = $1 WHERE id = 5433
+2023-12-07 18:21:04,033 [INFO] =========End updating new course  =========
+2023-12-07 18:21:04,818 [INFO] =========Start deleting course=========
+2023-12-07 18:21:06,118 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-07 18:21:06,332 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-07 18:21:06,549 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-07 18:21:06,767 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-07 18:21:06,992 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-07 18:21:07,215 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-07 18:21:07,430 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-07 18:21:07,646 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-07 18:21:07,862 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-07 18:21:08,076 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-07 18:21:08,289 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-07 18:21:08,508 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-07 18:21:08,722 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-07 18:21:08,935 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-07 18:21:09,150 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-07 18:21:09,371 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-07 18:21:09,597 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-07 18:21:09,812 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-07 18:21:10,034 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-07 18:21:10,248 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-07 18:21:10,468 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-07 18:21:10,535 [INFO] No course deleted
+2023-12-07 18:21:10,641 [INFO] =========End deleting course  =========
