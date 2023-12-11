@@ -21916,3 +21916,37 @@ For details on the application process and scholarships, visit: <a href="http://
 2023-12-10 18:19:26,615 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-12-10 18:19:26,683 [INFO] No course deleted
 2023-12-10 18:19:26,790 [INFO] =========End deleting course  =========
+2023-12-11 18:21:13,492 [INFO] =========Start syncing university=========
+2023-12-11 18:21:14,142 [INFO] No new university
+2023-12-11 18:21:14,249 [INFO] =========End syncing university  =========
+2023-12-11 18:21:15,039 [INFO] =========Start creating new course=========
+2023-12-11 18:21:16,490 [INFO] No new course
+2023-12-11 18:21:16,596 [INFO] =========End creating new course  =========
+2023-12-11 18:21:17,431 [INFO] =========Start updating new course=========
+2023-12-11 18:21:18,765 [INFO] UPDATE course SET application_deadline = '<p>The application phase usually opens in the middle of May of the respective year. The application deadline can be found here:&nbsp;<a href="https://fernstudium.rptu.de/fernstudienangebote/technik-ingenieur-und-naturwissenschaften/software-engineering-for-embedded-systems">https://fernstudium.rptu.de/fernstudienangebote/technik-ingenieur-und-naturwissenschaften/software-engineering-for-embedded-systems</a>.</p>', updated_at = $1 WHERE id = 5321
+2023-12-11 18:21:19,048 [INFO] UPDATE course SET application_deadline = '<p>The application phase usually opens in mid-May of the respective year. The application deadline can be found here:&nbsp;<a href="https://fernstudium.rptu.de/fernstudienangebote/technik-ingenieur-und-naturwissenschaften/software-engineering-for-embedded-systems">https://fernstudium.rptu.de/fernstudienangebote/technik-ingenieur-und-naturwissenschaften/software-engineering-for-embedded-systems</a>.</p>', updated_at = $1 WHERE id = 3841
+2023-12-11 18:21:19,426 [INFO] =========End updating new course  =========
+2023-12-11 18:21:20,212 [INFO] =========Start deleting course=========
+2023-12-11 18:21:21,509 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-11 18:21:21,723 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-11 18:21:21,941 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-11 18:21:22,160 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-11 18:21:22,385 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-11 18:21:22,608 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-11 18:21:22,823 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-11 18:21:23,039 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-11 18:21:23,258 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-11 18:21:23,472 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-11 18:21:23,686 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-11 18:21:23,905 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-11 18:21:24,119 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-11 18:21:24,332 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-11 18:21:24,547 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-11 18:21:24,769 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-11 18:21:24,996 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-11 18:21:25,210 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-11 18:21:25,433 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-11 18:21:25,647 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-11 18:21:25,867 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-11 18:21:25,935 [INFO] No course deleted
+2023-12-11 18:21:26,041 [INFO] =========End deleting course  =========
