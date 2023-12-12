@@ -21950,3 +21950,40 @@ For details on the application process and scholarships, visit: <a href="http://
 2023-12-11 18:21:25,867 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-12-11 18:21:25,935 [INFO] No course deleted
 2023-12-11 18:21:26,041 [INFO] =========End deleting course  =========
+2023-12-12 18:20:44,519 [INFO] =========Start syncing university=========
+2023-12-12 18:20:45,184 [INFO] No new university
+2023-12-12 18:20:45,292 [INFO] =========End syncing university  =========
+2023-12-12 18:20:46,127 [INFO] =========Start creating new course=========
+2023-12-12 18:20:47,834 [INFO] New courses created:
+2023-12-12 18:20:47,834 [INFO] [(7865, 18, 2, "Double Degree Master's Programme in Energy Technology", 'Energy Technology', '', '', 'none', 'Winter semester', 'Electrical Engineering', '/deutschland/studienangebote/international-programmes/en/detail/7865/', False, '<p>Application period from 1 December to 15 January for the following winter semester</p>', False, '4 semesters', True, datetime.datetime(2023, 12, 12, 18, 20, 47, 600498), None), (9167, 157, 1, 'General Engineering', 'General Engineering', '', '', 'none', 'Winter semester', 'Engineering in general', '/deutschland/studienangebote/international-programmes/en/detail/9167/', False, '<p>Please visit our study programme site for current application periods:<br />\n<a href="http://www.th-owl.de/en/studies/available-courses/degree-programs/detail/general-engineering/">General Engineering</a></p>\n\n<p>Please visit the following website for more information on how to apply:<br />\n<a href="https://www.th-owl.de/en/international-office-th-owl/applying-at-the-th-owl/">Applying at the TH OWL</a></p>', False, '8 semesters', True, datetime.datetime(2023, 12, 12, 18, 20, 47, 600531), None)]
+2023-12-12 18:20:48,059 [INFO] New courses_languages created:
+2023-12-12 18:20:48,059 [INFO] [(3576, 7865, 1), (3577, 9167, 2), (3578, 9167, 1)]
+2023-12-12 18:20:48,168 [INFO] =========End creating new course  =========
+2023-12-12 18:20:48,974 [INFO] =========Start updating new course=========
+2023-12-12 18:20:50,331 [INFO] UPDATE course SET application_deadline = '<p>15 November to 4 December for March entries (summer semester)</p>', updated_at = $1 WHERE id = 9073
+2023-12-12 18:20:50,644 [INFO] UPDATE course SET is_complete_online_possible = 'False', updated_at = $1 WHERE id = 7728
+2023-12-12 18:20:51,009 [INFO] =========End updating new course  =========
+2023-12-12 18:20:51,811 [INFO] =========Start deleting course=========
+2023-12-12 18:20:53,141 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-12 18:20:53,360 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-12 18:20:53,584 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-12 18:20:53,808 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-12 18:20:54,038 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-12 18:20:54,268 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-12 18:20:54,489 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-12 18:20:54,710 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-12 18:20:54,932 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-12 18:20:55,152 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-12 18:20:55,371 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-12 18:20:55,595 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-12 18:20:55,814 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-12 18:20:56,033 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-12 18:20:56,253 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-12 18:20:56,480 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-12 18:20:56,711 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-12 18:20:56,931 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-12 18:20:57,158 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-12 18:20:57,377 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-12 18:20:57,602 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-12 18:20:57,670 [INFO] No course deleted
+2023-12-12 18:20:57,779 [INFO] =========End deleting course  =========
