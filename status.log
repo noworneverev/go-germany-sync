@@ -21987,3 +21987,56 @@ For details on the application process and scholarships, visit: <a href="http://
 2023-12-12 18:20:57,602 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-12-12 18:20:57,670 [INFO] No course deleted
 2023-12-12 18:20:57,779 [INFO] =========End deleting course  =========
+2023-12-13 18:19:16,118 [INFO] =========Start syncing university=========
+2023-12-13 18:19:17,070 [INFO] No new university
+2023-12-13 18:19:17,227 [INFO] =========End syncing university  =========
+2023-12-13 18:19:18,394 [INFO] =========Start creating new course=========
+2023-12-13 18:19:20,479 [INFO] No new course
+2023-12-13 18:19:20,639 [INFO] =========End creating new course  =========
+2023-12-13 18:19:21,831 [INFO] =========Start updating new course=========
+2023-12-13 18:19:23,765 [INFO] UPDATE course SET beginning = 'Winter semester, Summer semester', updated_at = $1 WHERE id = 9024
+2023-12-13 18:19:24,088 [INFO] UPDATE course SET application_deadline = '<p>Application periods:</p>
+
+<ul>
+	<li>15 April &ndash; 15 July for October entries (winter semester)</li>
+	<li>15 November - 15 January for March entries (summer semester)</li>
+</ul>', updated_at = $1 WHERE id = 9024
+2023-12-13 18:19:24,453 [INFO] UPDATE course SET application_deadline = '<p>The application phase usually opens in the middle of May of the respective year. The application deadline can be found here:&nbsp;<a href="https://fernstudium.rptu.de/fernstudienangebote/management-finanzen-und-recht/financial-engineering">https://fernstudium.rptu.de/fernstudienangebote/management-finanzen-und-recht/financial-engineering</a>.</p>', updated_at = $1 WHERE id = 5321
+2023-12-13 18:19:24,859 [INFO] UPDATE course SET application_deadline = '<p>15 April to 15 June for October entries (winter semester)</p>
+
+<p>15 November to 30 November for&nbsp;March entries (summer semester)</p>', updated_at = $1 WHERE id = 4870
+2023-12-13 18:19:25,181 [INFO] UPDATE course SET application_deadline = '<p>15 November to 30 November for March entries (summer semester at DIT )</p>
+
+<p>The application for the winter semester at the University of South Bohemia takes place in spring.</p>', updated_at = $1 WHERE id = 7124
+2023-12-13 18:19:25,504 [INFO] UPDATE course SET application_deadline = '<p>15 April to 15 June for October entries (winter semester)</p>
+
+<p>15 November to 1 January for March entries (summer semester)</p>', updated_at = $1 WHERE id = 3833
+2023-12-13 18:19:25,826 [INFO] UPDATE course SET application_deadline = '<p>15 November to 30 November for March entries (summer semester)</p>', updated_at = $1 WHERE id = 7744
+2023-12-13 18:19:26,179 [INFO] UPDATE course SET application_deadline = '<p>Application period for students from outside the EU: 1 January until 15 July</p>
+
+<p>Application period for students from EU countries: 1 January until 15 December</p>', updated_at = $1 WHERE id = 8950
+2023-12-13 18:19:26,667 [INFO] =========End updating new course  =========
+2023-12-13 18:19:27,882 [INFO] =========Start deleting course=========
+2023-12-13 18:19:29,829 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-13 18:19:30,151 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-13 18:19:30,477 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-13 18:19:30,804 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-13 18:19:31,137 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-13 18:19:31,468 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-13 18:19:31,792 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-13 18:19:32,116 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-13 18:19:32,441 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-13 18:19:32,763 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-13 18:19:33,086 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-13 18:19:33,413 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-13 18:19:33,735 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-13 18:19:34,057 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-13 18:19:34,380 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-13 18:19:34,710 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-13 18:19:35,045 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-13 18:19:35,368 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-13 18:19:35,699 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-13 18:19:36,021 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-13 18:19:36,349 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-13 18:19:36,418 [INFO] No course deleted
+2023-12-13 18:19:36,578 [INFO] =========End deleting course  =========
