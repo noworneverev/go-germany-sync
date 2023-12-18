@@ -22179,3 +22179,53 @@ For details on the application process and scholarships, visit: <a href="http://
 2023-12-17 18:19:07,880 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-12-17 18:19:07,949 [INFO] No course deleted
 2023-12-17 18:19:08,109 [INFO] =========End deleting course  =========
+2023-12-18 18:20:42,770 [INFO] =========Start syncing university=========
+2023-12-18 18:20:43,694 [INFO] No new university
+2023-12-18 18:20:43,846 [INFO] =========End syncing university  =========
+2023-12-18 18:20:44,982 [INFO] =========Start creating new course=========
+2023-12-18 18:20:47,303 [INFO] New courses created:
+2023-12-18 18:20:47,303 [INFO] [(9172, 8, 1, 'Natural Sciences for Sustainability', 'Natural Sciences for Sustainability', '', '', 'none', 'Winter semester, Summer semester', 'Mathematics, Natural Sciences in general', '/deutschland/studienangebote/international-programmes/en/detail/9172/', False, '<p>15 July (winter semester)<br />\n15 January (summer semester)</p>', False, '6 semesters', True, datetime.datetime(2023, 12, 18, 18, 20, 46, 982478), None)]
+2023-12-18 18:20:47,618 [INFO] New courses_languages created:
+2023-12-18 18:20:47,618 [INFO] [(3579, 9172, 1)]
+2023-12-18 18:20:47,770 [INFO] =========End creating new course  =========
+2023-12-18 18:20:48,906 [INFO] =========Start updating new course=========
+2023-12-18 18:20:50,790 [INFO] UPDATE course SET tuition_fees = 'varied', updated_at = $1 WHERE id = 6527
+2023-12-18 18:20:51,105 [INFO] UPDATE course SET application_deadline = '<p>Application period:&nbsp;From 1 January to 31 May (for the following winter semester)</p>
+
+<p>For&nbsp;<a href="https://www.tum.de/en/studies/international-students/">international students</a>, we strongly recommend to apply as early as possible, ideally before 31 March.</p>', updated_at = $1 WHERE id = 6527
+2023-12-18 18:20:51,434 [INFO] UPDATE course SET tuition_fees = 'varied', updated_at = $1 WHERE id = 7740
+2023-12-18 18:20:51,749 [INFO] UPDATE course SET application_deadline = '<p>31 May for all applicants for the following winter semester</p>
+
+<p>We strongly recommend applying for international students as soon as possible, ideally before 31 March.</p>', updated_at = $1 WHERE id = 7740
+2023-12-18 18:20:52,179 [INFO] UPDATE course SET name_en = 'MSc Innovation Management', updated_at = $1 WHERE id = 6409
+2023-12-18 18:20:52,497 [INFO] UPDATE course SET name_en_short = 'MSc Innovation Management', updated_at = $1 WHERE id = 6409
+2023-12-18 18:20:52,817 [INFO] UPDATE course SET tuition_fees = 'varied', updated_at = $1 WHERE id = 4322
+2023-12-18 18:20:53,131 [INFO] UPDATE course SET application_deadline = '<p>31 May for the following winter semester</p>
+
+<p>For&nbsp;<a href="https://www.tum.de/en/studies/international-students/">international students</a>, we strongly recommend to apply as early as possible, ideally before 31 March.</p>', updated_at = $1 WHERE id = 4322
+2023-12-18 18:20:53,468 [INFO] UPDATE course SET tuition_fees = 'varied', updated_at = $1 WHERE id = 3769
+2023-12-18 18:20:53,946 [INFO] =========End updating new course  =========
+2023-12-18 18:20:55,041 [INFO] =========Start deleting course=========
+2023-12-18 18:20:56,862 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-18 18:20:57,167 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-18 18:20:57,473 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-18 18:20:57,778 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-18 18:20:58,090 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-18 18:20:58,400 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-18 18:20:58,703 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-18 18:20:59,006 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-18 18:20:59,309 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-18 18:20:59,611 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-18 18:20:59,911 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-18 18:21:00,218 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-18 18:21:00,520 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-18 18:21:00,820 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-18 18:21:01,122 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-18 18:21:01,430 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-18 18:21:01,744 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-18 18:21:02,046 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-18 18:21:02,355 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-18 18:21:02,656 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-18 18:21:02,971 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-18 18:21:03,039 [INFO] No course deleted
+2023-12-18 18:21:03,189 [INFO] =========End deleting course  =========
