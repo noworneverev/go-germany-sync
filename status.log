@@ -22229,3 +22229,38 @@ For details on the application process and scholarships, visit: <a href="http://
 2023-12-18 18:21:02,971 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-12-18 18:21:03,039 [INFO] No course deleted
 2023-12-18 18:21:03,189 [INFO] =========End deleting course  =========
+2023-12-19 18:16:32,865 [INFO] =========Start syncing university=========
+2023-12-19 18:16:33,877 [INFO] No new university
+2023-12-19 18:16:34,042 [INFO] =========End syncing university  =========
+2023-12-19 18:16:35,238 [INFO] =========Start creating new course=========
+2023-12-19 18:16:37,635 [INFO] New courses created:
+2023-12-19 18:16:37,635 [INFO] [(9173, 100, 2, 'Corporate Communication Management (MSc)', 'Corporate Communication Management (MSc)', '', '', 'varied', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/9173/', False, '<p><strong>The application deadline15 June for entry at the end of September/beginning of October. </strong>The application deadline applies to both EU and non-EU applicants.</p>\n\n<p><strong>Early applications are welcome! </strong>The online application system of Pforzheim University is usually opened by the end of April. Applications are reviewed on a rolling basis.</p>', False, '3 semesters', True, datetime.datetime(2023, 12, 19, 18, 16, 37, 310184), None)]
+2023-12-19 18:16:37,955 [INFO] New courses_languages created:
+2023-12-19 18:16:37,955 [INFO] [(3580, 9173, 1)]
+2023-12-19 18:16:38,114 [INFO] =========End creating new course  =========
+2023-12-19 18:16:39,324 [INFO] =========Start updating new course=========
+2023-12-19 18:16:41,659 [INFO] =========End updating new course  =========
+2023-12-19 18:16:42,878 [INFO] =========Start deleting course=========
+2023-12-19 18:16:44,892 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-19 18:16:45,226 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-19 18:16:45,565 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-19 18:16:45,904 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-19 18:16:46,248 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-19 18:16:46,590 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-19 18:16:46,926 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-19 18:16:47,263 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-19 18:16:47,599 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-19 18:16:47,933 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-19 18:16:48,266 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-19 18:16:48,604 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-19 18:16:48,939 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-19 18:16:49,272 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-19 18:16:49,608 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-19 18:16:49,950 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-19 18:16:50,297 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-19 18:16:50,631 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-19 18:16:50,973 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-19 18:16:51,307 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-19 18:16:51,647 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-19 18:16:51,717 [INFO] No course deleted
+2023-12-19 18:16:51,883 [INFO] =========End deleting course  =========
