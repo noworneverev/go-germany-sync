@@ -22567,3 +22567,35 @@ For details on the application process and scholarships, visit: <a href="http://
 2023-12-28 18:19:59,286 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2023-12-28 18:19:59,357 [INFO] No course deleted
 2023-12-28 18:19:59,517 [INFO] =========End deleting course  =========
+2023-12-29 18:19:15,997 [INFO] =========Start syncing university=========
+2023-12-29 18:19:16,924 [INFO] No new university
+2023-12-29 18:19:17,076 [INFO] =========End syncing university  =========
+2023-12-29 18:19:18,183 [INFO] =========Start creating new course=========
+2023-12-29 18:19:20,135 [INFO] No new course
+2023-12-29 18:19:20,284 [INFO] =========End creating new course  =========
+2023-12-29 18:19:21,369 [INFO] =========Start updating new course=========
+2023-12-29 18:19:23,483 [INFO] =========End updating new course  =========
+2023-12-29 18:19:24,568 [INFO] =========Start deleting course=========
+2023-12-29 18:19:26,384 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-29 18:19:26,684 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-29 18:19:26,988 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-29 18:19:27,293 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-29 18:19:27,604 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-29 18:19:27,913 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-29 18:19:28,214 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-29 18:19:28,516 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-29 18:19:28,819 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-29 18:19:29,119 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-29 18:19:29,419 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-29 18:19:29,723 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-29 18:19:30,024 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-29 18:19:30,323 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-29 18:19:30,624 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-29 18:19:30,932 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-29 18:19:31,244 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-29 18:19:31,545 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-29 18:19:31,853 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-29 18:19:32,153 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-29 18:19:32,459 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2023-12-29 18:19:32,527 [INFO] No course deleted
+2023-12-29 18:19:32,677 [INFO] =========End deleting course  =========
