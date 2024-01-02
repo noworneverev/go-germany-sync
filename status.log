@@ -22695,3 +22695,42 @@ For details on the application process and scholarships, visit: <a href="http://
 2024-01-01 18:20:28,598 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2024-01-01 18:20:28,670 [INFO] No course deleted
 2024-01-01 18:20:28,822 [INFO] =========End deleting course  =========
+2024-01-02 18:20:35,415 [INFO] =========Start syncing university=========
+2024-01-02 18:20:36,368 [INFO] No new university
+2024-01-02 18:20:36,524 [INFO] =========End syncing university  =========
+2024-01-02 18:20:37,609 [INFO] =========Start creating new course=========
+2024-01-02 18:20:39,888 [INFO] New courses created:
+2024-01-02 18:20:39,888 [INFO] [(9180, 100, 2, 'Digital Business Management (MSc)', 'Digital Business Management (MSc)', '', '', 'varied', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/9180/', False, '<p><strong>15 June for entry at the end of September/beginning of October</strong><br />\nThe application deadline applies to both EU and non-EU applicants.</p>\n\n<p>Pforzheim University&#39;s online application system is usually opened by the end of April. Applications are reviewed on a rolling basis.</p>\n\n<p><strong>Early applications are welcome!</strong></p>', False, '3 semesters', True, datetime.datetime(2024, 1, 2, 18, 20, 39, 570127), None), (9179, 110, 2, 'Engineering of Hydro-Environmental Extremes (HDE)', 'Engineering of Hydro-Environmental Extremes (HDE)', '', '', 'none', 'Winter semester', 'Civil Engineering', '/deutschland/studienangebote/international-programmes/en/detail/9179/', False, '<p>30 April</p>', False, '4 semesters', True, datetime.datetime(2024, 1, 2, 18, 20, 39, 570145), None), (4306, 118, 2, 'Money and Finance (MSc)', 'Money and Finance (MSc)', '', '', 'none', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/4306/', False, '<p>15 May for the following winter semester</p>', False, '4 semesters', True, datetime.datetime(2024, 1, 2, 18, 20, 39, 570152), None)]
+2024-01-02 18:20:40,192 [INFO] New courses_languages created:
+2024-01-02 18:20:40,192 [INFO] [(3583, 9180, 1), (3584, 9179, 1), (3585, 4306, 1)]
+2024-01-02 18:20:40,341 [INFO] =========End creating new course  =========
+2024-01-02 18:20:41,527 [INFO] =========Start updating new course=========
+2024-01-02 18:20:43,540 [INFO] UPDATE course SET application_deadline = '<p>31 May (estimated) for winter semester<br />
+31 October (estimated) for summer semester</p>
+
+<p>Please refer to <a href="https://www.aces.study.fau.eu/prospective-students/application-for-the-masters-degree-program/">https://www.aces.study.fau.eu/prospective-students/application-for-the-masters-degree-program/</a></p>', updated_at = $1 WHERE id = 8296
+2024-01-02 18:20:44,047 [INFO] =========End updating new course  =========
+2024-01-02 18:20:45,151 [INFO] =========Start deleting course=========
+2024-01-02 18:20:46,994 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-02 18:20:47,298 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-02 18:20:47,606 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-02 18:20:47,916 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-02 18:20:48,231 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-02 18:20:48,545 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-02 18:20:48,852 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-02 18:20:49,158 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-02 18:20:49,465 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-02 18:20:49,769 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-02 18:20:50,074 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-02 18:20:50,383 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-02 18:20:50,690 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-02 18:20:50,994 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-02 18:20:51,300 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-02 18:20:51,612 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-02 18:20:51,929 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-02 18:20:52,234 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-02 18:20:52,548 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-02 18:20:52,852 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-02 18:20:53,163 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-02 18:20:53,231 [INFO] No course deleted
+2024-01-02 18:20:53,382 [INFO] =========End deleting course  =========
