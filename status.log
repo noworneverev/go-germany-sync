@@ -22776,3 +22776,70 @@ For details on the application process and scholarships, visit: <a href="http://
 2024-01-03 18:20:42,386 [INFO] DELETE FROM courses_languages WHERE course_id = 5033
 2024-01-03 18:20:42,495 [INFO] DELETE FROM  course WHERE id = 5033
 2024-01-03 18:20:42,618 [INFO] =========End deleting course  =========
+2024-01-04 18:20:24,549 [INFO] =========Start syncing university=========
+2024-01-04 18:20:25,211 [INFO] No new university
+2024-01-04 18:20:25,320 [INFO] =========End syncing university  =========
+2024-01-04 18:20:26,137 [INFO] =========Start creating new course=========
+2024-01-04 18:20:27,616 [INFO] No new course
+2024-01-04 18:20:27,725 [INFO] =========End creating new course  =========
+2024-01-04 18:20:28,535 [INFO] =========Start updating new course=========
+2024-01-04 18:20:29,899 [INFO] UPDATE course SET application_deadline = '<p>Start of the application period via uni-assist: 1 September 2024</p>
+
+<p>Deadline for applications: 31 March 2025</p>
+
+<p>Current information regarding application deadlines can be found on <a href="https://www.hs-fulda.de/en/departments/health-sciences/prospective-students">the programme&#39;s website</a>.</p>', updated_at = $1 WHERE id = 4883
+2024-01-04 18:20:30,140 [INFO] UPDATE course SET application_deadline = '<p><strong>EU-nationals:</strong></p>
+
+<ul>
+	<li>Winter semester: 15 July</li>
+	<li>Summer semester: 15 January</li>
+</ul>
+
+<p><strong>Other nationalities:</strong></p>
+
+<ul>
+	<li>Winter semester: 15 June</li>
+	<li>Summer semester: 15 December</li>
+</ul>
+
+<p>For updates and details, see: <a href="https://www.hs-fulda.de/en/orientation/application-for-studies">https://www.hs-fulda.de/en/orientation/application-for-studies</a>.</p>', updated_at = $1 WHERE id = 5651
+2024-01-04 18:20:30,365 [INFO] UPDATE course SET application_deadline = '<p><strong>EU-nationals:</strong></p>
+
+<ul>
+	<li>Winter semester: 15 July</li>
+	<li>Summer semester: 15 January</li>
+</ul>
+
+<p><strong>Other nationalities:</strong></p>
+
+<ul>
+	<li>Winter semester: 15 June</li>
+	<li>Summer semester: 15 December</li>
+</ul>
+
+<p>For updates and details, see: <a href="https://www.hs-fulda.de/en/orientation/application-for-studies">https://www.hs-fulda.de/en/orientation/application-for-studies</a></p>', updated_at = $1 WHERE id = 3688
+2024-01-04 18:20:30,792 [INFO] =========End updating new course  =========
+2024-01-04 18:20:31,594 [INFO] =========Start deleting course=========
+2024-01-04 18:20:32,925 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-04 18:20:33,144 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-04 18:20:33,368 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-04 18:20:33,592 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-04 18:20:33,822 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-04 18:20:34,050 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-04 18:20:34,272 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-04 18:20:34,493 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-04 18:20:34,715 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-04 18:20:34,935 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-04 18:20:35,154 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-04 18:20:35,378 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-04 18:20:35,598 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-04 18:20:35,817 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-04 18:20:36,038 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-04 18:20:36,265 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-04 18:20:36,497 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-04 18:20:36,718 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-04 18:20:36,946 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-04 18:20:37,165 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-04 18:20:37,391 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-04 18:20:37,459 [INFO] No course deleted
+2024-01-04 18:20:37,568 [INFO] =========End deleting course  =========
