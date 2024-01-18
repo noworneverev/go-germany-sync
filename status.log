@@ -23274,3 +23274,53 @@ For details on the application process and scholarships, visit: <a href="http://
 2024-01-17 18:21:19,009 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2024-01-17 18:21:19,078 [INFO] No course deleted
 2024-01-17 18:21:19,234 [INFO] =========End deleting course  =========
+2024-01-18 18:20:42,709 [INFO] =========Start syncing university=========
+2024-01-18 18:20:43,685 [INFO] No new university
+2024-01-18 18:20:43,845 [INFO] =========End syncing university  =========
+2024-01-18 18:20:45,006 [INFO] =========Start creating new course=========
+2024-01-18 18:20:47,051 [INFO] No new course
+2024-01-18 18:20:47,207 [INFO] =========End creating new course  =========
+2024-01-18 18:20:48,370 [INFO] =========Start updating new course=========
+2024-01-18 18:20:50,410 [INFO] UPDATE course SET application_deadline = '<p>For applicants not interested in the double degree option:</p>
+
+<ul>
+	<li>15 May for the following winter semester</li>
+	<li>15 January for the following summer semester</li>
+</ul>
+
+<p>For applicants interested in the double degree option with the Universit&eacute; Bordeaux Montaigne: There is only one intake in the winter semester. For this, 15 May is the sole deadline.</p>', updated_at = $1 WHERE id = 6208
+2024-01-18 18:20:50,739 [INFO] UPDATE course SET application_deadline = '<p>For all applicants:</p>
+
+<p>15 May for the following winter semester<br />
+15 January for the following summer semester</p>', updated_at = $1 WHERE id = 5292
+2024-01-18 18:20:51,106 [INFO] UPDATE course SET name_en = 'Urban Heat Islands (UHI): Understanding the Context of Climatic, Cultural and Physical Conditions in Urban Environments', updated_at = $1 WHERE id = 8391
+2024-01-18 18:20:51,434 [INFO] UPDATE course SET name_en_short = 'Urban Heat Islands (UHI)', updated_at = $1 WHERE id = 8391
+2024-01-18 18:20:51,754 [INFO] No need to update column: tuition_fees from course id: 8391. [Source is , and target is None]
+2024-01-18 18:20:51,754 [INFO] No need to update column: beginning from course id: 8391. [Source is , and target is None]
+2024-01-18 18:20:51,754 [INFO] No need to update column: application_deadline from course id: 8391. [Source is , and target is None]
+2024-01-18 18:20:51,754 [INFO] No need to update column: programme_duration from course id: 8391. [Source is , and target is None]
+2024-01-18 18:20:51,917 [INFO] =========End updating new course  =========
+2024-01-18 18:20:53,084 [INFO] =========Start deleting course=========
+2024-01-18 18:20:55,035 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-18 18:20:55,357 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-18 18:20:55,683 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-18 18:20:56,010 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-18 18:20:56,343 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-18 18:20:56,674 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-18 18:20:56,997 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-18 18:20:57,321 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-18 18:20:57,645 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-18 18:20:57,967 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-18 18:20:58,289 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-18 18:20:58,615 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-18 18:20:58,937 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-18 18:20:59,258 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-18 18:20:59,581 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-18 18:20:59,910 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-18 18:21:00,254 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-18 18:21:00,577 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-18 18:21:00,908 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-18 18:21:01,230 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-18 18:21:01,558 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-18 18:21:01,626 [INFO] No course deleted
+2024-01-18 18:21:01,786 [INFO] =========End deleting course  =========
