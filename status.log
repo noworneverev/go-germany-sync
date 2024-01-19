@@ -23324,3 +23324,64 @@ For details on the application process and scholarships, visit: <a href="http://
 2024-01-18 18:21:01,558 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2024-01-18 18:21:01,626 [INFO] No course deleted
 2024-01-18 18:21:01,786 [INFO] =========End deleting course  =========
+2024-01-19 18:21:10,275 [INFO] =========Start syncing university=========
+2024-01-19 18:21:11,203 [INFO] No new university
+2024-01-19 18:21:11,356 [INFO] =========End syncing university  =========
+2024-01-19 18:21:12,433 [INFO] =========Start creating new course=========
+2024-01-19 18:21:14,699 [INFO] New courses created:
+2024-01-19 18:21:14,699 [INFO] [(9199, 100, 1, 'BBA/International Marketing', 'BBA/International Marketing', '', '', 'varied', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/9199/', False, '<p><strong>15 July </strong><strong>for winter semester</strong> <strong>entry</strong> (semester starts at the end of September/beginning of October)</p>\n\n<p>This application deadline applies to both EU and non-EU applicants.</p>\n\n<p>Beforehand, non-EU applicants need to submit their university entrance qualification documents and need to schedule an interview. <strong>The</strong> <strong>deadline for submitting these documents is 31 May. </strong></p>\n\n<p>The interview will be held before the application deadline which is 15 July.</p>\n\n<p>The application portal is activated towards<strong> the</strong> <strong>end of April</strong>.</p>', False, '7 semesters', True, datetime.datetime(2024, 1, 19, 18, 21, 14, 373188), None), (9200, 77, 1, 'Business Law (LLB) (Angewandtes Wirtschaftsrecht, AWR)', 'Business Law (LLB) (Angewandtes Wirtschaftsrecht, AWR)', '', '', 'none', 'Winter semester', 'Law, Economics and Social Sciences in general', '/deutschland/studienangebote/international-programmes/en/detail/9200/', False, '<ol>\n\t<li>Foreign applicants with foreign certificates and stateless applicants must apply via the Centre for International Students Constance (<a href="https://www.htwg-konstanz.de/en/academics/center-for-international-students-konstanz/start-page">https://www.htwg-konstanz.de/en/academics/center-for-international-students-konstanz/start-page</a>). The Centre for International Students Constance decides whether or not an assessment exam (&quot;Feststellungspr&uuml;fung&quot;) or a German exam (DSH) is required, or whether authorisation to study can be given immediately. The application deadline for the upcoming winter&nbsp;semester is 15 July.<br />\n\t&nbsp;</li>\n\t<li>International applicants who hold German university entrance qualifications and applicants from EU countries, Iceland, Liechtenstein and Norway are subject to the same application requirements as German citizens. All applicants must register at <a href="https://dosv.hochschulstart.de/bewerber">https://dosv.hochschulstart.de/bewerber</a> and complete the online application process by 15 July for the upcoming winter semester. For details, please check our Information for International Applicants <a href="https://www.hs-furtwangen.de/fileadmin/Redaktion/Share/Formulare/Info_intl_applicants.pdf">https://www.hs-furtwangen.de/fileadmin/Redaktion/Share/Formulare/Info_intl_applicants.pdf</a>.</li>\n</ol>', False, '7 semesters', True, datetime.datetime(2024, 1, 19, 18, 21, 14, 373199), None), (9197, 14, 3, 'International PhD Programme in Biomedicine - DFG Research Training Group cGMP: From Bedside to Bench (GRK 2381)', 'International PhD Programme in Biomedicine (GRK 2381)', '', '', 'none', 'Other', 'Mathematics, Natural Sciences in general', '/deutschland/studienangebote/international-programmes/en/detail/9197/', False, '<p>1 March 2024</p>', False, '6 semesters', True, datetime.datetime(2024, 1, 19, 18, 21, 14, 373202), None), (9198, 20, 2, 'Master of Science in Applied Health Informatics and Digital Medicine', 'MSc in Applied Health Informatics & Digital Medicine', '', '', '6,650', 'Winter semester', 'Computer Science', '/deutschland/studienangebote/international-programmes/en/detail/9198/', False, '<p><strong>15 July</strong></p>', True, '4 semesters', True, datetime.datetime(2024, 1, 19, 18, 21, 14, 373205), None), (8538, 254, 2, 'Social Entrepreneurship for Sustainable Develop\xadment (MA)', 'Social Entrepreneurship for Sustainable Develop\xadment (MA)', '', '', 'none', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/8538/', False, '<p>31 August for the following winter semester</p>', False, '3 semesters', True, datetime.datetime(2024, 1, 19, 18, 21, 14, 373218), None)]
+2024-01-19 18:21:14,997 [INFO] New courses_languages created:
+2024-01-19 18:21:14,997 [INFO] [(3591, 9199, 1), (3592, 9200, 2), (3593, 9200, 1), (3594, 9197, 1), (3595, 9198, 1), (3596, 8538, 1)]
+2024-01-19 18:21:15,144 [INFO] =========End creating new course  =========
+2024-01-19 18:21:16,241 [INFO] =========Start updating new course=========
+2024-01-19 18:21:18,016 [INFO] UPDATE course SET application_deadline = '<p>30 April 2024 (2024/25 winter semester and&nbsp;2025 summer semester)</p>', updated_at = $1 WHERE id = 9012
+2024-01-19 18:21:18,325 [INFO] UPDATE course SET application_deadline = '<p>30 April 2024 (2024/25 winter semester and 2025 summer semester)</p>', updated_at = $1 WHERE id = 9013
+2024-01-19 18:21:18,692 [INFO] No need to update column: tuition_fees from course id: 6109. [Source is 7.000,00, and target is None]
+2024-01-19 18:21:18,693 [INFO] UPDATE course SET subject = 'Mathematics, Natural Sciences in general', updated_at = $1 WHERE id = 6109
+2024-01-19 18:21:18,989 [INFO] UPDATE course SET application_deadline = '<p>Rolling procedure, early application is recommended (by 15 July for the following winter semester)</p>
+
+<p>If you would like to apply at short notice, please enquire with the <a href="mailto:Florence.renou@ucd.ie">UCD programme director</a>.</p>', updated_at = $1 WHERE id = 6109
+2024-01-19 18:21:19,315 [INFO] UPDATE course SET application_deadline = '<p>30 April 2024 (2024/25 winter semester and 2025 summer semester)</p>', updated_at = $1 WHERE id = 9011
+2024-01-19 18:21:19,620 [INFO] UPDATE course SET beginning = 'Winter semester, Summer semester', updated_at = $1 WHERE id = 7220
+2024-01-19 18:21:19,911 [INFO] UPDATE course SET application_deadline = '<p>1. Application period for the winter semester:</p>
+
+<ul>
+	<li>for EU applicants: 1 May to 15 July</li>
+	<li>for non-EU applicants: 15 April to 31 May</li>
+</ul>
+
+<p>2. Application period for the summer semester:</p>
+
+<ul>
+	<li>for EU applicants: 15 November to 15 January</li>
+	<li>for non-EU applicants: 5 November to 30 November</li>
+</ul>
+
+<p>If you have acquired your university entrance certificate abroad, it has to be assessed by&nbsp;<strong><a href="https://www.uni-assist.de/en/">uni-assist</a></strong>&nbsp;before you send it to Hof University. We advise you to send your documents to uni-assist at least four weeks before the application deadline at Hof University.</p>
+
+<p>On the following sites, you will find more information on the&nbsp;<strong><a href="https://www.hof-university.com/studying-at-hof-university/application-and-admission.html">general entry requirements</a></strong>&nbsp;and the&nbsp;<strong><a href="https://www.hof-university.com/studying-at-hof-university/our-degree-programs/sustainable-water-management-and-engineering-meng.html">specific entry&nbsp;requirements</a></strong>.</p>', updated_at = $1 WHERE id = 7220
+2024-01-19 18:21:20,355 [INFO] =========End updating new course  =========
+2024-01-19 18:21:21,457 [INFO] =========Start deleting course=========
+2024-01-19 18:21:23,252 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-19 18:21:23,549 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-19 18:21:23,850 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-19 18:21:24,151 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-19 18:21:24,458 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-19 18:21:24,764 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-19 18:21:25,065 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-19 18:21:25,363 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-19 18:21:25,662 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-19 18:21:25,959 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-19 18:21:26,256 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-19 18:21:26,557 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-19 18:21:26,854 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-19 18:21:27,150 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-19 18:21:27,448 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-19 18:21:27,752 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-19 18:21:28,062 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-19 18:21:28,359 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-19 18:21:28,664 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-19 18:21:28,961 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-19 18:21:29,264 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-19 18:21:29,333 [INFO] No course deleted
+2024-01-19 18:21:29,481 [INFO] =========End deleting course  =========
