@@ -23449,3 +23449,47 @@ For details on the application process and scholarships, visit: <a href="http://
 2024-01-21 18:20:23,540 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2024-01-21 18:20:23,609 [INFO] No course deleted
 2024-01-21 18:20:23,765 [INFO] =========End deleting course  =========
+2024-01-22 18:21:07,796 [INFO] =========Start syncing university=========
+2024-01-22 18:21:08,693 [INFO] No new university
+2024-01-22 18:21:08,841 [INFO] =========End syncing university  =========
+2024-01-22 18:21:09,897 [INFO] =========Start creating new course=========
+2024-01-22 18:21:11,805 [INFO] No new course
+2024-01-22 18:21:11,949 [INFO] =========End creating new course  =========
+2024-01-22 18:21:13,005 [INFO] =========Start updating new course=========
+2024-01-22 18:21:14,788 [INFO] UPDATE course SET name_en = 'Digital Management (MSc)', updated_at = $1 WHERE id = 8987
+2024-01-22 18:21:15,087 [INFO] UPDATE course SET name_en_short = 'Digital Management (MSc)', updated_at = $1 WHERE id = 8987
+2024-01-22 18:21:15,379 [INFO] UPDATE course SET name_en = 'Digital Management (MSc)', updated_at = $1 WHERE id = 9119
+2024-01-22 18:21:15,671 [INFO] UPDATE course SET name_en_short = 'Digital Management (MSc)', updated_at = $1 WHERE id = 9119
+2024-01-22 18:21:16,000 [INFO] UPDATE course SET name_en = 'International Business Management (MSc)', updated_at = $1 WHERE id = 8990
+2024-01-22 18:21:16,295 [INFO] UPDATE course SET name_en_short = 'International Business Management (MSc)', updated_at = $1 WHERE id = 8990
+2024-01-22 18:21:16,589 [INFO] UPDATE course SET name_en = 'International Business Management (MSc)', updated_at = $1 WHERE id = 9120
+2024-01-22 18:21:16,882 [INFO] UPDATE course SET name_en_short = 'International Business Management (MSc)', updated_at = $1 WHERE id = 9120
+2024-01-22 18:21:17,194 [INFO] UPDATE course SET name_en = 'Marketing & Brand Management (MSc)', updated_at = $1 WHERE id = 8991
+2024-01-22 18:21:17,487 [INFO] UPDATE course SET name_en_short = 'Marketing & Brand Management (MSc)', updated_at = $1 WHERE id = 8991
+2024-01-22 18:21:17,779 [INFO] UPDATE course SET name_en = 'Marketing & Brand Management (MSc)', updated_at = $1 WHERE id = 9122
+2024-01-22 18:21:18,071 [INFO] UPDATE course SET name_en_short = 'Marketing & Brand Management (MSc)', updated_at = $1 WHERE id = 9122
+2024-01-22 18:21:18,584 [INFO] =========End updating new course  =========
+2024-01-22 18:21:19,660 [INFO] =========Start deleting course=========
+2024-01-22 18:21:21,420 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-22 18:21:21,710 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-22 18:21:22,004 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-22 18:21:22,299 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-22 18:21:22,600 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-22 18:21:22,899 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-22 18:21:23,190 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-22 18:21:23,482 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-22 18:21:23,774 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-22 18:21:24,064 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-22 18:21:24,355 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-22 18:21:24,649 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-22 18:21:24,940 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-22 18:21:25,229 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-22 18:21:25,520 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-22 18:21:25,817 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-22 18:21:26,120 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-22 18:21:26,411 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-22 18:21:26,709 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-22 18:21:26,999 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-22 18:21:27,296 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-22 18:21:27,363 [INFO] No course deleted
+2024-01-22 18:21:27,508 [INFO] =========End deleting course  =========
