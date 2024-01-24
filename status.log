@@ -23528,3 +23528,110 @@ For details on the application process and scholarships, visit: <a href="http://
 2024-01-23 18:21:18,498 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
 2024-01-23 18:21:18,569 [INFO] No course deleted
 2024-01-23 18:21:18,717 [INFO] =========End deleting course  =========
+2024-01-24 18:19:50,578 [INFO] =========Start syncing university=========
+2024-01-24 18:19:51,882 [INFO] New university:
+2024-01-24 18:19:51,882 [INFO] [(278, 'Berlin School of Economics and Law', '', 'Berlin', True, False, False, None, datetime.datetime(2024, 1, 24, 18, 19, 51, 552855), None, ''), (279, 'Technical University of Applied Sciences Augsburg', '', 'Augsburg', True, False, False, None, datetime.datetime(2024, 1, 24, 18, 19, 51, 552859), None, ''), (280, 'ASH Berlin', '', 'Berlin', True, False, False, None, datetime.datetime(2024, 1, 24, 18, 19, 51, 552860), None, '')]
+2024-01-24 18:19:52,042 [INFO] =========End syncing university  =========
+2024-01-24 18:19:53,215 [INFO] =========Start creating new course=========
+2024-01-24 18:19:55,299 [INFO] No new course
+2024-01-24 18:19:55,458 [INFO] =========End creating new course  =========
+2024-01-24 18:19:56,632 [INFO] =========Start updating new course=========
+2024-01-24 18:19:58,569 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 3625
+2024-01-24 18:19:58,897 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 6995
+2024-01-24 18:19:59,226 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 4529
+2024-01-24 18:19:59,550 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 4139
+2024-01-24 18:19:59,882 [INFO] UPDATE course SET university_id = '279', updated_at = $1 WHERE id = 5406
+2024-01-24 18:20:00,208 [INFO] No need to update column: tuition_fees from course id: 5406. [Source is , and target is None]
+2024-01-24 18:20:00,208 [INFO] No need to update column: beginning from course id: 5406. [Source is , and target is None]
+2024-01-24 18:20:00,208 [INFO] No need to update column: application_deadline from course id: 5406. [Source is , and target is None]
+2024-01-24 18:20:00,208 [INFO] No need to update column: programme_duration from course id: 5406. [Source is , and target is None]
+2024-01-24 18:20:00,219 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 5116
+2024-01-24 18:20:00,543 [INFO] No need to update column: tuition_fees from course id: 5116. [Source is , and target is None]
+2024-01-24 18:20:00,543 [INFO] No need to update column: beginning from course id: 5116. [Source is , and target is None]
+2024-01-24 18:20:00,543 [INFO] No need to update column: application_deadline from course id: 5116. [Source is , and target is None]
+2024-01-24 18:20:00,543 [INFO] No need to update column: programme_duration from course id: 5116. [Source is , and target is None]
+2024-01-24 18:20:00,546 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 4941
+2024-01-24 18:20:00,866 [INFO] No need to update column: tuition_fees from course id: 4941. [Source is , and target is None]
+2024-01-24 18:20:00,867 [INFO] No need to update column: beginning from course id: 4941. [Source is , and target is None]
+2024-01-24 18:20:00,867 [INFO] No need to update column: application_deadline from course id: 4941. [Source is , and target is None]
+2024-01-24 18:20:00,867 [INFO] No need to update column: programme_duration from course id: 4941. [Source is , and target is None]
+2024-01-24 18:20:00,870 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 5517
+2024-01-24 18:20:01,201 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 4928
+2024-01-24 18:20:01,522 [INFO] No need to update column: tuition_fees from course id: 4928. [Source is , and target is None]
+2024-01-24 18:20:01,522 [INFO] No need to update column: beginning from course id: 4928. [Source is , and target is None]
+2024-01-24 18:20:01,522 [INFO] No need to update column: application_deadline from course id: 4928. [Source is , and target is None]
+2024-01-24 18:20:01,522 [INFO] No need to update column: programme_duration from course id: 4928. [Source is , and target is None]
+2024-01-24 18:20:01,527 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 4744
+2024-01-24 18:20:01,852 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 5015
+2024-01-24 18:20:02,174 [INFO] No need to update column: tuition_fees from course id: 5015. [Source is , and target is None]
+2024-01-24 18:20:02,174 [INFO] No need to update column: beginning from course id: 5015. [Source is , and target is None]
+2024-01-24 18:20:02,174 [INFO] No need to update column: application_deadline from course id: 5015. [Source is , and target is None]
+2024-01-24 18:20:02,174 [INFO] No need to update column: programme_duration from course id: 5015. [Source is , and target is None]
+2024-01-24 18:20:02,177 [INFO] UPDATE course SET university_id = '279', updated_at = $1 WHERE id = 6955
+2024-01-24 18:20:02,501 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 5146
+2024-01-24 18:20:02,822 [INFO] No need to update column: tuition_fees from course id: 5146. [Source is , and target is None]
+2024-01-24 18:20:02,823 [INFO] No need to update column: beginning from course id: 5146. [Source is , and target is None]
+2024-01-24 18:20:02,823 [INFO] No need to update column: application_deadline from course id: 5146. [Source is , and target is None]
+2024-01-24 18:20:02,823 [INFO] No need to update column: programme_duration from course id: 5146. [Source is , and target is None]
+2024-01-24 18:20:02,826 [INFO] UPDATE course SET university_id = '279', updated_at = $1 WHERE id = 6968
+2024-01-24 18:20:03,147 [INFO] UPDATE course SET university_id = '280', updated_at = $1 WHERE id = 4465
+2024-01-24 18:20:03,469 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 4138
+2024-01-24 18:20:03,790 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 4137
+2024-01-24 18:20:04,111 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 3831
+2024-01-24 18:20:04,433 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 4448
+2024-01-24 18:20:04,756 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 5513
+2024-01-24 18:20:05,077 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 4088
+2024-01-24 18:20:05,401 [INFO] UPDATE course SET university_id = '279', updated_at = $1 WHERE id = 7126
+2024-01-24 18:20:05,724 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 3621
+2024-01-24 18:20:06,053 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 6312
+2024-01-24 18:20:06,379 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 3682
+2024-01-24 18:20:06,707 [INFO] UPDATE course SET university_id = '280', updated_at = $1 WHERE id = 4467
+2024-01-24 18:20:07,033 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 3855
+2024-01-24 18:20:07,357 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 4733
+2024-01-24 18:20:07,678 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 4930
+2024-01-24 18:20:07,998 [INFO] No need to update column: tuition_fees from course id: 4930. [Source is , and target is None]
+2024-01-24 18:20:07,998 [INFO] No need to update column: beginning from course id: 4930. [Source is , and target is None]
+2024-01-24 18:20:07,998 [INFO] No need to update column: application_deadline from course id: 4930. [Source is , and target is None]
+2024-01-24 18:20:07,998 [INFO] No need to update column: programme_duration from course id: 4930. [Source is , and target is None]
+2024-01-24 18:20:08,005 [INFO] UPDATE course SET university_id = '279', updated_at = $1 WHERE id = 6098
+2024-01-24 18:20:08,346 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 6994
+2024-01-24 18:20:08,669 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 7722
+2024-01-24 18:20:09,019 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 5515
+2024-01-24 18:20:09,354 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 5434
+2024-01-24 18:20:09,674 [INFO] No need to update column: tuition_fees from course id: 5434. [Source is , and target is None]
+2024-01-24 18:20:09,674 [INFO] No need to update column: beginning from course id: 5434. [Source is , and target is None]
+2024-01-24 18:20:09,674 [INFO] No need to update column: application_deadline from course id: 5434. [Source is , and target is None]
+2024-01-24 18:20:09,674 [INFO] No need to update column: programme_duration from course id: 5434. [Source is , and target is None]
+2024-01-24 18:20:09,683 [INFO] UPDATE course SET university_id = '278', updated_at = $1 WHERE id = 4976
+2024-01-24 18:20:10,005 [INFO] No need to update column: tuition_fees from course id: 4976. [Source is , and target is None]
+2024-01-24 18:20:10,005 [INFO] No need to update column: beginning from course id: 4976. [Source is , and target is None]
+2024-01-24 18:20:10,005 [INFO] No need to update column: application_deadline from course id: 4976. [Source is , and target is None]
+2024-01-24 18:20:10,005 [INFO] No need to update column: programme_duration from course id: 4976. [Source is , and target is None]
+2024-01-24 18:20:10,170 [INFO] =========End updating new course  =========
+2024-01-24 18:20:11,368 [INFO] =========Start deleting course=========
+2024-01-24 18:20:13,464 [INFO] DELETE FROM courses_languages WHERE course_id = 4889
+2024-01-24 18:20:13,627 [INFO] DELETE FROM  course WHERE id = 4889
+2024-01-24 18:20:13,966 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-24 18:20:14,291 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-24 18:20:14,617 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-24 18:20:14,944 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-24 18:20:15,278 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-24 18:20:15,610 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-24 18:20:15,933 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-24 18:20:16,257 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-24 18:20:16,582 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-24 18:20:16,904 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-24 18:20:17,226 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-24 18:20:17,553 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-24 18:20:17,876 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-24 18:20:18,197 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-24 18:20:18,521 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-24 18:20:18,851 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-24 18:20:19,187 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-24 18:20:19,510 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-24 18:20:19,841 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-24 18:20:20,163 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-24 18:20:20,492 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-24 18:20:21,028 [INFO] DELETE FROM courses_languages WHERE course_id = 4946
+2024-01-24 18:20:21,189 [INFO] DELETE FROM  course WHERE id = 4946
+2024-01-24 18:20:21,367 [INFO] =========End deleting course  =========
