@@ -23635,3 +23635,38 @@ For details on the application process and scholarships, visit: <a href="http://
 2024-01-24 18:20:21,028 [INFO] DELETE FROM courses_languages WHERE course_id = 4946
 2024-01-24 18:20:21,189 [INFO] DELETE FROM  course WHERE id = 4946
 2024-01-24 18:20:21,367 [INFO] =========End deleting course  =========
+2024-01-25 18:21:30,741 [INFO] =========Start syncing university=========
+2024-01-25 18:21:31,397 [INFO] No new university
+2024-01-25 18:21:31,504 [INFO] =========End syncing university  =========
+2024-01-25 18:21:32,295 [INFO] =========Start creating new course=========
+2024-01-25 18:21:33,974 [INFO] New courses created:
+2024-01-25 18:21:33,974 [INFO] [(9205, 254, 2, 'Com\xadmu\xadni\xadca\xadti\xadon & De\xadsign for Sustaina\xadbi\xadli\xadty (MA)', 'Com\xadmu\xadni\xadca\xadti\xadon & De\xadsign for Sustaina\xadbi\xadli\xadty (MA)', '', '', 'none', 'Winter semester', 'Design', '/deutschland/studienangebote/international-programmes/en/detail/9205/', False, '<p>1 May to 31 August for the following winter semester</p>', False, '3 semesters', True, datetime.datetime(2024, 1, 25, 18, 21, 33, 743444), None), (5205, 254, 2, 'International Corporate Communication and Media Management (ICCMM)', 'International Corporate Communication and Media Management', '', '', 'none', 'Winter semester, Summer semester', 'Library, Documentation and Media Studies', '/deutschland/studienangebote/international-programmes/en/detail/5205/', False, '<p>2 May to 31 August for the following winter semester</p>\n\n<p>15 November to 15 February for the following summer semester</p>', False, '3 semesters', True, datetime.datetime(2024, 1, 25, 18, 21, 33, 743464), None), (9206, 260, 2, 'International Management Asia-Europe (MIM)', 'International Management Asia-Europe', '', '', 'varied', 'Winter semester', 'Law, Economics and Social Sciences in general', '/deutschland/studienangebote/international-programmes/en/detail/9206/', False, '<p>1 June for the following winter semester of the same year</p>', False, '3 semesters, 4 semesters', True, datetime.datetime(2024, 1, 25, 18, 21, 33, 743476), None), (9204, 254, 2, 'Stra\xadte\xadgic In\xadfor\xadma\xadti\xadon Ma\xadnage\xadment (MSc)', 'Stra\xadte\xadgic In\xadfor\xadma\xadti\xadon Ma\xadnage\xadment (MSc)', '', '', 'none', 'Winter semester', 'Business and Economics', '/deutschland/studienangebote/international-programmes/en/detail/9204/', False, '<p>For the following winter semester:&nbsp;2 May to 31 August</p>', False, '3 semesters', True, datetime.datetime(2024, 1, 25, 18, 21, 33, 743487), None)]
+2024-01-25 18:21:34,193 [INFO] New courses_languages created:
+2024-01-25 18:21:34,193 [INFO] [(3601, 9205, 1), (3602, 5205, 1), (3603, 9206, 1), (3604, 9204, 1)]
+2024-01-25 18:21:34,299 [INFO] =========End creating new course  =========
+2024-01-25 18:21:35,083 [INFO] =========Start updating new course=========
+2024-01-25 18:21:36,644 [INFO] =========End updating new course  =========
+2024-01-25 18:21:37,439 [INFO] =========Start deleting course=========
+2024-01-25 18:21:38,750 [INFO] Course id = 3704 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-25 18:21:38,966 [INFO] Course id = 4614 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-25 18:21:39,187 [INFO] Course id = 4514 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-25 18:21:39,408 [INFO] Course id = 5260 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-25 18:21:39,636 [INFO] Course id = 4482 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-25 18:21:39,861 [INFO] Course id = 3792 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-25 18:21:40,081 [INFO] Course id = 7066 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-25 18:21:40,299 [INFO] Course id = 7601 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-25 18:21:40,517 [INFO] Course id = 3951 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-25 18:21:40,733 [INFO] Course id = 4141 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-25 18:21:40,949 [INFO] Course id = 3912 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-25 18:21:41,170 [INFO] Course id = 5395 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-25 18:21:41,388 [INFO] Course id = 7652 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-25 18:21:41,606 [INFO] Course id = 3830 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-25 18:21:41,822 [INFO] Course id = 3669 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-25 18:21:42,046 [INFO] Course id = 4084 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-25 18:21:42,275 [INFO] Course id = 4419 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-25 18:21:42,493 [INFO] Course id = 5264 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-25 18:21:42,717 [INFO] Course id = 7020 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-25 18:21:42,933 [INFO] Course id = 7715 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-25 18:21:43,156 [INFO] Course id = 4390 is not in DAAD now, but there're articles related to it. DO NOT DELETE.
+2024-01-25 18:21:43,226 [INFO] No course deleted
+2024-01-25 18:21:43,333 [INFO] =========End deleting course  =========
